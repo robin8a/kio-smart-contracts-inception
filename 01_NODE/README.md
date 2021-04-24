@@ -84,3 +84,4 @@ token cande
 - 
 - Para firmar la transaccion se puede crear una politica de minado Ex. 3 (2 de 3, de minar o crear tokens concenso)
 - Any, alLeast (require 2), slot (cierto numero se alcance)
+- kio-nft-remote-app
