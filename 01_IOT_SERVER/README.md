@@ -15,9 +15,66 @@ chsh -s `which zsh`
 sudo chsh -s `which zsh`
 ```
 
+# Node JS
+
+## Install
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
+
+```sh
+sudo apt update
+sudo apt install nodejs
+sudo apt install npm
+```
+
  # git
 
  ```sh
  git clone https://github.com/robin8a/kio-smart-contracts-iot-remote.git
 
  ```
+
+ # AWS IoT
+Some prerequisites to consider:
+the device should have Node.js and NPM installed and a TCP connection to the public internet on port 8883.
+name: kio-smart-contracts-iot-device
+
+# Upload file to EC2
+
+## Filezilla
+- [How To Upload And Download Files In Amazon AWS EC2 Instance](https://comtechies.com/how-to-upload-and-download-files-in-amazon-aws-ec2-instance.html)
+
+### .pem to .ppk
+- [puttygen mykey.pem -o mykey.ppk](https://stackoverflow.com/questions/37286791/convert-pem-to-ppk-on-macos)
+  
+```sh
+# puttygen
+puttygen mykey.pem -o mykey.ppk
+puttygen kio-nft-remote-kp.pem -o kio-nft-remote-kp.ppk
+```
+
+## Upload File Using SCP Command Line Utility
+
+```sh
+# Let’s have a look at the syntax.
+
+scp -i /path/to/key.pem file-name user@server-ip:/path/to/user/home
+# For example,
+
+scp -i /keys/mykey.pem file.txt ubuntu@54.34.45.23:/home/ubuntu 
+# If you want to copy a whole folder, then you should use a recursive flag -r with the command as shown below.
+
+scp -i /keys/mykey.pem -r folder-name ubuntu@54.34.45.23:/home/ubuntu 
+```
+
+
+# To configure and test the device, perform the following steps.
+
+```sh
+# Step 1: Unzip the connection kit on the device
+unzip connect_device_package.zip
+# Step 2: Add execution permissions
+chmod +x start.sh
+# Step 3: Run the start script. Messages from your thing will appear below
+./start.sh
+# Waiting for messages from your device
+```

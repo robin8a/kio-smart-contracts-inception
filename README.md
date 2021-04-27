@@ -58,3 +58,6 @@ https://drive.google.com/file/d/1oblnrTMpQIEolO7aT-p4BE5rhraU-pHZ/view?usp=shari
 ## este se está haciendo millonario con estos nfts
  https://twitter.com/the_hoskinsons
 
+##
+ https://www.sandbox.game/en/map/
+
