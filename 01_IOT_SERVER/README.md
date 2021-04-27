@@ -34,9 +34,13 @@ sudo apt install npm
  ```
 
  # AWS IoT
-Some prerequisites to consider:
-the device should have Node.js and NPM installed and a TCP connection to the public internet on port 8883.
-name: kio-smart-contracts-iot-device
+
+## Some prerequisites to consider:
+- the device should have Node.js and NPM installed and a TCP connection to the public internet on port 8883.
+- EC2 instance add to security group rule TCP custom (0.0.0.0/0)
+- Create the IoT device in the same region Ex. us-east
+- name: kio-smart-contracts-iot-device
+
 
 # Upload file to EC2
 
