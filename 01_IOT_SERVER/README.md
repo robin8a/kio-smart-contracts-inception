@@ -34,6 +34,9 @@ sudo apt install npm
  ```
 
  # AWS IoT
+- [aws-iot](https://github.com/aws/aws-iot-device-sdk-js)
+- [iot](https://dev.to/vic3king/how-to-control-an-iot-device-using-aws-in-a-node-js-application-21dh)
+- [With VM](https://docs.aws.amazon.com/iot/latest/developerguide/creating-a-virtual-thing.html)
 
 ## Some prerequisites to consider:
 - the device should have Node.js and NPM installed and a TCP connection to the public internet on port 8883.
@@ -71,7 +74,7 @@ scp -i /keys/mykey.pem -r folder-name ubuntu@54.34.45.23:/home/ubuntu
 ```
 
 
-# To configure and test the device, perform the following steps.
+## To configure and test the device, perform the following steps.
 
 ```sh
 # Step 1: Unzip the connection kit on the device
@@ -82,3 +85,29 @@ chmod +x start.sh
 ./start.sh
 # Waiting for messages from your device
 ```
+
+## IoT Core
+
+```json
+{
+  "motorid": "Fulton-A32",
+  "sensorData": {
+    "pressure": 23,
+    "temperature": 47
+  }
+}
+
+
+{
+  "Command_From_UI": { command: "ls"}
+}
+
+{
+  "Command_From_UI": {
+    "command": "ls -al"
+  }
+}
+```
+
+# Front End
+- [amplify](https://docs.amplify.aws/lib/pubsub/getting-started/q/platform/js#step-1-create-iam-policies-for-aws-iot)
