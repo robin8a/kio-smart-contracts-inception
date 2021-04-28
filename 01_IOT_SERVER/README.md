@@ -26,11 +26,11 @@ sudo apt install nodejs
 sudo apt install npm
 ```
 
- # git
+ # git node init
 
  ```sh
- git clone https://github.com/robin8a/kio-smart-contracts-iot-remote.git
-
+git clone https://github.com/robin8a/kio-smart-contracts-iot-remote.git
+npm install
  ```
 
  # AWS IoT
@@ -38,12 +38,31 @@ sudo apt install npm
 - [iot](https://dev.to/vic3king/how-to-control-an-iot-device-using-aws-in-a-node-js-application-21dh)
 - [With VM](https://docs.aws.amazon.com/iot/latest/developerguide/creating-a-virtual-thing.html)
 
-## Some prerequisites to consider:
+## Some prerequisites to consider: (AWS)
 - the device should have Node.js and NPM installed and a TCP connection to the public internet on port 8883.
 - EC2 instance add to security group rule TCP custom (0.0.0.0/0)
 - Create the IoT device in the same region Ex. us-east
 - name: kio-smart-contracts-iot-device
 
+## Contabo
+- Open firewall on Ubuntu 20.04
+```sh
+# Rule
+sudo ufw allow proto tcp from any to any port 8883
+# Status
+sudo ufw status
+
+Status: active
+
+# To                         Action      From
+# --                         ------      ----
+# 3006/tcp                   LIMIT       Anywhere                  
+# 6000/tcp                   ALLOW       Anywhere                  
+# 8883/tcp                   ALLOW       Anywhere                  
+# 3006/tcp (v6)              LIMIT       Anywhere (v6)             
+# 6000/tcp (v6)              ALLOW       Anywhere (v6)             
+# 8883/tcp (v6)              ALLOW       Anywhere (v6) 
+```
 
 # Upload file to EC2
 
@@ -87,6 +106,10 @@ chmod +x start.sh
 ```
 
 ## IoT Core
+
+### Setup new device
+
+![Onboard](_images/aws-iot-onboard.png)
 
 ```json
 {
