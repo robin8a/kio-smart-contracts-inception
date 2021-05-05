@@ -28,7 +28,7 @@ An NFT is a reference to a given work, not the work itself. Consider the token a
 
 ### Etapas
 - Máquina virtual, ambiente de pruebas (sandbox)
-  - Ya tenemos la máquina virtual localmente
+- Ya tenemos la máquina virtual localmente
 - Vamos a montarla en la nube
 - Crear el token 
   - regla unica asociada: desde una sola billetera
