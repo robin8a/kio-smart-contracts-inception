@@ -222,3 +222,20 @@ amplify add auth
 ```sh
 amplify push
 ```
+
+# Credentails
+
+
+# Amplify pub and sub example with React
+
+- [aws-amplify-react-iot-pub-sub-demo](https://github.com/matwerber1/aws-amplify-react-iot-pub-sub-demo)
+- [Get cognito Identity Id](https://docs.aws.amazon.com/cognitoidentity/latest/APIReference/API_GetId.html)
+
+```sh
+export AWS_PROFILE=kio-indoor-emap
+aws iot attach-principal-policy --policy-name 'ReactIoTPolicy' --principal '<YOUR_COGNITO_IDENTITY_ID>'
+# aws iot attach-principal-policy --policy-name 'ReactIoTPolicy' --principal 'us-west-2:d8b273d6-8d18-4fe7-81df-7d2ddd77587a'
+aws iot attach-principal-policy --policy-name 'ReactIoTPolicy' --principal 'us-east-1_YqbWZ4GAp'
+
+```
+
