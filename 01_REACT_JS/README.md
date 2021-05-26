@@ -228,14 +228,42 @@ amplify push
 
 # Amplify pub and sub example with React
 
+- [Follow this intructions: ***works*** Amplify PUBSUB Getting started](https://docs.amplify.aws/lib/pubsub/getting-started/q/platform/js)
+- https://docs.amplify.aws/lib/pubsub/getting-started/q/platform/js
+- [aws named profiles](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
 - [aws-amplify-react-iot-pub-sub-demo](https://github.com/matwerber1/aws-amplify-react-iot-pub-sub-demo)
 - [Get cognito Identity Id](https://docs.aws.amazon.com/cognitoidentity/latest/APIReference/API_GetId.html)
+- https://techdocs.broadcom.com/us/en/ca-enterprise-software/layer7-api-management/mobile-api-gateway/4-2/solutions-and-integrations/aws-iot-for-messaging.html
+- https://www.youtube.com/watch?v=j2KJVHGHaFc
+- https://aws.amazon.com/blogs/iot/configuring-cognito-user-pools-to-communicate-with-aws-iot-core/
+- https://docs.aws.amazon.com/iot/latest/developerguide/attach-to-cert.html
 
 ```sh
-export AWS_PROFILE=kio-indoor-emap
-aws iot attach-principal-policy --policy-name 'ReactIoTPolicy' --principal '<YOUR_COGNITO_IDENTITY_ID>'
-# aws iot attach-principal-policy --policy-name 'ReactIoTPolicy' --principal 'us-west-2:d8b273d6-8d18-4fe7-81df-7d2ddd77587a'
-aws iot attach-principal-policy --policy-name 'ReactIoTPolicy' --principal 'us-east-1_YqbWZ4GAp'
 
+export PATH=~/Library/Python/3.7/bin:$PATH
+source ~/.bash_profile
+
+
+# Check profiles
+nano ~/.aws/config
+
+# kio-indoor-emap
+export AWS_PROFILE=kio-indoor-emap
+
+
+# Simple command
+aws ec2 describe-instances --profile lemon-wifi
+
+# or for multiples commands
+export AWS_PROFILE=kio-indoor-emap
+
+aws iot attach-principal-policy --policy-name 'ReactIoTPolicy' --principal '<YOUR_COGNITO_IDENTITY_ID>' 
+aws iot attach-principal-policy --policy-name 'ReactIoTPolicy' --principal 'us-east-1:fd6f28e9-4b12-4739-a54d-d52c281bd4b4'
+aws iot attach-principal-policy --policy-name ReactIoTPolicy --principal us-east-1:fd6f28e9-4b12-4739-a54d-d52c281bd4b4
 ```
 
+![Role IoT policies attached to auth cognito](_images/role_iot_policy.png)
+
+## Policy Test 
+[Policy AWS Simulator](https://policysim.aws.amazon.com)
+Ex: arn:aws:iam::879105828344:role/kl-lwf-amp-dev-20190703114204-authRole
