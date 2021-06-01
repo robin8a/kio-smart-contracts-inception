@@ -152,3 +152,20 @@ git clone https://github.com/Berry-Pool/cardanocli-js.git
 node inspect app_two.js 
 repl
 ```
+
+# Waller Creation
+
+```json
+Message received 
+{provider: AWSIoTProvider, value: {…}}
+provider: AWSIoTProvider {_config: {…}, _clientsQueue: ClientsQueue, _topicObservers: Map(1), _clientIdObservers: Map(1)}
+value:
+name: "Test_0958"
+payment: {addr: "/home/luisr/testnet/priv/wallet/Test_0958/Test_0958.payment.addr", skey: "/home/luisr/testnet/priv/wallet/Test_0958/Test_0958.payment.skey", vkey: "/home/luisr/testnet/priv/wallet/Test_0958/Test_0958.payment.vkey"}
+paymentAddr: "addr_test1qrleh5h8gzu9knaflmqyz762cc6npw949cqhmahss73d4qw8efl2d2gxsqp95khr20ctecwdyzs950987crj69eug09svnklcz"
+stake: {addr: "/home/luisr/testnet/priv/wallet/Test_0958/Test_0958.stake.addr", skey: "/home/luisr/testnet/priv/wallet/Test_0958/Test_0958.stake.skey", vkey: "/home/luisr/testnet/priv/wallet/Test_0958/Test_0958.stake.vkey"}
+stakingAddr: "stake_test1urru5l4x4yrgqqj6tt348u9uu8xjpgz68jnlvpedzu7y8jcw9ja8y"
+Symbol(topic): "topic_2"
+__proto__: Object
+__proto__: Object
+```
