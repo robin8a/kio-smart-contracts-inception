@@ -61,3 +61,5 @@ https://drive.google.com/file/d/1oblnrTMpQIEolO7aT-p4BE5rhraU-pHZ/view?usp=shari
 ##
  https://www.sandbox.game/en/map/
 
+# Pixelplex
+https://pixelplex.io/work/security-token-offering-platform-and-ecosystem/

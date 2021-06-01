@@ -134,3 +134,21 @@ chmod +x start.sh
 
 # Front End
 - [amplify](https://docs.amplify.aws/lib/pubsub/getting-started/q/platform/js#step-1-create-iam-policies-for-aws-iot)
+
+
+# Cardano CLI npm 
+
+[Cardano CLI](https://www.npmjs.com/package/cardanocli-js)
+
+```sh
+git clone https://github.com/Berry-Pool/cardanocli-js.git 
+```
+
+# Node JS debugger
+[Debugger](https://nodejs.org/api/debugger.html)
+
+## Test
+```sh
+node inspect app_two.js 
+repl
+```
