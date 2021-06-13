@@ -1,6 +1,9 @@
 # kio-smart-contracts-inception
+[Criptomonedas: qué es el "problema de los generales bizantinos” y por qué explica el origen del bitcoin](https://www.bbc.com/mundo/noticias-51380491)
+
 
 ## Cardano
+- [Cardano - Simply Explained](https://www.youtube.com/watch?v=Do8rHvr65ZA)
 - https://www.reddit.com/r/cardano/comments/jpxdnf/how_to_build_smart_contracts_on_cardano_as/
 - https://www.youtube.com/watch?v=jWyBjjgdWWU
 - [Roadmap](https://roadmap.cardano.org/en/goguen/)

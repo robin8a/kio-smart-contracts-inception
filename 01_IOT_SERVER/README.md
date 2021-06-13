@@ -170,5 +170,29 @@ __proto__: Object
 __proto__: Object
 ```
 
+```js
+Name	Payment Address
+Test_1106_0957	addr_test1qp8l449tjpd75y7lq35u8kjr429tm6znex66qr3p4ew90l40km3w2ga3uwrfwm83d9f9anzks7sjtrpc85ukfu8msgyqqmh6gz
+```
+
 # Deamon PM2
 [How To Set Up a Node.js Application for Production on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-18-04)
+
+```sh
+# Stop an application with this command (specify the PM2 App name or id):
+
+pm2 stop app_name_or_id
+ 
+# Restart an application:
+
+pm2 restart app_name_or_id
+ 
+# List the applications currently managed by PM2:
+
+pm2 list
+ 
+# Get information about a specific application using its App name:
+
+pm2 info app_name
+
+```
