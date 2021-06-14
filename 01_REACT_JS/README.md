@@ -267,3 +267,39 @@ aws iot attach-principal-policy --policy-name ReactIoTPolicy --principal us-east
 ## Policy Test 
 [Policy AWS Simulator](https://policysim.aws.amazon.com)
 Ex: arn:aws:iam::879105828344:role/kl-lwf-amp-dev-20190703114204-authRole
+
+
+# amplify storage
+```sh
+amplify add storage
+# Scanning for plugins...
+# Plugin scan successful
+# ? Please select from one of the below mentioned services: Content (Images, audio, vide
+# o, etc.)
+# ? Please provide a friendly name for your resource that will be used to label this cat
+# egory in the project: s3bf54301f
+# ? Please provide bucket name: kio-smart-contracts-ipfs
+# ? Who should have access: Auth and guest users
+# ? What kind of access do you want for Authenticated users? create/update, read
+# ? What kind of access do you want for Guest users? create/update, read
+# ? Do you want to add a Lambda Trigger for your S3 Bucket? Yes
+# ? Select from the following options 
+# ❯ Choose an existing function from the project 
+#   Create a new function 
+# ➜  kio-smart-contract-rjs-app git:(development) amplify add storage
+# ? Please select from one of the below mentioned services: Content (Images, audio, vide
+# o, etc.)
+# ? Please provide a friendly name for your resource that will be used to label this cat
+# egory in the project: s307b7a237
+# ? Please provide bucket name: kio-smart-contracts-ipfs
+# ? Who should have access: Auth and guest users
+# ? What kind of access do you want for Authenticated users? create/update, read
+# ? What kind of access do you want for Guest users? create/update, read
+# ? Do you want to add a Lambda Trigger for your S3 Bucket? No
+# Successfully updated auth resource locally.
+# Successfully added resource s307b7a237 locally
+
+# Some next steps:
+# "amplify push" builds all of your local backend resources and provisions them in the cloud
+# "amplify publish" builds all of your local backend and front-end resources (if you added hosting category) and provisions them in the cloud
+```
