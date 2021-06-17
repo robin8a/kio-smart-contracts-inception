@@ -28,3 +28,7 @@ npm i aws-sdk
 ## Async functions
 
 - [Función async](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/async_function)
+
+
+# Snippets
+- [Que son los Snippets y como agregarlos en Visual Studio Code](https://www.youtube.com/watch?v=nRG5ISvMTS0)
