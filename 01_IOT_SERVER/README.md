@@ -196,3 +196,6 @@ pm2 list
 pm2 info app_name
 
 ```
+
+# fs sync & async
+- [How to usewriteFileAsyncfunctioninfs](https://www.tabnine.com/code/javascript/functions/fs/writeFileAsync)
