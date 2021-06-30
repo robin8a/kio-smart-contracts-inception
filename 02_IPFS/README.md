@@ -38,3 +38,9 @@ npm i aws-sdk
 1d0e2e7a35bb50bb262cd1e5a37a84216dabb91232f2efd4d354d1a7.1706_1136_ASSET_NAME: 1
 
 addr_test1qrleh5h8gzu9knaflmqyz762cc6npw949cqhmahss73d4qw8efl2d2gxsqp95khr20ctecwdyzs950987crj69eug09svnklcz+1000000000+"1d0e2e7a35bb50bb262cd1e5a37a84216dabb91232f2efd4d354d1a7.1706_1136_ASSET_NAME: 1"
+
+
+# Node JS Async functions
+https://www.digitalocean.com/community/tutorials/how-to-write-asynchronous-code-in-node-js
+
+# Node JS Logger
