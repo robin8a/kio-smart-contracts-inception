@@ -42,3 +42,50 @@ Command failed: transaction submit  Error: Error while submitting tx: ShelleyTxV
     at MqttClient.emit (domain.js:470:12)
     at MqttClient._handlePublish (/home/luisr/kio-smart-contracts-iot-remote/node_modules/mqtt/lib/client.js:770:12)
 (node:388233) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the no
+
+##########################################
+## device.on message Create_Time_Locked_Mint_Policy_Then_Create_Mint_Asset_From_UI
+auxiliary data: AuxiliaryDataRaw {txMetadata = fromList [(721,Map [(S "303cfaa1938f2bc895ba628cd890bd87e4a269ec75fe707ca0aec553",Map
+  [(S "AN1504",Map [(S "description",S "DESC1504"),(S "image",S "QmTp8N7VAuhPMoWRawfx1Shz5wfzkJTC5pEUmN8nWTZDkX"),(S
+  "name",S "TN1504"),(S "src",S "QmeoN4AByz5R1TTqtrc3up1PNKvAxkFDt2bTxBaHVFNGxU"),(S
+  "type",S "image/png")])])])], auxiliaryScripts = StrictSeq {fromStrict = fromList
+  []}}
+auxiliary data hash: AuxiliaryDataHash {unsafeAuxiliaryDataHash = SafeHash "483d6695446669594ad0af18647bd7c11d090e05fcc990a457e94330ec273b55"}
+certificates: []
+era: Mary
+fee: 194453
+inputs:
+- 2d0da3e27b467ec4241186dfc2837313b56f0a6af55379d644618a157b37034d#0
+mint:
+  lovelace: 0
+  policies:
+    303cfaa1938f2bc895ba628cd890bd87e4a269ec75fe707ca0aec553:
+      '414e31353034': 1
+outputs:
+- address:
+    Bech32: addr_test1qrdjhyalcpw3ven09k28huudfh2phk2yhtusetv5u2na72nfe5665j7yz3khv4acy3mgrpaz39y22fmr24kcph7jnx4qtp9ytk
+    credential:
+      key hash: db2b93bfc05d16666f2d947bf38d4dd41bd944baf90cad94e2a7df2a
+    network: Testnet
+    stake reference: StakeRefBase (KeyHashObj (KeyHash "69cd35aa4bc4146d7657b824768187a28948a52763556d80dfd299aa"))
+  amount:
+    lovelace: 901262
+    policies:
+      303cfaa1938f2bc895ba628cd890bd87e4a269ec75fe707ca0aec553:
+        '414e31353034': 1
+update: null
+validity interval:
+  invalid before: 0
+  invalid hereafter: 30810718
+withdrawals: []
+Command failed: transaction submit  Error: Error while submitting tx: ShelleyTxValidationError ShelleyBasedEraMary (ApplyTxError [UtxowFailure (UtxoFailure (OutputTooSmallUTxO [(Addr Testnet (KeyHashObj (KeyHash "db2b93bfc05d16666f2d947bf38d4dd41bd944baf90cad94e2a7df2a")) (StakeRefBase (KeyHashObj (KeyHash "69cd35aa4bc4146d7657b824768187a28948a52763556d80dfd299aa"))),Value 901262 (fromList [(PolicyID {policyID = ScriptHash "303cfaa1938f2bc895ba628cd890bd87e4a269ec75fe707ca0aec553"},fromList [("AN1504",1)])]))]))])
+(node:516225) UnhandledPromiseRejectionWarning: Error: Command failed: cardano-cli transaction submit --testnet-magic 1097911063 --tx-file /home/luisr/testnet/tmp/tx_t43p0szw0.signed
+Command failed: transaction submit  Error: Error while submitting tx: ShelleyTxValidationError ShelleyBasedEraMary (ApplyTxError [UtxowFailure (UtxoFailure (OutputTooSmallUTxO [(Addr Testnet (KeyHashObj (KeyHash "db2b93bfc05d16666f2d947bf38d4dd41bd944baf90cad94e2a7df2a")) (StakeRefBase (KeyHashObj (KeyHash "69cd35aa4bc4146d7657b824768187a28948a52763556d80dfd299aa"))),Value 901262 (fromList [(PolicyID {policyID = ScriptHash "303cfaa1938f2bc895ba628cd890bd87e4a269ec75fe707ca0aec553"},fromList [("AN1504",1)])]))]))])
+
+    at checkExecSyncError (child_process.js:640:11)
+    at execSync (child_process.js:676:15)
+    at CardanocliJs.transactionSubmit (/home/luisr/kio-smart-contracts-iot-remote/index.js:1083:5)
+    at /home/luisr/kio-smart-contracts-iot-remote/app_two.js:444:35
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+(node:516225) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:516225) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
