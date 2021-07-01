@@ -44,3 +44,13 @@ addr_test1qrleh5h8gzu9knaflmqyz762cc6npw949cqhmahss73d4qw8efl2d2gxsqp95khr20ctec
 https://www.digitalocean.com/community/tutorials/how-to-write-asynchronous-code-in-node-js
 
 # Node JS Logger
+
+
+# Testing Send Balance
+
+Origin: ACDC: addr_test1vru07he7xa759mal66sudtkeppdn79gzpfnsy8ke99j4w2suduamt
+Destination: W0107 addr_test1qrdjhyalcpw3ven09k28huudfh2phk2yhtusetv5u2na72nfe5665j7yz3khv4acy3mgrpaz39y22fmr24kcph7jnx4qtp9ytk
+
+Name	Payment Address
+W01071039	addr_test1qrdv6f855upjr7t9y2ufaq8xultg2d4236la27c0smh9yrsfs7vg9wvejp5rtl5np2fm8w8cc3gurn9wgyu80ad90muqjzysxt
+
