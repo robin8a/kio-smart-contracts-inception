@@ -20,3 +20,25 @@ Command failed: transaction submit  Error: Error while submitting tx: ShelleyTxV
     at MqttClient._handlePublish (/home/luisr/kio-smart-contracts-iot-remote/node_modules/mqtt/lib/client.js:770:12)
 (node:4128047) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
 (node:4128047) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+
+##########################################
+## device.on message Transfer_Funds_Between_Wallets_From_UI
+## device.on message Wallet Name Origin:  W0107
+## device.on message Wallet Address Destination:  addr_test1qrdv6f855upjr7t9y2ufaq8xultg2d4236la27c0smh9yrsfs7vg9wvejp5rtl5np2fm8w8cc3gurn9wgyu80ad90muqjzysxt
+## device.on message Transaction Amount:  2
+Balance of Sender wallet: 10 ADA
+Command failed: transaction submit  Error: Error while submitting tx: ShelleyTxValidationError ShelleyBasedEraMary (ApplyTxError [UtxowFailure (UtxoFailure (ValueNotConservedUTxO (Value 0 (fromList [])) (Value 10000000 (fromList [])))),UtxowFailure (UtxoFailure (BadInputsUTxO (fromList [TxInCompact (TxId {_unTxId = SafeHash "b973bb0af2e004c34be7def85b4e3783b4a81e8ead40b79d0ab4fd568f128bb9"}) 0])))])
+(node:388233) UnhandledPromiseRejectionWarning: Error: Command failed: cardano-cli transaction submit --testnet-magic 1097911063 --tx-file /home/luisr/testnet/tmp/tx_tb7cuubxt.signed
+Command failed: transaction submit  Error: Error while submitting tx: ShelleyTxValidationError ShelleyBasedEraMary (ApplyTxError [UtxowFailure (UtxoFailure (ValueNotConservedUTxO (Value 0 (fromList [])) (Value 10000000 (fromList [])))),UtxowFailure (UtxoFailure (BadInputsUTxO (fromList [TxInCompact (TxId {_unTxId = SafeHash "b973bb0af2e004c34be7def85b4e3783b4a81e8ead40b79d0ab4fd568f128bb9"}) 0])))])
+
+    at checkExecSyncError (child_process.js:640:11)
+    at execSync (child_process.js:676:15)
+    at CardanocliJs.transactionSubmit (/home/luisr/kio-smart-contracts-iot-remote/index.js:1083:5)
+    at DeviceClient.<anonymous> (/home/luisr/kio-smart-contracts-iot-remote/app_two.js:193:33)
+    at DeviceClient.emit (events.js:376:20)
+    at DeviceClient.emit (domain.js:470:12)
+    at MqttClient.<anonymous> (/home/luisr/kio-smart-contracts-iot-remote/node_modules/aws-iot-device-sdk/device/index.js:693:12)
+    at MqttClient.emit (events.js:376:20)
+    at MqttClient.emit (domain.js:470:12)
+    at MqttClient._handlePublish (/home/luisr/kio-smart-contracts-iot-remote/node_modules/mqtt/lib/client.js:770:12)
+(node:388233) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the no
