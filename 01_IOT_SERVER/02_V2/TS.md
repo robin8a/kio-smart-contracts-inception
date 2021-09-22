@@ -46,3 +46,18 @@ Example policicy that works!
 }
 ```
 
+# error TS2732 ...Consider using '--resolveJsonModule' to import module with '.json' extension
+
+- https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+- https://www.typescriptlang.org/docs/handbook/project-references.html
+- https://github.com/TypeStrong/grunt-ts/issues/445
+- https://mariusschulz.com/blog/series/typescript-evolution
+
+
+# [TypeScript] Error: Could not find a declaration file for module XYZ
+https://amandeepkochhar.medium.com/typescript-error-could-not-find-a-declaration-file-for-module-xyz-dfbe6e45c2bd
+
+tsconfig.json
+```json
+"noImplicitAny": false
+```
