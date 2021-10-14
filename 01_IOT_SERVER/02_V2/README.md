@@ -23,3 +23,6 @@ node inspect dist/index.js \
 --ca_file certs/root-CA.crt \
 --cert certs/kio-smart-contracts-iot-device.cert.pem \
 --key certs/kio-smart-contracts-iot-device.private.key
+
+
+tail -f /home/luisr/kio-smart-contracts-iot-remote-v2/dist/logs/cardano_commands.log

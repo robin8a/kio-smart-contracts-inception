@@ -66,3 +66,28 @@ https://drive.google.com/file/d/1oblnrTMpQIEolO7aT-p4BE5rhraU-pHZ/view?usp=shari
 
 # Pixelplex
 https://pixelplex.io/work/security-token-offering-platform-and-ecosystem/
+
+# Create your own Token
+
+# Waves
+
+- https://www.youtube.com/watch?v=tWxPkGe97Bc
+- Waves es ideal para crowfounding e ICOs simples
+- Simplificar la emisión de Tokens, menos de 5 minutos
+- Los Tokens no son tan robustos
+
+# Neufund
+- https://blog.neufund.org/tokenizing-startup-equity-part-1-employee-incentive-options-plan-esop-on-ethereum-blockchain-dce2416f4505
+ 
+# Crypto
+https://republic.co/crypto
+
+# Seed Invest
+https://www.seedinvest.com/
+
+
+Paquete horas para entrenar los modelos y generar los reportes
+
+Los reportes se dimensionan de la siguiente forma:
+
+
