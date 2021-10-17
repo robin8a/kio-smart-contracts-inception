@@ -21,3 +21,13 @@ PROYECTO TOKENIZACIÓN DE ACTIVOS FORESTALES
 Desarrollo experimental de prototipo de plataforma mínima viable para la prueba de concepto de la tokenización de activos forestales a través de encargos fiduciarios, a través de contratos digitales y tokenización de activos forestales como cultivos de pino caribe, democratizando el acceso a la propiedad de árboles y su respectivo terreno, como una solución al calentamiento global, brindado la posibilidad a cualquier ciudad del mundo que invierta en árboles para la captura de CO2, en un posible sistema de criptomonedas forestales.
 ```
 
+
+# 16 Octubre Luis
+
+- Se crean NTFs para cada estado y se destruye el anterior
+
+![Ciclo NFT](images/nft_cycle.png)
+
+- Primer fase lo haremos manual, para entender 
+- Reproducir en código el paso a paso
+- Se crea y se destruye NFT en el tiempo
