@@ -26,6 +26,27 @@ npx create-react-app kio-smart-contract-rjs-app
 - Just when is a new aws account
 ```sh
 amplify configure
+
+
+# Follow these steps to set up access to your AWS account:
+
+# Sign in to your AWS administrator account:
+# https://console.aws.amazon.com/
+# Press Enter to continue
+
+# Specify the AWS Region
+# ? region:  us-east-1
+# Specify the username of the new IAM user:
+# ? user name:  kio-suan-amplify
+# Complete the user creation using the AWS console
+# https://console.aws.amazon.com/iam/home?region=undefined#/users$new?step=final&accessKey&userNames=kio-suan-amplify&permissionType=policies&policies=arn:aws:iam::aws:policy%2FAdministratorAccess
+# Press Enter to continue
+
+# Enter the access key of the newly created user:
+# ? accessKeyId:  AKIAQQ2OI2**********
+# ? secretAccessKey:  HTE0liK8QkJjWI+dnzGi********************
+# This would update/create the AWS Profile in your local machine
+# ? Profile Name:  suan-blockchain
 ```
 
 
@@ -33,14 +54,10 @@ amplify configure
 
 ```sh
 amplify init
-# Scanning for plugins...
-# Plugin scan successful
-# Note: It is recommended to run this command from the root of your app directory
-# ? Enter a name for the project 
-# ➜  kio-smart-contract-rjs-app git:(master) amplify init
+
 # Note: It is recommended to run this command from the root of your app directory
 # ? Enter a name for the project kiosmartcontractrjsa
-# ? Enter a name for the environment kioscenv
+# ? Enter a name for the environment kismtcoenv
 # ? Choose your default editor: Visual Studio Code
 # ? Choose the type of app that you're building javascript
 # Please tell us about your project
@@ -55,30 +72,32 @@ amplify init
 # https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html
 
 # ? Do you want to use an AWS profile? Yes
-# ? Please choose the profile you want to use kio-indoor-emap
-# Adding backend environment kioscenv to AWS Amplify Console app: d1l1kwcqq235gy
-# ⠋ Initializing project in the cloud...
+# ? Please choose the profile you want to use suan-blockchain
+# Adding backend environment kismtcoenv to AWS Amplify Console app: d2exgrisng6lf0
+# ⠴ Initializing project in the cloud...
 
-# CREATE_IN_PROGRESS DeploymentBucket                             AWS::S3::Bucket            Wed Apr 28 2021 17:49:22 GMT-0500 (Colombia Standard Time)               
-# CREATE_IN_PROGRESS UnauthRole                                   AWS::IAM::Role             Wed Apr 28 2021 17:49:22 GMT-0500 (Colombia Standard Time)               
-# CREATE_IN_PROGRESS AuthRole                                     AWS::IAM::Role             Wed Apr 28 2021 17:49:22 GMT-0500 (Colombia Standard Time)               
-# CREATE_IN_PROGRESS amplify-kiosmartcontractrjsa-kioscenv-174913 AWS::CloudFormation::Stack Wed Apr 28 2021 17:49:17 GMT-0500 (Colombia Standard Time) User Initiated
-# ⠦ Initializing project in the cloud...
-
-# CREATE_IN_PROGRESS AuthRole   AWS::IAM::Role Wed Apr 28 2021 17:49:23 GMT-0500 (Colombia Standard Time) Resource creation Initiated
-# CREATE_IN_PROGRESS UnauthRole AWS::IAM::Role Wed Apr 28 2021 17:49:23 GMT-0500 (Colombia Standard Time) Resource creation Initiated
-# ⠋ Initializing project in the cloud...
-
-# CREATE_IN_PROGRESS DeploymentBucket AWS::S3::Bucket Wed Apr 28 2021 17:49:23 GMT-0500 (Colombia Standard Time) Resource creation Initiated
+# CREATE_IN_PROGRESS amplify-kiosmartcontractrjsa-kismtcoenv-113353 AWS::CloudFormation::Stack Tue Oct 19 2021 11:33:57 GMT-0500 (Colombia Standard Time) User Initiated
 # ⠏ Initializing project in the cloud...
 
-# CREATE_COMPLETE UnauthRole AWS::IAM::Role Wed Apr 28 2021 17:49:36 GMT-0500 (Colombia Standard Time) 
-# CREATE_COMPLETE AuthRole   AWS::IAM::Role Wed Apr 28 2021 17:49:35 GMT-0500 (Colombia Standard Time) 
-# ⠧ Initializing project in the cloud...
+# CREATE_IN_PROGRESS AuthRole   AWS::IAM::Role Tue Oct 19 2021 11:34:02 GMT-0500 (Colombia Standard Time) 
+# CREATE_IN_PROGRESS UnauthRole AWS::IAM::Role Tue Oct 19 2021 11:34:02 GMT-0500 (Colombia Standard Time) 
+# ⠼ Initializing project in the cloud...
 
-# CREATE_COMPLETE amplify-kiosmartcontractrjsa-kioscenv-174913 AWS::CloudFormation::Stack Wed Apr 28 2021 17:49:46 GMT-0500 (Colombia Standard Time) 
-# CREATE_COMPLETE DeploymentBucket                             AWS::S3::Bucket            Wed Apr 28 2021 17:49:44 GMT-0500 (Colombia Standard Time) 
+# CREATE_IN_PROGRESS AuthRole         AWS::IAM::Role  Tue Oct 19 2021 11:34:04 GMT-0500 (Colombia Standard Time) Resource creation Initiated
+# CREATE_IN_PROGRESS DeploymentBucket AWS::S3::Bucket Tue Oct 19 2021 11:34:04 GMT-0500 (Colombia Standard Time) Resource creation Initiated
+# CREATE_IN_PROGRESS UnauthRole       AWS::IAM::Role  Tue Oct 19 2021 11:34:03 GMT-0500 (Colombia Standard Time) Resource creation Initiated
+# CREATE_IN_PROGRESS DeploymentBucket AWS::S3::Bucket Tue Oct 19 2021 11:34:03 GMT-0500 (Colombia Standard Time)                            
+# ⠼ Initializing project in the cloud...
+
+# CREATE_COMPLETE AuthRole   AWS::IAM::Role Tue Oct 19 2021 11:34:18 GMT-0500 (Colombia Standard Time) 
+# CREATE_COMPLETE UnauthRole AWS::IAM::Role Tue Oct 19 2021 11:34:17 GMT-0500 (Colombia Standard Time) 
+# ⠼ Initializing project in the cloud...
+
+# CREATE_COMPLETE DeploymentBucket AWS::S3::Bucket Tue Oct 19 2021 11:34:25 GMT-0500 (Colombia Standard Time) 
 # ✔ Successfully created initial AWS cloud resources for deployments.
+
+
+# CREATE_COMPLETE amplify-kiosmartcontractrjsa-kismtcoenv-113353 AWS::CloudFormation::Stack Tue Oct 19 2021 11:34:27 GMT-0500 (Colombia Standard Time) 
 # ✔ Initialized provider successfully.
 # Initialized your environment successfully.
 
@@ -104,8 +123,8 @@ nano ~/.aws/credentials
 export PATH=~/Library/Python/3.8/bin:$PATH
 # source ~/.bash_profile
 # test
-aws s3 ls --profile kio-indoor-emap
-export AWS_PROFILE=kio-indoor-emap
+aws s3 ls --profile suan-blockchain
+export AWS_PROFILE=suan-blockchain
 
 # aws codecommit create-repository --repository-name MyDemoRepo --repository-description "My demonstration repository" --tags Team=Saanvi
 aws codecommit create-repository --repository-name kio-smart-contract-rjs-app --repository-description "Cardano Smart Contracts" --tags Team=kio --region us-east-1 
@@ -116,15 +135,15 @@ aws codecommit create-repository --repository-name kio-smart-contract-rjs-app --
 ```json
 {
     "repositoryMetadata": {
-        "accountId": "429849394467",
-        "repositoryId": "a86835c0-3778-4812-9417-660228a569d3",
+        "accountId": "036134507423",
+        "repositoryId": "92be7bbd-c5de-40f6-86bc-2cb801698d6e",
         "repositoryName": "kio-smart-contract-rjs-app",
         "repositoryDescription": "Cardano Smart Contracts",
-        "lastModifiedDate": "2021-04-28T17:55:35.862000-05:00",
-        "creationDate": "2021-04-28T17:55:35.862000-05:00",
+        "lastModifiedDate": 1634661585.3,
+        "creationDate": 1634661585.3,
         "cloneUrlHttp": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/kio-smart-contract-rjs-app",
         "cloneUrlSsh": "ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/kio-smart-contract-rjs-app",
-        "Arn": "arn:aws:codecommit:us-east-1:429849394467:kio-smart-contract-rjs-app"
+        "Arn": "arn:aws:codecommit:us-east-1:036134507423:kio-smart-contract-rjs-app"
     }
 }
 ```
@@ -149,10 +168,10 @@ nano config
 # Add
 
 # CodeCommit hosts
-# Host kio_smart_contracts_rsa
-#    HostName git-codecommit.us-east-1.amazonaws.com
-#    User AKIAWIFIFHURQXRLUPPD
-#    IdentityFile ~/.ssh/kio_smart_contracts_rsa
+Host kio_smart_contracts_rsa
+   HostName git-codecommit.us-east-1.amazonaws.com
+   User APKAQQ2OI2OP7JF47SHB
+   IdentityFile ~/.ssh/kio_smart_contracts_rsa
 
 ```
 
@@ -162,7 +181,7 @@ https://xiaolishen.medium.com/use-multiple-ssh-keys-for-different-github-account
 # git remote -v
 # git remote rm origin
 # Using the same kio_indoor_emap_rsa because is on the same account
-git remote add origin ssh://kio_indoor_emap_rsa/v1/repos/kio-smart-contract-rjs-app
+git remote add origin ssh://kio_smart_contracts_rsa/v1/repos/kio-smart-contract-rjs-app
 git push
 ```
 
@@ -187,15 +206,17 @@ npm i uuid
 ```
 ## Result
 ```sh
+
 amplify add hosting
-? Select the plugin module to execute Hosting with Amplify Console (Managed hosting with custom domains, Continuous deployment)
-? Choose a type Continuous deployment (Git-based deployments)
-? Continuous deployment is configured in the Amplify Console. Please hit enter once you connect your repository 
-Amplify hosting urls: 
-┌──────────────┬────────────────────────────────────────────┐
-│ FrontEnd Env │ Domain                                     │
-├──────────────┼────────────────────────────────────────────┤
-│ main         │ https://main.d1l1kwcqq235gy.amplifyapp.com │
+# ? Select the plugin module to execute Hosting with Amplify Console (Managed hosting with custom domains, Continuous deployment)
+# ? Choose a type Continuous deployment (Git-based deployments)
+# ? Continuous deployment is configured in the Amplify Console. Please hit enter once you connect your repository 
+# Amplify hosting urls: 
+┌──────────────┬──────────────────────────────────────────────┐
+│ FrontEnd Env │ Domain                                       │
+├──────────────┼──────────────────────────────────────────────┤
+│ master       │ https://master.d2exgrisng6lf0.amplifyapp.com │
+└──────────────┴──────────────────────────────────────────────┘
 ```
 
 # Amplify auth
@@ -210,7 +231,7 @@ amplify add auth
 #  Warning: you will not be able to edit these selections. 
 #  How do you want users to be able to sign in? Username
 #  Do you want to configure advanced settings? No, I am done.
-# Successfully added resource kiosmartcontractrjsa43ea2996 locally
+# Successfully added resource kiosmartcontractrjsae65b634c locally
 
 # Some next steps:
 # "amplify push" will build all your local backend resources and provision it in the cloud
@@ -238,6 +259,43 @@ amplify push
 - https://aws.amazon.com/blogs/iot/configuring-cognito-user-pools-to-communicate-with-aws-iot-core/
 - https://docs.aws.amazon.com/iot/latest/developerguide/attach-to-cert.html
 
+
+# Attach the policy
+- Follow this [oficial tutorial](https://docs.amplify.aws/lib/pubsub/getting-started/q/platform/js/#step-1-create-iam-policies-for-aws-iot)
+- But...
+
+## Create the policy like this
+
+![Correct Policy](./_images/create_policy_that_works.png)
+
+```js
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "iot:*",
+      "Resource": "*"
+    }
+  ]
+}
+```
+
+## To get <YOUR_COGNITO_IDENTITY_ID>  
+- The tutorial has two errors
+![Typing error:](_images/typing_error_on_jsx_code.png)
+
+```jsx
+import Amplify, { PubSub, Auth } from 'aws-amplify'
+
+componentDidMount = async () => {
+        
+        Auth.currentCredentials().then((info) => {
+            const cognitoIdentityId = info.identityId;
+            console.log('cognitoIdentityId: ', cognitoIdentityId)
+          });
+}
+```
 ```sh
 
 export PATH=~/Library/Python/3.7/bin:$PATH
@@ -260,6 +318,13 @@ export AWS_PROFILE=kio-indoor-emap
 aws iot attach-principal-policy --policy-name 'ReactIoTPolicy' --principal '<YOUR_COGNITO_IDENTITY_ID>' 
 aws iot attach-principal-policy --policy-name 'ReactIoTPolicy' --principal 'us-east-1:fd6f28e9-4b12-4739-a54d-d52c281bd4b4'
 aws iot attach-principal-policy --policy-name ReactIoTPolicy --principal us-east-1:fd6f28e9-4b12-4739-a54d-d52c281bd4b4
+
+aws iot attach-policy --policy-name 'kioWebClientPolicy' --target 'us-east-1:7b8ee83d-263e-4433-847f-dadd60b20b99'
+
+aws iot attach-principal-policy --policy-name 'kioWebClientPolicy' --principal us-east-1:7b8ee83d-263e-4433-847f-dadd60b20b99
+
+# This works!
+aws iot attach-principal-policy --policy-name 'kioWebClientPolicy' --principal 'us-east-1:7b8ee83d-263e-4433-847f-dadd60b20b99'
 ```
 
 ![Role IoT policies attached to auth cognito](_images/role_iot_policy.png)
@@ -267,6 +332,7 @@ aws iot attach-principal-policy --policy-name ReactIoTPolicy --principal us-east
 ## Policy Test 
 [Policy AWS Simulator](https://policysim.aws.amazon.com)
 Ex: arn:aws:iam::879105828344:role/kl-lwf-amp-dev-20190703114204-authRole
+
 
 
 # amplify storage
