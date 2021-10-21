@@ -369,3 +369,13 @@ amplify add storage
 # "amplify push" builds all of your local backend resources and provisions them in the cloud
 # "amplify publish" builds all of your local backend and front-end resources (if you added hosting category) and provisions them in the cloud
 ```
+
+# Amplify PubSub QoS
+- https://aws-amplify.github.io/aws-sdk-ios/docs/reference/AWSIoT/Classes/AWSIoTDataManager.html
+- https://aws-amplify.github.io/amplify-js/api/
+- https://github.com/matwerber1/aws-amplify-react-iot-pub-sub-demo
+
+
+# When to use ES6 class based React components vs. functional ES6 React components?
+
+- https://stackoverflow.com/questions/36097965/when-to-use-es6-class-based-react-components-vs-functional-es6-react-components
