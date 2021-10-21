@@ -379,3 +379,39 @@ amplify add storage
 # When to use ES6 class based React components vs. functional ES6 React components?
 
 - https://stackoverflow.com/questions/36097965/when-to-use-es6-class-based-react-components-vs-functional-es6-react-components
+
+
+# Amplify API
+
+```sh
+amplify add api    
+# Scanning for plugins...
+# Plugin scan successful
+# ? Please select from one of the below mentioned services: GraphQL
+# ? Provide API name: kiosmartcontractrjsa
+# ? Choose the default authorization type for the API Amazon Cognito User Pool
+# Use a Cognito user pool configured as a part of this project.
+# ? Do you want to configure advanced settings for the GraphQL API No, I am done.
+# ? Do you have an annotated GraphQL schema? No
+# ? Do you want a guided schema creation? Yes
+# ? What best describes your project: Objects with fine-grained access control (e.g., a project manageme
+# nt app with owner-based authorization)
+# ? Do you want to edit the schema now? Yes
+# Please edit the file in your editor: /Users/robin8a/Documents/react_ws/kio-smart-contract-rjs-app/amplify/backend/api/kiosmartcontractrjsa/schema.graphql
+# ? Press enter to continue 
+
+# The following types do not have '@auth' enabled. Consider using @auth with @model
+#          - User
+#          - Wallet
+# Learn more about @auth here: https://aws-amplify.github.io/docs/cli-toolchain/graphql#auth 
+
+
+# GraphQL schema compiled successfully.
+
+# Edit your schema at /Users/robin8a/Documents/react_ws/kio-smart-contract-rjs-app/amplify/backend/api/kiosmartcontractrjsa/schema.graphql or place .graphql files in a directory at /Users/robin8a/Documents/react_ws/kio-smart-contract-rjs-app/amplify/backend/api/kiosmartcontractrjsa/schema
+# Successfully added resource kiosmartcontractrjsa locally
+
+# Some next steps:
+# "amplify push" will build all your local backend resources and provision it in the cloud
+# "amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
+```
