@@ -183,6 +183,8 @@ https://xiaolishen.medium.com/use-multiple-ssh-keys-for-different-github-account
 # Using the same kio_indoor_emap_rsa because is on the same account
 git remote add origin ssh://kio_smart_contracts_rsa/v1/repos/kio-smart-contract-rjs-app
 git push
+
+git clone ssh://aws_commit_smart_kio_rsa/v1/repos/kio-smart-contract-rjs-app
 ```
 
 
@@ -415,3 +417,13 @@ amplify add api
 # "amplify push" will build all your local backend resources and provision it in the cloud
 # "amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
 ```
+
+
+My Wallet 1058
+Uwwx59xAH19r`2$4
+
+1. GraphQL User and Wallet con Create Wallet [X]
+2. Clean
+3. Mostrar la creacion de la billetera, info basica
+4. No permitir Add si no esta suscrito
+5. Gestionar multiusuario

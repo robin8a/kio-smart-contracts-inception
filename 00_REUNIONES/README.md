@@ -31,3 +31,41 @@ Desarrollo experimental de prototipo de plataforma mínima viable para la prueba
 - Primer fase lo haremos manual, para entender 
 - Reproducir en código el paso a paso
 - Se crea y se destruye NFT en el tiempo
+
+# Lui Enrique 25/10/21
+## CIF poder acceder (Cerfiticado Incentivo Forestal)
+- No todas las fincas son 
+- UPRA Unidad planificacion agraria, aptitud forestal, visor CIPRA (Potenciales SIG)
+- No bosque natural
+- Plante, un morichal, le cubren el 20%, no es mucho, por hectarea $ COP 80.000
+- Modelos de captura en Colombia, es diferente en cada pais, cambia por región
+- Análisis area, refraccion de la luz, cada 1 año o 2 años, revisar
+
+## Proceso CIF 
+
+1. Certificado de tradicion y libertad, sino tiene no sirve
+2. Ninguna medida cautelar
+3. CIPRA apto, coordenadas es favorable medio/alto
+4. Analisis de suelos
+5. Levantamiento del area
+6. Nutricional
+7. Cual especie se acomoda mas para ese terreno
+8. 
+
+## Plan Establecimiento y Manejo Forestal (PEM); actividades del proyecto
+- Donde se compra la semilla
+- Donde Vivero
+- Preparacion del suelo, arado o no
+- 3m 
+- Mantenimiento 
+
+
+1'200.000 hectareas
+
+## 1er proyecto
+- 2000 hectareas
+- Entre Meta / Vichada  
+- 
+
+## Regiones mayor potencial
+- Vichada, Meta, Casanera, Cordoba, Antioquia
