@@ -419,11 +419,135 @@ amplify add api
 ```
 
 
-My Wallet 1058
+Wallet 1616 2710 (Tiene plata)
+4d853bbb6756b9bbfd3d081ca0def9a59a4cba85
 Uwwx59xAH19r`2$4
+c4rd4n02021
+
+Destino
+addr_test1qre6dnhs8w9xa2efs02lww567rsyglj7a2pr8zv296wwuty0ygqtcgd0dl274tc88hu6h4vky8e5yczgq48ff28xc7kqpsypc0
+
+```json
+{
+    "seq": 1,
+    "cmd_id": "min_fees",
+    "message": {
+            "id": "2781d44e82ad834750c8fd2654faccd2db912eaa",
+            "tx_info": {
+            "payments": [
+            {
+                "address": "addr_test1qp09lnuch5vgswuxcjlta78mlp88taudhgymyktu3qy44pk8tuvg9dmy75z2dpj0e4kzw642e3hpjt937e4t3jun3l3sftz57e",
+                "amount": {
+                    "quantity": 5000000,
+                    "unit": "lovelace"
+                },
+                "assets": null
+            }
+            ],
+            "metadata": null
+        }
+    }
+}
+
+// Error: not_enough_money
+{ "seq": 1, "cmd_id": "min_fees", "message": { "id": "2781d44e82ad834750c8fd2654faccd2db912eaa", "tx_info": { "payments": [ {"address": "addr_test1qp09lnuch5vgswuxcjlta78mlp88taudhgymyktu3qy44pk8tuvg9dmy75z2dpj0e4kzw642e3hpjt937e4t3jun3l3sftz57e", "amount": { "quantity": 5000000, "unit": "lovelace" }, "assets": null } ],"metadata": null } } }
+
+// Error: bad_request
+{ "seq": 1, "cmd_id": "min_fees", "message": { "id": "2781d44e82ad834750c8fd2654faccd2db912eaa", "tx_info": { "payments": [ {"address": "addr_test1qp09lnuch5vgswuxcjlta78mlp88taudhgymyktu3qy44pk8tuvg9dmy75z2dpj0e4kzw642e3hpjt937e4t3jun3l3sftz57ea", "amount": { "quantity": 5000000, "unit": "lovelace" }, "assets": null } ],"metadata": null } } }
+
+// Working
+{ "seq": 1, "cmd_id": "min_fees", "message": { "id": "4d853bbb6756b9bbfd3d081ca0def9a59a4cba85", "tx_info": { "payments": [ {"address": "addr_test1qre6dnhs8w9xa2efs02lww567rsyglj7a2pr8zv296wwuty0ygqtcgd0dl274tc88hu6h4vky8e5yczgq48ff28xc7kqpsypc0", "amount": { "quantity": 5000000, "unit": "lovelace" }, "assets": null } ],"metadata": null } } }
+
+
+addr_test1qre6dnhs8w9xa2efs02lww567rsyglj7a2pr8zv296wwuty0ygqtcgd0dl274tc88hu6h4vky8e5yczgq48ff28xc7kqpsypc0
+
+
+// Working
+
+{
+    "seq": 1,
+    "cmd_id": "send_transaction",
+    "passphrase":"c4rd4n02021",
+    "message": {
+            "id": "4d853bbb6756b9bbfd3d081ca0def9a59a4cba85",
+            "tx_info": {
+            "payments": [
+            {
+                "address": "addr_test1qre6dnhs8w9xa2efs02lww567rsyglj7a2pr8zv296wwuty0ygqtcgd0dl274tc88hu6h4vky8e5yczgq48ff28xc7kqpsypc0",
+                "amount": {
+                    "quantity": 5000000,
+                    "unit": "lovelace"
+                },
+                "assets": null
+            }
+            ],
+            "metadata": null
+        }
+    }
+}
+
+{ "seq": 1, "cmd_id": "send_transaction", "passphrase": "c4rd4n02021", "message": { "id": "4d853bbb6756b9bbfd3d081ca0def9a59a4cba85",
+"tx_info": { "payments": [ {"address": "addr_test1qre6dnhs8w9xa2efs02lww567rsyglj7a2pr8zv296wwuty0ygqtcgd0dl274tc88hu6h4vky8e5yczgq48ff28xc7kqpsypc0", "amount": { "quantity": 5000000, "unit": "lovelace"}, "assets": null } ], "metadata": null } } }
+
+
+```
+
+name: WorkingWallet
+c4rd4n02021
+af807b9bf120667b5fadd9e7bdee4a6dab71623f
+
+```json
+{
+    "seq": 1,
+    "cmd_id": "send_transaction",
+    "passphrase": "c4rd4n02021",
+    "message": {
+            "id": "af807b9bf120667b5fadd9e7bdee4a6dab71623f",
+            "tx_info": {
+            "payments": [
+            {
+                "address": "addr_test1qqerujexjrf8tq0kfd5altskyju8dzhhytxkdvvj68nu0yxspala4cjnzr4rxwxnsh34p0l5pynhv89ntnm8xsw2ggnqzqe9kh",
+                "amount": {
+                    "quantity": 5000000,
+                    "unit": "lovelace"
+                },
+                "assets": null
+            }
+            ],
+            "metadata": null
+        }
+    }
+}
+
+
+
+{
+        "seq": 1,
+        "cmd_id": "send_transaction",
+        "message": {
+            "id": "af807b9bf120667b5fadd9e7bdee4a6dab71623f",
+            "tx_info": {
+                "passphrase": "c4rd4n02021",
+                "payments": [
+                    {
+                        "address": "addr_test1qre6dnhs8w9xa2efs02lww567rsyglj7a2pr8zv296wwuty0ygqtcgd0dl274tc88hu6h4vky8e5yczgq48ff28xc7kqpsypc0",
+                        "amount": {
+                            "quantity": 5000000,
+                            "unit": "lovelace"
+                        },
+                        "assets": null
+                    }
+                ],
+                "metadata": null
+            }
+        }
+}
+```
+
+
 
 1. GraphQL User and Wallet con Create Wallet [X]
-2. Clean
-3. Mostrar la creacion de la billetera, info basica
+2. Clean [X]
+3. Mostrar la creacion de la billetera, info basica [X]
 4. No permitir Add si no esta suscrito
 5. Gestionar multiusuario

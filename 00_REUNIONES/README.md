@@ -69,3 +69,25 @@ Desarrollo experimental de prototipo de plataforma mínima viable para la prueba
 
 ## Regiones mayor potencial
 - Vichada, Meta, Casanera, Cordoba, Antioquia
+
+
+
+# Reunion 04 Noviembre 2021
+
+## Puntos
+- Partimos 
+- Que tenemos actualmente?
+- Reunión MVP
+  - Viabilidad otras Block
+  - Procesos para los estados de los tokens
+- Cuales son los entregables de cada uno de nosotros, para que se?
+- Un proyecto se puede financiar con bonos de carbono futuros?
+- Habiamos dicho que en tres meses
+
+
+## Contrato de fundadores
+- Cap Table
+- Seguridad juridica
+- Cualquier elemento hacer parte PI
+- Bad liver: condiciones
+- Good liver: condiciones
