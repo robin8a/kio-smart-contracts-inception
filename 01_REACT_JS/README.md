@@ -551,3 +551,12 @@ af807b9bf120667b5fadd9e7bdee4a6dab71623f
 3. Mostrar la creacion de la billetera, info basica [X]
 4. No permitir Add si no esta suscrito
 5. Gestionar multiusuario
+
+
+# Tim Tempalte
+## Dependencies
+```sh
+npm i nouislider
+npm i react-datetime
+npm i reactstrap
+```
