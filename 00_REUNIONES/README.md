@@ -91,3 +91,42 @@ Desarrollo experimental de prototipo de plataforma mínima viable para la prueba
 - Cualquier elemento hacer parte PI
 - Bad liver: condiciones
 - Good liver: condiciones
+
+
+# 12 de Noviembre 2021
+
+Referencias
+- https://www.topl.co/
+- Rosseta: blockchain
+- Polygon
+  
+# Contexto 
+
+- Primero reunión creo que fue en enero 
+  - Canabis, mejor producción de canabis
+  - Activos forestales
+
+- Reunion conseguir recursos (ecopetrol en compañia, )
+
+- Reuniones de los avances
+
+- Reunion en OMA (Agora o Horus como prestadora de servicios de )
+
+- Reunion telefonica donde plantee mi parte 25/2 Robin/Luis
+
+- Constanza y Sandra EU
+
+- No se cumplió o se llego a algun acuerdo respecto Agora Horus
+
+- Se comienza 
+
+# Acuerdo de porcentajes / PI
+- PI
+- 
+
+# Angeles
+
+
+# Ejercicio SUANCOS
+
+# Estado de arte
