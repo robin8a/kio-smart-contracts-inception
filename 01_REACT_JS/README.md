@@ -564,3 +564,55 @@ npm i moment
 
 
 I$t1234LuisTest
+
+# Tx Send Working
+
+```json
+{"client_id": "test-58b14a35-2b50-4da4-9170-55405da1b74e", "tx_result": {"status": "pending", "withdrawals": [], "amount": {"quantity": 2171397, "unit": "lovelace"}, "inputs": [{"amount": {"quantity": 1000000000, "unit": "lovelace"}, "address": "addr_test1qzs8055h8zse40wj98vpxfd55r7ynmte8r92gaunrf0tkn0r2rpucu0ce409mjfp839rt4cugud3y0taynetjd5hkc6scs9w0r", "id": "26d412bb4be31e2866958568fd9b1cc3530ecc27be5cc87a16d68f3b9479a8da", "assets": [], "index": 0}], "direction": "outgoing", "fee": {"quantity": 171397, "unit": "lovelace"}, "outputs": [{"amount": {"quantity": 2000000, "unit": "lovelace"}, "address": "addr_test1qq4ymgg025zh8lyca7ye6q43juuh5935ufselpl5lq0pw793kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwq4pdjf5", "assets": []}, {"amount": {"quantity": 997828603, "unit": "lovelace"}, "address": "addr_test1qqlf8yxh624vrnd3tgwf8hvwkxn4gyhl4af0sydfursuwvhr2rpucu0ce409mjfp839rt4cugud3y0taynetjd5hkc6spte4dt", "assets": []}], "script_validity": "valid", "expires_at": {"time": "2021-12-10T20:07:31Z", "epoch_number": 173, "absolute_slot_number": 44797635, "slot_number": 431235}, "pending_since": {"height": {"quantity": 3142728, "unit": "block"}, "time": "2021-12-10T20:04:28Z", "epoch_number": 173, "absolute_slot_number": 44797452, "slot_number": 431052}, "metadata": {"1337": {"map": [{"k": {"string": "message"}, "v": {"string": "Tx1506"}}]}}, "id": "28aa0b8ab99f43ad4f853f5d05e0ea7c6a41547adfe2ce3e55229bb7db37bd47", "deposit": {"quantity": 0, "unit": "lovelace"}, "collateral": [], "mint": []}}
+```
+
+# Mint Working
+
+<!-- ToDo Sacar el Policy ID y guardarlo en la Billetera en BD de nosotros-->
+```json
+{"client_id": "test-5be2aa0c-19ef-469c-a934-c2703742b9da", "tx_result": {"message": {"policyid": "45ec3b1f571ec2f9165f34573c0445d886283eb28ee32127aa59a88a", "asset_name": "Wallet1529", "quantity_mint": 10, "fees": 183145, "destination_address": "addr_test1qrex6ccvucju3xrxqewjwv5szd4qdzf4wu8rkp39me633t43kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwqhf8nve", "metadata": {}, "policy_script": {"keyHash": "bda4f9c08d0992a37b032b4baf8847e9e980f4d05799d9417786a9ed", "type": "sig"}}, "code": "Mint\u00a1\u00a1"}}
+```
+
+# 
+
+<!-- Todo -->
+```json
+{"client_id": "test-5be2aa0c-19ef-469c-a934-c2703742b9da", "wallet_info": {"passphrase": {"last_updated_at": "2021-12-10T19:57:04.706033884Z"}, "address_pool_gap": 20, "state": {"status": "ready"}, "balance": {"reward": {"quantity": 0, "unit": "lovelace"}, "total": {"quantity": 11635514, "unit": "lovelace"}, "available": {"quantity": 11635514, "unit": "lovelace"}}, "name": "Luis12101456", "delegation": {"next": [], "active": {"status": "not_delegating"}}, "id": "d48f8ecfb43c7753d0dd61279e3e89c34f04bf57", "tip": {"height": {"quantity": 3142778, "unit": "block"}, "time": "2021-12-10T20:32:46Z", "epoch_number": 174, "absolute_slot_number": 44799150, "slot_number": 750}, "assets": {"total": [{"asset_name": "4c7569733132313031343536", "quantity": 10, "policy_id": "3b0cd71449d5b17a566ae7e639705261a336b896f43feff010e319a4"}, {"asset_name": "57616c6c657431353239", "quantity": 10, "policy_id": "45ec3b1f571ec2f9165f34573c0445d886283eb28ee32127aa59a88a"}], "available": [{"asset_name": "4c7569733132313031343536", "quantity": 10, "policy_id": "3b0cd71449d5b17a566ae7e639705261a336b896f43feff010e319a4"}, {"asset_name": "57616c6c657431353239", "quantity": 10, "policy_id": "45ec3b1f571ec2f9165f34573c0445d886283eb28ee32127aa59a88a"}]}}, "address": [{"state": "unused", "id": "addr_test1qqkrcr8a0r5hl6u8ajzayh9gusxa4vspc39wq6aaa2ead493kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwqsck4jy", "derivation_path": ["1852H", "1815H", "0H", "0", "2"]}, {"state": "unused", "id": "addr_test1qzgygnack935nl6c2k9fumn3xzgv0elfg7kht8afyz87x0a3kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwqx5mnlq", "derivation_path": ["1852H", "1815H", "0H", "0", "3"]}, {"state": "unused", "id": "addr_test1qzujgs3m2ppfh2gxs5yfys0qm9pqhg3ha9c9fl02ml04f3d3kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwq4hyj7e", "derivation_path": ["1852H", "1815H", "0H", "0", "4"]}, {"state": "unused", "id": "addr_test1qqskj05n3lm9kff3jw537hd09q7wf9kc07nfcxwr7r8xf593kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwq907tyd", "derivation_path": ["1852H", "1815H", "0H", "0", "5"]}, {"state": "unused", "id": "addr_test1qzxeaq4h8hsh28hm2edh2ltg6uly3zv7aj0qzduaytkfhja3kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwqqmn8xv", "derivation_path": ["1852H", "1815H", "0H", "0", "6"]}, {"state": "unused", "id": "addr_test1qrva0kd4s8zfphsyu4h5g6taalg6hh254d4264yjnm6fx593kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwqgs8kau", "derivation_path": ["1852H", "1815H", "0H", "0", "7"]}, {"state": "unused", "id": "addr_test1qrlqp8tv27pgqjgeqxlgxrjt5r2k3n6yck38cjp6jlvyzfa3kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwqzuagmr", "derivation_path": ["1852H", "1815H", "0H", "0", "8"]}, {"state": "unused", "id": "addr_test1qqd76cgswez6a8lzgj5nuqe8nzxwp3d5ueqnj42ft553w6d3kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwquy6rqf", "derivation_path": ["1852H", "1815H", "0H", "0", "9"]}, {"state": "unused", "id": "addr_test1qpnzy86y2y5a63lnsg59j2frrtl889j9pjn9w82xt0kx6va3kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwqdxuu8j", "derivation_path": ["1852H", "1815H", "0H", "0", "10"]}, {"state": "unused", "id": "addr_test1qpyl7gd9aqz87j47hxhj0mn7dm4angc3gryhmflg8nq8uzd3kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwql2q5ue", "derivation_path": ["1852H", "1815H", "0H", "0", "11"]}, {"state": "unused", "id": "addr_test1qz6wrk7emg46z8lgumlmxqng3hk6qwkxk829wmee2u5c9c43kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwqswq059", "derivation_path": ["1852H", "1815H", "0H", "0", "12"]}, {"state": "unused", "id": "addr_test1qq8m2jgexu8gwhaevtelerpdd7wjjftc0lzfzucdhtarmyd3kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwqvzwccu", "derivation_path": ["1852H", "1815H", "0H", "0", "13"]}, {"state": "unused", "id": "addr_test1qztl0nydg6hpjhcg33daxdajjgp425xydet9jsgc2fd4sp93kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwq89d0hu", "derivation_path": ["1852H", "1815H", "0H", "0", "14"]}, {"state": "unused", "id": "addr_test1qr6n83z7cm2p4rjj2rp6jxzm84lt4qd6n02wuljd3p589e43kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwq5mrdyl", "derivation_path": ["1852H", "1815H", "0H", "0", "15"]}, {"state": "unused", "id": "addr_test1qqdzexk9s7ta7ujvnymqjujzr5lg5v6yxgeq3095ujcalpd3kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwq2ptuf0", "derivation_path": ["1852H", "1815H", "0H", "0", "16"]}, {"state": "unused", "id": "addr_test1qpn486c5k7ltgt6zgt703syej9l37nqfgppdl8dvj7lzvmd3kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwqn6fwut", "derivation_path": ["1852H", "1815H", "0H", "0", "17"]}, {"state": "unused", "id": "addr_test1qre527hkdgq353pfkslfw5nu6r4zxlpqefgzl0v29t9d5r93kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwq2k4k2z", "derivation_path": ["1852H", "1815H", "0H", "0", "18"]}, {"state": "unused", "id": "addr_test1qzrap7qxuhql68070eammg8gskyfjscdnqrfxag55fhrhv93kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwqmsuhjh", "derivation_path": ["1852H", "1815H", "0H", "0", "19"]}, {"state": "unused", "id": "addr_test1qrtmsf8tcg7r75k9wpv2tjveqmzxf3hfj602p4ms40vwlr93kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwqrq5w2r", "derivation_path": ["1852H", "1815H", "0H", "0", "20"]}, {"state": "unused", "id": "addr_test1qpp25ufgh3yt0ct3tuq0tefl6fy4l7k9wv5xharwtf7uqa43kuwvxka9yuyd39sws3fetwgapxggm72ymvh62z292dwqg3lutz", "derivation_path": ["1852H", "1815H", "0H", "0", "21"]}]}
+```
+
+JhonnyWallet1555
+
+addr_test1qrn8g0kmls85hk60le8v6t5hg4grmrfyan5kee9rfhlea2zz88h24c955t9dlqjwl8s898csaxy68uus7ekyy578hagqj9fgx6
+
+WorkingWallet
+c4rd4n02021
+
+
+Uwwx59xAH19r`2$4
+c4rd4n02021
+
+WorkingWallet c4rd4n02021
+
+# TestingWallet
+## Phrase
+aware patch chef ball orange hungry mother amateur immune denial bunker wrist zebra exist cushion oxygen patient blouse love baby target ghost nurse recipe
+# Primary Address Info: unused | id: 
+addr_test1qra90e83h636qk4z6zth54kknw49ulndqljvp039zvpqjgjvuz02am7w55rauvf3lh4yy2emmyuwwn33az6xv8plty5q5fqvw9
+# pwd
+TestingWallet/TestingWallet
+
+
+# MintWallet
+## Phrase
+crack forum atom modify cupboard exile frost mule orphan move vendor harvest scale income someone stereo kitten crisp hurdle already chimney enforce remind come
+# pwd
+MintWallet/MintWallet
+# Primary Address Info: unused | id: 
+addr_test1qqze84lmfanx3yptlc0n54rtesccu4l5k8hvurycjftuxt60ckjmnhkzdzx434xatvcct8qk3jsmr9kxxqafvamu9hfq29gl4u
+# ID: 
+fb6c8a88a62ca537db15de4d799418c0a238c66b
