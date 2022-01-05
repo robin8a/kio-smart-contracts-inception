@@ -130,3 +130,13 @@ Referencias
 # Ejercicio SUANCOS
 
 # Estado de arte
+
+
+
+# Big Data Architecture
+
+1. Almacenamiento centralizado S3: es la fuente principal donde se guarda y consumen los datos
+2. Preprocesamiento y tranformación de datos: procesamiento y tranformación de los datos crudos  y almacene datos de una amplia variedad de fuentes en una plataforma centralizada.
+3. Procesamiento y analítica: Integre rápidamente herramientas de procesamiento de datos de terceros actuales y futuras.
+4. Sguridad y gobernabilidad: Comparta de forma segura conjuntos de datos y resultados procesados. 
+5. Catálogo y Administración: Cree un catálogo de datos completo para buscar y utilizar activos de datos almacenados en el lago de datos.
