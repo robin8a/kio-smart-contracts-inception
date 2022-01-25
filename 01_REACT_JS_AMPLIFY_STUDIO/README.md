@@ -46,3 +46,6 @@ Run 'amplify pull' to sync future upstream changes.
 npm install @aws-amplify/ui-react
 npm install aws-amplify
 ```
+
+# Amplify Studio Docs 
+https://docs.amplify.aws/console/#visual-backend-builder---works-with-amplify-cli
