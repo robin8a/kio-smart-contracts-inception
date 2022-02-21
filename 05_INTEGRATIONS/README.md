@@ -9,3 +9,8 @@ Usar credentials
 custom.jotform2.com
 
 https://support.kobotoolbox.org/api.html
+
+
+curl -X GET "https://api.jotform.com/user?apiKey=%7BmyApiKey%7D
+
+
