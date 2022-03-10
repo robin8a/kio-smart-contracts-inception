@@ -639,6 +639,16 @@ addr_test1qp6nu5ql0t325tpwjnzryxsqnztqem4yx4y54k8u9nff9z80kdyxke8pwya5fnwawrpcdc
 9bd223b5a9c7bba5e66c560b2f4f76052db4d0d0
 
 
+# SuanWallet
+## Phrase
+rescue sniff heavy allow farm under reveal curious spot chaos law grape chair ceiling sister feed travel lens faculty audit solution dinner barrel rural
+# pwd
+SuanWallet/SuanWallet
+# Primary Address Info: unused | id: 
+addr_test1qpnjz5te2n2s69fl37fx9yxhty52decndxfc8qtznlhkdnjvwejcl0x0v84t2jwjqme35eq4tjrm3z0s2gqne5vf525s7v03j2
+# ID: 
+323357f6e8d14967fcfb23c1de96c982e662da20
+
 
 # Jorform data
 
