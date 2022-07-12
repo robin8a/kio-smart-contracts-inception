@@ -121,6 +121,7 @@ amplify init
 ```sh
 nano ~/.aws/credentials
 export PATH=~/Library/Python/3.8/bin:$PATH
+export PATH=~/Library/Python/3.7/bin:$PATH
 # source ~/.bash_profile
 # test
 aws s3 ls --profile suan-blockchain
