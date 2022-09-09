@@ -397,3 +397,7 @@ CREATE TABLE accounts (
         last_login TIMESTAMP 
 );
 ```
+
+# RDS and amplify, other options
+- [Connect Amplify DataStore with existing SQL datasources; adding offline and sync features in your application](https://aws.amazon.com/blogs/mobile/connect-amplify-datastore-with-existing-sql-datasources-adding-offline-and-sync-features-in-your-application/)
+- https://alatech.medium.com/micro-frontends-with-aws-amplify-part-4-3790f4fc1677
