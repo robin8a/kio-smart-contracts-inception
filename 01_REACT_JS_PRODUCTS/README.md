@@ -126,20 +126,16 @@ git push
 ```sh
 amplify add hosting
 ? Select the plugin module to execute Hosting with Amplify Console (Managed hosting with custom domains, Continuous deployment)
-⠋ (node:54597) [DEP0128] DeprecationWarning: Invalid 'main' field in '/Users/robin8a/.npm-global/lib/node_modules/@aws-amplify/cli/node_modules/cloudform/package.json' of 'packages/cloudform/index.js'. Please either fix that or report it to the module author
+⠋ (node:70466) [DEP0128] DeprecationWarning: Invalid 'main' field in '/Users/robin8a/.npm-global/lib/node_modules/@aws-amplify/cli/node_modules/cloudform/package.json' of 'packages/cloudform/index.js'. Please either fix that or report it to the module author
 (Use `node --trace-deprecation ...` to show where the warning was created)
 ? Choose a type Continuous deployment (Git-based deployments)
 ? Continuous deployment is configured in the Amplify Console. Please hit enter once you connect your repository 
 Amplify hosting urls: 
-┌──────────────┬──────────────────────────────────────────────┐
-│ FrontEnd Env │ Domain                                       │
-├──────────────┼──────────────────────────────────────────────┤
-│ master       │ https://master.d28nrfgsnfxdkh.amplifyapp.com │
-│              ├──────────────────────────────────────────────┤
-│              │ https://block-e.com                          │
-│              ├──────────────────────────────────────────────┤
-│              │ https://www.block-e.com                      │
-└──────────────┴──────────────────────────────────────────────┘
+┌──────────────┬─────────────────────────────────────────────┐
+│ FrontEnd Env │ Domain                                      │
+├──────────────┼─────────────────────────────────────────────┤
+│ master       │ https://master.db3zbcxaygrmf.amplifyapp.com │
+└──────────────┴─────────────────────────────────────────────┘
 ```
 
 # Design
@@ -174,7 +170,7 @@ Using service: Cognito, provided by: awscloudformation
  Warning: you will not be able to edit these selections. 
  How do you want users to be able to sign in? Username
  Do you want to configure advanced settings? No, I am done.
-✅ Successfully added auth resource kioproyectobrjsapp0d9a3020 locally
+✅ Successfully added auth resource kiosuanbcrjsappa6accc93 locally
 
 ✅ Some next steps:
 "amplify push" will build all your local backend resources and provision it in the cloud
@@ -185,7 +181,6 @@ Using service: Cognito, provided by: awscloudformation
 # Amplify api
 
 ```sh
-amplify add api
 amplify add api
 ? Select from one of the below mentioned services: GraphQL
 ? Here is the GraphQL API that we will create. Select a setting to edit or continue (Use arrow keys)
@@ -213,17 +208,17 @@ Edit the file in your editor: /Users/robin8a/Documents/react_ws/kio-suan-bc-rjs-
 ```sh
 amplify add storage
 ? Select from one of the below mentioned services: Content (Images, audio, video, etc.)
-(node:66151) [DEP0128] DeprecationWarning: Invalid 'main' field in '/Users/robin8a/.npm-global/lib/node_modules/@aws-amplify/cli/node_modules/cloudform/package.json' of 'packages/cloudform/index.js'. Please either fix that or report it to the module author
+(node:74072) [DEP0128] DeprecationWarning: Invalid 'main' field in '/Users/robin8a/.npm-global/lib/node_modules/@aws-amplify/cli/node_modules/cloudform/package.json' of 'packages/cloudform/index.js'. Please either fix that or report it to the module author
 (Use `node --trace-deprecation ...` to show where the warning was created)
-✔ Provide a friendly name for your resource that will be used to label this category in the project: · s39a3138a8
-✔ Provide bucket name: · kioproyectobrjsapp627f51dfee5f4a219ed7016e45916
+✔ Provide a friendly name for your resource that will be used to label this category in the project: · s37845b3b9
+✔ Provide bucket name: · kiosuanbcrjsappcad3eb2dd1b14457b491c910d5aa45dd
 ✔ Who should have access: · Auth and guest users
 ✔ What kind of access do you want for Authenticated users? · create/update, read
 ✔ What kind of access do you want for Guest users? · read
 ✔ Do you want to add a Lambda Trigger for your S3 Bucket? (y/N) · no
 ⚠️ Auth configuration is required to allow unauthenticated users, but it is not configured properly.
 ✅ Successfully updated auth resource locally.
-✅ Successfully added resource s39a3138a8 locally
+✅ Successfully added resource s37845b3b9 locally
 
 ⚠️ If a user is part of a user pool group, run "amplify update storage" to enable IAM group policies for CRUD operations
 ✅ Some next steps:
