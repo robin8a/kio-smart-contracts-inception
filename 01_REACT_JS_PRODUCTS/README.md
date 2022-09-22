@@ -119,7 +119,7 @@ git push --set-upstream origin master
 git push
 ```
 
-## git windows
+## git on windows
 
 ```sh
 ssh-keygen
@@ -142,7 +142,10 @@ Host git-codecommit.*.amazonaws.com
 ```
 
 ```sh
- git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/kio-indoor-emap
+# test
+ssh git-codecommit.us-east-1.amazonaws.com
+# clone
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/kio-indoor-emap
 ```
 
 # Amplify hosting
