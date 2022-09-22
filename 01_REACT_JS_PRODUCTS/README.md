@@ -82,7 +82,7 @@ aws codecommit create-repository --repository-name kio-suan-bc-rjs-app --reposit
 ```
 
 
-## git
+## git on mac
 
 ```sh
 ssh-keygen
@@ -119,6 +119,31 @@ git push --set-upstream origin master
 git push
 ```
 
+## git windows
+
+```sh
+ssh-keygen
+C:\Users\USUARIO/.ssh/kio_mapping_id_rsa
+
+cd ~/.ssh
+code .
+
+copy and paste on IAM => Credentials
+
+``` 
+
+```conf
+
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host git-codecommit.*.amazonaws.com
+    User APKAWIFIFHURRIUXP7TM
+    IdentityFile ~/.ssh/kio_mapping_id_rsa
+    
+```
+
+```sh
+ git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/kio-indoor-emap
+```
 
 # Amplify hosting
 
