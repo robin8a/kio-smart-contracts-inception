@@ -82,7 +82,7 @@ aws codecommit create-repository --repository-name kio-suan-bc-rjs-app --reposit
 ```
 
 
-## git
+## git on mac
 
 ```sh
 ssh-keygen
@@ -119,6 +119,34 @@ git push --set-upstream origin master
 git push
 ```
 
+## git on windows
+
+```sh
+ssh-keygen
+C:\Users\USUARIO/.ssh/kio_mapping_id_rsa
+
+cd ~/.ssh
+code .
+
+copy and paste on IAM => Credentials
+
+``` 
+
+```conf
+
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host git-codecommit.*.amazonaws.com
+    User APKAWIFIFHURRIUXP7TM
+    IdentityFile ~/.ssh/kio_mapping_id_rsa
+    
+```
+
+```sh
+# test
+ssh git-codecommit.us-east-1.amazonaws.com
+# clone
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/kio-indoor-emap
+```
 
 # Amplify hosting
 
@@ -251,11 +279,27 @@ amplify push
 - https://stackoverflow.com/questions/67361430/how-can-i-avoid-infinite-loops-in-my-react-router-private-routes
 - https://www.freecodecamp.org/news/a-complete-beginners-guide-to-react-router-include-router-hooks/
 
-
+# Calculate string value in javascript, not using eval
+- https://stackoverflow.com/questions/6479236/calculate-string-value-in-javascript-not-using-eval
 
 ```js
-Crear formula:
+function evil(fn) {
+  return new Function('return ' + fn)();
+}
 
-
-
+undefined
+console.log( evil('12/5*9+9.4*2') );
+VM192:1 40.4
+undefined
+h = 5
+5
+b = 4
+4
+formula = (b*h)/2
+10
+formula = '(b*h)/2'
+'(b*h)/2'
+console.log( evil(formula) );
+VM504:1 10
+undefined
 ```
