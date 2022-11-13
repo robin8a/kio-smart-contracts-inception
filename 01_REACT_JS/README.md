@@ -654,3 +654,7 @@ addr_test1qpnjz5te2n2s69fl37fx9yxhty52decndxfc8qtznlhkdnjvwejcl0x0v84t2jwjqme35e
 # Jorform data
 
 https://reqbin.com/
+
+
+# PayU
+- https://d1ril7hq6s7m5z.cloudfront.net/latam/en/docs/integrations/webcheckout-integration.html
