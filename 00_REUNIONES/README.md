@@ -140,3 +140,44 @@ Referencias
 3. Procesamiento y analítica: Integre rápidamente herramientas de procesamiento de datos de terceros actuales y futuras.
 4. Sguridad y gobernabilidad: Comparta de forma segura conjuntos de datos y resultados procesados. 
 5. Catálogo y Administración: Cree un catálogo de datos completo para buscar y utilizar activos de datos almacenados en el lago de datos.
+
+# Marzo 06 2023
+## Como funcionan la mayoría de servicios: SaaS
+
+Seguridad (SSO)
+Costos
+Mantenibilidad
+Aprovisionamiento
+Alistamiento
+Despliegue
+
+- Imagenes satelitales
+- Ux/Ui grimo
+-
+
+
+Dos persona
+Sergio Cajias (Jr)
+Descarnonización 
+
+- 
+
+N4na
+Acuabox
+005 
+SUAN
+
+
+- Negocios
+- Hitos
+- Ui/Ux
+- Microservicios
+
+
+react
+nextjs
+shellscripting
+
+
+Ejemplo, versionamiento de T&C
+

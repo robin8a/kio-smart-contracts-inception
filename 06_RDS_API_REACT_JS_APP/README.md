@@ -100,8 +100,8 @@ nano ~/.aws/credentials
 export PATH=~/Library/Python/3.8/bin:$PATH
 # source ~/.bash_profile
 # Test
-aws s3 ls --profile kio-amazing-teepee-parties
-export AWS_PROFILE=kio-amazing-teepee-parties
+aws s3 ls --profile suan-blockchain
+export AWS_PROFILE=suan-blockchain
 
 # aws codecommit create-repository --repository-name MyDemoRepo --repository-description "My demonstration repository" --tags Team=Saanvi
 aws codecommit create-repository --repository-name kio-amazing-teepee-parties-rjs-app --repository-description "Amazing Teepee Parties Miami" --tags Team=kio --region us-east-1 
