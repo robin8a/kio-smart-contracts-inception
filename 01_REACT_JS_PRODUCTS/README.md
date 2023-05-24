@@ -303,3 +303,65 @@ console.log( evil(formula) );
 VM504:1 10
 undefined
 ```
+# Amplify enviroments
+
+```sh
+git checkout -b prod
+Switched to a new branch 'prod'
+➜  kio-suan-bc-rjs-app git:(prod) git push
+fatal: The current branch prod has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin prod
+
+➜  kio-suan-bc-rjs-app git:(prod) git push --set-upstream origin prod
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To ssh://kio_suan_bc_codecommit_rsa/v1/repos/kio-suan-bc-rjs-app
+ * [new branch]      prod -> prod
+Branch 'prod' set up to track remote branch 'prod' from 'origin'.
+➜  kio-suan-bc-rjs-app git:(prod) amplify env add
+Note: It is recommended to run this command from the root of your app directory
+? Enter a name for the environment prod
+Using default provider  awscloudformation
+? Select the authentication method you want to use: AWS profile
+
+For more information on AWS Profiles, see:
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
+
+? Please choose the profile you want to use suan-blockchain
+Adding backend environment prod to AWS Amplify app: db3zbcxaygrmf
+
+Deployment completed.
+Deployed root stack kiosuanbcrjsapp [ ======================================== ] 4/4
+        amplify-kiosuanbcrjsapp-prod-… AWS::CloudFormation::Stack     CREATE_COMPLETE                Thu May 04 2023 09:04:08…     
+        DeploymentBucket               AWS::S3::Bucket                CREATE_COMPLETE                Thu May 04 2023 09:04:07…     
+        AuthRole                       AWS::IAM::Role                 CREATE_COMPLETE                Thu May 04 2023 09:03:59…     
+        UnauthRole                     AWS::IAM::Role                 CREATE_COMPLETE                Thu May 04 2023 09:03:59…     
+
+Deployment state saved successfully.
+⠼ Building resource api/kiosuanbcrjsapp
+⚠️  WARNING: your GraphQL API currently allows public create, read, update, and delete access to all models via an API Key. To configure PRODUCTION-READY authorization rules, review: https://docs.amplify.aws/cli/graphql/authorization-rules
+
+⠴ Building resource api/kiosuanbcrjsapp✅ GraphQL schema compiled successfully.
+
+Edit your schema at /Users/robinochoa/Documents/react_ws/kio-suan-bc-rjs-app/amplify/backend/api/kiosuanbcrjsapp/schema.graphql or place .graphql files in a directory at /Users/robinochoa/Documents/react_ws/kio-suan-bc-rjs-app/amplify/backend/api/kiosuanbcrjsapp/schema
+✔ Initialized provider successfully.
+? You have configured environment variables for functions. How do you want to proceed? Carry over existing environment variables to this new environment
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+✅ Initialized your environment successfully.
+
+Your project has been successfully initialized and connected to the cloud!
+
+Some next steps:
+"amplify status" will show you what you've added already and if it's locally configured or deployed
+"amplify add <category>" will allow you to add features like user login or a backend API
+"amplify push" will build all your local backend resources and provision it in the cloud
+"amplify console" to open the Amplify Console and view your project status
+"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
+
+Pro tip:
+Try "amplify add api" to create a backend API and then "amplify push" to deploy everything
+
+```

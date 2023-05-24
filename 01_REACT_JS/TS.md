@@ -15,3 +15,8 @@ const handler = async (event) => {
 # aws lambda Error: Could not load lambda handler function due to Error [ERR_REQUIRE_ESM]: Must use import to load ES Module
 - https://stackoverflow.com/questions/66676555/nodejs-14-x-native-aws-lambda-import-export-support
 
+
+
+# Inaccessible host: `amplify-kiosuanbcrjsapp-dev-145518-deployment.s3.amazonaws.com' at port `undefined'.
+## Solution:
+
