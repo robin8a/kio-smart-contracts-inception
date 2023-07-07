@@ -1,0 +1,235 @@
+{
+  "Product-csbpzicidrh7vmfyrsgft53qvm-prod": [
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Product"
+          },
+          "isActive": {
+            "BOOL": false
+          },
+          "categoryID": {
+            "S": "REDD+"
+          },
+          "updatedAt": {
+            "S": "2023-04-11T13:51:29.516Z"
+          },
+          "status": {
+            "S": "draft"
+          },
+          "createdAt": {
+            "S": "2023-04-11T13:51:29.516Z"
+          },
+          "id": {
+            "S": "PRODUCT_USER_VALIDATION"
+          },
+          "name": {
+            "S": "PRODUCT USER VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Product"
+          },
+          "timeOnVerification": {
+            "N": "1694658086536"
+          },
+          "status": {
+            "S": "on_verification"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:29:06.042Z"
+          },
+          "order": {
+            "N": "15"
+          },
+          "name": {
+            "S": "PARQUE SOLAR DE 50 MW (AC)"
+          },
+          "isActive": {
+            "BOOL": true
+          },
+          "counterNumberOfTimesBuyed": {
+            "N": "500"
+          },
+          "categoryID": {
+            "S": "PROYECTO_PLANTACIONES"
+          },
+          "updatedAt": {
+            "S": "2023-06-14T02:21:26.942Z"
+          },
+          "description": {
+            "S": "EL PARQUE SOLAR DE 50 MW (AC) EN SUTIAKHALI, GOURIPUR, MYMENSINGH utilizará la energía solar renovable para la generación de electricidad a través de la construcción de una planta de energía solar fotovoltaica (PV). El proyecto propuesto está ubicado en un terreno de 170 acres aproximadamente a 7 km al sureste del centro de la ciudad de Mymensingh City, Bangladesh. La electricidad generada por el proyecto se suministrará a Bangladesh National Power Grid, que es propiedad y está operada por Power Grid Company of Bangladesh Ltd. (PGCB). El proyecto propuesto logrará la reducción de las emisiones de gases de efecto invernadero (GEI) mediante el desplazamiento de la electricidad suministrada por la Red Eléctrica Nacional de Bangladesh, que es una red dominada por combustibles fósiles. El proyecto propuesto es invertido y desarrollado por HDFC SinPower Limited. La generación eléctrica neta media anual estimada suministrada a la red es de 92.192 MWh y el tiempo de funcionamiento anual a plena carga asciende a 1.844 h anuales durante el periodo de funcionamiento."
+          },
+          "id": {
+            "S": "bdd22644_8644_4de6_bfc4_ef757d1db812"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Product"
+          },
+          "isActive": {
+            "BOOL": false
+          },
+          "counterNumberOfTimesBuyed": {
+            "N": "0"
+          },
+          "categoryID": {
+            "S": "PROYECTO_PLANTACIONES"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.093Z"
+          },
+          "status": {
+            "S": "draft"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.093Z"
+          },
+          "order": {
+            "N": "0"
+          },
+          "description": {
+            "S": "Proyecto forestal comercial desde el 2004, la Sociedad Agrícola Ganadera y Minera Puerto Navajas SAGAMI Ltda, tiene una tradición de 38 años en el sector agrícola,  incursionó en el sector forestal desde el 2004 con las especies Pino caribe, Eucalipto pellita y Acacia mangium  "
+          },
+          "id": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          },
+          "name": {
+            "S": "PUERTO NAVAJAS"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Product"
+          },
+          "timeOnVerification": {
+            "N": "1695222564289"
+          },
+          "status": {
+            "S": "on_verification"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:32:01.235Z"
+          },
+          "order": {
+            "N": "10"
+          },
+          "name": {
+            "S": "ACAP ALABANIA PROYECTO VJOSE-NARTE A/R"
+          },
+          "isActive": {
+            "BOOL": true
+          },
+          "counterNumberOfTimesBuyed": {
+            "N": "0"
+          },
+          "categoryID": {
+            "S": "PROYECTO_PLANTACIONES"
+          },
+          "updatedAt": {
+            "S": "2023-06-29T19:26:33.831Z"
+          },
+          "description": {
+            "S": "El proyecto Vjosë-Nartë A/R es parte del proyecto más amplio italiano ACAP - Azione Comunitaria per le Aree Protette dell&#39;Albania (Acción comunitaria para las áreas protegidas de Albania). Esta iniciativa, financiada por Agenzia Italiana per la Cooperazione allo Sviluppo (AICS), la Agencia Italiana de Cooperación para el Desarrollo, tiene como objetivo preservar algunas áreas protegidas de Albania, creadas después de que Albania ingresara en la red europea de Natura 2000. En este contexto, Vjosë-Nartë El proyecto A/R quiere abordar el objetivo de reducción de emisiones de CO2 aumentando las reservas de carbono en el Paisaje Protegido de Vjosë-Nartë a través de actividades de A/R. Para lograr el objetivo, se han plantado 9&#39;302 árboles, en un área caracterizada por una vegetación nativa, hoy escasa, debido a eventos ambientales extremos ocurridos en el pasado. Después de estos fenómenos, la regeneración natural luchó por lograrse y, por lo tanto, se plantaron cuatro especies autóctonas diferentes de árboles: • Pinus halepensis: 4&#39;604 especímenes • Pinus pinea: 2&#39;420 especímenes • Populus alba: 1&#39;143 especímenes • Laurus nobilis: 1 &#39;135 especímenes Se espera que el proyecto elimine 722 toneladas de dióxido de carbono equivalente en el Paisaje Protegido de Vjosë-Nartë, en un horizonte temporal de 20 años. Sin embargo, este proyecto ha sido pensado como una pequeña primera instancia de futuras actividades de reforestación en áreas cercanas. 1&#39;135 especímenes Se espera que el proyecto elimine 722 toneladas de dióxido de carbono equivalente en el Paisaje Protegido de Vjosë-Nartë, en un horizonte temporal de 20 años. Sin embargo, este proyecto ha sido pensado como una pequeña primera instancia de futuras actividades de reforestación en áreas cercanas. 1&#39;135 especímenes Se espera que el proyecto elimine 722 toneladas de dióxido de carbono equivalente en el Paisaje Protegido de Vjosë-Nartë, en un horizonte temporal de 20 años."
+          },
+          "id": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Product"
+          },
+          "isActive": {
+            "BOOL": false
+          },
+          "counterNumberOfTimesBuyed": {
+            "N": "0"
+          },
+          "categoryID": {
+            "S": "REDD+"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:56.668Z"
+          },
+          "status": {
+            "S": "draft"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:56.668Z"
+          },
+          "order": {
+            "N": "0"
+          },
+          "description": {
+            "S": "El Tesoro de Bremen hace parte de la zona de amortiguación del Distrito Regional Manejo Integrado DRMI Barbas Bremen y está conformado por un relieve montañoso enmarcado en las estribaciones de la Cordillera Central, con un mosaico de coberturas del suelo que va desde potreros a bosques.  Con el proyecto se adelantan dos procesos de conservacion y mitigacion al cambio climatico., uno de regeneracion natural en las areas colindantes a las areas de proteccion de la zona de amortiguacion del DRMI y el de restauracion con la siembra de mas de 30.000 arboles nativos en las areas que antes estaban en potreros dedicados a ganaderia.  }\nEvaluar la riqueza de especies presentes en El Tesoro de Bremen, constituirá la línea base de información biológica que ofrezca datos básicos para futuros trabajos acerca de su ecología y estatus de conservación.\n"
+          },
+          "id": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          },
+          "name": {
+            "S": "ELTESORODEBREMEN"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Product"
+          },
+          "isActive": {
+            "BOOL": false
+          },
+          "counterNumberOfTimesBuyed": {
+            "N": "0"
+          },
+          "categoryID": {
+            "S": "REDD+"
+          },
+          "updatedAt": {
+            "S": "2023-06-09T14:55:23.323Z"
+          },
+          "status": {
+            "S": "verified"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:11.523Z"
+          },
+          "order": {
+            "N": "0"
+          },
+          "description": {
+            "S": "Proyecto Experimental El Aguador"
+          },
+          "id": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          },
+          "name": {
+            "S": "El Aguador"
+          }
+        }
+      }
+    }
+  ]
+}

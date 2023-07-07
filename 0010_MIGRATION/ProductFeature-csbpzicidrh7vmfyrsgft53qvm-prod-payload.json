@@ -1,0 +1,2509 @@
+{
+  "ProductFeature-csbpzicidrh7vmfyrsgft53qvm-prod": [
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.475Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.475Z"
+          },
+          "featureID": {
+            "S": "redd_gob"
+          },
+          "id": {
+            "S": "2ad62018_66f8_4ca4_8ddf_134bf95beb23"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.738Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.738Z"
+          },
+          "featureID": {
+            "S": "PP_pla_sie"
+          },
+          "id": {
+            "S": "07b0c5c5_2dd6_48fe_8444_f01de452cc3c"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "pending validation"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T22:23:53.430Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T22:23:53.430Z"
+          },
+          "featureID": {
+            "S": "279299f4-e937-45b3-9a47-dd0188a96c0f_VALIDATION"
+          },
+          "id": {
+            "S": "816ef3a2-11b3-4784-b70b-b1f3f4460338"
+          },
+          "productID": {
+            "S": "PRODUCT_USER_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "Se mantendria sembrado en potreros con un sistema de ganaderia, se tendria: procesos de erosion laminar por \"patas de vaca\", contaminacion con \"escherichia collie\" de las fuentes hidricas por la escorrentia de estiercol, la emision de gas metano;  destruccion de especies de animales del bosque que son cazados para su consumo; otras alternativas el el cambio de uso por cultivos convecionales de pan coger o frutales de clima frio como aguacate hass entre otros. "
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.635Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.635Z"
+          },
+          "featureID": {
+            "S": "redd_esc_sin_pro"
+          },
+          "id": {
+            "S": "c1c4a123_25bb_4b7e_916d_ce1503065a08"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "2023-12-31"
+          },
+          "isVerifable": {
+            "BOOL": true
+          },
+          "updatedAt": {
+            "S": "2023-03-29T15:41:07.174Z"
+          },
+          "createdAt": {
+            "S": "2023-03-29T15:41:07.174Z"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "featureID": {
+            "S": "PROJECT_VALIDATION_END_DATE"
+          },
+          "order": {
+            "N": "1"
+          },
+          "id": {
+            "S": "d5b2547e_23b9_4c03_94d4_11d35e8644f4"
+          },
+          "isOnMainCard": {
+            "BOOL": false
+          },
+          "productID": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.712Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.712Z"
+          },
+          "featureID": {
+            "S": "redd_cre_car"
+          },
+          "id": {
+            "S": "7efc3f3b_962a_48bf_a1e0_64b291ed2b0a"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "value": {
+            "S": "ACAPALABANIA"
+          },
+          "updatedAt": {
+            "S": "2023-04-23T15:49:04.199Z"
+          },
+          "createdAt": {
+            "S": "2023-04-23T14:59:57.447Z"
+          },
+          "featureID": {
+            "S": "token_name"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "order": {
+            "N": "0"
+          },
+          "id": {
+            "S": "7435d110_4474_470c_8582_f11ad6d31270"
+          },
+          "isOnMainCard": {
+            "BOOL": true
+          },
+          "productID": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "3"
+          },
+          "updatedAt": {
+            "S": "2023-03-08T16:32:02.033Z"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:32:02.033Z"
+          },
+          "featureID": {
+            "S": "ha_tot"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "4f56b3a8-1f21-4d0b-a040-a75b11507d5d"
+          },
+          "productID": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "Filandia, Quindio, Colombia"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.233Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.233Z"
+          },
+          "featureID": {
+            "S": "ubicacion"
+          },
+          "id": {
+            "S": "8c7c6e2c-026e-4e85-950f-8b39e1e4c838"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "Los participantes direcctos del proyecto son los dueños del mismos, representados en la sociedad denominada El Tesoro De Bremen SAS, con NIT 9010657875. El mecanismos de distribucion de beneficios, debera ser como lo definan los estatudos de la sociedad mencionada.  Sinembargo es importante destacar que seran beneficiarios del proyecto, la comunidad del municipio de Filandia, y los estudiantes y profesores para sus practicas academicas y los visitantes"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.714Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.714Z"
+          },
+          "featureID": {
+            "S": "redd_par_ben"
+          },
+          "id": {
+            "S": "842767c0_3bac_46e0_92a4_338b3e916603"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "MEMORANDO 001"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.725Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.725Z"
+          },
+          "featureID": {
+            "S": "PP_vin"
+          },
+          "id": {
+            "S": "54a8c893_0ae8_45a3_a738_4f0b201e9a64"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "false"
+          },
+          "isVerifable": {
+            "BOOL": true
+          },
+          "updatedAt": {
+            "S": "2023-03-29T15:50:30.852Z"
+          },
+          "createdAt": {
+            "S": "2023-03-29T15:50:30.852Z"
+          },
+          "isToBlockChain": {
+            "BOOL": false
+          },
+          "featureID": {
+            "S": "CERTIFICACION_3TH_PARTY"
+          },
+          "order": {
+            "N": "1"
+          },
+          "id": {
+            "S": "402decc1_6b56_4c90_907e_6f9f0eab1156"
+          },
+          "isOnMainCard": {
+            "BOOL": false
+          },
+          "productID": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "No existen, toda vez que los propietarios del terreno tienen una apuesta clara en dos estrategias, regeneracion natural y restauracion"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.476Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.476Z"
+          },
+          "featureID": {
+            "S": "redd_ame_def"
+          },
+          "id": {
+            "S": "cdf6ea4c_c01e_492e_b83c_aabe6bc3335b"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "SANTUARIODEVIDA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.335Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.335Z"
+          },
+          "featureID": {
+            "S": "token_name"
+          },
+          "id": {
+            "S": "bdae3cfb-cabc-48a8-a3eb-f0fc546afbf6"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "10"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "updatedAt": {
+            "S": "2023-04-17T16:29:07.830Z"
+          },
+          "createdAt": {
+            "S": "2023-04-17T16:29:07.830Z"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "featureID": {
+            "S": "Price"
+          },
+          "order": {
+            "N": "0"
+          },
+          "id": {
+            "S": "a31a2c8a_7f3b_45ce_ad57_235abcf7be6a"
+          },
+          "isOnMainCard": {
+            "BOOL": true
+          },
+          "productID": {
+            "S": "PRODUCT_USER_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "verified"
+          },
+          "updatedAt": {
+            "S": "2023-04-12T11:40:25.260Z"
+          },
+          "createdAt": {
+            "S": "2023-04-12T11:20:44.402Z"
+          },
+          "featureID": {
+            "S": "0b803098-3834-4b1a-a326-db2fde4db615_VALIDATION"
+          },
+          "id": {
+            "S": "80420a33-8d80-4f95-8124-bb373c50c5cf"
+          },
+          "productID": {
+            "S": "PRODUCT_USER_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "Deforestación"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.319Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.319Z"
+          },
+          "featureID": {
+            "S": "redd_esc_sin_pro"
+          },
+          "id": {
+            "S": "1c0077c0_17a7_497e_89ec_17902d24a256"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "10"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "updatedAt": {
+            "S": "2023-04-17T16:30:29.198Z"
+          },
+          "createdAt": {
+            "S": "2023-04-17T16:30:29.198Z"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "featureID": {
+            "S": "Price"
+          },
+          "order": {
+            "N": "0"
+          },
+          "id": {
+            "S": "06d1b23d_89de_4aea_8cfa_76ad34363826"
+          },
+          "isOnMainCard": {
+            "BOOL": true
+          },
+          "productID": {
+            "S": "bdd22644_8644_4de6_bfc4_ef757d1db812"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "2023-12-31"
+          },
+          "isVerifable": {
+            "BOOL": true
+          },
+          "updatedAt": {
+            "S": "2023-03-29T15:33:38.661Z"
+          },
+          "createdAt": {
+            "S": "2023-03-29T15:33:38.661Z"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "featureID": {
+            "S": "PROJECT_REGISTER_END_DATE"
+          },
+          "order": {
+            "N": "1"
+          },
+          "id": {
+            "S": "a54def8d_a7c4_4480_b0f0_8e70b4eab1d6"
+          },
+          "isOnMainCard": {
+            "BOOL": false
+          },
+          "productID": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "14"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.165Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.165Z"
+          },
+          "featureID": {
+            "S": "ha_tot"
+          },
+          "id": {
+            "S": "56fe0213-1b26-4dea-9ee9-9847a525d64e"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "1200"
+          },
+          "updatedAt": {
+            "S": "2023-07-07T14:17:27.395Z"
+          },
+          "createdAt": {
+            "S": "2023-07-07T14:17:27.395Z"
+          },
+          "featureID": {
+            "S": "total_tokens"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "8f9b36ef-43bd-4e09-be7b-3e5eac0a7cb7"
+          },
+          "productID": {
+            "S": "bdd22644_8644_4de6_bfc4_ef757d1db812"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "pending validation"
+          },
+          "updatedAt": {
+            "S": "2023-04-26T16:06:46.285Z"
+          },
+          "createdAt": {
+            "S": "2023-04-26T16:06:46.285Z"
+          },
+          "featureID": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932_VALIDATION"
+          },
+          "id": {
+            "S": "0290c487-0a79-44aa-af3b-f6c3ea560b86"
+          },
+          "productID": {
+            "S": "PRODUCT_USER_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-03-08T16:32:02.922Z"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:32:02.922Z"
+          },
+          "featureID": {
+            "S": "ubicacion"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "242d984e-da20-4116-9e95-8fd6467d2d9a"
+          },
+          "productID": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "1679097600000"
+          },
+          "updatedAt": {
+            "S": "2023-03-08T16:29:08.237Z"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:29:08.237Z"
+          },
+          "featureID": {
+            "S": "fecha_inscripcion"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "93f95824-9508-4cf9-9d57-a4391b8b5e30"
+          },
+          "productID": {
+            "S": "bdd22644_8644_4de6_bfc4_ef757d1db812"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "PUERTO LOPEZ, META, COLOMBIA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.680Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.680Z"
+          },
+          "featureID": {
+            "S": "ubicacion"
+          },
+          "id": {
+            "S": "4c1a515b-79ff-4d9b-be75-e91cb6a8bc06"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.421Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.421Z"
+          },
+          "featureID": {
+            "S": "redd_map"
+          },
+          "id": {
+            "S": "2539a3f7_ccb6_4660_a373_3d8b057266f2"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "Mymensingh City, Bangladesh"
+          },
+          "updatedAt": {
+            "S": "2023-03-08T16:29:07.673Z"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:29:07.673Z"
+          },
+          "featureID": {
+            "S": "ubicacion"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "cceb9eb7-fd3c-4b29-8e8d-df2e35250d43"
+          },
+          "productID": {
+            "S": "bdd22644_8644_4de6_bfc4_ef757d1db812"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "pending validation"
+          },
+          "updatedAt": {
+            "S": "2023-04-23T17:24:31.280Z"
+          },
+          "createdAt": {
+            "S": "2023-04-23T17:24:31.280Z"
+          },
+          "featureID": {
+            "S": "459b52f2-d380-4694-a68b-7b8e0b381008_VALIDATION"
+          },
+          "id": {
+            "S": "1a2b55d8-1b94-4251-b39f-3835a305d60b"
+          },
+          "productID": {
+            "S": "PRODUCT_USER_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "170"
+          },
+          "updatedAt": {
+            "S": "2023-03-08T16:29:06.795Z"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:29:06.795Z"
+          },
+          "featureID": {
+            "S": "ha_tot"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "9e6bf118-2283-43dc-899d-eb13ee74985c"
+          },
+          "productID": {
+            "S": "bdd22644_8644_4de6_bfc4_ef757d1db812"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "12"
+          },
+          "updatedAt": {
+            "S": "2023-03-08T16:32:05.577Z"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:32:05.577Z"
+          },
+          "featureID": {
+            "S": "periodo_permanencia"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "63b7df8f-0a96-45d2-9997-18df65fdc347"
+          },
+          "productID": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "Familias que viven en el predio"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.327Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.327Z"
+          },
+          "featureID": {
+            "S": "redd_par_ben"
+          },
+          "id": {
+            "S": "69d7a3d0_936d_49a6_958b_659b4532c5c6"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "Cultivos "
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.275Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.275Z"
+          },
+          "featureID": {
+            "S": "redd_act_pro"
+          },
+          "id": {
+            "S": "8abcf08e_717b_46dd_9975_f58d21d9cab2"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "6"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.303Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.303Z"
+          },
+          "featureID": {
+            "S": "periodo_permanencia"
+          },
+          "id": {
+            "S": "7ede510f-05ad-4df1-85a2-55510f4f1fd6"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.716Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.716Z"
+          },
+          "featureID": {
+            "S": "PP_pla_man_for"
+          },
+          "id": {
+            "S": "eaff0364_5c21_4d22_9b8b_3a22768deebb"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "24.756959, 90.411392"
+          },
+          "updatedAt": {
+            "S": "2023-03-08T16:29:09.326Z"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:29:09.326Z"
+          },
+          "featureID": {
+            "S": "coordenadas"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "e8ae967c-07f5-45b8-b528-ca9370c7621a"
+          },
+          "productID": {
+            "S": "bdd22644_8644_4de6_bfc4_ef757d1db812"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "pending validation"
+          },
+          "updatedAt": {
+            "S": "2023-05-31T21:08:59.154Z"
+          },
+          "createdAt": {
+            "S": "2023-05-31T21:08:59.154Z"
+          },
+          "featureID": {
+            "S": "5ceb418f-64b3-4565-8c52-44b36367288c_VALIDATION"
+          },
+          "id": {
+            "S": "1bfb6d00-124c-4616-b715-37027124043a"
+          },
+          "productID": {
+            "S": "PRODUCT_USER_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "AGUADOR"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.212Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.212Z"
+          },
+          "featureID": {
+            "S": "token_name"
+          },
+          "id": {
+            "S": "93d6c5b4-e773-4313-88c1-2d664297f51a"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "Libano, Tolima"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.177Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.177Z"
+          },
+          "featureID": {
+            "S": "ubicacion"
+          },
+          "id": {
+            "S": "7138cb55-83cf-4e8e-aa56-d555613956cb"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.319Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.319Z"
+          },
+          "featureID": {
+            "S": "redd_cre_car"
+          },
+          "id": {
+            "S": "6c558549_c6a0_42dd_a393_60b389b8f2cf"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "Se han adelantado procesos de socializacion con las comunidades locales y regionales, con visitantes, con instituciones como la Universidad del Quindio para asuntos relacionados con la caracterizacion y conservacion de las especies nativas de flora y fauna, y la Secretaria de Cultura para asuntos relacionados con el Patrimonio cultural de la region\n"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.750Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.750Z"
+          },
+          "featureID": {
+            "S": "redd_con_loc"
+          },
+          "id": {
+            "S": "1453904a_c1c1_43bb_bcb8_66dfcb222fc3"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.250Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.250Z"
+          },
+          "featureID": {
+            "S": "redd_gob"
+          },
+          "id": {
+            "S": "a93839e5_5f6f_409e_b04a_5f103fd16417"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.713Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.713Z"
+          },
+          "featureID": {
+            "S": "PP_rep"
+          },
+          "id": {
+            "S": "076cef7e_27fe_4cb5_9d09_d1245b8c46de"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "41.933961, 12.460376"
+          },
+          "updatedAt": {
+            "S": "2023-03-08T16:32:04.734Z"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:32:04.734Z"
+          },
+          "featureID": {
+            "S": "coordenadas"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "5acbe06f-99da-436b-9763-8ffe023eda71"
+          },
+          "productID": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "na"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.267Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.267Z"
+          },
+          "featureID": {
+            "S": "redd_tur"
+          },
+          "id": {
+            "S": "1d238cad_a4c1_437b_9bc8_703fa3f694be"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "782076"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "updatedAt": {
+            "S": "2023-04-14T21:11:33.809Z"
+          },
+          "createdAt": {
+            "S": "2023-04-14T21:11:33.809Z"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "featureID": {
+            "S": "VCU"
+          },
+          "order": {
+            "N": "0"
+          },
+          "id": {
+            "S": "760cb459_fdef_4429_9f5e_ac4d475911ef"
+          },
+          "isOnMainCard": {
+            "BOOL": true
+          },
+          "productID": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "pending validation"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T21:25:56.205Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T21:25:56.205Z"
+          },
+          "featureID": {
+            "S": "b1bdf7bf-ec6f-4e61-a423-7543fd76823a_VALIDATION"
+          },
+          "id": {
+            "S": "dceff87b-2c24-46c1-b7c6-8c5862b6e5c7"
+          },
+          "productID": {
+            "S": "PRODUCT_USER_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "Na"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.324Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.324Z"
+          },
+          "featureID": {
+            "S": "redd_con_loc"
+          },
+          "id": {
+            "S": "f67e6a08_bb93_4950_9474_0eff0a29e573"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "pending validation"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T21:43:38.163Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T21:43:38.163Z"
+          },
+          "featureID": {
+            "S": "502b6995-f827-41f8-a4c8-cc2472438d95_VALIDATION"
+          },
+          "id": {
+            "S": "d63c82ca-6804-4b14-a941-9f6af76184b9"
+          },
+          "productID": {
+            "S": "PRODUCT_USER_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "10785"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "updatedAt": {
+            "S": "2023-04-14T21:12:43.825Z"
+          },
+          "createdAt": {
+            "S": "2023-04-14T21:12:43.825Z"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "featureID": {
+            "S": "VCU"
+          },
+          "order": {
+            "N": "0"
+          },
+          "id": {
+            "S": "74646e43_ada9_45f5_903f_5be9a950141a"
+          },
+          "isOnMainCard": {
+            "BOOL": true
+          },
+          "productID": {
+            "S": "bdd22644_8644_4de6_bfc4_ef757d1db812"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "30"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.144Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.144Z"
+          },
+          "featureID": {
+            "S": "periodo_permanencia"
+          },
+          "id": {
+            "S": "1621b05a-16c3-4732-8891-8b81574644dc"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.234Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.234Z"
+          },
+          "featureID": {
+            "S": "redd_map"
+          },
+          "id": {
+            "S": "59022eed_0ed0_4f32_9956_170daed3c2d2"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "1683072000000"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.305Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.305Z"
+          },
+          "featureID": {
+            "S": "fecha_inscripcion"
+          },
+          "id": {
+            "S": "a1c85060-c4ef-4b45-8f83-e1e9c4aa8f8b"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.730Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.730Z"
+          },
+          "featureID": {
+            "S": "PP_mon"
+          },
+          "id": {
+            "S": "37647f6c_c2be_4974_b2c3_35bcca07be49"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "1"
+          },
+          "isVerifable": {
+            "BOOL": true
+          },
+          "updatedAt": {
+            "S": "2023-03-28T16:02:28.645Z"
+          },
+          "createdAt": {
+            "S": "2023-03-28T16:02:28.645Z"
+          },
+          "isToBlockChain": {
+            "BOOL": false
+          },
+          "featureID": {
+            "S": "CERTIFICA_LIBERTAD_Y_TRADICION"
+          },
+          "order": {
+            "N": "1"
+          },
+          "id": {
+            "S": "a48ee47f_57a5_4f44_acf2_d08f938923d9"
+          },
+          "isOnMainCard": {
+            "BOOL": false
+          },
+          "productID": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "4.691615, -75.656714"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.400Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.400Z"
+          },
+          "featureID": {
+            "S": "coordenadas"
+          },
+          "id": {
+            "S": "a2386535-a8ff-480a-97ea-c5dfd1dc54da"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "9"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.274Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.274Z"
+          },
+          "featureID": {
+            "S": "ha_tot"
+          },
+          "id": {
+            "S": "37f6806c-2595-4153-b08f-d2e1527519e6"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.635Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.635Z"
+          },
+          "featureID": {
+            "S": "redd_tur"
+          },
+          "id": {
+            "S": "f826abd1_fa34_44b1_a49b_b1ebdafc543d"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.721Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.721Z"
+          },
+          "featureID": {
+            "S": "PP_reg_pla"
+          },
+          "id": {
+            "S": "4c6472bb_661c_4cc0_94f8_17b2016a9ef5"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "459.78"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.615Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.615Z"
+          },
+          "featureID": {
+            "S": "ha_tot"
+          },
+          "id": {
+            "S": "385ef9e4-0ffd-4416-91a3-4e87fe8bbb28"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "4.77444,4.88555"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.165Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.165Z"
+          },
+          "featureID": {
+            "S": "coordenadas"
+          },
+          "id": {
+            "S": "bb168191-d204-43b2-ade9-ec5c5942e8ad"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "BECAME_LEAVE_WORSE"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.714Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.714Z"
+          },
+          "featureID": {
+            "S": "token_name"
+          },
+          "id": {
+            "S": "50087696-36a0-4bc8-bcd3-18aa003955da"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "N/A"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.735Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.735Z"
+          },
+          "featureID": {
+            "S": "PP_pert"
+          },
+          "id": {
+            "S": "fef124b4_da43_4c64_bc7c_aa0ff577e8cc"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "1683158400000"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.680Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.680Z"
+          },
+          "featureID": {
+            "S": "fecha_inscripcion"
+          },
+          "id": {
+            "S": "45462576-c456-4d0b-8d25-c0c8f315d8fc"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.389Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.389Z"
+          },
+          "featureID": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVON_MORALES_name"
+          },
+          "id": {
+            "S": "dd4de038-48fd-400c-80e0-6891d18dcd69"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "pending validation"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T22:01:13.159Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T22:01:13.159Z"
+          },
+          "featureID": {
+            "S": "ab55b3c8-3232-4e3e-b4dc-9d987b4b5620_VALIDATION"
+          },
+          "id": {
+            "S": "176d7d06-77cd-40d4-8860-990b57e4fac6"
+          },
+          "productID": {
+            "S": "PRODUCT_USER_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.697Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.697Z"
+          },
+          "featureID": {
+            "S": "PP_pol_del"
+          },
+          "id": {
+            "S": "7d5989d7_d741_4654_9a1c_6e72f086b15c"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "pending validation"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T22:01:43.755Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T22:01:43.755Z"
+          },
+          "featureID": {
+            "S": "73b4f6cd-1408-4a88-957f-6d5412d7ac5c_VALIDATION"
+          },
+          "id": {
+            "S": "7bf2a474-d588-4300-b676-227b554ca533"
+          },
+          "productID": {
+            "S": "PRODUCT_USER_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "pending validation"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T01:54:20.459Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T01:54:20.459Z"
+          },
+          "featureID": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_VALIDATION"
+          },
+          "id": {
+            "S": "f3cdfa3b-81e1-49a1-b8da-72089bcff466"
+          },
+          "productID": {
+            "S": "PRODUCT_USER_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "Se promueve el proceso de restauracion natural en las zonas de lindero entre lo que estaba dedicado a potreros y las areas de proteccion de la zona de mortiguamiento del DRMI.  Se adelanta restauracion de todo el predio con la siembra de mas de 20,000 arboles de especies nativas y su mantenimiento permanente, para garantizar el restablecimiento del corredor biologico.  Se promueve la proteccion de las aguas, fauna y flora del predio.  Se propician escenarios para el reconocimiento de las especies de flora y fauna, su riqueza, abundancia y diversidad; asi mismo, se incentiva la conservacion, con el ejemplo y los resultados alcanzados "
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.501Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.501Z"
+          },
+          "featureID": {
+            "S": "redd_act_pro"
+          },
+          "id": {
+            "S": "8f220daa_da47_4aff_8a66_8e9472ce1b07"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "Cultivos "
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.259Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.259Z"
+          },
+          "featureID": {
+            "S": "redd_ame_def"
+          },
+          "id": {
+            "S": "9b296327_8cb4_4d29_af10_3bb7d3a5d975"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "value": {
+            "S": "SUTIAKHALI"
+          },
+          "updatedAt": {
+            "S": "2023-04-23T15:00:37.282Z"
+          },
+          "createdAt": {
+            "S": "2023-04-23T15:00:26.032Z"
+          },
+          "featureID": {
+            "S": "token_name"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "order": {
+            "N": "0"
+          },
+          "id": {
+            "S": "2274e19b_7356_44d6_b415_6b49f5e1e3ce"
+          },
+          "isOnMainCard": {
+            "BOOL": true
+          },
+          "productID": {
+            "S": "bdd22644_8644_4de6_bfc4_ef757d1db812"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "Si"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.257Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.257Z"
+          },
+          "featureID": {
+            "S": "redd_doc_des_gen_pro_act"
+          },
+          "id": {
+            "S": "74a38cef_fe1f_4034_b506_f52d4ee9546e"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "22.3"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T17:55:58.608Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T17:55:58.608Z"
+          },
+          "featureID": {
+            "S": "ha_tot"
+          },
+          "id": {
+            "S": "badfcf8d-6278-4fc4-8b1d-7835868945bf"
+          },
+          "productID": {
+            "S": "d5c83955_6070_4abd_8d1d_5f58f6e58e56"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "10"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "updatedAt": {
+            "S": "2023-04-17T16:30:04.900Z"
+          },
+          "createdAt": {
+            "S": "2023-04-17T16:30:04.900Z"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "featureID": {
+            "S": "Price"
+          },
+          "order": {
+            "N": "0"
+          },
+          "id": {
+            "S": "94b6a353_7359_4870_a7aa_d6559335219f"
+          },
+          "isOnMainCard": {
+            "BOOL": true
+          },
+          "productID": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "4.002286, -72.933785"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.651Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.651Z"
+          },
+          "featureID": {
+            "S": "coordenadas"
+          },
+          "id": {
+            "S": "aeda2c24-af46-4579-82dd-ad2ed14d4be4"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "20"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.699Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.699Z"
+          },
+          "featureID": {
+            "S": "periodo_permanencia"
+          },
+          "id": {
+            "S": "3bd12c96-d387-40c4-b1d0-b0be951c26bc"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "pending validation"
+          },
+          "updatedAt": {
+            "S": "2023-05-31T21:09:04.764Z"
+          },
+          "createdAt": {
+            "S": "2023-05-31T21:09:04.764Z"
+          },
+          "featureID": {
+            "S": "147ddc81-5a02-4322-a3b6-5bc59e4c878a_VALIDATION"
+          },
+          "id": {
+            "S": "1b7bd2b2-6304-4b67-9d2f-01042377f354"
+          },
+          "productID": {
+            "S": "PRODUCT_USER_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.227Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.227Z"
+          },
+          "featureID": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932_PAOLA_RUIZ_name"
+          },
+          "id": {
+            "S": "e258469e-d94c-4130-8071-382c39984d9c"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "20"
+          },
+          "updatedAt": {
+            "S": "2023-03-08T16:29:10.500Z"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:29:10.500Z"
+          },
+          "featureID": {
+            "S": "periodo_permanencia"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "30653f82-1ee3-4504-a6af-b43920fa26eb"
+          },
+          "productID": {
+            "S": "bdd22644_8644_4de6_bfc4_ef757d1db812"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "pending validation"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T21:54:00.519Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T21:54:00.519Z"
+          },
+          "featureID": {
+            "S": "9d59e85b-1330-4eb2-9484-9e86f72131a2_VALIDATION"
+          },
+          "id": {
+            "S": "dce1887d-9a4f-4369-a52f-e5291adf1898"
+          },
+          "productID": {
+            "S": "PRODUCT_USER_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "pending validation"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T22:16:29.399Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T22:16:29.399Z"
+          },
+          "featureID": {
+            "S": "aa2836e8-2156-4f2d-bb16-90a512896d2c_VALIDATION"
+          },
+          "id": {
+            "S": "1542512a-9436-4512-af8f-b0ac551afe1a"
+          },
+          "productID": {
+            "S": "PRODUCT_USER_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "PROPIETARIO "
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.716Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.716Z"
+          },
+          "featureID": {
+            "S": "PP_for_ten_tie"
+          },
+          "id": {
+            "S": "7c5dcf0e_1b47_46e0_81b2_b4802b96a35b"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.726Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.726Z"
+          },
+          "featureID": {
+            "S": "PP_pre_sue_tie"
+          },
+          "id": {
+            "S": "bebd2da6_74a1_4518_b150_5de8d33dcaa6"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "1679184000000"
+          },
+          "updatedAt": {
+            "S": "2023-03-08T16:32:03.805Z"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:32:03.805Z"
+          },
+          "featureID": {
+            "S": "fecha_inscripcion"
+          },
+          "isToBlockChain": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "785935bb-f86d-4700-b9b0-17e19f93c50b"
+          },
+          "productID": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": "1683590400000"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.118Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.118Z"
+          },
+          "featureID": {
+            "S": "fecha_inscripcion"
+          },
+          "id": {
+            "S": "2d33077a-643c-4155-8c85-1633397d5043"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.706Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.706Z"
+          },
+          "featureID": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc_JOSERIVERA_name"
+          },
+          "id": {
+            "S": "2b50bb13-a745-4e25-a60e-9332222b43e5"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "ProductFeature"
+          },
+          "value": {
+            "S": ""
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.431Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.431Z"
+          },
+          "featureID": {
+            "S": "redd_doc_des_gen_pro_act"
+          },
+          "id": {
+            "S": "7b0f0e38_d86c_499a_9f8b_e58ad0eb86ea"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    }
+  ]
+}

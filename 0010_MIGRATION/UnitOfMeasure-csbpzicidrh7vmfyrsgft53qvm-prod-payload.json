@@ -1,0 +1,436 @@
+{
+  "UnitOfMeasure-csbpzicidrh7vmfyrsgft53qvm-prod": [
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2022-10-05T19:32:54.526Z"
+          },
+          "isFloat": {
+            "BOOL": true
+          },
+          "createdAt": {
+            "S": "2022-10-05T19:32:54.526Z"
+          },
+          "engineeringUnit": {
+            "S": "tC/ha"
+          },
+          "description": {
+            "S": "tonne of carbon per hectare"
+          },
+          "id": {
+            "S": "tC/ha"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2022-10-05T19:33:08.013Z"
+          },
+          "isFloat": {
+            "BOOL": true
+          },
+          "createdAt": {
+            "S": "2022-10-05T19:33:08.013Z"
+          },
+          "engineeringUnit": {
+            "S": "tCO2/ha-year "
+          },
+          "description": {
+            "S": "tonne of CO2 per hectare per year"
+          },
+          "id": {
+            "S": "tCO2/ha-year_"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2022-10-11T23:31:45.268Z"
+          },
+          "isFloat": {
+            "BOOL": true
+          },
+          "createdAt": {
+            "S": "2022-10-05T19:32:30.284Z"
+          },
+          "engineeringUnit": {
+            "S": " tCO2e/ha"
+          },
+          "description": {
+            "S": "Equivalent tonne of CO2 per hectare"
+          },
+          "id": {
+            "S": "_tCO2e/ha"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2022-10-12T18:38:38.405Z"
+          },
+          "isFloat": {
+            "BOOL": true
+          },
+          "createdAt": {
+            "S": "2022-10-12T15:08:56.185Z"
+          },
+          "engineeringUnit": {
+            "S": "COP"
+          },
+          "description": {
+            "S": "Colombian Pesos"
+          },
+          "id": {
+            "S": "COP"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2022-10-05T19:33:22.479Z"
+          },
+          "isFloat": {
+            "BOOL": true
+          },
+          "createdAt": {
+            "S": "2022-10-05T19:33:22.479Z"
+          },
+          "engineeringUnit": {
+            "S": "TCO2e"
+          },
+          "description": {
+            "S": "Equivalent tonne of CO2"
+          },
+          "id": {
+            "S": "TCO2e"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2022-10-05T19:31:30.092Z"
+          },
+          "isFloat": {
+            "BOOL": false
+          },
+          "createdAt": {
+            "S": "2022-10-05T19:31:30.092Z"
+          },
+          "engineeringUnit": {
+            "S": "%"
+          },
+          "description": {
+            "S": "Percentage"
+          },
+          "id": {
+            "S": "%"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2022-10-05T19:34:25.544Z"
+          },
+          "isFloat": {
+            "BOOL": true
+          },
+          "createdAt": {
+            "S": "2022-10-05T19:31:42.118Z"
+          },
+          "engineeringUnit": {
+            "S": "Ha"
+          },
+          "description": {
+            "S": "Hectare"
+          },
+          "id": {
+            "S": "Ha"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2022-10-12T15:08:46.076Z"
+          },
+          "isFloat": {
+            "BOOL": true
+          },
+          "createdAt": {
+            "S": "2022-10-12T15:08:46.076Z"
+          },
+          "engineeringUnit": {
+            "S": "USD"
+          },
+          "description": {
+            "S": "United States Dollar"
+          },
+          "id": {
+            "S": "USD"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2022-10-12T21:39:20.472Z"
+          },
+          "isFloat": {
+            "BOOL": true
+          },
+          "createdAt": {
+            "S": "2022-10-12T21:39:20.472Z"
+          },
+          "engineeringUnit": {
+            "S": "m"
+          },
+          "description": {
+            "S": "linear meter"
+          },
+          "id": {
+            "S": "m"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2023-04-14T21:41:59.023Z"
+          },
+          "isFloat": {
+            "BOOL": false
+          },
+          "createdAt": {
+            "S": "2023-04-14T21:41:59.023Z"
+          },
+          "engineeringUnit": {
+            "S": "ms"
+          },
+          "description": {
+            "S": "milliseconds"
+          },
+          "id": {
+            "S": "ms"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2022-10-05T19:32:04.698Z"
+          },
+          "isFloat": {
+            "BOOL": false
+          },
+          "createdAt": {
+            "S": "2022-10-05T19:32:04.698Z"
+          },
+          "engineeringUnit": {
+            "S": "mol/mol"
+          },
+          "description": {
+            "S": "MolCo2/MolC"
+          },
+          "id": {
+            "S": "mol/mol"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2022-10-05T19:33:41.701Z"
+          },
+          "isFloat": {
+            "BOOL": false
+          },
+          "createdAt": {
+            "S": "2022-10-05T19:33:41.701Z"
+          },
+          "engineeringUnit": {
+            "S": "g"
+          },
+          "description": {
+            "S": "grammes"
+          },
+          "id": {
+            "S": "g"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2022-10-05T19:31:03.309Z"
+          },
+          "isFloat": {
+            "BOOL": false
+          },
+          "createdAt": {
+            "S": "2022-10-05T19:31:03.309Z"
+          },
+          "engineeringUnit": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "No unit"
+          },
+          "id": {
+            "S": "no_unit"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2022-10-05T19:31:16.375Z"
+          },
+          "isFloat": {
+            "BOOL": false
+          },
+          "createdAt": {
+            "S": "2022-10-05T19:31:16.375Z"
+          },
+          "engineeringUnit": {
+            "S": "year"
+          },
+          "description": {
+            "S": "Year"
+          },
+          "id": {
+            "S": "year"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2022-10-12T21:35:59.528Z"
+          },
+          "isFloat": {
+            "BOOL": false
+          },
+          "createdAt": {
+            "S": "2022-10-12T21:35:59.528Z"
+          },
+          "engineeringUnit": {
+            "S": "m2"
+          },
+          "description": {
+            "S": "Square meters"
+          },
+          "id": {
+            "S": "m2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UnitOfMeasure"
+          },
+          "updatedAt": {
+            "S": "2022-10-05T19:32:18.003Z"
+          },
+          "isFloat": {
+            "BOOL": false
+          },
+          "createdAt": {
+            "S": "2022-10-05T19:32:18.003Z"
+          },
+          "engineeringUnit": {
+            "S": "ha/year"
+          },
+          "description": {
+            "S": "hectare per year"
+          },
+          "id": {
+            "S": "ha/year"
+          }
+        }
+      }
+    }
+  ]
+}

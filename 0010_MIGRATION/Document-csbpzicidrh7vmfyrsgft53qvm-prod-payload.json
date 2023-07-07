@@ -1,0 +1,664 @@
+{
+  "Document-csbpzicidrh7vmfyrsgft53qvm-prod": [
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Document"
+          },
+          "isApproved": {
+            "BOOL": true
+          },
+          "documentTypeID": {
+            "S": "1"
+          },
+          "signed": {
+            "S": ""
+          },
+          "status": {
+            "S": "accepted"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:13.961Z"
+          },
+          "url": {
+            "S": "https://kiosuanbcrjsappcad3eb2dd1b14457b491c910d5aa45dd145518-dev.s3.amazonaws.com/public/33b04c00_50df_4257_8ef5_f3ee72a5cf9d_59022eed_0ed0_4f32_9956_170daed3c2d2_Imagen1.emf"
+          },
+          "productFeatureID": {
+            "S": "59022eed_0ed0_4f32_9956_170daed3c2d2"
+          },
+          "isUploadedToBlockChain": {
+            "BOOL": false
+          },
+          "data": {
+            "M": {
+              "empty": {
+                "S": ""
+              }
+            }
+          },
+          "updatedAt": {
+            "S": "2023-06-09T14:53:57.423Z"
+          },
+          "userID": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932"
+          },
+          "timeStamp": {
+            "N": "1683667993644"
+          },
+          "id": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d_59022eed_0ed0_4f32_9956_170daed3c2d2_Imagen1.emf"
+          },
+          "signedHash": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Document"
+          },
+          "isApproved": {
+            "BOOL": false
+          },
+          "documentTypeID": {
+            "S": "1"
+          },
+          "signed": {
+            "S": ""
+          },
+          "status": {
+            "S": "pending"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:08.751Z"
+          },
+          "url": {
+            "S": "https://kiosuanbcrjsappcad3eb2dd1b14457b491c910d5aa45dd145518-dev.s3.amazonaws.com/public/4dc9b0e9_e018_4aee_ad80_c98a1aa56754_076cef7e_27fe_4cb5_9d09_d1245b8c46de_CCB_EJEMPLO.jpg"
+          },
+          "productFeatureID": {
+            "S": "076cef7e_27fe_4cb5_9d09_d1245b8c46de"
+          },
+          "isUploadedToBlockChain": {
+            "BOOL": false
+          },
+          "data": {
+            "M": {
+              "empty": {
+                "S": ""
+              }
+            }
+          },
+          "userID": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:08.751Z"
+          },
+          "timeStamp": {
+            "N": "1683244328351"
+          },
+          "signedHash": {
+            "S": ""
+          },
+          "id": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754_076cef7e_27fe_4cb5_9d09_d1245b8c46de_CCB_EJEMPLO.jpg"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Document"
+          },
+          "isApproved": {
+            "BOOL": true
+          },
+          "documentTypeID": {
+            "S": "1"
+          },
+          "signed": {
+            "S": ""
+          },
+          "status": {
+            "S": "accepted"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:13.466Z"
+          },
+          "url": {
+            "S": "https://kiosuanbcrjsappcad3eb2dd1b14457b491c910d5aa45dd145518-dev.s3.amazonaws.com/public/33b04c00_50df_4257_8ef5_f3ee72a5cf9d_a93839e5_5f6f_409e_b04a_5f103fd16417_Imagen1.jpg"
+          },
+          "productFeatureID": {
+            "S": "a93839e5_5f6f_409e_b04a_5f103fd16417"
+          },
+          "isUploadedToBlockChain": {
+            "BOOL": false
+          },
+          "data": {
+            "M": {
+              "empty": {
+                "S": ""
+              }
+            }
+          },
+          "updatedAt": {
+            "S": "2023-06-09T14:55:24.138Z"
+          },
+          "userID": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932"
+          },
+          "timeStamp": {
+            "N": "1683667993164"
+          },
+          "id": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d_a93839e5_5f6f_409e_b04a_5f103fd16417_Imagen1.jpg"
+          },
+          "signedHash": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Document"
+          },
+          "isApproved": {
+            "BOOL": false
+          },
+          "documentTypeID": {
+            "S": "1"
+          },
+          "signed": {
+            "S": ""
+          },
+          "status": {
+            "S": "pending"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:08.987Z"
+          },
+          "url": {
+            "S": "https://kiosuanbcrjsappcad3eb2dd1b14457b491c910d5aa45dd145518-dev.s3.amazonaws.com/public/4dc9b0e9_e018_4aee_ad80_c98a1aa56754_07b0c5c5_2dd6_48fe_8444_f01de452cc3c_PEMF_MADERABLE_V_1.xlsx"
+          },
+          "productFeatureID": {
+            "S": "07b0c5c5_2dd6_48fe_8444_f01de452cc3c"
+          },
+          "isUploadedToBlockChain": {
+            "BOOL": false
+          },
+          "data": {
+            "M": {
+              "empty": {
+                "S": ""
+              }
+            }
+          },
+          "userID": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:08.987Z"
+          },
+          "timeStamp": {
+            "N": "1683244328422"
+          },
+          "signedHash": {
+            "S": ""
+          },
+          "id": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754_07b0c5c5_2dd6_48fe_8444_f01de452cc3c_PEMF_MADERABLE_V_1.xlsx"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Document"
+          },
+          "isApproved": {
+            "BOOL": false
+          },
+          "documentTypeID": {
+            "S": "1"
+          },
+          "signed": {
+            "S": ""
+          },
+          "status": {
+            "S": "pending"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:09.519Z"
+          },
+          "url": {
+            "S": "https://kiosuanbcrjsappcad3eb2dd1b14457b491c910d5aa45dd145518-dev.s3.amazonaws.com/public/4dc9b0e9_e018_4aee_ad80_c98a1aa56754_eaff0364_5c21_4d22_9b8b_3a22768deebb_PEMF_MADERABLE_V_1.xlsx"
+          },
+          "productFeatureID": {
+            "S": "eaff0364_5c21_4d22_9b8b_3a22768deebb"
+          },
+          "isUploadedToBlockChain": {
+            "BOOL": false
+          },
+          "data": {
+            "M": {
+              "empty": {
+                "S": ""
+              }
+            }
+          },
+          "userID": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:09.519Z"
+          },
+          "timeStamp": {
+            "N": "1683244328575"
+          },
+          "signedHash": {
+            "S": ""
+          },
+          "id": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754_eaff0364_5c21_4d22_9b8b_3a22768deebb_PEMF_MADERABLE_V_1.xlsx"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Document"
+          },
+          "isApproved": {
+            "BOOL": true
+          },
+          "documentTypeID": {
+            "S": "1"
+          },
+          "signed": {
+            "S": ""
+          },
+          "status": {
+            "S": "accepted"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:13.524Z"
+          },
+          "url": {
+            "S": "https://kiosuanbcrjsappcad3eb2dd1b14457b491c910d5aa45dd145518-dev.s3.amazonaws.com/public/33b04c00_50df_4257_8ef5_f3ee72a5cf9d_6c558549_c6a0_42dd_a393_60b389b8f2cf_Imagen1.jpg"
+          },
+          "productFeatureID": {
+            "S": "6c558549_c6a0_42dd_a393_60b389b8f2cf"
+          },
+          "isUploadedToBlockChain": {
+            "BOOL": false
+          },
+          "data": {
+            "M": {
+              "empty": {
+                "S": ""
+              }
+            }
+          },
+          "updatedAt": {
+            "S": "2023-06-09T14:55:09.176Z"
+          },
+          "userID": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932"
+          },
+          "timeStamp": {
+            "N": "1683667993249"
+          },
+          "id": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d_6c558549_c6a0_42dd_a393_60b389b8f2cf_Imagen1.jpg"
+          },
+          "signedHash": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Document"
+          },
+          "isApproved": {
+            "BOOL": false
+          },
+          "documentTypeID": {
+            "S": "1"
+          },
+          "signed": {
+            "S": ""
+          },
+          "status": {
+            "S": "pending"
+          },
+          "createdAt": {
+            "S": "2023-06-29T19:27:47.011Z"
+          },
+          "docHash": {
+            "S": ""
+          },
+          "url": {
+            "S": "https://kiosuanbcrjsappcad3eb2dd1b14457b491c910d5aa45dd145518-dev.s3.amazonaws.com/public/a48ee47f_57a5_4f44_acf2_d08f938923d9_a5eQnzRdEiVWkt9jBmiJ3L.xlsx"
+          },
+          "productFeatureID": {
+            "S": "a48ee47f_57a5_4f44_acf2_d08f938923d9"
+          },
+          "isUploadedToBlockChain": {
+            "BOOL": false
+          },
+          "data": {
+            "M": {
+              "empty": {
+                "S": ""
+              }
+            }
+          },
+          "userID": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b"
+          },
+          "updatedAt": {
+            "S": "2023-06-29T19:27:47.011Z"
+          },
+          "timeStamp": {
+            "N": "1688066863407"
+          },
+          "id": {
+            "S": "a48ee47f_57a5_4f44_acf2_d08f938923d9_a5eQnzRdEiVWkt9jBmiJ3L"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Document"
+          },
+          "isApproved": {
+            "BOOL": false
+          },
+          "documentTypeID": {
+            "S": "1"
+          },
+          "signed": {
+            "S": ""
+          },
+          "status": {
+            "S": "pending"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:12.087Z"
+          },
+          "url": {
+            "S": "https://kiosuanbcrjsappcad3eb2dd1b14457b491c910d5aa45dd145518-dev.s3.amazonaws.com/public/4dc9b0e9_e018_4aee_ad80_c98a1aa56754_37647f6c_c2be_4974_b2c3_35bcca07be49_SILVOPASTORIL.jpg"
+          },
+          "productFeatureID": {
+            "S": "37647f6c_c2be_4974_b2c3_35bcca07be49"
+          },
+          "isUploadedToBlockChain": {
+            "BOOL": false
+          },
+          "data": {
+            "M": {
+              "empty": {
+                "S": ""
+              }
+            }
+          },
+          "userID": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:12.087Z"
+          },
+          "timeStamp": {
+            "N": "1683244331715"
+          },
+          "signedHash": {
+            "S": ""
+          },
+          "id": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754_37647f6c_c2be_4974_b2c3_35bcca07be49_SILVOPASTORIL.jpg"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Document"
+          },
+          "isApproved": {
+            "BOOL": false
+          },
+          "documentTypeID": {
+            "S": "1"
+          },
+          "signed": {
+            "S": ""
+          },
+          "status": {
+            "S": "pending"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:10.913Z"
+          },
+          "url": {
+            "S": "https://kiosuanbcrjsappcad3eb2dd1b14457b491c910d5aa45dd145518-dev.s3.amazonaws.com/public/4dc9b0e9_e018_4aee_ad80_c98a1aa56754_bebd2da6_74a1_4518_b150_5de8d33dcaa6_SUELOS_TRACTOR_.jpg"
+          },
+          "productFeatureID": {
+            "S": "bebd2da6_74a1_4518_b150_5de8d33dcaa6"
+          },
+          "isUploadedToBlockChain": {
+            "BOOL": false
+          },
+          "data": {
+            "M": {
+              "empty": {
+                "S": ""
+              }
+            }
+          },
+          "userID": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:10.913Z"
+          },
+          "timeStamp": {
+            "N": "1683244330493"
+          },
+          "signedHash": {
+            "S": ""
+          },
+          "id": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754_bebd2da6_74a1_4518_b150_5de8d33dcaa6_SUELOS_TRACTOR_.jpg"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Document"
+          },
+          "isApproved": {
+            "BOOL": true
+          },
+          "documentTypeID": {
+            "S": "1"
+          },
+          "signed": {
+            "S": ""
+          },
+          "status": {
+            "S": "accepted"
+          },
+          "createdAt": {
+            "S": "2023-06-28T20:58:27.521Z"
+          },
+          "docHash": {
+            "S": ""
+          },
+          "url": {
+            "S": "https://kiosuanbcrjsappcad3eb2dd1b14457b491c910d5aa45dd145518-dev.s3.amazonaws.com/public/402decc1_6b56_4c90_907e_6f9f0eab1156_a3nEPZVjK77ozL9P8a7o5W.xlsx"
+          },
+          "productFeatureID": {
+            "S": "402decc1_6b56_4c90_907e_6f9f0eab1156"
+          },
+          "isUploadedToBlockChain": {
+            "BOOL": false
+          },
+          "data": {
+            "M": {
+              "empty": {
+                "S": ""
+              }
+            }
+          },
+          "updatedAt": {
+            "S": "2023-06-28T21:00:57.439Z"
+          },
+          "userID": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b"
+          },
+          "timeStamp": {
+            "N": "1687985904523"
+          },
+          "id": {
+            "S": "402decc1_6b56_4c90_907e_6f9f0eab1156_a3nEPZVjK77ozL9P8a7o5W"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Document"
+          },
+          "isApproved": {
+            "BOOL": false
+          },
+          "documentTypeID": {
+            "S": "1"
+          },
+          "signed": {
+            "S": ""
+          },
+          "status": {
+            "S": "pending"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:08.633Z"
+          },
+          "url": {
+            "S": "https://kiosuanbcrjsappcad3eb2dd1b14457b491c910d5aa45dd145518-dev.s3.amazonaws.com/public/4dc9b0e9_e018_4aee_ad80_c98a1aa56754_7d5989d7_d741_4654_9a1c_6e72f086b15c_NAVAJAS.kmz"
+          },
+          "productFeatureID": {
+            "S": "7d5989d7_d741_4654_9a1c_6e72f086b15c"
+          },
+          "isUploadedToBlockChain": {
+            "BOOL": false
+          },
+          "data": {
+            "M": {
+              "empty": {
+                "S": ""
+              }
+            }
+          },
+          "userID": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:08.633Z"
+          },
+          "timeStamp": {
+            "N": "1683244328224"
+          },
+          "signedHash": {
+            "S": ""
+          },
+          "id": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754_7d5989d7_d741_4654_9a1c_6e72f086b15c_NAVAJAS.kmz"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Document"
+          },
+          "isApproved": {
+            "BOOL": false
+          },
+          "documentTypeID": {
+            "S": "1"
+          },
+          "signed": {
+            "S": ""
+          },
+          "status": {
+            "S": "pending"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:09.520Z"
+          },
+          "url": {
+            "S": "https://kiosuanbcrjsappcad3eb2dd1b14457b491c910d5aa45dd145518-dev.s3.amazonaws.com/public/4dc9b0e9_e018_4aee_ad80_c98a1aa56754_4c6472bb_661c_4cc0_94f8_17b2016a9ef5_FORMATO_ICA_EJEMPLO.xlsx"
+          },
+          "productFeatureID": {
+            "S": "4c6472bb_661c_4cc0_94f8_17b2016a9ef5"
+          },
+          "isUploadedToBlockChain": {
+            "BOOL": false
+          },
+          "data": {
+            "M": {
+              "empty": {
+                "S": ""
+              }
+            }
+          },
+          "userID": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:09.520Z"
+          },
+          "timeStamp": {
+            "N": "1683244329037"
+          },
+          "signedHash": {
+            "S": ""
+          },
+          "id": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754_4c6472bb_661c_4cc0_94f8_17b2016a9ef5_FORMATO_ICA_EJEMPLO.xlsx"
+          }
+        }
+      }
+    }
+  ]
+}

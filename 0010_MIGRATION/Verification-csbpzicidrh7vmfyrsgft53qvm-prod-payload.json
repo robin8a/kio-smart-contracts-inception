@@ -1,0 +1,256 @@
+{
+  "Verification-csbpzicidrh7vmfyrsgft53qvm-prod": [
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Verification"
+          },
+          "productFeatureID": {
+            "S": "6c558549_c6a0_42dd_a393_60b389b8f2cf"
+          },
+          "updatedOn": {
+            "S": "2023-05-29T17:39:54.112Z"
+          },
+          "createdOn": {
+            "S": "2023-05-29T17:39:54.112Z"
+          },
+          "updatedAt": {
+            "S": "2023-05-29T17:39:54.414Z"
+          },
+          "userVerifiedID": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932"
+          },
+          "createdAt": {
+            "S": "2023-05-29T17:39:54.414Z"
+          },
+          "userVerifierID": {
+            "S": "ef21568e-027c-4aaf-8cf4-b1bbce19110b"
+          },
+          "id": {
+            "S": "4b01351b-0d45-4c3f-8de7-cdea311c8c4e"
+          },
+          "sign": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Verification"
+          },
+          "productFeatureID": {
+            "S": "402decc1_6b56_4c90_907e_6f9f0eab1156"
+          },
+          "updatedOn": {
+            "S": "2023-03-31T14:44:47.139Z"
+          },
+          "createdOn": {
+            "S": "2023-03-31T14:44:47.139Z"
+          },
+          "updatedAt": {
+            "S": "2023-03-31T14:44:47.588Z"
+          },
+          "userVerifiedID": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b"
+          },
+          "createdAt": {
+            "S": "2023-03-31T14:44:47.588Z"
+          },
+          "userVerifierID": {
+            "S": "ef21568e-027c-4aaf-8cf4-b1bbce19110b"
+          },
+          "id": {
+            "S": "14409378_158b_4a39_9ddf_b4b6877e3525"
+          },
+          "sign": {
+            "S": "Correcto. Firma: test_validator"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Verification"
+          },
+          "productFeatureID": {
+            "S": "59022eed_0ed0_4f32_9956_170daed3c2d2"
+          },
+          "updatedOn": {
+            "S": "2023-05-29T17:39:54.112Z"
+          },
+          "createdOn": {
+            "S": "2023-05-29T17:39:54.112Z"
+          },
+          "updatedAt": {
+            "S": "2023-05-29T17:39:54.507Z"
+          },
+          "userVerifiedID": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932"
+          },
+          "createdAt": {
+            "S": "2023-05-29T17:39:54.507Z"
+          },
+          "userVerifierID": {
+            "S": "ef21568e-027c-4aaf-8cf4-b1bbce19110b"
+          },
+          "id": {
+            "S": "2b93a042-29ab-4306-9269-95381e666c4a"
+          },
+          "sign": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Verification"
+          },
+          "productFeatureID": {
+            "S": "a54def8d_a7c4_4480_b0f0_8e70b4eab1d6"
+          },
+          "updatedOn": {
+            "S": "2023-04-25T22:13:10.259Z"
+          },
+          "createdOn": {
+            "S": "2023-04-25T22:13:10.259Z"
+          },
+          "updatedAt": {
+            "S": "2023-04-25T22:13:10.662Z"
+          },
+          "userVerifiedID": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b"
+          },
+          "createdAt": {
+            "S": "2023-04-25T22:13:10.662Z"
+          },
+          "userVerifierID": {
+            "S": "ef21568e-027c-4aaf-8cf4-b1bbce19110b"
+          },
+          "id": {
+            "S": "f590ee0d_101b_4289_bb75_83ff2d2208f1"
+          },
+          "sign": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Verification"
+          },
+          "productFeatureID": {
+            "S": "a48ee47f_57a5_4f44_acf2_d08f938923d9"
+          },
+          "updatedOn": {
+            "S": "2023-04-25T21:55:44.471Z"
+          },
+          "createdOn": {
+            "S": "2023-04-25T21:55:44.471Z"
+          },
+          "updatedAt": {
+            "S": "2023-04-25T21:55:45.166Z"
+          },
+          "userVerifiedID": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b"
+          },
+          "createdAt": {
+            "S": "2023-04-25T21:55:45.166Z"
+          },
+          "userVerifierID": {
+            "S": "ef21568e-027c-4aaf-8cf4-b1bbce19110b"
+          },
+          "id": {
+            "S": "9c38842e_767d_4be7_991e_ef462121f022"
+          },
+          "sign": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Verification"
+          },
+          "productFeatureID": {
+            "S": "d5b2547e_23b9_4c03_94d4_11d35e8644f4"
+          },
+          "updatedOn": {
+            "S": "2023-04-25T22:17:55.602Z"
+          },
+          "createdOn": {
+            "S": "2023-04-25T22:17:55.602Z"
+          },
+          "updatedAt": {
+            "S": "2023-04-25T22:17:55.955Z"
+          },
+          "userVerifiedID": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b"
+          },
+          "createdAt": {
+            "S": "2023-04-25T22:17:55.955Z"
+          },
+          "userVerifierID": {
+            "S": "ef21568e-027c-4aaf-8cf4-b1bbce19110b"
+          },
+          "id": {
+            "S": "3897b3f4_2f2a_44ed_b53a_f874c6b2f4b6"
+          },
+          "sign": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Verification"
+          },
+          "productFeatureID": {
+            "S": "a93839e5_5f6f_409e_b04a_5f103fd16417"
+          },
+          "updatedOn": {
+            "S": "2023-05-29T17:39:54.112Z"
+          },
+          "createdOn": {
+            "S": "2023-05-29T17:39:54.112Z"
+          },
+          "updatedAt": {
+            "S": "2023-05-29T17:39:54.409Z"
+          },
+          "userVerifiedID": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932"
+          },
+          "createdAt": {
+            "S": "2023-05-29T17:39:54.409Z"
+          },
+          "userVerifierID": {
+            "S": "ef21568e-027c-4aaf-8cf4-b1bbce19110b"
+          },
+          "id": {
+            "S": "879f3110-2389-4649-b16f-6b1269f69b8c"
+          },
+          "sign": {
+            "S": ""
+          }
+        }
+      }
+    }
+  ]
+}

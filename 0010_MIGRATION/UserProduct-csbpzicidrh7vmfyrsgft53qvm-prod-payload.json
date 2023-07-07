@@ -1,0 +1,322 @@
+{
+  "UserProduct-csbpzicidrh7vmfyrsgft53qvm-prod": [
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UserProduct"
+          },
+          "userID": {
+            "S": "a5e0ea8d-95f6-4a8b-bd13-e28f9fa49934"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.377Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.377Z"
+          },
+          "isFavorite": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "8bb360fd-1460-4ba5-bc28-4b2d8833140e"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UserProduct"
+          },
+          "userID": {
+            "S": "ef21568e-027c-4aaf-8cf4-b1bbce19110b"
+          },
+          "updatedAt": {
+            "S": "2023-04-25T15:41:33.810Z"
+          },
+          "createdAt": {
+            "S": "2023-04-25T15:41:33.810Z"
+          },
+          "id": {
+            "S": "f51af0bf_1c8a_4670_bf4c_9fdf8a839440"
+          },
+          "productID": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UserProduct"
+          },
+          "userID": {
+            "S": "ef21568e-027c-4aaf-8cf4-b1bbce19110b"
+          },
+          "updatedAt": {
+            "S": "2023-04-24T18:40:54.442Z"
+          },
+          "createdAt": {
+            "S": "2023-04-24T18:40:54.442Z"
+          },
+          "id": {
+            "S": "b32b6041_165a_4495_a7d6_733b1f738924"
+          },
+          "productID": {
+            "S": "bdd22644_8644_4de6_bfc4_ef757d1db812"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UserProduct"
+          },
+          "userID": {
+            "S": "a5e0ea8d-95f6-4a8b-bd13-e28f9fa49934"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.214Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.214Z"
+          },
+          "isFavorite": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "62cc74c8-feee-483e-a71a-7722da93e3a5"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UserProduct"
+          },
+          "userID": {
+            "S": "a5e0ea8d-95f6-4a8b-bd13-e28f9fa49934"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.722Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.722Z"
+          },
+          "isFavorite": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "507bb6b1-a013-4d6d-b5db-3f4bc2b269ab"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UserProduct"
+          },
+          "userID": {
+            "S": "a5e0ea8d-95f6-4a8b-bd13-e28f9fa49934"
+          },
+          "updatedAt": {
+            "S": "2023-03-08T16:32:07.224Z"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:32:07.224Z"
+          },
+          "isFavorite": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "32ff5147-3d87-4594-87a9-371a4c94327c"
+          },
+          "productID": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UserProduct"
+          },
+          "userID": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b"
+          },
+          "updatedAt": {
+            "S": "2023-03-08T16:29:11.348Z"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:29:11.348Z"
+          },
+          "isFavorite": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "25340aa9-03f4-49d2-95a3-cafe1eba024f"
+          },
+          "productID": {
+            "S": "bdd22644_8644_4de6_bfc4_ef757d1db812"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UserProduct"
+          },
+          "userID": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b"
+          },
+          "updatedAt": {
+            "S": "2023-03-08T16:32:06.315Z"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:32:06.315Z"
+          },
+          "isFavorite": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "f06a7ace-498d-42e2-b7a3-b8e4cfaa8a99"
+          },
+          "productID": {
+            "S": "a56547ca_10b4_444e_be60_1d124c1c41bc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UserProduct"
+          },
+          "userID": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T01:43:57.389Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T01:43:57.389Z"
+          },
+          "isFavorite": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "ef2c405b-ff7a-4273-8105-000b8dfc03d7"
+          },
+          "productID": {
+            "S": "3cb9f32d_2425_41de_83b8_8d5a6587f9c0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UserProduct"
+          },
+          "userID": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T23:52:07.696Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T23:52:07.696Z"
+          },
+          "isFavorite": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "9dae509c-eaa4-4cbf-8776-8b231c516d0d"
+          },
+          "productID": {
+            "S": "4dc9b0e9_e018_4aee_ad80_c98a1aa56754"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UserProduct"
+          },
+          "userID": {
+            "S": "a5e0ea8d-95f6-4a8b-bd13-e28f9fa49934"
+          },
+          "updatedAt": {
+            "S": "2023-03-08T16:29:12.241Z"
+          },
+          "createdAt": {
+            "S": "2023-03-08T16:29:12.241Z"
+          },
+          "isFavorite": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "6d7cfafa-6c1c-4b16-ba7e-91942182d535"
+          },
+          "productID": {
+            "S": "bdd22644_8644_4de6_bfc4_ef757d1db812"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "UserProduct"
+          },
+          "userID": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T21:33:12.239Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T21:33:12.239Z"
+          },
+          "isFavorite": {
+            "BOOL": true
+          },
+          "id": {
+            "S": "7ae3ff9d-2abb-4e81-bbb1-804b8be66ba6"
+          },
+          "productID": {
+            "S": "33b04c00_50df_4257_8ef5_f3ee72a5cf9d"
+          }
+        }
+      }
+    }
+  ]
+}

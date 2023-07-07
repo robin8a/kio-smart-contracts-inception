@@ -1,0 +1,46 @@
+{
+  "Category-csbpzicidrh7vmfyrsgft53qvm-prod": [
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Category"
+          },
+          "createdAt": {
+            "S": "2022-10-05T17:04:23.093Z"
+          },
+          "id": {
+            "S": "REDD+"
+          },
+          "name": {
+            "S": "REDD+"
+          },
+          "updatedAt": {
+            "S": "2022-10-05T17:04:23.093Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Category"
+          },
+          "createdAt": {
+            "S": "2022-10-05T17:05:48.092Z"
+          },
+          "id": {
+            "S": "PROYECTO_PLANTACIONES"
+          },
+          "name": {
+            "S": "PROYECTO PLANTACIONES"
+          },
+          "updatedAt": {
+            "S": "2022-10-05T17:05:48.092Z"
+          }
+        }
+      }
+    }
+  ]
+}

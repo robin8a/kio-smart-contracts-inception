@@ -1,0 +1,727 @@
+{
+  "User-csbpzicidrh7vmfyrsgft53qvm-prod": [
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "investor"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T22:16:28.340Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T22:16:28.340Z"
+          },
+          "id": {
+            "S": "aa2836e8-2156-4f2d-bb16-90a512896d2c"
+          },
+          "email": {
+            "S": "robin8a@gmail.com"
+          },
+          "name": {
+            "S": "investor_eleven_seven"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "investor"
+          },
+          "updatedAt": {
+            "S": "2023-05-31T21:09:03.287Z"
+          },
+          "createdAt": {
+            "S": "2023-05-31T21:09:03.287Z"
+          },
+          "id": {
+            "S": "147ddc81-5a02-4322-a3b6-5bc59e4c878a"
+          },
+          "name": {
+            "S": "ignacio_test_cincuenta"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "constructor"
+          },
+          "updatedAt": {
+            "S": "2023-03-02T14:27:19.662Z"
+          },
+          "createdAt": {
+            "S": "2023-03-02T14:27:19.662Z"
+          },
+          "id": {
+            "S": "3855e770-f365-4e28-92f6-993062e0f9da"
+          },
+          "name": {
+            "S": "usuario_prueba1"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "investor"
+          },
+          "updatedAt": {
+            "S": "2023-03-22T13:10:50.997Z"
+          },
+          "createdAt": {
+            "S": "2023-03-22T13:10:50.997Z"
+          },
+          "id": {
+            "S": "2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1"
+          },
+          "name": {
+            "S": "ignacio_investor"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "constructor"
+          },
+          "updatedAt": {
+            "S": "2023-04-23T17:24:30.211Z"
+          },
+          "createdAt": {
+            "S": "2023-04-23T17:24:30.211Z"
+          },
+          "id": {
+            "S": "459b52f2-d380-4694-a68b-7b8e0b381008"
+          },
+          "name": {
+            "S": "propietario1"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "investor"
+          },
+          "updatedAt": {
+            "S": "2023-03-01T12:38:30.818Z"
+          },
+          "createdAt": {
+            "S": "2023-03-01T12:38:30.818Z"
+          },
+          "id": {
+            "S": "e0779e1e-d58a-4a06-9952-2046d9c4d105"
+          },
+          "name": {
+            "S": ""
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "investor"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T21:43:37.207Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T21:43:37.207Z"
+          },
+          "id": {
+            "S": "502b6995-f827-41f8-a4c8-cc2472438d95"
+          },
+          "email": {
+            "S": "robin8a@gmail.com"
+          },
+          "name": {
+            "S": "investor_eleven_two"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "validator"
+          },
+          "updatedAt": {
+            "S": "2023-04-04T20:17:55.716Z"
+          },
+          "createdAt": {
+            "S": "2023-04-04T20:16:23.751Z"
+          },
+          "id": {
+            "S": "ef21568e-027c-4aaf-8cf4-b1bbce19110b"
+          },
+          "email": {
+            "S": "larestrepomu@gmail.com"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          },
+          "name": {
+            "S": "test_validator"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "admon"
+          },
+          "updatedAt": {
+            "S": "2022-11-17T21:43:06.525Z"
+          },
+          "createdAt": {
+            "S": "2022-11-09T19:40:40.745Z"
+          },
+          "id": {
+            "S": "fc6ed5d7-5043-434b-a567-2bb00999eb91"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          },
+          "name": {
+            "S": "IGNACIO"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "constructor"
+          },
+          "updatedAt": {
+            "S": "2023-04-26T16:06:45.318Z"
+          },
+          "createdAt": {
+            "S": "2023-04-26T16:06:45.318Z"
+          },
+          "id": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932"
+          },
+          "name": {
+            "S": "PaolaRuiz"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "investor"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T21:25:55.199Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T21:25:55.199Z"
+          },
+          "id": {
+            "S": "b1bdf7bf-ec6f-4e61-a423-7543fd76823a"
+          },
+          "name": {
+            "S": "investor_ten_six"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "constructor"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T01:54:19.311Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T01:54:19.311Z"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2"
+          },
+          "name": {
+            "S": "CARLOSSOTO"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "investor"
+          },
+          "updatedAt": {
+            "S": "2022-11-29T14:58:51.060Z"
+          },
+          "createdAt": {
+            "S": "2022-11-29T14:58:51.060Z"
+          },
+          "id": {
+            "S": "80d3d6e2-c5ee-4644-827b-0a272cc21349"
+          },
+          "name": {
+            "S": "IGNACIO_TEST_LOGIN"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "investor"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T21:53:59.202Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T21:53:59.202Z"
+          },
+          "id": {
+            "S": "9d59e85b-1330-4eb2-9484-9e86f72131a2"
+          },
+          "email": {
+            "S": "robin8a@gmail.com"
+          },
+          "name": {
+            "S": "investor_eleven_four"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "investor"
+          },
+          "updatedAt": {
+            "S": "2023-05-31T21:08:58.234Z"
+          },
+          "createdAt": {
+            "S": "2023-05-31T21:08:58.234Z"
+          },
+          "id": {
+            "S": "5ceb418f-64b3-4565-8c52-44b36367288c"
+          },
+          "name": {
+            "S": "investor_ten_four"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "investor"
+          },
+          "updatedAt": {
+            "S": "2023-03-12T14:44:33.132Z"
+          },
+          "createdAt": {
+            "S": "2023-03-12T14:44:33.132Z"
+          },
+          "id": {
+            "S": "cca3c6ad-f685-4737-93a7-a01ea79f791b"
+          },
+          "name": {
+            "S": "ignacioTest"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "admon"
+          },
+          "updatedAt": {
+            "S": "2022-11-17T21:29:56.593Z"
+          },
+          "createdAt": {
+            "S": "2022-11-03T14:49:58.470Z"
+          },
+          "id": {
+            "S": "a5e0ea8d-95f6-4a8b-bd13-e28f9fa49934"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          },
+          "name": {
+            "S": "ADMON_SUAN"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "constructor"
+          },
+          "updatedAt": {
+            "S": "2023-03-03T15:23:44.299Z"
+          },
+          "createdAt": {
+            "S": "2023-03-03T15:23:44.299Z"
+          },
+          "id": {
+            "S": "85b387bf-d398-4bc4-b9cd-7693e944c65a"
+          },
+          "name": {
+            "S": "jhofeloto"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "investor"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T22:01:12.039Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T22:01:12.039Z"
+          },
+          "id": {
+            "S": "ab55b3c8-3232-4e3e-b4dc-9d987b4b5620"
+          },
+          "email": {
+            "S": "robin8a@gmail.com"
+          },
+          "name": {
+            "S": "investor_eleven_five"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "constructor"
+          },
+          "updatedAt": {
+            "S": "2023-05-16T22:01:46.366Z"
+          },
+          "createdAt": {
+            "S": "2023-05-16T22:01:46.366Z"
+          },
+          "id": {
+            "S": "fae083f0-08ba-429a-9f29-1f17be8e57db"
+          },
+          "name": {
+            "S": "Camilo"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "constructor"
+          },
+          "updatedAt": {
+            "S": "2023-05-15T15:23:25.798Z"
+          },
+          "createdAt": {
+            "S": "2023-03-01T03:41:14.151Z"
+          },
+          "email": {
+            "S": "moxie@suan.global"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          },
+          "name": {
+            "S": "CONSTRUCTOR_UNO"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "constructor"
+          },
+          "updatedAt": {
+            "S": "2023-04-12T11:20:43.059Z"
+          },
+          "createdAt": {
+            "S": "2023-04-12T11:20:43.059Z"
+          },
+          "id": {
+            "S": "0b803098-3834-4b1a-a326-db2fde4db615"
+          },
+          "name": {
+            "S": "ignacio_test_dummie"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "investor"
+          },
+          "updatedAt": {
+            "S": "2022-12-12T22:35:49.093Z"
+          },
+          "createdAt": {
+            "S": "2022-12-12T22:34:58.343Z"
+          },
+          "id": {
+            "S": "af59756c-2385-416c-bde3-28b4f1b65be8"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          },
+          "name": {
+            "S": "JHONY INVESTOR"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "investor"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T22:23:52.326Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T22:23:52.326Z"
+          },
+          "id": {
+            "S": "279299f4-e937-45b3-9a47-dd0188a96c0f"
+          },
+          "email": {
+            "S": "robin8a@gmail.com"
+          },
+          "name": {
+            "S": "investor_eleven_eight"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "constructor"
+          },
+          "updatedAt": {
+            "S": "2023-04-19T01:12:14.856Z"
+          },
+          "createdAt": {
+            "S": "2023-04-19T01:12:14.856Z"
+          },
+          "id": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc"
+          },
+          "name": {
+            "S": "jrivera"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "User"
+          },
+          "role": {
+            "S": "validator"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T18:47:17.501Z"
+          },
+          "createdAt": {
+            "S": "2023-05-26T18:46:50.375Z"
+          },
+          "id": {
+            "S": "72e905e5-2db5-4b1c-abac-7d55f8590348"
+          },
+          "isProfileUpdated": {
+            "BOOL": true
+          },
+          "name": {
+            "S": "validator_test"
+          }
+        }
+      }
+    }
+  ]
+}

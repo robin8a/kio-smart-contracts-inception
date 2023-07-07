@@ -1,0 +1,4114 @@
+{
+  "Feature-csbpzicidrh7vmfyrsgft53qvm-prod": [
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": true
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_DOCUMENT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T15:32:43.206Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T18:07:38.428Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Gobernanza. Tipo de propiedad de la tierra (incluir certificados de propiedad)"
+          },
+          "id": {
+            "S": "redd_gob"
+          },
+          "name": {
+            "S": "redd_gob"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "USER_TO_VALIDATE"
+          },
+          "updatedAt": {
+            "S": "2023-04-26T16:06:45.707Z"
+          },
+          "createdAt": {
+            "S": "2023-04-26T16:06:45.707Z"
+          },
+          "id": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932_VALIDATION"
+          },
+          "name": {
+            "S": "PaolaRuiz_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": true
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_DOCUMENT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T15:34:59.090Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T17:58:02.751Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Plan de siembras. Plan de siembras ( area plantada o por platar por especie cada año) Tabla de excel"
+          },
+          "id": {
+            "S": "PP_pla_sie"
+          },
+          "name": {
+            "S": "PP_pla_sie"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_PAOLA_RUIZ"
+          },
+          "updatedAt": {
+            "S": "2023-04-26T16:11:43.852Z"
+          },
+          "createdAt": {
+            "S": "2023-04-26T16:11:43.852Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "paola.ruiz@camaraverde.org"
+          },
+          "id": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932_PAOLA_RUIZ_email"
+          },
+          "name": {
+            "S": "email"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO_COMPANY"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T14:56:23.266Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T14:56:23.266Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "ignaciodiaznanni@gmail.com"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_COMPANY_email"
+          },
+          "name": {
+            "S": "email"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO_COMPANY"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T14:56:20.448Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T14:56:20.448Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "cordoba"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_COMPANY_department"
+          },
+          "name": {
+            "S": "department"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "TEXT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T19:07:51.345Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T18:08:00.143Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Actividades Proyecto. Actividades a desarrollar como parte del esquema REDD. Iniciativas que tengran como objetivo evitar la deforestacion."
+          },
+          "id": {
+            "S": "redd_act_pro"
+          },
+          "name": {
+            "S": "redd_act_pro"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_JOSERIVERA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T22:51:21.760Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T22:51:21.760Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "BOGOTA"
+          },
+          "id": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc_JOSERIVERA_city"
+          },
+          "name": {
+            "S": "city"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": false
+          },
+          "featureTypeID": {
+            "S": "PARAMETER"
+          },
+          "updatedAt": {
+            "S": "2023-04-14T20:59:50.761Z"
+          },
+          "defaultValue": {
+            "N": "0"
+          },
+          "createdAt": {
+            "S": "2023-04-14T20:59:50.761Z"
+          },
+          "unitOfMeasureID": {
+            "S": "TCO2e"
+          },
+          "description": {
+            "S": "Verified Carbon Unit"
+          },
+          "id": {
+            "S": "VCU"
+          },
+          "name": {
+            "S": "VCU"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T13:04:11.840Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T13:04:11.840Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": ""
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_website"
+          },
+          "name": {
+            "S": "website"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": false
+          },
+          "featureTypeID": {
+            "S": "CONSTANT"
+          },
+          "updatedAt": {
+            "S": "2023-03-06T18:07:46.366Z"
+          },
+          "defaultValue": {
+            "NULL": true
+          },
+          "createdAt": {
+            "S": "2023-03-06T18:07:46.366Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "desc token unit value"
+          },
+          "id": {
+            "S": "token_unit_value"
+          },
+          "name": {
+            "S": "token unit value"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "USER_TO_VALIDATE"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T01:54:19.815Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T01:54:19.815Z"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_VALIDATION"
+          },
+          "name": {
+            "S": "CARLOSSOTO_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": true
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_DOCUMENT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T15:35:12.593Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T17:49:45.079Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Preparación de suelos y tierra. Documento que evidencie la fecha de inicio del proyecto forestal (contrato de preparación de suelos o siembras"
+          },
+          "id": {
+            "S": "PP_pre_sue_tie"
+          },
+          "name": {
+            "S": "PP_pre_sue_tie"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "USER_TO_VALIDATE"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T22:01:12.634Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T22:01:12.634Z"
+          },
+          "id": {
+            "S": "ab55b3c8-3232-4e3e-b4dc-9d987b4b5620_VALIDATION"
+          },
+          "name": {
+            "S": "investor_eleven_five_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "USER_TO_VALIDATE"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T22:23:52.894Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T22:23:52.894Z"
+          },
+          "id": {
+            "S": "279299f4-e937-45b3-9a47-dd0188a96c0f_VALIDATION"
+          },
+          "name": {
+            "S": "investor_eleven_eight_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVONE_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T02:54:11.828Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T02:54:11.828Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Vereda el Bizcocho, alto de la Julia, finca el Tesoro de Bremen"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVONE_MORALES_direction"
+          },
+          "name": {
+            "S": "direction"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": false
+          },
+          "featureTypeID": {
+            "S": "CONSTANT"
+          },
+          "updatedAt": {
+            "S": "2023-03-06T18:09:12.104Z"
+          },
+          "defaultValue": {
+            "NULL": true
+          },
+          "createdAt": {
+            "S": "2023-03-06T18:09:12.104Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "desc total_tokens"
+          },
+          "id": {
+            "S": "total_tokens"
+          },
+          "name": {
+            "S": "total tokens"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_JOSERIVERA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T22:51:23.361Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T22:51:23.361Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "6012579467"
+          },
+          "id": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc_JOSERIVERA_phone"
+          },
+          "name": {
+            "S": "phone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T13:04:07.369Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T13:04:07.369Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "av colon"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_direction"
+          },
+          "name": {
+            "S": "direction"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO_COMPANY"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T14:56:18.570Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T14:56:18.570Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "2131231312"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_COMPANY_id"
+          },
+          "name": {
+            "S": "id"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "PARAMETER"
+          },
+          "updatedAt": {
+            "S": "2023-04-23T14:58:42.274Z"
+          },
+          "createdAt": {
+            "S": "2023-04-17T22:27:52.336Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "The token name specific to the project. Cannot be higher than 32 characters"
+          },
+          "id": {
+            "S": "token_name"
+          },
+          "name": {
+            "S": "token_name"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "INVESTOR_ORGANIZATION_INFORMATION_2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR"
+          },
+          "updatedAt": {
+            "S": "2023-03-22T14:16:25.976Z"
+          },
+          "createdAt": {
+            "S": "2023-03-22T14:16:25.976Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Córdoba"
+          },
+          "id": {
+            "S": "2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR_city"
+          },
+          "name": {
+            "S": "city"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T21:27:27.181Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T21:27:27.181Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "343134"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA_id"
+          },
+          "name": {
+            "S": "id"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T21:27:27.110Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T21:27:27.110Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "dasf"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA_direction"
+          },
+          "name": {
+            "S": "direction"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": false
+          },
+          "featureTypeID": {
+            "S": "CALCULATION"
+          },
+          "updatedAt": {
+            "S": "2023-03-06T18:10:05.232Z"
+          },
+          "defaultValue": {
+            "NULL": true
+          },
+          "createdAt": {
+            "S": "2023-03-06T18:10:05.232Z"
+          },
+          "unitOfMeasureID": {
+            "S": "USD"
+          },
+          "description": {
+            "S": "desc expected_income"
+          },
+          "id": {
+            "S": "expected_income"
+          },
+          "name": {
+            "S": "expected income"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": false
+          },
+          "featureTypeID": {
+            "S": "CALCULATION"
+          },
+          "updatedAt": {
+            "S": "2023-03-06T18:06:28.982Z"
+          },
+          "createdAt": {
+            "S": "2023-03-06T18:06:21.942Z"
+          },
+          "unitOfMeasureID": {
+            "S": "USD"
+          },
+          "description": {
+            "S": "desc total price"
+          },
+          "id": {
+            "S": "total_price"
+          },
+          "name": {
+            "S": "total price"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO_COMPANY"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T14:56:17.732Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T14:56:17.732Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "IGNACIO_COMPANY"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_COMPANY_name"
+          },
+          "name": {
+            "S": "name"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVONE_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T02:54:14.575Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T02:54:14.575Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": ""
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVONE_MORALES_cp"
+          },
+          "name": {
+            "S": "cp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_PAOLA_RUIZ"
+          },
+          "updatedAt": {
+            "S": "2023-04-26T16:11:41.388Z"
+          },
+          "createdAt": {
+            "S": "2023-04-26T16:11:41.388Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "cra 3"
+          },
+          "id": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932_PAOLA_RUIZ_direction"
+          },
+          "name": {
+            "S": "direction"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVON_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T03:42:13.569Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T03:42:13.569Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "9010657875"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVON_MORALES_id"
+          },
+          "name": {
+            "S": "id"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "USER_TO_VALIDATE"
+          },
+          "updatedAt": {
+            "S": "2023-04-23T17:24:30.723Z"
+          },
+          "createdAt": {
+            "S": "2023-04-23T17:24:30.723Z"
+          },
+          "id": {
+            "S": "459b52f2-d380-4694-a68b-7b8e0b381008_VALIDATION"
+          },
+          "name": {
+            "S": "propietario1_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": true
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_DOCUMENT"
+          },
+          "updatedAt": {
+            "S": "2023-06-12T22:02:49.573Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-03-28T16:01:40.021Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Certificado de Libertad y Tradición del predio"
+          },
+          "id": {
+            "S": "CERTIFICA_LIBERTAD_Y_TRADICION"
+          },
+          "name": {
+            "S": "CERTIFICA_LIBERTAD_Y_TRADICION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO_COMPANY"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T14:56:19.244Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T14:56:19.244Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "publica A 222"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_COMPANY_direction"
+          },
+          "name": {
+            "S": "direction"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "PARAMETER"
+          },
+          "updatedAt": {
+            "S": "2023-04-17T16:27:33.816Z"
+          },
+          "defaultValue": {
+            "N": "10"
+          },
+          "createdAt": {
+            "S": "2023-04-17T16:27:33.816Z"
+          },
+          "unitOfMeasureID": {
+            "S": "USD"
+          },
+          "description": {
+            "S": "Token price"
+          },
+          "id": {
+            "S": "Price"
+          },
+          "name": {
+            "S": "Price"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": true
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_DOCUMENT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T15:33:15.429Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T18:09:08.711Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Créditos de carbono considerado desde el inicio de la concepción del proyecto. Documento que mencione que el aporte extra de los créditos de carbono ha sido considerado desde el inicio de la concepción del proyecto. El documento debe estar fechado antes del inicio de proyecto o del primer recibo relativo a la inversión."
+          },
+          "id": {
+            "S": "redd_cre_car"
+          },
+          "name": {
+            "S": "redd_cre_car"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T13:04:09.983Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T13:04:09.983Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "5000"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_cp"
+          },
+          "name": {
+            "S": "cp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T13:04:05.683Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T13:04:05.683Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "IGNACIO"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_name"
+          },
+          "name": {
+            "S": "name"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVON_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T03:42:15.246Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T03:42:15.246Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Quindio"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVON_MORALES_department"
+          },
+          "name": {
+            "S": "department"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T21:27:27.151Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T21:27:27.151Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "PRUEBA"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA_name"
+          },
+          "name": {
+            "S": "name"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T21:27:27.369Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T21:27:27.369Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "1234"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA_cp"
+          },
+          "name": {
+            "S": "cp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "USER_TO_VALIDATE"
+          },
+          "updatedAt": {
+            "S": "2023-05-31T21:09:03.977Z"
+          },
+          "createdAt": {
+            "S": "2023-05-31T21:09:03.977Z"
+          },
+          "id": {
+            "S": "147ddc81-5a02-4322-a3b6-5bc59e4c878a_VALIDATION"
+          },
+          "name": {
+            "S": "ignacio_test_cincuenta_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "TEXT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T19:07:54.943Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T17:49:03.921Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Forma de tenecia de la tierra.  Contrato de arriendo o comodato, etc...(En caso de ser un predio que no es propio)"
+          },
+          "id": {
+            "S": "PP_for_ten_tie"
+          },
+          "name": {
+            "S": "PP_for_ten_tie"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": false
+          },
+          "featureTypeID": {
+            "S": "CONSTANT"
+          },
+          "updatedAt": {
+            "S": "2023-03-06T18:11:20.808Z"
+          },
+          "defaultValue": {
+            "NULL": true
+          },
+          "createdAt": {
+            "S": "2023-03-06T18:11:20.808Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "desc ubicacion"
+          },
+          "id": {
+            "S": "ubicacion"
+          },
+          "name": {
+            "S": "ubicacion"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T21:27:27.144Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T21:27:27.144Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "cc"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA_city"
+          },
+          "name": {
+            "S": "city"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T13:04:09.007Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T13:04:09.007Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "cordoba "
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_department"
+          },
+          "name": {
+            "S": "department"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T21:27:27.394Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T21:27:27.394Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "3512304901"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA_phone"
+          },
+          "name": {
+            "S": "phone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": true
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_DOCUMENT"
+          },
+          "updatedAt": {
+            "S": "2023-06-12T22:03:01.948Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-03-28T16:34:22.471Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Verificacion de un tercero ejemplo VERRA"
+          },
+          "id": {
+            "S": "CERTIFICACION_3TH_PARTY"
+          },
+          "name": {
+            "S": "CERTIFICACION_3TH_PARTY"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_JOSERIVERA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T22:51:23.078Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T22:51:23.078Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "00000"
+          },
+          "id": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc_JOSERIVERA_cp"
+          },
+          "name": {
+            "S": "cp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": false
+          },
+          "featureTypeID": {
+            "S": "CONSTANT"
+          },
+          "updatedAt": {
+            "S": "2023-03-08T07:58:11.501Z"
+          },
+          "defaultValue": {
+            "NULL": true
+          },
+          "createdAt": {
+            "S": "2023-03-08T07:58:11.501Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "desc coordenadas"
+          },
+          "id": {
+            "S": "coordenadas"
+          },
+          "name": {
+            "S": "coordenadas"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_PAOLA_RUIZ"
+          },
+          "updatedAt": {
+            "S": "2023-04-26T16:11:40.861Z"
+          },
+          "createdAt": {
+            "S": "2023-04-26T16:11:40.861Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "45454"
+          },
+          "id": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932_PAOLA_RUIZ_id"
+          },
+          "name": {
+            "S": "id"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVON_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T03:42:18.223Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T03:42:18.223Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": ""
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVON_MORALES_website"
+          },
+          "name": {
+            "S": "website"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVONE_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T02:54:13.559Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T02:54:13.559Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Quindio"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVONE_MORALES_department"
+          },
+          "name": {
+            "S": "department"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T13:04:11.026Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T13:04:11.026Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "ignaciodiaznanni@gmail.com"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_email"
+          },
+          "name": {
+            "S": "email"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "INVESTOR_ORGANIZATION_INFORMATION_2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR"
+          },
+          "updatedAt": {
+            "S": "2023-03-22T14:16:29.491Z"
+          },
+          "createdAt": {
+            "S": "2023-03-22T14:16:29.491Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "ignaciodiaznanni@gmail.com"
+          },
+          "id": {
+            "S": "2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR_email"
+          },
+          "name": {
+            "S": "email"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "TEXT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T19:08:00.320Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T18:09:48.303Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Consultas locales, o procesos de localización. ¿Se han llevado a cabo consultas locales o procesos de socialización del proyecto? ¿Cuales? Se puede soportar con actas de asistencia, etc. Explique."
+          },
+          "id": {
+            "S": "redd_con_loc"
+          },
+          "name": {
+            "S": "redd_con_loc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "INVESTOR_ORGANIZATION_INFORMATION_2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR"
+          },
+          "updatedAt": {
+            "S": "2023-03-22T14:16:28.211Z"
+          },
+          "createdAt": {
+            "S": "2023-03-22T14:16:28.211Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "5000"
+          },
+          "id": {
+            "S": "2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR_cp"
+          },
+          "name": {
+            "S": "cp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "TEXT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T19:08:09.320Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T18:07:16.858Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Localización del Proyecto. Localización con cooordenadas del perimetro del predio"
+          },
+          "id": {
+            "S": "redd_loc_pro"
+          },
+          "name": {
+            "S": "redd_loc_pro"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_PAOLA_RUIZ"
+          },
+          "updatedAt": {
+            "S": "2023-04-26T16:11:42.524Z"
+          },
+          "createdAt": {
+            "S": "2023-04-26T16:11:42.524Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "col"
+          },
+          "id": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932_PAOLA_RUIZ_country"
+          },
+          "name": {
+            "S": "country"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_PAOLA_RUIZ"
+          },
+          "updatedAt": {
+            "S": "2023-04-26T16:11:43.538Z"
+          },
+          "createdAt": {
+            "S": "2023-04-26T16:11:43.538Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "318"
+          },
+          "id": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932_PAOLA_RUIZ_phone"
+          },
+          "name": {
+            "S": "phone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": true
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_DOCUMENT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T15:35:23.782Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T17:55:22.091Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Plan de manejo forestal. Información geografica del proyecto: Plan de establecimiento y manejo forestal PEMF"
+          },
+          "id": {
+            "S": "PP_pla_man_for"
+          },
+          "name": {
+            "S": "PP_pla_man_for"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_PAOLA_RUIZ"
+          },
+          "updatedAt": {
+            "S": "2023-04-26T16:11:40.410Z"
+          },
+          "createdAt": {
+            "S": "2023-04-26T16:11:40.410Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "PAOLA_RUIZ"
+          },
+          "id": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932_PAOLA_RUIZ_name"
+          },
+          "name": {
+            "S": "name"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "TEXT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T19:08:17.923Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T18:08:40.299Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Escenario sin proyecto. ¿Qué le hubiera pasado al área del proyecto en ausencia de su proyecto propuesto? Ha tenido otras alternativas de uso de tierra?"
+          },
+          "id": {
+            "S": "redd_esc_sin_pro"
+          },
+          "name": {
+            "S": "redd_esc_sin_pro"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": false
+          },
+          "featureTypeID": {
+            "S": "PARAMETER"
+          },
+          "updatedAt": {
+            "S": "2023-04-14T21:43:36.999Z"
+          },
+          "defaultValue": {
+            "N": "0"
+          },
+          "createdAt": {
+            "S": "2023-03-08T07:59:17.359Z"
+          },
+          "unitOfMeasureID": {
+            "S": "year"
+          },
+          "description": {
+            "S": "Proyección de tiempo del proyecto (ej. 30años) en donde el promotor del proyecto se compromete a gestionar la masa y garantizar su permanencia."
+          },
+          "id": {
+            "S": "periodo_permanencia"
+          },
+          "name": {
+            "S": "periodo_permanencia"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_JOSERIVERA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T22:51:20.731Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T22:51:20.731Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "8605112705"
+          },
+          "id": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc_JOSERIVERA_id"
+          },
+          "name": {
+            "S": "id"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "INVESTOR_ORGANIZATION_INFORMATION_2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR"
+          },
+          "updatedAt": {
+            "S": "2023-03-22T14:16:28.690Z"
+          },
+          "createdAt": {
+            "S": "2023-03-22T14:16:28.690Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "3512304901"
+          },
+          "id": {
+            "S": "2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR_phone"
+          },
+          "name": {
+            "S": "phone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "INVESTOR_ORGANIZATION_INFORMATION_2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR"
+          },
+          "updatedAt": {
+            "S": "2023-03-22T14:16:27.275Z"
+          },
+          "createdAt": {
+            "S": "2023-03-22T14:16:27.275Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Argentina"
+          },
+          "id": {
+            "S": "2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR_country"
+          },
+          "name": {
+            "S": "country"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "USER_TO_VALIDATE"
+          },
+          "updatedAt": {
+            "S": "2023-05-09T22:01:43.045Z"
+          },
+          "createdAt": {
+            "S": "2023-05-09T22:01:43.045Z"
+          },
+          "id": {
+            "S": "73b4f6cd-1408-4a88-957f-6d5412d7ac5c_VALIDATION"
+          },
+          "name": {
+            "S": "pruebaignacio_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T21:27:27.329Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T21:27:27.329Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "www.example.com"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA_website"
+          },
+          "name": {
+            "S": "website"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T13:04:10.370Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T13:04:10.370Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "03512304901"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_phone"
+          },
+          "name": {
+            "S": "phone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "USER_TO_VALIDATE"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T21:43:37.668Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T21:43:37.668Z"
+          },
+          "id": {
+            "S": "502b6995-f827-41f8-a4c8-cc2472438d95_VALIDATION"
+          },
+          "name": {
+            "S": "investor_eleven_two_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T13:04:08.194Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T13:04:08.194Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "cordoba"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_city"
+          },
+          "name": {
+            "S": "city"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVONE_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T02:54:16.223Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T02:54:16.223Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": ""
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVONE_MORALES_website"
+          },
+          "name": {
+            "S": "website"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_PAOLA_RUIZ"
+          },
+          "updatedAt": {
+            "S": "2023-04-26T16:11:43.044Z"
+          },
+          "createdAt": {
+            "S": "2023-04-26T16:11:43.044Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "1111"
+          },
+          "id": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932_PAOLA_RUIZ_cp"
+          },
+          "name": {
+            "S": "cp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "USER_TO_VALIDATE"
+          },
+          "updatedAt": {
+            "S": "2023-04-19T01:12:15.405Z"
+          },
+          "createdAt": {
+            "S": "2023-04-19T01:12:15.405Z"
+          },
+          "id": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc_VALIDATION"
+          },
+          "name": {
+            "S": "jrivera_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVONE_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T02:54:10.282Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T02:54:10.282Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "IVONE_MORALES"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVONE_MORALES_name"
+          },
+          "name": {
+            "S": "name"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "isTemplate": {
+            "BOOL": false
+          },
+          "featureTypeID": {
+            "S": "TEXT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T19:08:32.228Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-05-04T17:11:10.265Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Documento que contiene la descripción general del área del proyecto y las actividades. ¿Cuenta con un documento que contenga la descripción general del área del proyecto y las actividades?"
+          },
+          "id": {
+            "S": "redd_doc_des_gen_pro_act"
+          },
+          "name": {
+            "S": "redd_doc_des_gen_pro_act"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVON_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T03:42:14.267Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T03:42:14.267Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "El biscocho, Vereda la julia"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVON_MORALES_direction"
+          },
+          "name": {
+            "S": "direction"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVON_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T03:42:17.638Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T03:42:17.638Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": ""
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVON_MORALES_email"
+          },
+          "name": {
+            "S": "email"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T13:04:09.662Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T13:04:09.662Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "argentina"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_country"
+          },
+          "name": {
+            "S": "country"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_JOSERIVERA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T22:51:22.786Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T22:51:22.786Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "COLOMBIA"
+          },
+          "id": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc_JOSERIVERA_country"
+          },
+          "name": {
+            "S": "country"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO_COMPANY"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T14:56:24.161Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T14:56:24.161Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "www.suan.global"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_COMPANY_website"
+          },
+          "name": {
+            "S": "website"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_JOSERIVERA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T22:51:23.645Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T22:51:23.645Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "JRIVERA@SUAN.GLOBAL"
+          },
+          "id": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc_JOSERIVERA_email"
+          },
+          "name": {
+            "S": "email"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_PAOLA_RUIZ"
+          },
+          "updatedAt": {
+            "S": "2023-04-26T16:11:42.203Z"
+          },
+          "createdAt": {
+            "S": "2023-04-26T16:11:42.203Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "cund"
+          },
+          "id": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932_PAOLA_RUIZ_department"
+          },
+          "name": {
+            "S": "department"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T21:27:27.298Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T21:27:27.298Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "pp"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA_country"
+          },
+          "name": {
+            "S": "country"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "USER_TO_VALIDATE"
+          },
+          "updatedAt": {
+            "S": "2023-05-31T21:08:58.785Z"
+          },
+          "createdAt": {
+            "S": "2023-05-31T21:08:58.785Z"
+          },
+          "id": {
+            "S": "5ceb418f-64b3-4565-8c52-44b36367288c_VALIDATION"
+          },
+          "name": {
+            "S": "investor_ten_four_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVONE_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T02:54:13.975Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T02:54:13.975Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Colombia"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVONE_MORALES_country"
+          },
+          "name": {
+            "S": "country"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "TEXT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T19:08:39.352Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T18:09:27.992Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Participantes/Beneficios. Quienes son los participantes del proyecto? Cual es el mecanismo de distribucion de beneficios?"
+          },
+          "id": {
+            "S": "redd_par_ben"
+          },
+          "name": {
+            "S": "redd_par_ben"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "USER_TO_VALIDATE"
+          },
+          "updatedAt": {
+            "S": "2023-04-12T11:20:43.745Z"
+          },
+          "createdAt": {
+            "S": "2023-04-12T11:20:43.745Z"
+          },
+          "id": {
+            "S": "0b803098-3834-4b1a-a326-db2fde4db615_VALIDATION"
+          },
+          "name": {
+            "S": "ignacio_test_dummie_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T21:27:27.393Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T21:27:27.393Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "ignacio@gmail.com"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA_email"
+          },
+          "name": {
+            "S": "email"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": true
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_DOCUMENT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T15:35:30.916Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T17:57:43.414Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Polígonos de delimitación. Información geografica del proyecto: Poligonos de la delimitación del predio y de los lotes de siembra (en formato shp, kmz, gdb, dwg o gpx)."
+          },
+          "id": {
+            "S": "PP_pol_del"
+          },
+          "name": {
+            "S": "PP_pol_del"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_JOSERIVERA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T22:51:23.907Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T22:51:23.907Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": ""
+          },
+          "id": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc_JOSERIVERA_website"
+          },
+          "name": {
+            "S": "website"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": true
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_DOCUMENT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T15:35:36.552Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T17:42:00.009Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Representación. Certificado de existencia y representación"
+          },
+          "id": {
+            "S": "PP_rep"
+          },
+          "name": {
+            "S": "PP_rep"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": true
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_DOCUMENT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T15:34:13.871Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T18:06:52.950Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Mapa. Mapa del territorio ( en archivo shapefiles o kmz) con coordenadas en donde se desarrollara el proyecto REDD"
+          },
+          "id": {
+            "S": "redd_map"
+          },
+          "name": {
+            "S": "redd_map"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVON_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T03:42:17.042Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T03:42:17.042Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "3233809430"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVON_MORALES_phone"
+          },
+          "name": {
+            "S": "phone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVONE_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T02:54:13.145Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T02:54:13.145Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Filandia"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVONE_MORALES_city"
+          },
+          "name": {
+            "S": "city"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": false
+          },
+          "featureTypeID": {
+            "S": "CONSTANT"
+          },
+          "updatedAt": {
+            "S": "2023-04-14T21:44:56.525Z"
+          },
+          "defaultValue": {
+            "N": "0"
+          },
+          "createdAt": {
+            "S": "2023-03-06T18:12:05.018Z"
+          },
+          "unitOfMeasureID": {
+            "S": "ms"
+          },
+          "description": {
+            "S": "desc fecha de inscripcion"
+          },
+          "id": {
+            "S": "fecha_inscripcion"
+          },
+          "name": {
+            "S": "fecha inscripcion"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO_COMPANY"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T14:56:21.921Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T14:56:21.921Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "5000"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_COMPANY_cp"
+          },
+          "name": {
+            "S": "cp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_JOSERIVERA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T22:51:20.430Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T22:51:20.430Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "JOSERIVERA"
+          },
+          "id": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc_JOSERIVERA_name"
+          },
+          "name": {
+            "S": "name"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_PAOLA_RUIZ"
+          },
+          "updatedAt": {
+            "S": "2023-04-26T16:11:44.145Z"
+          },
+          "createdAt": {
+            "S": "2023-04-26T16:11:44.145Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": ""
+          },
+          "id": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932_PAOLA_RUIZ_website"
+          },
+          "name": {
+            "S": "website"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": false
+          },
+          "featureTypeID": {
+            "S": "CONSTANT"
+          },
+          "updatedAt": {
+            "S": "2023-04-14T21:45:25.524Z"
+          },
+          "createdAt": {
+            "S": "2023-03-06T18:10:52.460Z"
+          },
+          "unitOfMeasureID": {
+            "S": "Ha"
+          },
+          "description": {
+            "S": "desc ha tot"
+          },
+          "id": {
+            "S": "ha_tot"
+          },
+          "name": {
+            "S": "ha tot"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_JOSERIVERA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T22:51:22.257Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T22:51:22.257Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "CUNDINAMARCA"
+          },
+          "id": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc_JOSERIVERA_department"
+          },
+          "name": {
+            "S": "department"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "DATE_LIMITS"
+          },
+          "updatedAt": {
+            "S": "2023-03-29T15:29:09.007Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-03-29T15:29:09.007Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Is when the project must be: created, validated, certified and on block"
+          },
+          "id": {
+            "S": "PROJECT_REGISTER_END_DATE"
+          },
+          "name": {
+            "S": "PROJECT_REGISTER_END_DATE"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "TEXT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T19:08:46.108Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T18:08:19.335Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Turberas. ¿Existen en el área suelos orgánicos (turberas) que serán drenados? Explique"
+          },
+          "id": {
+            "S": "redd_tur"
+          },
+          "name": {
+            "S": "redd_tur"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isVerifable": {
+            "BOOL": false
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "TEXT"
+          },
+          "updatedAt": {
+            "S": "2023-05-26T19:08:50.965Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T17:58:37.351Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Perturbación. Formato de nuevas plantaciones y eventos de perturbación"
+          },
+          "id": {
+            "S": "PP_pert"
+          },
+          "name": {
+            "S": "PP_pert"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVON_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T03:42:13.002Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T03:42:13.002Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "IVON_MORALES"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVON_MORALES_name"
+          },
+          "name": {
+            "S": "name"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "INVESTOR_ORGANIZATION_INFORMATION_2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR"
+          },
+          "updatedAt": {
+            "S": "2023-03-22T14:16:25.088Z"
+          },
+          "createdAt": {
+            "S": "2023-03-22T14:16:25.088Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Av Colón"
+          },
+          "id": {
+            "S": "2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR_direction"
+          },
+          "name": {
+            "S": "direction"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "USER_TO_VALIDATE"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T21:25:55.685Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T21:25:55.685Z"
+          },
+          "id": {
+            "S": "b1bdf7bf-ec6f-4e61-a423-7543fd76823a_VALIDATION"
+          },
+          "name": {
+            "S": "investor_ten_six_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVON_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T03:42:14.864Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T03:42:14.864Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Filandia"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVON_MORALES_city"
+          },
+          "name": {
+            "S": "city"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": false
+          },
+          "featureTypeID": {
+            "S": "DATE_LIMITS"
+          },
+          "updatedAt": {
+            "S": "2023-03-29T15:32:33.323Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-03-29T15:32:33.323Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Is the time limit when the VALIDATOR must finish the validation of all FEATURES"
+          },
+          "id": {
+            "S": "PROJECT_VALIDATION_END_DATE"
+          },
+          "name": {
+            "S": "PROJECT_VALIDATION_END_DATE"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_DOCUMENT"
+          },
+          "updatedAt": {
+            "S": "2023-04-19T17:51:11.936Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T17:51:11.936Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Vinculaciones. Contrato de vinculación firmado"
+          },
+          "id": {
+            "S": "PP_vin"
+          },
+          "name": {
+            "S": "PP_vin"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO_COMPANY"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T14:56:22.452Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T14:56:22.452Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "03512304901"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_COMPANY_phone"
+          },
+          "name": {
+            "S": "phone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO_COMPANY"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T14:56:19.662Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T14:56:19.662Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "cordoba "
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_COMPANY_city"
+          },
+          "name": {
+            "S": "city"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_PAOLA_RUIZ"
+          },
+          "updatedAt": {
+            "S": "2023-04-26T16:11:41.709Z"
+          },
+          "createdAt": {
+            "S": "2023-04-26T16:11:41.709Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "bogotá"
+          },
+          "id": {
+            "S": "ce54416f-388d-4428-ad02-fafaf43f9932_PAOLA_RUIZ_city"
+          },
+          "name": {
+            "S": "city"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVONE_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T02:54:11.255Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T02:54:11.255Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "9010657875"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVONE_MORALES_id"
+          },
+          "name": {
+            "S": "id"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "USER_TO_VALIDATE"
+          },
+          "updatedAt": {
+            "S": "2023-05-16T22:01:46.806Z"
+          },
+          "createdAt": {
+            "S": "2023-05-16T22:01:46.806Z"
+          },
+          "id": {
+            "S": "fae083f0-08ba-429a-9f29-1f17be8e57db_VALIDATION"
+          },
+          "name": {
+            "S": "Camilo_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVONE_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T02:54:15.197Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T02:54:15.197Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "3233809430"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVONE_MORALES_phone"
+          },
+          "name": {
+            "S": "phone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVON_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T03:42:15.817Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T03:42:15.817Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Colombia"
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVON_MORALES_country"
+          },
+          "name": {
+            "S": "country"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T21:27:27.242Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T21:27:27.242Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "dd"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_PRUEBA_department"
+          },
+          "name": {
+            "S": "department"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_JOSERIVERA"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T22:51:21.313Z"
+          },
+          "createdAt": {
+            "S": "2023-05-04T22:51:21.313Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "CARRERA 14 # 78- 30 P 3 "
+          },
+          "id": {
+            "S": "e4dab369-94a2-4b3f-ac87-08f948c139cc_JOSERIVERA_direction"
+          },
+          "name": {
+            "S": "direction"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "INVESTOR_ORGANIZATION_INFORMATION_2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR"
+          },
+          "updatedAt": {
+            "S": "2023-03-22T14:16:26.835Z"
+          },
+          "createdAt": {
+            "S": "2023-03-22T14:16:26.835Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Córdoba"
+          },
+          "id": {
+            "S": "2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR_department"
+          },
+          "name": {
+            "S": "department"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_DOCUMENT"
+          },
+          "updatedAt": {
+            "S": "2023-04-19T17:58:19.662Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T17:58:19.662Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Monitoreo. Establecimiento de parcelas de monitoreo"
+          },
+          "id": {
+            "S": "PP_mon"
+          },
+          "name": {
+            "S": "PP_mon"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "INVESTOR_ORGANIZATION_INFORMATION_2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR"
+          },
+          "updatedAt": {
+            "S": "2023-03-22T14:16:23.462Z"
+          },
+          "createdAt": {
+            "S": "2023-03-22T14:16:23.462Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "IGNACIO_INVESTOR"
+          },
+          "id": {
+            "S": "2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR_name"
+          },
+          "name": {
+            "S": "name"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "USER_TO_VALIDATE"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T22:16:28.863Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T22:16:28.863Z"
+          },
+          "id": {
+            "S": "aa2836e8-2156-4f2d-bb16-90a512896d2c_VALIDATION"
+          },
+          "name": {
+            "S": "investor_eleven_seven_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "INVESTOR_ORGANIZATION_INFORMATION_2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR"
+          },
+          "updatedAt": {
+            "S": "2023-03-22T14:16:24.313Z"
+          },
+          "createdAt": {
+            "S": "2023-03-22T14:16:24.313Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "41650304"
+          },
+          "id": {
+            "S": "2d180eab-cd7b-4c2b-9a1e-2e3534c69bb1_IGNACIO_INVESTOR_id"
+          },
+          "name": {
+            "S": "id"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": false
+          },
+          "featureTypeID": {
+            "S": "TEXT"
+          },
+          "updatedAt": {
+            "S": "2023-05-04T17:12:05.280Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-05-04T17:12:05.280Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Amenazas de Deforestación. ¿Existen amenazas de deforestación para el área del proyecto? ¿Cuáles?"
+          },
+          "id": {
+            "S": "redd_ame_def"
+          },
+          "name": {
+            "S": "redd_ame_def"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVONE_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T02:54:15.798Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T02:54:15.798Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": ""
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVONE_MORALES_email"
+          },
+          "name": {
+            "S": "email"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T13:04:06.541Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T13:04:06.541Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "41650304"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_id"
+          },
+          "name": {
+            "S": "id"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "isTemplate": {
+            "BOOL": true
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_DOCUMENT"
+          },
+          "updatedAt": {
+            "S": "2023-04-19T17:54:16.216Z"
+          },
+          "defaultValue": {
+            "N": "1"
+          },
+          "createdAt": {
+            "S": "2023-04-19T17:54:16.216Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "Registro de plantaciones. Registro ICA de las plantaciones"
+          },
+          "id": {
+            "S": "PP_reg_pla"
+          },
+          "name": {
+            "S": "PP_reg_pla"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "USER_TO_VALIDATE"
+          },
+          "updatedAt": {
+            "S": "2023-06-01T21:53:59.896Z"
+          },
+          "createdAt": {
+            "S": "2023-06-01T21:53:59.896Z"
+          },
+          "id": {
+            "S": "9d59e85b-1330-4eb2-9484-9e86f72131a2_VALIDATION"
+          },
+          "name": {
+            "S": "investor_eleven_four_VALIDATION"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IVON_MORALES"
+          },
+          "updatedAt": {
+            "S": "2023-05-03T03:42:16.436Z"
+          },
+          "createdAt": {
+            "S": "2023-05-03T03:42:16.436Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": ""
+          },
+          "id": {
+            "S": "17b1d888-9ddd-4f9a-9d18-4d3689f604a2_IVON_MORALES_cp"
+          },
+          "name": {
+            "S": "cp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Feature"
+          },
+          "featureTypeID": {
+            "S": "CONSTRUCTOR_ORGANIZATION_INFORMATION_IGNACIO_COMPANY"
+          },
+          "updatedAt": {
+            "S": "2023-03-17T14:56:21.129Z"
+          },
+          "createdAt": {
+            "S": "2023-03-17T14:56:21.129Z"
+          },
+          "unitOfMeasureID": {
+            "S": "no_unit"
+          },
+          "description": {
+            "S": "argentina"
+          },
+          "id": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b_IGNACIO_COMPANY_country"
+          },
+          "name": {
+            "S": "country"
+          }
+        }
+      }
+    }
+  ]
+}

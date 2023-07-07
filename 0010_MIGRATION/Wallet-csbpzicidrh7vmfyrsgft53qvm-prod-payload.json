@@ -1,0 +1,34 @@
+{
+  "Wallet-csbpzicidrh7vmfyrsgft53qvm-prod": [
+    {
+      "PutRequest": {
+        "Item": {
+          "__typename": {
+            "S": "Wallet"
+          },
+          "isSelected": {
+            "BOOL": true
+          },
+          "userID": {
+            "S": "21263c08-0090-46c2-9e0d-aa8d7d8dda2b"
+          },
+          "updatedAt": {
+            "S": "2023-06-29T19:21:47.754Z"
+          },
+          "status": {
+            "S": "new"
+          },
+          "createdAt": {
+            "S": "2023-06-29T19:21:47.754Z"
+          },
+          "id": {
+            "S": "stake_test1uq8hrzl5zmnn09tu9syg65z9vjyfl35lfjyc6chg63a0tegteesqt"
+          },
+          "name": {
+            "S": "stake_test1uq8hrzl5zmnn09tu9syg65z9vjyfl35lfjyc6chg63a0tegteesqt"
+          }
+        }
+      }
+    }
+  ]
+}
