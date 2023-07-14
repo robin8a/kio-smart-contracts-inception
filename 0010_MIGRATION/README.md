@@ -91,12 +91,16 @@ aws dynamodb execute-statement --statement "DELETE FROM \"Wallet-d6sfnut2zrdljfa
 aws dynamodb execute-statement --statement "SELECT * FROM \"Feature-d6sfnut2zrdljfaz3ysbjfhvke-dev\""
 
 aws dynamodb execute-statement --statement "DELETE  FROM \"Feature-d6sfnut2zrdljfaz3ysbjfhvke-dev\"  \
-    WHERE id='A_postulante_doctype'"
+    WHERE id='A_postulante_name'"
 
 aws dynamodb execute-statement --statement "INSERT INTO \"Feature-d6sfnut2zrdljfaz3ysbjfhvke-dev\"  \
 					    VALUE  \
 					    {'id':'A_postulante_doctype','name':'A_postulante_doctype','description':'A_postulante_doctype','defaultValue':'1','isVerifable':false,'isTemplate':false,'featureTypeID':'no_unit'}"
 
+aws dynamodb execute-statement --statement "INSERT INTO \"Feature-d6sfnut2zrdljfaz3ysbjfhvke-dev\" VALUE {'id':'A_postulante_id','name':'A_postulante_id'}"
+
+
+aws dynamodb execute-statement --statement "INSERT INTO \"Feature-d6sfnut2zrdljfaz3ysbjfhvke-dev\" VALUE {'id':'A_postulante_id','name':'A_postulante_id'','description':'A_postulante_id'}"
 ```
 
 # commands
