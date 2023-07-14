@@ -36,8 +36,8 @@ set -eo pipefail
 # TABLE_TO=User-csbpzicidrh7vmfyrsgft53qvm-prod
 # TABLE_FROM=Verification-d6sfnut2zrdljfaz3ysbjfhvke-dev
 # TABLE_TO=Verification-csbpzicidrh7vmfyrsgft53qvm-prod
-TABLE_FROM=Wallet-d6sfnut2zrdljfaz3ysbjfhvke-dev
-TABLE_TO=Wallet-csbpzicidrh7vmfyrsgft53qvm-prod
+# TABLE_FROM=Wallet-d6sfnut2zrdljfaz3ysbjfhvke-dev
+# TABLE_TO=Wallet-csbpzicidrh7vmfyrsgft53qvm-prod
 
 # read
 aws dynamodb scan \
@@ -47,7 +47,7 @@ aws dynamodb scan \
  > "$TABLE_TO-payload.json"
 
 # write
-# aws dynamodb batch-write-item --request-items file://"$TABLE_TO-payload.json"
+aws dynamodb batch-write-item --request-items file://"$TABLE_TO-payload.json"
 
 # clean up
 # rm "$TABLE_TO-payload.json"
