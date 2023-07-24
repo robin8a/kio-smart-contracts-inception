@@ -346,4 +346,16 @@ https://aws.amazon.com/getting-started/hands-on/configure-connect-serverless-mys
 
 
 
-sdiiwk6m
+# amplify pull
+
+```sh
+
+amplify pull --appId d2tbmxgsdphmwl --envName dev
+```
+
+
+# amplify Auth
+
+- https://aws.amazon.com/es/blogs/mobile/deploy-a-next-js-13-app-with-authentication-to-aws-amplify/
+- https://blog.jarrodwatts.com/aws-amplify-nextjs-typescript
+- https://ordinarycoders.com/blog/article/nextjs-aws-amplify
