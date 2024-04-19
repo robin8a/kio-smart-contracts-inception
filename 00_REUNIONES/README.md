@@ -181,3 +181,42 @@ shellscripting
 
 Ejemplo, versionamiento de T&C
 
+
+
+# April, 17 2024
+
+
+# 1.4 IoT (Trazabilidad)
+- Avance 38% a marzo
+- Hoja de vida del arbol
+- Metodos comparativos
+- Drones (stopper la compra)
+
+## Solución
+- @sergio, variales a considerar fitosanitarios
+- Data Lake @robin
+- Datos simulados @robin
+- Reportes @robin
+- Imágenes satelitales
+- Oracle, avance temas satelites
+- Analisis banda 1, 2 y 3
+- Algoritmo de AI, que nos permita hacer algunas mediciones. Fotos de google cultivos historicos y hacer la simulación @robin
+- todo lo esta linkeado en el excel
+
+## POA a nivel de informe
+![POA, documento unificado y evidencias](./images/POA.png)
+- Anexos transversal
+- Conectar con un documento
+
+# 2.1
+- Plataforma
+- Marketplace
+
+
+# 2.2 Desarrollar contratos inteligentes
+- Implementación del light-paper
+- En Mayo inicia la promoción, @camilo
+
+
+# April, 19 
+- @emanuel, estructurar los entregables, listado de lo que tenemos que entregar
