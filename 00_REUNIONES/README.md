@@ -220,3 +220,5 @@ Ejemplo, versionamiento de T&C
 
 # April, 19 
 - @emanuel, estructurar los entregables, listado de lo que tenemos que entregar
+
+
