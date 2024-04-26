@@ -240,3 +240,13 @@ Ejemplo, versionamiento de T&C
 - 42% del proyecto esta bajo nuestra responsabilidad
 
 
+## @emanuel
+- Listado limpio de los avances del mes. Ej: manual de uso de la herramienta
+- Por linea, tener un documento
+- 2.1 y 2.2, entregable global para darle visto a la actividad. Ej. manual de usuario. Con el fin de distribuir con su respectivo responsable.
+- Ej. Definir la tasa..: quien es el responsable
+
+
+
+
+
