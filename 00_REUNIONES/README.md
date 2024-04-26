@@ -222,3 +222,21 @@ Ejemplo, versionamiento de T&C
 - @emanuel, estructurar los entregables, listado de lo que tenemos que entregar
 
 
+# April, 26
+
+## Simulador
+- Protocolos: MQQT,  Modbus, Modbus TCP
+
+## Grupo de trabajo de ciencia de datos
+- Servicios de Google cloud
+- Migración custodia de SUAN
+- Integración y migración
+- Finales de mayo
+- Postgres
+
+## Requerimiento propio
+- Cual parte de la información se va a subir a la blockchain?
+- Información estructurada en un BD, que se va a ver reflejado 1.4.x es el 10% de un 40%
+- 42% del proyecto esta bajo nuestra responsabilidad
+
+
