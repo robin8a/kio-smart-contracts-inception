@@ -14,17 +14,34 @@
 ## Data Catalog and Querying (last session, continue... today)
 Ohio
 
+- Iris (csv)
 Permissions =>  S3 Bucket => Upload Data => Configure Crawler => Add a datastore => Security settings => Specify Output (Database) => Run Crawler => Tables
 
-31. 
+- Amazon customer reviews
+S3 => Create table => Run queries (Athena) 
 
+- Requerimiento: estandarizar los nombres de los catalogos y tablas
 
 ##  Glue ETL with Apache Sparks (today)
+
+### iris CSV to parquet
 36.
 1. Create Job (s3 example job)
 - Visual => Change properties
 - Job Details => Role
+2. Querying
 
+### 
+MSISDN stands for Mobile Station International Subscriber Directory Number
+
+Plan Assigment: MSISDN, plan_id
+
+Subscriber: MSISDN, genre, birth_date, is_vip
+
+Plans: plan_id, plan_desc,  plan_price
+
+
+"a","b",""'String'""
 
 ## Next session: S3
 

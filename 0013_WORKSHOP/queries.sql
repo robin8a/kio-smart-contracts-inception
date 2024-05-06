@@ -10,7 +10,7 @@ limit 10;
 
 -- Star Rating and Sentiment
 SELECT star_rating, sentiment, count(*) as total_reviews
-FROM "demo_db"."amazon_reviews_parquet"
+FROM "amazon_reviews_parquet"
 group by star_rating, sentiment
 order by star_rating, sentiment;
 
