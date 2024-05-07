@@ -13,3 +13,8 @@
 
 
 > Implement a surveillance and air quality system through environmental telemetry, using technologies. Keep a detailed resume of each tree and its health.
+
+
+
+# Requerimiento no funcional
+- Ciclo de vida del resultado de los queries, para mantener los costos bajos
