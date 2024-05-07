@@ -43,7 +43,12 @@ Plans: plan_id, plan_desc,  plan_price
 
 "a","b",""'String'""
 
-## Next session: S3
+# University Ranking
+- ![Kaggle Datasets](https://www.kaggle.com/datasets)
+- https://www.kaggle.com/code/rizqyad/qs-world-university-rankings-2017-2023
+
+
+
 
 ## Next2 session: Schema evolution
 

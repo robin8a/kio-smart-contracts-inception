@@ -6,7 +6,7 @@
 # 1.4.1
 
 
-“Generate a project charter document that outlines the purpose, goals, scope, deliverables, stakeholders, and success criteria for a software development project. The project is to develop a mobile application for a healthcare provider that will allow patients to schedule appointments, view medical records, and communicate with healthcare providers. The project implement a surveillance and air quality system through environmental telemetry, using technologies. Keep a detailed resume of each tree and its health.”
+“Generate a project charter document that outlines the purpose, goals, scope, deliverables, stakeholders, and success criteria for a software development project. The project implement a surveillance and air quality system through environmental telemetry, using technologies such as interne of thing. Keep a detailed resume of each tree and its health. ”
 
 
 > Implementar un sistema de vigilancia y calidad del aire mediante telemetría del ambiente, usando tecnologías Llevar hoja de vida detallada de cada árbol y su salud.
