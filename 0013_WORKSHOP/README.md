@@ -75,7 +75,7 @@ suan_workshop_datalake_<your_name>_ranking_universities_crawler
 ### Data Quality Issues
 
 
-```sql
+```SQL
 
 SELECT * 
 FROM "university_ranking_csv"
@@ -121,6 +121,7 @@ ORDER BY year, rank_display;
 ```
 # OpenCSVSerDe for processing CSV
 
+## Schema Option 1
 - https://docs.aws.amazon.com/athena/latest/ug/csv-serde.html
 - Delete tables
 - Delete crawler
@@ -128,15 +129,314 @@ ORDER BY year, rank_display;
 - Create schema option 1
 - Errors empty fields, 377
 
+## Schema Option 2
 - Create schema option 2, all string
 - Create workspace:  suan_workshop_datalake_<your_name>_ranking_universities_workgroup
 
+> 39.
+
+> Check the data
+
+```sql
+SELECT * 
+FROM "university_ranking_csv_all_strings"
+WHERE university like '%Nanyang Technological University%'
+ORDER BY year, rank_display;
+
+SELECT distinct rank_display, rank_length FROM (
+    SELECT rank_display, length(rank_display) as rank_length
+    FROM "university_ranking_csv_all_strings"
+    ORDER BY rank_length, length(rank_display) desc
+    )
+ORDER BY rank_length DESC;
+
+
+```
+> 40
+
+# Data cleanup
+- ref: [Data type formatting functions](https://docs.aws.amazon.com/clean-rooms/latest/sql-reference/r_Data_type_formatting.html)
+- Convert string to correct data type
+- Handle missing values
+
+
+## CAST
+```SQL
+
+SELECT CAST(year as integer)
+FROM "university_ranking_csv_all_strings"
+LIMIT 10;
+
+-- what happend with all?
+
+SELECT cast(rank_display as integer)
+FROM "university_ranking_csv_all_strings"
+LIMIT 10;
+
+-- what happend with all?
+
+```
+
+## SPLIT-PART
+
+```SQL
+SELECT SPLIT_PART('abc$def$ghi','$',2);
+
+SELECT rank_display, SPLIT_PART(rank_display,'-',1) AS n_rank
+FROM "university_ranking_csv_all_strings";
+
+
+SELECT rank_display, SPLIT_PART(rank_display,'-',1) AS n_rank
+FROM "university_ranking_csv_all_strings"
+WHERE rank_display LIKE '%-%';
+
+
+SELECT rank_display, CAST(SPLIT_PART(rank_display,'-',1) AS INTEGER) AS n_rank
+FROM "university_ranking_csv_all_strings";
+
+-- INVALID_CAST_ARGUMENT: Cannot cast '' to INT, what can we do?
+-- Show the rank_display with missing values
+
+SELECT *
+FROM "university_ranking_csv_all_strings"
+WHERE rank_display = '';  -- Works with ""?
+
+SELECT count (*)
+FROM "university_ranking_csv_all_strings"
+WHERE rank_display = '';  
+
+```
+
+## TRY, NVL
+
+ ```SQL
+SELECT rank_display, TRY(CAST(SPLIT_PART(rank_display,'-',1) AS INTEGER)) AS n_rank
+FROM "university_ranking_csv_all_strings";
+
+SELECT rank_display, COALESCE(TRY(CAST(SPLIT_PART(rank_display,'-',1) AS INTEGER)),-1) AS n_rank
+FROM "university_ranking_csv_all_strings";
+
+ ```
+
+## Wrapping up
+
+```SQL
+SELECT university, year, 
+       rank_display, 
+       COALESCE(TRY(CAST(split_part(rank_display,'-',1) as int)), 9999) as n_rank,
+       score, country, city, region, type,
+       research_output, student_faculty_ratio, international_students,
+       size, faculty_count
+FROM "university_ranking_csv_all_strings";
+
+SELECT *
+FROM (
+    SELECT university, year, 
+       rank_display, 
+       COALESCE(TRY(CAST(split_part(rank_display,'-',1) as int)), 9999) as n_rank,
+       score, country, city, region, type,
+       research_output, student_faculty_ratio, international_students,
+       size, faculty_count
+    FROM "university_ranking_csv_all_strings"
+)
+WHERE n_rank < 6
+ORDER BY year, n_rank;
+
+```
+
+## REGEXP
+
+- https://docs.aws.amazon.com/clean-rooms/latest/sql-reference/REGEXP_REPLACE.html
+
+
+```SQL
+SELECT *
+FROM "university_ranking_csv_all_strings"
+WHERE country = 'Norway';
+-- what happend?
+
+SELECT international_students
+FROM "university_ranking_csv_all_strings"
+WHERE country = 'Norway'
+LIMIT 10;
+-- thoudsands with comas?
+
+SELECT  REGEXP_REPLACE(international_students, '[.,]',''),
+        REGEXP_REPLACE(faculty_count, '[.,]','')
+FROM "university_ranking_csv_all_strings"
+WHERE country = 'Norway'
+LIMIT 10;
+
+SELECT  CAST(REGEXP_REPLACE(international_students, '[.,]','') as INT),
+        CAST(REGEXP_REPLACE(faculty_count, '[.,]','') as INT)
+FROM "university_ranking_csv_all_strings"
+WHERE country = 'Norway'
+LIMIT 10;
+
+SELECT  TRY(CAST(REGEXP_REPLACE(international_students, '[.,]','') as INT)),
+        TRY(CAST(REGEXP_REPLACE(faculty_count, '[.,]','') as INT))
+FROM "university_ranking_csv_all_strings"
+WHERE country = 'Norway'
+LIMIT 10;
+
+
+SELECT  COALESCE(TRY(CAST(REGEXP_REPLACE(international_students, '[.,]','') as INT)), -1),
+        TRY(CAST(REGEXP_REPLACE(faculty_count, '[.,]','') as INT))
+FROM "university_ranking_csv_all_strings"
+WHERE country = 'Norway'
+LIMIT 10;
+
+
+SELECT  COALESCE(TRY(CAST(REGEXP_REPLACE(international_students, '[.,]','') as INT)), -1),
+        COALESCE(TRY(CAST(REGEXP_REPLACE(faculty_count, '[.,]','') as INT)), -1)
+FROM "university_ranking_csv_all_strings"
+WHERE country = 'Norway'
+LIMIT 10;
+
+
+```
+
+### Wrapping up
+```SQL
+--- 10.2 Complete Query ---
+SELECT university,
+       COALESCE(TRY(CAST(year AS int)),9999) AS year, 
+       rank_display, 
+       COALESCE(TRY(CAST(split_part(rank_display,'-',1) AS int)),9999) AS n_rank,
+       COALESCE(TRY(CAST(score AS double)),-1) AS score, 
+       country, city, region, type,
+       research_output, 
+       COALESCE(TRY(CAST(student_faculty_ratio AS double)),-1) AS student_faculty_ratio,
+       COALESCE(TRY(CAST(regexp_replace(international_students,'[.,]','') AS int)),-1) as international_students,
+       size, 
+       COALESCE(TRY(CAST(regexp_replace(faculty_count,'[.,]','') AS int)),-1) as faculty_count
+FROM "university_ranking_csv_all_strings"
+order by year, n_rank;
+```
+
+### Pros/Cons with las approch
+> Pros
+- As a tool for check the raw data 
+- Fast testing to detect problems with the raw data
+
+> Cons
+- Complex queries
+- Expert on SQL
+- Easy commit mistakes
+- Hard to mantain
+- Cost and performance
+
+## Simplify querying with Views
+
+```SQL
+CREATE OR REPLACE VIEW university_ranking_view AS
+SELECT university,
+       COALESCE(TRY(CAST(year AS int)),9999) AS year, 
+       rank_display, 
+       COALESCE(TRY(CAST(split_part(rank_display,'-',1) AS int)),9999) AS n_rank,
+       COALESCE(TRY(CAST(score AS double)),-1) AS score, 
+       country, city, region, type,
+       research_output, 
+       COALESCE(TRY(CAST(student_faculty_ratio AS double)),-1) AS student_faculty_ratio,
+       COALESCE(TRY(CAST(regexp_replace(international_students,'[.,]','') AS int)),-1) as international_students,
+       size, 
+       COALESCE(TRY(CAST(regexp_replace(faculty_count,'[.,]','') AS int)),-1) as faculty_count
+FROM "university_ranking_csv_all_strings"
+order by year, n_rank;
+
+
+SELECT * FROM "suan_workshop_datalake_robin_ranking_universities_db"."university_ranking_view" limit 10;
+
+
+SELECT year, university, n_rank, country, region, score, type
+FROM "suan_workshop_datalake_robin_ranking_universities_db"."university_ranking_view" 
+WHERE n_rank < 6
+LIMIT 10;
+
+```
+
+### DENSE_RANK
+- https://docs.aws.amazon.com/redshift/latest/dg/r_WF_DENSE_RANK.html
+
+```SQL 
+--- 12.3. Top 5 universities in each region by year --- 
+SELECT * 
+FROM (
+        SELECT  year, 
+                region, 
+                DENSE_RANK() OVER(PARTITION BY year, region ORDER BY n_rank) AS region_rank,
+                n_rank, university, country, score, type
+        FROM "suan_workshop_datalake_robin_ranking_universities_db"."university_ranking_view" 
+    )
+WHERE region_rank < 6
+ORDER BY year, region, region_rank;
+
+SELECT * 
+FROM (
+        SELECT  year, 
+                region, 
+                DENSE_RANK() OVER(PARTITION BY year, region ORDER BY n_rank) AS region_rank,
+                n_rank, university, country, score, type
+        FROM "suan_workshop_datalake_robin_ranking_universities_db"."university_ranking_view" 
+    )
+WHERE   region_rank < 6 AND
+        country = 'United States'
+ORDER BY year, region, region_rank;
+
+
+SELECT  region, 
+        COUNT(*) as count_by_region
+FROM "suan_workshop_datalake_robin_ranking_universities_db"."university_ranking_view" 
+GROUP BY region
+ORDER BY count_by_region DESC;
+
+--- 12.5 University Count by Region - Remove Duplicates ---
+SELECT region, count(*) as count
+FROM (
+    SELECT region, university
+    FROM "suan_workshop_datalake_robin_ranking_universities_db"."university_ranking_view" 
+    GROUP BY region, university
+    )
+GROUP BY region
+ORDER BY count;
+
+```
+
+# Benefits Data Lake
+
+• Take source data as-is and enable SQL querying
+• Quickly build prototypes and proof-of- concepts
+• Extract, Load and Transform - Cleanup at query time
+• Query time cleanup can be inefficient
+
+## Apache Spark (Serverless PySpark)
+
+- IAM permissions: AWS Glue Service Role (AWSGlueServiceRole) => Inline policy (iam:PassRole)
+arn:aws:iam::036134507423:role/suan-workshop-data-lake
+
+```JSON
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "iam:PassRole",
+            "Resource": "arn:aws:iam::1234567890:role/AWSGlueServiceNotebookRoleDefault"            
+        }
+    ]
+   }
+```
+- Glue => Jupyter Notebook
+- Load database and table
+
+# Two (2) view interfaces 
+
+### SQL and object interface
+
+### SQL interface
 
 
 
-## Next2 session: Schema evolution
+## Next session: Schema evolution
 
 
-## Oracle
-
-SELECT DAT

@@ -18,3 +18,5 @@
 
 # Requerimiento no funcional
 - Ciclo de vida del resultado de los queries, para mantener los costos bajos
+- Los datos deben estar normalizados y estandarizados 
+- Los nombres de las columnas deben estandarizados, para evitar el uso de para reservadas de SQL para la transformación de los datos

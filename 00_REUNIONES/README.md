@@ -250,3 +250,14 @@ Ejemplo, versionamiento de T&C
 
 
 
+
+# Mayo 8, 2024
+- Alvaro Spitia, comercio internacional
+- Regulacion Europea, SIBAN. Exige compensación de carbono CBAM
+- Que tiene que hacer el país
+
+- Wocan, enfoqye de genero
+- https://www.apple.com/co/newsroom/2019/04/conserving-mangroves-a-lifeline-for-the-world/
+
+## Relative CBAM Exposure Index
+- https://www.worldbank.org/en/data/interactive/2023/06/15/relative-cbam-exposure-index

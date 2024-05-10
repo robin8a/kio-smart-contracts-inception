@@ -40,9 +40,19 @@ FROM "AwsDataCatalog"."learn_by_doing"."university_ranking_csv"
 WHERE rank_display in ('1','2','3','4','5')
 ORDER BY year, rank_display;
 
+SELECT * 
+FROM "university_ranking_csv_all_strings"
+WHERE rank_display in ('1','2','3','4','5')
+ORDER BY year, rank_display;
+
 --- 3. Check Column Mapping - Cross Check Athena Output and CSV File Content. Look for double quotes! ---
 SELECT * 
 FROM "AwsDataCatalog"."learn_by_doing"."university_ranking_csv"
+WHERE university like '%Nanyang Technological University%'
+ORDER BY year, rank_display;
+
+SELECT * 
+FROM "university_ranking_csv_all_strings"
 WHERE university like '%Nanyang Technological University%'
 ORDER BY year, rank_display;
 

@@ -60,7 +60,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS `suan_workshop_datalake_robin_ranking_univer
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde' 
 WITH SERDEPROPERTIES ("separatorChar" = ",", "escapeChar" = "\\", "quoteChar"='\"') 
 LOCATION
-  's3://aws-glue-chandra-us-east-1/university_ranking/csv/'
+  's3://suan-workshop-datalake-robin-deletable-us-east-1/university_ranking/csv/'
 TBLPROPERTIES ("skip.header.line.count"="1")
 
 --- Option 3 - Create a View to simplify querying --- 
