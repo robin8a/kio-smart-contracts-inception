@@ -261,3 +261,35 @@ Ejemplo, versionamiento de T&C
 
 ## Relative CBAM Exposure Index
 - https://www.worldbank.org/en/data/interactive/2023/06/15/relative-cbam-exposure-index
+
+
+# Mayo 14, 2024
+
+- Enfasis en los entregables contractuales
+- Dataset
+- Dashbaoard
+- Procedimiento @ignacio
+- Light paper
+
+
+
+# Mayo 16, 2024
+
+## 
+
+## KYC
+- Ver pivotal, hay dos links
+- Lo provee un 3ro o lo implementamos
+- Bellarine
+- Truora
+- proceso de cruzar el usuario con pruebas especificas (existencia). Ejemplo un servicio de agua,
+- Cumplir un minimo, de regulación
+- SARLAF
+
+## Hoja de ruta
+1. Esceario offfline
+2. KYC
+
+- WS pruebas con Selenium FE
+- Servicios de documentación 
+- Servicios de incidencias: Formulario => Pivotal traker => 

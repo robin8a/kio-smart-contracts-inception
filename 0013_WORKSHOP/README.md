@@ -223,22 +223,22 @@ FROM "university_ranking_csv_all_strings";
 ```SQL
 SELECT university, year, 
        rank_display, 
-       COALESCE(TRY(CAST(split_part(rank_display,'-',1) as int)), 9999) as n_rank,
+       COALESCE(TRY(CAST(split_part(rank_display,'-',1) AS INT)), -1) AS n_rank,
        score, country, city, region, type,
        research_output, student_faculty_ratio, international_students,
        size, faculty_count
 FROM "university_ranking_csv_all_strings";
 
 SELECT *
-FROM (
-    SELECT university, year, 
-       rank_display, 
-       COALESCE(TRY(CAST(split_part(rank_display,'-',1) as int)), 9999) as n_rank,
-       score, country, city, region, type,
-       research_output, student_faculty_ratio, international_students,
-       size, faculty_count
-    FROM "university_ranking_csv_all_strings"
-)
+    FROM (
+        SELECT university, year, 
+        rank_display, 
+        COALESCE(TRY(CAST(split_part(rank_display,'-',1) AS INT)), 9999) AS n_rank,
+        score, country, city, region, type,
+        research_output, student_faculty_ratio, international_students,
+        size, faculty_count
+        FROM "university_ranking_csv_all_strings"
+    )
 WHERE n_rank < 6
 ORDER BY year, n_rank;
 
@@ -304,7 +304,10 @@ SELECT university,
        rank_display, 
        COALESCE(TRY(CAST(split_part(rank_display,'-',1) AS int)),9999) AS n_rank,
        COALESCE(TRY(CAST(score AS double)),-1) AS score, 
-       country, city, region, type,
+       country, 
+       city, 
+       region, 
+       type,
        research_output, 
        COALESCE(TRY(CAST(student_faculty_ratio AS double)),-1) AS student_faculty_ratio,
        COALESCE(TRY(CAST(regexp_replace(international_students,'[.,]','') AS int)),-1) as international_students,
@@ -338,11 +341,11 @@ SELECT university,
        country, city, region, type,
        research_output, 
        COALESCE(TRY(CAST(student_faculty_ratio AS double)),-1) AS student_faculty_ratio,
-       COALESCE(TRY(CAST(regexp_replace(international_students,'[.,]','') AS int)),-1) as international_students,
+       COALESCE(TRY(CAST(regexp_replace(international_students,'[.,]','') AS int)),-1) AS international_students,
        size, 
-       COALESCE(TRY(CAST(regexp_replace(faculty_count,'[.,]','') AS int)),-1) as faculty_count
+       COALESCE(TRY(CAST(regexp_replace(faculty_count,'[.,]','') AS int)),-1) AS faculty_count
 FROM "university_ranking_csv_all_strings"
-order by year, n_rank;
+ORDER BY YEAR, n_rank;
 
 
 SELECT * FROM "suan_workshop_datalake_robin_ranking_universities_db"."university_ranking_view" limit 10;
@@ -410,6 +413,9 @@ ORDER BY count;
 • Query time cleanup can be inefficient
 
 ## Apache Spark (Serverless PySpark)
+- https://github.com/ChandraLingam/DataLake/blob/main/UniversityRanking/university_ranking_notebook.ipynb
+
+- Glue => Jupyter Notebook
 
 - IAM permissions: AWS Glue Service Role (AWSGlueServiceRole) => Inline policy (iam:PassRole)
 arn:aws:iam::036134507423:role/suan-workshop-data-lake
@@ -426,17 +432,62 @@ arn:aws:iam::036134507423:role/suan-workshop-data-lake
     ]
    }
 ```
-- Glue => Jupyter Notebook
+
 - Load database and table
 
 # Two (2) view interfaces 
 
 ### SQL and object interface
 
-### SQL interface
+
+```SQL
+CREATE EXTERNAL TABLE IF NOT EXISTS `suan_workshop_datalake_robin_ranking_universities_db.university_ranking_csv_clean`(
+  `university` string, 
+  `year` int, 
+  `rank_display` string, 
+  `n_rank` int,
+  `score` float, 
+  `country` string, 
+  `city` string, 
+  `region` string, 
+  `type` string, 
+  `research_output` string, 
+  `student_faculty_ratio` float, 
+  `international_students` int, 
+  `size` string, 
+  `faculty_count` int)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde' 
+WITH SERDEPROPERTIES ("separatorChar" = ",", "escapeChar" = "\\", "quoteChar"='\"') 
+LOCATION
+  's3://suan-workshop-datalake-robin-deletable-us-east-1/university_ranking/csv_clean/'
+TBLPROPERTIES ("skip.header.line.count"="1")
+```
+
+
+## Quicksight
+- ref: https://aws.amazon.com/quicksight/pricing/?refid=0f475f0a-13f6-475c-88be-fd775e266ddf
+- Add role permissions to Athena and S3
+- Dataset
+- year format (no comas)
+- Top rank for each year | (x: year, y: region, value: n_rank, ) | change bar chart for table
+- Number of Universities for each region and Type | bar char | (x: region y: value: universities - count distinct) group: type
+- Top five Universities | Pivot table | rows: year & univesity , values: n_rank (min) | filter n_rank 
+- Best universities for each region/country | calculated column: Datasets => Edit dataset => Add calculated field
+
+name: region_rank
+```js
+denseRank([{n_rank} ASC], [{year}, {region}])
+```
+
+pivotal: add all teh columns from the computed column
+rows: year, region, universiy
+filter: top ten region_rank < 10
 
 
 
-## Next session: Schema evolution
+
+# Schema evolution
+
+
 
 
