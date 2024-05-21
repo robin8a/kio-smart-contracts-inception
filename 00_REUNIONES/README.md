@@ -285,6 +285,8 @@ Ejemplo, versionamiento de T&C
 - proceso de cruzar el usuario con pruebas especificas (existencia). Ejemplo un servicio de agua,
 - Cumplir un minimo, de regulación
 - SARLAF
+- https://aws.amazon.com/es/solutions/financial-services/identity-verification/
+- Benchmak
 
 ## Hoja de ruta
 1. Esceario offfline
@@ -293,3 +295,16 @@ Ejemplo, versionamiento de T&C
 - WS pruebas con Selenium FE
 - Servicios de documentación 
 - Servicios de incidencias: Formulario => Pivotal traker => 
+
+
+# 21 de Mayo, 2024
+## Robin
+- Data Lake (update)
+- Data Set (update)
+- Problem handling (new)
+- Workshops, agenda (new)
+- Workshops, data lake
+
+## Sergio
+- Requerimientos
+- Diseño del sistema
