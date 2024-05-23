@@ -304,7 +304,10 @@ Ejemplo, versionamiento de T&C
 - Problem handling (new)
 - Workshops, agenda (new)
 - Workshops, data lake
+- Ejecutar agenda de promoción de negocio
 
 ## Sergio
 - Requerimientos
 - Diseño del sistema
+
+
