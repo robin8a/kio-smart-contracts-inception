@@ -1,37 +1,35 @@
 # DataLake
-- https://docs.aws.amazon.com/whitepapers/latest/building-data-lakes/monitoring-optimizing-data-lake-environment.html
-- https://us-east-1.console.aws.amazon.com/glue/home?region=us-east-1#/v2/data-catalog/databases
-- https://docs.aws.amazon.com/athena/latest/ug/select.html
 
-
-## 1. Documentacion y entregrables (OK)
-- Documento 1.4.x
-- Lista de entregables @sergio
+- <https://docs.aws.amazon.com/whitepapers/latest/building-data-lakes/monitoring-optimizing-data-lake-environment.html>
+- <https://us-east-1.console.aws.amazon.com/glue/home?region=us-east-1#/v2/data-catalog/databases>
+- <https://docs.aws.amazon.com/athena/latest/ug/select.html>
 
 ## Datalake Introduction
+
 - Udemy pdf
 
 ## Data Catalog and Querying (last session, continue... today)
+
 Ohio
 
 - Iris (csv)
 Permissions =>  S3 Bucket => Upload Data => Configure Crawler => Add a datastore => Security settings => Specify Output (Database) => Run Crawler => Tables
 
 - Amazon customer reviews
-S3 => Create table => Run queries (Athena) 
+S3 => Create table => Run queries (Athena)
 
 - Requerimiento: estandarizar los nombres de los catalogos y tablas
 
-##  Glue ETL with Apache Sparks (today)
+## Glue ETL with Apache Sparks (today)
 
 ### iris CSV to parquet
-36.
+
 1. Create Job (s3 example job)
-- Visual => Change properties
-- Job Details => Role
+    - Visual => Change properties
+    - Job Details => Role
+
 2. Querying
 
-### 
 MSISDN stands for Mobile Station International Subscriber Directory Number
 
 Plan Assigment: MSISDN, plan_id
@@ -40,14 +38,15 @@ Subscriber: MSISDN, genre, birth_date, is_vip
 
 Plans: plan_id, plan_desc,  plan_price
 
-
 "a","b",""'String'""
 
-# University Ranking
-- ![Kaggle Datasets](https://www.kaggle.com/datasets)
-- https://www.kaggle.com/code/rizqyad/qs-world-university-rankings-2017-2023
+## University Ranking
 
-## S3
+- [Kaggle Datasets](https://www.kaggle.com/datasets)
+- <https://www.kaggle.com/code/rizqyad/qs-world-university-rankings-2017-2023>
+
+### S3
+
 - Create buckets for every user
 suan-workshop-datalake-robin-deletable-us-east-1
 suan-workshop-datalake-<your_name>-deletable-us-east-1
@@ -56,24 +55,24 @@ suan-workshop-datalake-<your_name>-deletable-us-east-1
 - Create subfolders
 university_ranking/csv
 
-## Glue
+### Glue
+
 - Create database
 suan_workshop_datalake_robin_ranking_universities_db
 suan_workshop_datalake_<your_name>_ranking_universities_db
 
+### Crawler
 
-## Crawler
 suan_workshop_datalake_robin_ranking_universities_crawler
 suan_workshop_datalake_<your_name>_ranking_universities_crawler
+
 - Add datasource
 - Choose role: suan-workshop-datalake
 - Prefix: university_ranking_<your_name>
 - run crawler
 - check table
 
-
-### Data Quality Issues
-
+#### Data Quality Issues
 
 ```SQL
 
@@ -119,17 +118,20 @@ ORDER BY year, rank_display;
 
 
 ```
-# OpenCSVSerDe for processing CSV
 
-## Schema Option 1
-- https://docs.aws.amazon.com/athena/latest/ug/csv-serde.html
+## OpenCSVSerDe for processing CSV
+
+### Schema Option 1
+
+- <https://docs.aws.amazon.com/athena/latest/ug/csv-serde.html>
 - Delete tables
 - Delete crawler
 
 - Create schema option 1
 - Errors empty fields, 377
 
-## Schema Option 2
+### Schema Option 2
+
 - Create schema option 2, all string
 - Create workspace:  suan_workshop_datalake_<your_name>_ranking_universities_workgroup
 
@@ -152,15 +154,17 @@ ORDER BY rank_length DESC;
 
 
 ```
+
 > 40
 
-# Data cleanup
+### Data cleanup
+
 - ref: [Data type formatting functions](https://docs.aws.amazon.com/clean-rooms/latest/sql-reference/r_Data_type_formatting.html)
 - Convert string to correct data type
 - Handle missing values
 
+#### CAST
 
-## CAST
 ```SQL
 
 SELECT CAST(year as integer)
@@ -177,7 +181,7 @@ LIMIT 10;
 
 ```
 
-## SPLIT-PART
+#### SPLIT-PART
 
 ```SQL
 SELECT SPLIT_PART('abc$def$ghi','$',2);
@@ -207,7 +211,7 @@ WHERE rank_display = '';
 
 ```
 
-## TRY, NVL
+#### TRY, NVL
 
  ```SQL
 SELECT rank_display, TRY(CAST(SPLIT_PART(rank_display,'-',1) AS INTEGER)) AS n_rank
@@ -218,7 +222,7 @@ FROM "university_ranking_csv_all_strings";
 
  ```
 
-## Wrapping up
+#### Wrapping up
 
 ```SQL
 SELECT university, year, 
@@ -244,10 +248,9 @@ ORDER BY year, n_rank;
 
 ```
 
-## REGEXP
+#### REGEXP
 
-- https://docs.aws.amazon.com/clean-rooms/latest/sql-reference/REGEXP_REPLACE.html
-
+- <https://docs.aws.amazon.com/clean-rooms/latest/sql-reference/REGEXP_REPLACE.html>
 
 ```SQL
 SELECT *
@@ -296,7 +299,8 @@ LIMIT 10;
 
 ```
 
-### Wrapping up
+#### Wrapping up two
+
 ```SQL
 --- 10.2 Complete Query ---
 SELECT university,
@@ -317,19 +321,22 @@ FROM "university_ranking_csv_all_strings"
 order by year, n_rank;
 ```
 
-### Pros/Cons with las approch
+#### Pros/Cons with las approch
+>
 > Pros
-- As a tool for check the raw data 
+
+- As a tool for check the raw data
 - Fast testing to detect problems with the raw data
 
 > Cons
+
 - Complex queries
 - Expert on SQL
 - Easy commit mistakes
 - Hard to mantain
 - Cost and performance
 
-## Simplify querying with Views
+### Simplify querying with Views
 
 ```SQL
 CREATE OR REPLACE VIEW university_ranking_view AS
@@ -358,10 +365,11 @@ LIMIT 10;
 
 ```
 
-### DENSE_RANK
-- https://docs.aws.amazon.com/redshift/latest/dg/r_WF_DENSE_RANK.html
+#### DENSE_RANK
 
-```SQL 
+- [Function dense rank](https://docs.aws.amazon.com/redshift/latest/dg/r_WF_DENSE_RANK.html)
+
+```SQL
 --- 12.3. Top 5 universities in each region by year --- 
 SELECT * 
 FROM (
@@ -405,7 +413,7 @@ ORDER BY count;
 
 ```
 
-# Benefits Data Lake
+## Benefits Data Lake
 
 • Take source data as-is and enable SQL querying
 • Quickly build prototypes and proof-of- concepts
@@ -413,7 +421,8 @@ ORDER BY count;
 • Query time cleanup can be inefficient
 
 ## Apache Spark (Serverless PySpark)
-- https://github.com/ChandraLingam/DataLake/blob/main/UniversityRanking/university_ranking_notebook.ipynb
+
+- <https://github.com/ChandraLingam/DataLake/blob/main/UniversityRanking/university_ranking_notebook.ipynb>
 
 - Glue => Jupyter Notebook
 
@@ -435,10 +444,9 @@ arn:aws:iam::036134507423:role/suan-workshop-data-lake
 
 - Load database and table
 
-# Two (2) view interfaces 
+## Two (2) view interfaces
 
 ### SQL and object interface
-
 
 ```SQL
 CREATE EXTERNAL TABLE IF NOT EXISTS `suan_workshop_datalake_robin_ranking_universities_db.university_ranking_csv_clean`(
@@ -463,18 +471,19 @@ LOCATION
 TBLPROPERTIES ("skip.header.line.count"="1")
 ```
 
-
 ## Quicksight
-- ref: https://aws.amazon.com/quicksight/pricing/?refid=0f475f0a-13f6-475c-88be-fd775e266ddf
+
+- ref: <https://aws.amazon.com/quicksight/pricing/?refid=0f475f0a-13f6-475c-88be-fd775e266ddf>
 - Add role permissions to Athena and S3
 - Dataset
 - year format (no comas)
 - Top rank for each year | (x: year, y: region, value: n_rank, ) | change bar chart for table
 - Number of Universities for each region and Type | bar char | (x: region y: value: universities - count distinct) group: type
-- Top five Universities | Pivot table | rows: year & univesity , values: n_rank (min) | filter n_rank 
+- Top five Universities | Pivot table | rows: year & univesity , values: n_rank (min) | filter n_rank
 - Best universities for each region/country | calculated column: Datasets => Edit dataset => Add calculated field
 
 name: region_rank
+
 ```js
 denseRank([{n_rank} ASC], [{year}, {region}])
 ```
@@ -483,11 +492,58 @@ pivotal: add all teh columns from the computed column
 rows: year, region, universiy
 filter: top ten region_rank < 10
 
+## AWS Glue vs Lambda
+
+- [Medium: When to use AWS Lambda over AWS Glue Job(A Use case)](https://anujpachawadkar123.medium.com/when-to-use-aws-lambda-over-aws-glue-job-a-use-case-e86ee97eff5b)
+- [Stack: Is AWS Lambda preferred over AWS Glue Job?](https://stackoverflow.com/questions/63599886/is-aws-lambda-preferred-over-aws-glue-job)
+
+## Lambda
+
+- Number of requests: 30 (dias) *12 (sensor por hora)* 24 (horas) = 8640
+- test Luis: por hora 12 archivos por hora
+- prueba Ignacio: 30 Kb, 8 segundos
+
+## BI
+
+- Luis pruebe si le funciona el workgroup
+
+```SQL
+CREATE OR REPLACE VIEW suan_iot_test_device_clean_view AS
+SELECT 
+        deviceid,
+        devicevalue, 
+        deviceparameter, 
+        TO_DATE(datetime, 'YYYY-MM-DD HH24:MI-SS')    
+FROM "suan_iot_test_device";
 
 
 
-# Schema evolution
 
+CREATE OR REPLACE VIEW suan_iot_test_db_view_clean AS
+SELECT 
+        deviceid,
+        devicevalue, 
+        deviceparameter, 
+        CAST(datetime as date), 
+       
+FROM "university_ranking_csv_all_strings"
+ORDER BY YEAR, n_rank;
 
+select cast('2008-02-18 02:36:48' as date) as mysaletime;
 
+select cast('2008-02-18 02:36:48' as date) as mysaletime;
+
+```
+
+## Schema evolution
+
+### CSV and TSV
+
+- Shuffle columns: athena returns first mapping CSV or TSV format (error: wrong values)
+- Missing or new columns: not matches the catalog schema (error: wrong index columns and values)
+- Works wells when is added new columns at the end
+- Support renaming columns for the index
+- Wich user cases fits?
+
+### Parquet
 

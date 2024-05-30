@@ -302,12 +302,8 @@ Ejemplo, versionamiento de T&C
 - Data Lake (update)
 - Data Set (update)
 - Problem handling (new)
-- Workshops, agenda (new)
-- Workshops, data lake
-- Ejecutar agenda de promoción de negocio
+- Workshops, data lake: Ejecutar agenda de promoción de negocio 
 
 ## Sergio
 - Requerimientos
 - Diseño del sistema
-
-
