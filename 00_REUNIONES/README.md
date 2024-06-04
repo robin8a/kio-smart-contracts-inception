@@ -335,6 +335,14 @@ Despliegue
 Looker Studio is free to use for connecting to a limited number of data sources and creating basic reports and dashboards.
 For more advanced features and integrations, you'll need to upgrade to Looker, which has custom pricing based on your specific needs.
 
+- Doesn't support parquet or json directly, is neccesary use third party
+- Example Neider: <https://lookerstudio.google.com/reporting/91cf20ab-b74a-48cb-821f-1db47763699f/page/NawjD>
+
+###### Embedding
+
+- Embed: <https://cloud.google.com/looker/docs/embed-overview>
+- Frame: <https://cloud.google.com/looker/docs/extension-framework-react-and-js-code-examples>
+
 ##### Qlik Sense
 
 - Qlik Sense Business: Starts at $30 per user/month.
