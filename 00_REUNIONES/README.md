@@ -1,18 +1,19 @@
+# Reuniones
 
-# Reunion 16 de Abril 2021
+## Reunion 16 de Abril 2021
 - Modelo de negocio
 - Contrato usan un smart contract
 
-# Normas contables
+## Normas contables
 - NIC38; activos o patriminio, propiedad intelectual
 
-# 21 de Abril
+## 21 de Abril
 
-## Captación de Activos
+### Captación de Activos
 - https://www.supersociedades.gov.co/Noticias/Publicaciones/Documents/2018/ABC-captacion-DEFINITIVO-2018.pdf
 - https://actualicese.com/captacion-ilegal-de-recursos-y-actividades-no-autorizadas/#:~:text=Algunos%20ejemplos%20de%20formas%20de%20captaci%C3%B3n%20ilegal%20de%20dinero%20son,tienen%20una%20explicaci%C3%B3n%20financiera%20razonable.
 
-### Tareas
+#### Tareas
 - Documentar 
 
 
@@ -22,7 +23,7 @@ Desarrollo experimental de prototipo de plataforma mínima viable para la prueba
 ```
 
 
-# 16 Octubre Luis
+## 16 Octubre Luis
 
 - Se crean NTFs para cada estado y se destruye el anterior
 
@@ -32,8 +33,8 @@ Desarrollo experimental de prototipo de plataforma mínima viable para la prueba
 - Reproducir en código el paso a paso
 - Se crea y se destruye NFT en el tiempo
 
-# Lui Enrique 25/10/21
-## CIF poder acceder (Cerfiticado Incentivo Forestal)
+## Lui Enrique 25/10/21
+### CIF poder acceder (Cerfiticado Incentivo Forestal)
 - No todas las fincas son 
 - UPRA Unidad planificacion agraria, aptitud forestal, visor CIPRA (Potenciales SIG)
 - No bosque natural
@@ -41,7 +42,7 @@ Desarrollo experimental de prototipo de plataforma mínima viable para la prueba
 - Modelos de captura en Colombia, es diferente en cada pais, cambia por región
 - Análisis area, refraccion de la luz, cada 1 año o 2 años, revisar
 
-## Proceso CIF 
+### Proceso CIF 
 
 1. Certificado de tradicion y libertad, sino tiene no sirve
 2. Ninguna medida cautelar
@@ -52,7 +53,7 @@ Desarrollo experimental de prototipo de plataforma mínima viable para la prueba
 7. Cual especie se acomoda mas para ese terreno
 8. 
 
-## Plan Establecimiento y Manejo Forestal (PEM); actividades del proyecto
+### Plan Establecimiento y Manejo Forestal (PEM); actividades del proyecto
 - Donde se compra la semilla
 - Donde Vivero
 - Preparacion del suelo, arado o no
@@ -62,19 +63,18 @@ Desarrollo experimental de prototipo de plataforma mínima viable para la prueba
 
 1'200.000 hectareas
 
-## 1er proyecto
+### 1er proyecto
 - 2000 hectareas
 - Entre Meta / Vichada  
-- 
 
-## Regiones mayor potencial
+### Regiones mayor potencial
 - Vichada, Meta, Casanera, Cordoba, Antioquia
 
 
 
-# Reunion 04 Noviembre 2021
+## Reunion 04 Noviembre 2021
 
-## Puntos
+### Puntos
 - Partimos 
 - Que tenemos actualmente?
 - Reunión MVP
@@ -85,7 +85,8 @@ Desarrollo experimental de prototipo de plataforma mínima viable para la prueba
 - Habiamos dicho que en tres meses
 
 
-## Contrato de fundadores
+### Contrato de fundadores
+
 - Cap Table
 - Seguridad juridica
 - Cualquier elemento hacer parte PI
@@ -93,16 +94,16 @@ Desarrollo experimental de prototipo de plataforma mínima viable para la prueba
 - Good liver: condiciones
 
 
-# 12 de Noviembre 2021
+## 12 de Noviembre 2021
 
 Referencias
 - https://www.topl.co/
 - Rosseta: blockchain
 - Polygon
   
-# Contexto 
+### Contexto 
 
-- Primero reunión creo que fue en enero 
+- Primero reunión creo que fue en enero
   - Canabis, mejor producción de canabis
   - Activos forestales
 
@@ -118,31 +119,29 @@ Referencias
 
 - No se cumplió o se llego a algun acuerdo respecto Agora Horus
 
-- Se comienza 
+- Se comienza
 
-# Acuerdo de porcentajes / PI
+### Acuerdo de porcentajes / PI
+
 - PI
-- 
 
-# Angeles
+### Angeles
 
+### Ejercicio SUANCOS
 
-# Ejercicio SUANCOS
+### Estado de arte
 
-# Estado de arte
-
-
-
-# Big Data Architecture
+### Big Data Architecture
 
 1. Almacenamiento centralizado S3: es la fuente principal donde se guarda y consumen los datos
 2. Preprocesamiento y tranformación de datos: procesamiento y tranformación de los datos crudos  y almacene datos de una amplia variedad de fuentes en una plataforma centralizada.
 3. Procesamiento y analítica: Integre rápidamente herramientas de procesamiento de datos de terceros actuales y futuras.
-4. Sguridad y gobernabilidad: Comparta de forma segura conjuntos de datos y resultados procesados. 
+4. Seguridad y gobernabilidad: Comparta de forma segura conjuntos de datos y resultados procesados. 
 5. Catálogo y Administración: Cree un catálogo de datos completo para buscar y utilizar activos de datos almacenados en el lago de datos.
 
-# Marzo 06 2023
-## Como funcionan la mayoría de servicios: SaaS
+## Marzo 06 2023
+
+### Como funcionan la mayoría de servicios: SaaS
 
 Seguridad (SSO)
 Costos
@@ -153,46 +152,31 @@ Despliegue
 
 - Imagenes satelitales
 - Ux/Ui grimo
--
-
-
-Dos persona
-Sergio Cajias (Jr)
-Descarnonización 
-
-- 
-
-N4na
-Acuabox
-005 
-SUAN
-
-
+- Dos persona
+- Sergio Cajias (Jr)
+- Descarnonización
+- N4na
+- Acuabox
 - Negocios
 - Hitos
 - Ui/Ux
 - Microservicios
+- react
+- nextjs
+- shellscripting
+- Ejemplo, versionamiento de T&C
 
+## April, 17 2024
 
-react
-nextjs
-shellscripting
+### 1.4 IoT (Trazabilidad)
 
-
-Ejemplo, versionamiento de T&C
-
-
-
-# April, 17 2024
-
-
-# 1.4 IoT (Trazabilidad)
 - Avance 38% a marzo
 - Hoja de vida del arbol
 - Metodos comparativos
 - Drones (stopper la compra)
 
-## Solución
+### Solución
+
 - @sergio, variales a considerar fitosanitarios
 - Data Lake @robin
 - Datos simulados @robin
@@ -203,31 +187,34 @@ Ejemplo, versionamiento de T&C
 - Algoritmo de AI, que nos permita hacer algunas mediciones. Fotos de google cultivos historicos y hacer la simulación @robin
 - todo lo esta linkeado en el excel
 
-## POA a nivel de informe
-![POA, documento unificado y evidencias](./images/POA.png)
+### POA a nivel de informe
+
+- ![POA, documento unificado y evidencias](./images/POA.png)
 - Anexos transversal
 - Conectar con un documento
 
-# 2.1
+### 2.1
+
 - Plataforma
 - Marketplace
 
+### 2.2 Desarrollar contratos inteligentes
 
-# 2.2 Desarrollar contratos inteligentes
 - Implementación del light-paper
 - En Mayo inicia la promoción, @camilo
 
+### April, 19
 
-# April, 19 
 - @emanuel, estructurar los entregables, listado de lo que tenemos que entregar
 
+### April, 26
 
-# April, 26
+#### Simulador
 
-## Simulador
 - Protocolos: MQQT,  Modbus, Modbus TCP
 
-## Grupo de trabajo de ciencia de datos
+#### Grupo de trabajo de ciencia de datos
+
 - Servicios de Google cloud
 - Migración custodia de SUAN
 - Integración y migración
@@ -294,16 +281,98 @@ Ejemplo, versionamiento de T&C
 
 - WS pruebas con Selenium FE
 - Servicios de documentación 
-- Servicios de incidencias: Formulario => Pivotal traker => 
+- Servicios de incidencias: Formulario => Pivotal traker =>
 
 
-# 21 de Mayo, 2024
-## Robin
+## 21 de Mayo, 2024
+
+### Robin
+
 - Data Lake (update)
 - Data Set (update)
 - Problem handling (new)
-- Workshops, data lake: Ejecutar agenda de promoción de negocio 
+- Workshops, data lake: Ejecutar agenda de promoción de negocio
 
-## Sergio
+### Sergio
+
 - Requerimientos
 - Diseño del sistema
+
+## 31 de Mayo, 2024
+
+- Explorar herramientas para graficar
+- Stream Lead
+- Tablue
+- AWS IoT analytics
+- Integración con marketplace y plataforma
+- ReactChart JS
+
+## 04 Junio, 2024
+
+### Investigación benchmark BI
+
+- Prompted what are the top 5 BI in the market?
+- Microsoft Power BI, Tableau, Looker Studio, Qlick sense
+- No soportan parquet (Looker, Tabue)
+- Microsoft Power BI, si soporta parquet
+
+#### Pricing
+
+##### Microsoft Power BI
+
+- Power BI Pro: Starts at $9.99 per user/month.
+- Power BI Premium: Offers dedicated capacity and starts at $4,995 per month.
+- Power BI Premium Per User: A new option that starts at $20 per user/month.
+
+##### Tableau
+
+- Tableau Creator: Starts at $70 per user/month.
+- Tableau Explorer: Starts at $42 per user/month.
+- Tableau Viewer: Starts at $15 per user/month.
+
+##### Looker Studio (formerly Google Data Studio)
+
+Looker Studio is free to use for connecting to a limited number of data sources and creating basic reports and dashboards.
+For more advanced features and integrations, you'll need to upgrade to Looker, which has custom pricing based on your specific needs.
+
+##### Qlik Sense
+
+- Qlik Sense Business: Starts at $30 per user/month.
+- Qlik Sense Enterprise: Contact Qlik for a custom quote based on your requirements.
+
+- Cual es el presupuesto de infraestructura
+- Librer
+- Crea
+
+##### Databricks
+
+- Apache
+- Pay as you go
+- <https://www.databricks.com/product/pricing>
+- What is Databricks used for?
+
+> Data Engineering: ETL processes, data pipelines, data cleaning, and transformation.
+> Data Science: Exploratory data analysis, feature engineering, model development, and experimentation.
+> Machine Learning: Model training, hyperparameter tuning, model deployment, and monitoring.
+> Analytics: SQL queries, dashboards, and reporting.
+> Business Intelligence: Self-service analytics, interactive dashboards, and data exploration.
+
+##### Quicksight
+
+- Los costos en aws
+- Ticket
+
+## Librerias UI
+
+- Recharts
+- Dj3
+- Cuales serían dashboards?
+
+### Entrenamiento para el equipo
+
+- Presupuesto
+
+### Problem handling
+
+- Intregración con telegram
+- Serverless app

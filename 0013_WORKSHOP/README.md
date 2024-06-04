@@ -134,8 +134,7 @@ ORDER BY year, rank_display;
 
 - Create schema option 2, all string
 - Create workspace:  suan_workshop_datalake_<your_name>_ranking_universities_workgroup
-
-> 39.
+- 39.
 
 > Check the data
 
@@ -546,4 +545,73 @@ select cast('2008-02-18 02:36:48' as date) as mysaletime;
 - Wich user cases fits?
 
 ### Parquet
+
+- Shuffle: doesn't matter, works!
+- Missing or new columns: works!
+- Column rename not supported.
+- Wich user cases fits?: Large volume of data
+
+### Lab 1 Schema changes with CSV
+
+#### previous labs
+
+- Glue,
+- iris data, s3 (iris csv, s3://suan-workshop-datalake/iris/csv/)
+- crawlers
+- athena: AWSDataCatalog =>  suan-workshop-datalake-db => iris_csv
+- data examples: <https://github.com/ChandraLingam/DataLake/tree/main/Iris/data>
+- iris_new_plant_type.csv
+
+
+```SQL
+SELECT * FROM "suan-workshop-datalake-db"."iris_csv" limit 10;
+
+SELECT class, count(*) 
+FROM "suan-workshop-datalake-db"."iris_csv" 
+GROUP BY class;
+```
+
+>
+
+```sh
+aws s3 sync 's3://tutorialiotbucket/' 's3://suan-datalake-iot-test-us-east-1/' 
+```
+
+## IoT test
+
+> Prueba Luis
+
+### Columnas
+
+- Evitar palabras reservadas (datetime)
+- separar palabra por mayus
+- datetime, posixtime
+
+```SQL
+SELECT 
+    devicevalue, 
+    deviceparameter, 
+    deviceid, 
+    posixtime, 
+    datetime, 
+    COALESCE(posixtime, datetime) as epoch_time
+FROM "suan_datale_iot_test_device";
+
+
+CREATE OR REPLACE VIEW suan_datele_iot_test_clean_view AS
+    SELECT 
+        devicevalue, 
+        deviceparameter, 
+        deviceid, 
+        posixtime, 
+        datetime, 
+        COALESCE(posixtime, datetime) as epoch_time
+    FROM "suan_datale_iot_test_device";
+
+```
+
+
+
+
+
 
