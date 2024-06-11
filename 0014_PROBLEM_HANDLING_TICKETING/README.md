@@ -19,13 +19,74 @@ auto-insurance-stack
 ### SLS
 
 - <https://www.serverless.com/framework/docs/getting-started>
+- [Examples](https://github.com/serverless/examples/tree/v4)
 - <https://www.serverless.com/framework/docs-providers-aws-cli-reference-deploy>
 - <https://medium.com/ssense-tech/managing-and-deploying-aws-lambda-functions-with-sls-ab47d366b004>
 
 
 ### Telegram,  API Gateway, Lambda and Lex
 
+- <https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/LexRuntimeV2.html>
+- <https://codesandbox.io/examples/package/@aws-sdk/client-lex-runtime-v2>
 - 2020: <https://www.youtube.com/watch?v=h3pd9p_dSbw>
 - 2018: <https://www.codeproject.com/Tips/5305720/Integration-of-Amazon-Lex-Bot-and-Telegram-Bot>
-- 2021: <https://www.codeproject.com/Tips/5305720/Integration-of-Amazon-Lex-Bot-and-Telegram-Bot>
 - 2020: <https://medium.com/swlh/how-to-build-a-serverless-telegram-bot-with-aws-lambda-4a1fb2c611d5>
+- <https://github.com/aws-samples/serverless-bot-sample>
+- <https://boto3.amazonaws.com/v1/documentation/api/1.21.2/reference/services/lexv2-runtime.html>
+
+#### Node Js
+
+```sh
+serverless 
+suan-ph-lex-telegram-insurance-service
+
+suan-ph-lex-telegram-insurance-app
+
+nvm list
+nvm alias default v22.2.0
+
+npm i --save axios
+
+```
+
+#### python Boto3
+
+```sh
+serverless 
+
+
+```
+
+### Function local test
+
+- <https://www.serverless.com/framework/docs-providers-aws-cli-reference-invoke-local>
+
+
+#### Botfather
+
+- Fatherbotname: suan-ph-lex-telegram-insurance-bot
+- Username bot: InsuranceLexBot
+
+```sh
+curl --request POST \
+ --url https://api.telegram.org/bot7090977715:AAFvOyeUu2vpKG8yrxx_HtweTnwVPSsYSJM/setWebhook \
+ --header 'content-type: application/json' \
+ --data '{"url": "https://379v7sa0e8.execute-api.us-east-1.amazonaws.com/dev/telegram-webhook"}'
+
+#  result
+{"ok":true,"result":true,"description":"Webhook was set"}% 
+
+```
+
+
+### Change nvm on zsh
+
+- <https://mrgregory.dev/posts/change-node-version-automatically-zsh>
+
+
+## Anti - Aging
+
+- Proceso manual actualmente
+- Proceso de compra
+- Lo que receta el medico lo debo ver yo
+- Historial clinico

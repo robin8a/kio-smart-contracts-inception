@@ -384,3 +384,10 @@ For more advanced features and integrations, you'll need to upgrade to Looker, w
 
 - Intregración con telegram
 - Serverless app
+
+## 05 de Junio, 2024
+
+- Lluvia de ideas
+- Mockup del dashboard
+- Indicadores, metas (target)
+- Dashboar 1.4.x
