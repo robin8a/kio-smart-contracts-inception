@@ -33,8 +33,10 @@ auto-insurance-stack
 - 2020: <https://medium.com/swlh/how-to-build-a-serverless-telegram-bot-with-aws-lambda-4a1fb2c611d5>
 - <https://github.com/aws-samples/serverless-bot-sample>
 - <https://boto3.amazonaws.com/v1/documentation/api/1.21.2/reference/services/lexv2-runtime.html>
+- <https://www.youtube.com/watch?v=HOHJfDX7928>
 
 #### Node Js
+
 
 ```sh
 serverless 
@@ -51,10 +53,34 @@ npm i --save axios
 
 #### python Boto3
 
+- <https://www.youtube.com/watch?v=HOHJfDX7928>
+- <https://github.com/PradipNichite/Youtube-Tutorials/blob/main/AWS_Lex_boto3_Youtube.ipynb>
+
+Ubuntu_Mate_for_Catan
+
 ```sh
 serverless 
 
+suan-ph-lex-telegram-insurance-service-py
 
+suan-ph-lex-telegram-insurance-py-app
+
+```
+
+##### CLI bot test
+
+```sh
+aws lexv2-runtime recognize-text --bot-id <botId> --bot-alias-id TSTALIASID --locale-id 'en_GB' --session-id 'test_sessio1n' --text 'my input test'
+
+aws lexv2-runtime recognize-text --bot-id '7TBXBYVXOE' --bot-alias-id 'TSTALIASID' --locale-id 'en_US' --session-id '99a3324' --region us-east-1 --text 'Claim'
+
+aws lexv2-runtime recognize-text --bot-id 'TSTALIASID' --bot-alias-id 'TSTALIASID' --locale-id 'en_US' --session-id '99a3324' --region us-east-1 --text 'Claim'
+
+aws lexv2-runtime recognize-text --bot-id 'LIRUYU2I9H' --bot-alias-id 'TSTALIASID' --locale-id 'en_US' --session-id '99a3324' --region us-east-1 --text 'Claim'
+
+
+
+TSTALIASID
 ```
 
 ### Function local test
