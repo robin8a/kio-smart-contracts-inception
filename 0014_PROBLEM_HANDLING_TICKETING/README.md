@@ -23,6 +23,9 @@ auto-insurance-stack
 - <https://www.serverless.com/framework/docs-providers-aws-cli-reference-deploy>
 - <https://medium.com/ssense-tech/managing-and-deploying-aws-lambda-functions-with-sls-ab47d366b004>
 
+### Docker
+
+- [Version that works on Mac Big Sur: 4.24.0](https://docs.docker.com/desktop/release-notes/)
 
 ### Telegram,  API Gateway, Lambda and Lex
 
@@ -123,7 +126,7 @@ sls deploy
 
 # Test
 sls invoke local --function hello
-sls invoke --function hello
+sls invoke --function hello --debug
 pip list
 pyenv deactivate
 
