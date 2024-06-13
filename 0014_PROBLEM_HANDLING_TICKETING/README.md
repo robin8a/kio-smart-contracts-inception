@@ -55,8 +55,8 @@ npm i --save axios
 
 - <https://www.youtube.com/watch?v=HOHJfDX7928>
 - <https://github.com/PradipNichite/Youtube-Tutorials/blob/main/AWS_Lex_boto3_Youtube.ipynb>
+- [Collab](https://colab.research.google.com/drive/1nhBXOmsrlEbw46BA6P2Ksjf4679z41Dw?usp=sharing)
 
-Ubuntu_Mate_for_Catan
 
 ```sh
 serverless 
@@ -64,6 +64,18 @@ serverless
 suan-ph-lex-telegram-insurance-service-py
 
 suan-ph-lex-telegram-insurance-py-app
+
+# short name
+
+serverless
+
+suan-ph-lex-tel-ins-serv-py
+
+## suan problem handling lex telegram insurace
+suan-ph-lex-tel-ins-py-app
+
+
+
 
 ```
 
@@ -78,10 +90,45 @@ aws lexv2-runtime recognize-text --bot-id 'TSTALIASID' --bot-alias-id 'TSTALIASI
 
 aws lexv2-runtime recognize-text --bot-id 'LIRUYU2I9H' --bot-alias-id 'TSTALIASID' --locale-id 'en_US' --session-id '99a3324' --region us-east-1 --text 'Claim'
 
-
-
 TSTALIASID
 ```
+
+##### python env
+
+```sh
+brew install pyenv
+pyenv --version 
+pyenv install 3.12.0
+
+
+pyenv global 3.12.0
+pyenv local 3.12.0
+
+
+# Install 
+brew install pyenv-virtualenv
+
+# Create a virtual environment
+pyenv virtualenv <python_version> <environment_name>
+pyenv virtualenv 3.12.0 suan_ph_lex_telegram_insurance_env
+pyenv activate suan_ph_lex_telegram_insurance_env
+
+# VSC
+cmd + shift + P 
+select interpreter
+<suan_ph_lex_telegram_insurance_env>
+
+# Depploy
+sls deploy
+
+# Test
+sls invoke local --function hello
+sls invoke --function hello
+pip list
+pyenv deactivate
+
+```
+
 
 ### Function local test
 
