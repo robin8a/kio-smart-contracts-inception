@@ -40,6 +40,7 @@ auto-insurance-stack
 
 #### Node Js
 
+- <https://stackoverflow.com/questions/70884804/how-do-i-initiate-a-conversation-with-aws-lex-from-node-js>
 
 ```sh
 serverless 
