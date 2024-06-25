@@ -52,6 +52,9 @@ nvm alias default v22.2.0
 
 npm i --save axios
 
+
+serverless invoke --function telegramToLex --path data.json
+
 ```
 
 #### python Boto3
@@ -78,9 +81,9 @@ suan-ph-lex-tel-ins-serv-py
 suan-ph-lex-tel-ins-py-app
 
 
-
-
 ```
+
+- [Serverless Python, requirements](https://www.serverless.com/plugins/serverless-python-requirements)
 
 ##### CLI bot test
 
@@ -121,7 +124,7 @@ cmd + shift + P
 select interpreter
 <suan_ph_lex_telegram_insurance_env>
 
-# Depploy
+# Deploy
 sls deploy
 
 # Test
@@ -129,6 +132,13 @@ sls invoke local --function hello
 sls invoke --function hello --debug
 pip list
 pyenv deactivate
+
+serverless invoke local --function hello --path data.json --debug
+
+# Requirements
+
+pip freeze > requirements.txt
+`
 
 ```
 
@@ -154,11 +164,13 @@ curl --request POST \
 
 ```
 
-
 ### Change nvm on zsh
 
 - <https://mrgregory.dev/posts/change-node-version-automatically-zsh>
 
+### Datalake solution (https://codesandbox.io/)
+
+- <https://codesandbox.io/p/sandbox/aws-solutions-aws-data-lake-solution-ccvddj>
 
 ## Anti - Aging
 
