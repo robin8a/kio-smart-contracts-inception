@@ -391,3 +391,28 @@ For more advanced features and integrations, you'll need to upgrade to Looker, w
 - Mockup del dashboard
 - Indicadores, metas (target)
 - Dashboar 1.4.x
+
+## 27 Junio, 2024
+
+- Integración 3ros
+- Luis Gómez
+- Data
+- Material de prueba, páginas de terrasacha
+- No enlazar todos los documentos que no se trabajaron, que no hayan cambios
+
+### Soluciones Transversales
+
+- Problema handling, creación de tiquet
+- Gestión de documentación (TyC, Acuerdo de confidencialidad)
+
+### Transferencia de conocimiento
+
+- Como esta hecha la plataforma
+- ML/AI
+- Costos de almacenamiento para 200 GB, raster 2GB
+- Imágenes hyper-espectrales
+- Conectividad
+- Energía
+- Conectividad
+- Solo montar lo que se hizo
+- Quitar enlaces de anexos
