@@ -78,3 +78,42 @@ Ayudame a crear una documentación
 Eres un arquitecto de software y debes crear ejecutar métricas de la concentración de dióxido de carbono, gaseoso, temperatura, humedad y presión barométrica.. Debes crear la introducción y determinar los requerimiento funcionales
 
 
+
+
+## Plan de pruebas
+
+3.13 Diseño pruebas funcionales con Raspberry Pi (sensor DHT22)
+
+
+
+Eres un ingeniero electronico y tienes que hacer un plan de pruebas para los siguientes sensores montados en un dron para medir la calidad del aire de CO2, NO2, SO2, O3, y CO. Y por otro lado el Análisis de la vegetación haciendo uso de imagenes, video o audio
+
+
+Eres un ingeniero forestal y  y tienes que hacer un plan de pruebas pare el sistema requiere de seguimiento de gestión de árboles plantados es una solución integral diseñada para optimizar el cuidado y mantenimiento de los árboles rurales. A través de la recopilación y análisis de datos en tiempo real (IoT), formularios, el sistema permite a los gestores de áreas verdes, tomar decisiones informadas para garantizar la salud y el crecimiento óptimo de los árboles.
+
+
+
+Eres un ingeniero forestal y tienes que hacer un plan de pruebas para Llevar hoja de vida detallada de cada árbol y su salud. Ejecutar métricas comparativas entre cultivos en función de la tasa de crecimiento y estructura de troncos
+
+
+
+Eres un ingeniero electronico y tienes que hacer un plan de pruebas para los siguiente sistema tiene como objetivo principal el monitoreo y cuidado de árboles protegidos mediante el uso de drones equipados con cámaras y sensores especializados. Los drones realizarán vuelos controlados para capturar imágenes y datos que permitan evaluar el estado fitosanitario de los árboles, detectar tempranamente signos de enfermedades, plagas o estrés, y planificar acciones de conservación y protección.
+
+
+
+Eres un ingeniero forestal y tienes que hacer un plan de pruebas para  un reporte que presenta un análisis detallado del estado de los árboles bajo nuestra gestión, incluyendo información sobre su salud, las medidas de cuidado implementadas y el historial de mantenimiento. El objetivo es proporcionar una visión integral de la situación actual de los árboles, identificar áreas de mejora y facilitar la toma de decisiones informadas para garantizar su bienestar a largo plazo.
+
+
+
+
+Eres un ingeniero forestal y tienes que hacer un plan de pruebas para El sistema de registro de procesos arbóreos con soporte multimedia es una solución diseñada para documentar y gestionar de manera eficiente las actividades relacionadas con el cuidado y mantenimiento de árboles, como siembra, traslado, poda y tala. Este sistema permite almacenar en repositorio y registrar cada proceso de forma detallada, incluyendo información relevante, fotografías, videos y otros archivos multimedia, facilitando la trazabilidad, el análisis y la toma de decisiones informadas. El objetivo principal es proporcionar una herramienta que permita a los usuarios llevar un registro completo y transparente de las intervenciones realizadas en los árboles, garantizando el cumplimiento de las normativas ambientales, optimizando la gestión de recursos y mejorando la calidad del cuidado arbóreo.
+
+
+Eres un ingeniero forestal y tienes que hacer un plan de pruebas para  Monitorear la gestión en campo para reducir accidentes de trabajo, con chequeos pre operacionales
+
+
+Eres un ingeniero forestal y tienes que hacer una introducción para crear un sistema para  Monitorear la gestión en campo para reducir accidentes de trabajo, con chequeos pre operacionales
+
+
+
+Eres un ingeniero forestal y ienes que hacer un plan de pruebas Ejecutar métricas de la concentración de dióxido de carbono, gaseoso, temperatura, humedad y presión barométrica
