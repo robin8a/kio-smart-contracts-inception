@@ -419,4 +419,15 @@ For more advanced features and integrations, you'll need to upgrade to Looker, w
 - Internet satelital
 - Equipos robustos
 
+### 8 de Julio, 2024
 
+1. Automatizacion de pruebas, selenium
+2. Terrasacha
+3. Tickets
+4. Timeouts
+5. Compartir  arquitecto SQS
+6. Pruebas de estres en serverless, a nivel de compras concurrentes Container Service de autoescalarce (autoescalamiento, balanceo de cargas) apprunner
+7. Encolamienta de tareas
+8. Requests muy demorados
+9. Monitorear tareas
+10. Sidekick dcoker simil para AppRunner

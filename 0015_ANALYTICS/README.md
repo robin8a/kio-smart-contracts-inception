@@ -38,4 +38,6 @@ aws athena batch-get-query-execution \
 . Generación de reportes consumiendo el servicio de Query Resolver
 . Scripts para la captura de video
 
+## How to Query AWS Athena from a Lambda Function | Step by Step Tutorial
 
+- <https://www.youtube.com/watch?v=a_Og1t3ULOI>
