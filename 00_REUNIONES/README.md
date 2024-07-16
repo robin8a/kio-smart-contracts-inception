@@ -431,3 +431,10 @@ For more advanced features and integrations, you'll need to upgrade to Looker, w
 8. Requests muy demorados
 9. Monitorear tareas
 10. Sidekick dcoker simil para AppRunner
+
+### 11 de Julio, 2024
+
+1. Prueba de SQS
+2. Prueba EKS (50 usuario, enviando el mismo end-point), toma 1 minuto. API de SQS (Lunes)
+3. Informe mensual Doc: Analisis de datos 2.1.7, (Realizar analisis de datos para la evaluación y ajuste)
+

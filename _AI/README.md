@@ -38,40 +38,39 @@ Ayudame a crear una documentación
 
 Eres un arquitecto de software y debes crear un lago de datos para un learning managment system y una tienda virtual. Se debe definir el conjunto de datos para crear reportes y KPIs mas relevantes
 
-# 
+## 
 
 Ayudame a crear una documentación
 
 Eres un arquitecto de software y  debes implementar un sistema de vigilancia y calidad del aire mediante telemetría del ambiente, usando tecnologías. Llevar hoja de vida detallada de cada árbol y su salud. Debe determinar los requerimiento funcionales
 
 
-# 1.4.2
+## 1.4.2
 
 Ayudame a crear una documentación
 
 Eres un arquitecto de software y  debes realizar seguimiento en tiempo real de los avances de gestión de árboles plantados Llevar reporte del análisis de los árboles, estado, cuidado y mantenimientos. Debes crear la introducción y determinar los requerimiento funcionales
 
-
-# 1.4.3
+## 1.4.3
 
 Ayudame a crear una documentación
 
 Eres un arquitecto de software y  debes llevar hoja de vida detallada de cada árbol y su salud. Ejecutar métricas comparativas entre cultivos en función de la tasa de crecimiento y estructura de troncos.
 
 
-# 1.4.4
+## 1.4.4
 
 Ayudame a crear una documentación
 
 Eres un arquitecto de software y  debes cuidar los árboles protegidos y verificar estado fitosanitario con vuelos controlados de drones.
 
-# 1.4.5
+## 1.4.5
 
 Ayudame a crear una documentación
 
 Eres un arquitecto de software y debes crear un reporte del análisis de los árboles, estado, cuidado y mantenimientos. Debes crear la introducción y determinar los requerimiento funcionales
 
-# 1.4.6
+## 1.4.6
 
 Ayudame a crear una documentación
 
@@ -117,3 +116,8 @@ Eres un ingeniero forestal y tienes que hacer una introducción para crear un si
 
 
 Eres un ingeniero forestal y ienes que hacer un plan de pruebas Ejecutar métricas de la concentración de dióxido de carbono, gaseoso, temperatura, humedad y presión barométrica
+
+
+## Capacitaciones 
+Eres un arquitecto de software y debes crear un plan de capacitación para el cojunto de datos para crear reportes y entrenar modelos de machine learning para los siguientes sistemas: sistema de vigilancia y calidad del aire mediante telemetría del ambiente, seguimiento en tiempo real de los avances de gestión de árboles plantados. Llevar reporte del análisis de los árboles, estado, cuidado y mantenimientos, Llevar hoja de vida detallada de cada árbol y su salud. Ejecutar métricas comparativas entre cultivos en función de la tasa de crecimiento y estructura de troncos.  Control protegidos y verificar estado fitosanitario con vuelos controlados de drones. Y que incluya lo siguiente: Especifica cómo se capacitará a los usuarios finales para utilizar el nuevo sistema de información. Incluye la identificación de los grupos de usuarios, los temas de capacitación, los métodos de entrega y el cronograma de capacitación.
+
