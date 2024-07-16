@@ -438,3 +438,10 @@ For more advanced features and integrations, you'll need to upgrade to Looker, w
 2. Prueba EKS (50 usuario, enviando el mismo end-point), toma 1 minuto. API de SQS (Lunes)
 3. Informe mensual Doc: Analisis de datos 2.1.7, (Realizar analisis de datos para la evaluación y ajuste)
 
+### 16 de Juio, 2024
+
+1. Quien es el grupo objetivo?
+2. Si ya estuvo la intro, cuales serían los temas a tratar
+3. Desde cero, blockchain
+4. Cuanto tiempo es? (2 horas la vez pasado)
+5. Visita Meta (historias a mejorar)
