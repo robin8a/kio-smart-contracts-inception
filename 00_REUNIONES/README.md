@@ -445,3 +445,11 @@ For more advanced features and integrations, you'll need to upgrade to Looker, w
 3. Desde cero, blockchain
 4. Cuanto tiempo es? (2 horas la vez pasado)
 5. Visita Meta (historias a mejorar)
+6. Colores
+
+### 17 de Julio, 2024
+
+1. 14:00
+2. Personas de diferentes disciplinas
+3. Simulacro
+4. PCI: 5 personas, Camilo 10 personas
