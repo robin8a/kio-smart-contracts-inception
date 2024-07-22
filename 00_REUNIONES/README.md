@@ -453,3 +453,31 @@ For more advanced features and integrations, you'll need to upgrade to Looker, w
 2. Personas de diferentes disciplinas
 3. Simulacro
 4. PCI: 5 personas, Camilo 10 personas
+
+Intro: Robin
+Plataforma: Neider, usando algunos de los proyectos ya creados <https://test-platform.suan.global/>
+@Neider cuando se están llenando los periodos del token y otras configuraciones: @Sebastian Azcona, validaciones (financiera, tecnica, ingresos producto, indicadores, flujo de caja etc)
+@Ignacio Markertplace <https://test-marketplace.terrasacha.com/home>
+@Ignacio y @Neider P2P
+
+#### 18 Julio, 2024
+
+- Presentación
+- Viviana: Quien debe ser el administrador?
+- Modelo del negocio, revisión de datos personales
+- Politica lavado de activos
+- La comunidad: stakeholders, P2P, profesos de certificación, y otros
+- Talleres de comunidad, como ellos ven y gestionan los tokens
+- @viviana Como puede participar? cómo la comunidad hace parte de los flujos? La comunidad
+- Cómo se hace se envia a una Wallet en especifico, visualización. UI basado en los BC y mostrará
+
+## 19 Julio, 2024
+
+- Social media y diseño
+- Cuidado con el manejo de las marcar, transiciones SUAN => Terra Sacha
+- Chatbot, para usabilidad. 
+- Canal de atención directo
+- Dar acceso al manual de usuario, para 
+- Seguimiento, cada cuenta? Carlos Soto acompañamiento
+- Canales, mensajes de text SMS para la retroalimentación
+
