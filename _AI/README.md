@@ -120,7 +120,6 @@ Monitoreo en tiempo real: Registrar y analizar datos sobre el desempeño de los 
 Capacitación y sensibilización: Brindar a los trabajadores la formación necesaria sobre los riesgos laborales y las medidas de prevención, fomentando una cultura de seguridad en el trabajo.
 Análisis de datos y mejora continua: Utilizar los datos recopilados para identificar patrones, tendencias y áreas de mejora en la gestión de la seguridad, implementando acciones preventivas y correctivas basadas en evidencia.
 
-
 ### CAP 1.4.8
 
 Eres un arquitecto de software y debes crear un plan de capacitación para un grupo de personas mixto, y que incluya lo siguiente: Especifica cómo se capacitará a los usuarios finales para utilizar el nuevo sistema de información. Incluye la identificación de los grupos de usuarios, los temas de capacitación, los métodos de entrega y el cronograma de capacitación.para enseñar: El monitoreo de las variables ambientales en los ecosistemas forestales es fundamental para comprender su funcionamiento, evaluar su salud y predecir su respuesta a cambios climáticos y perturbaciones. En particular, la medición de la concentración de dióxido de carbono (CO2), temperatura, humedad y presión barométrica proporciona información crucial sobre los procesos fisiológicos de los árboles, el intercambio de gases con la atmósfera y las condiciones microclimáticas que influyen en su crecimiento y desarrollo. En este contexto, la implementación de un sistema de monitoreo continuo de estas variables ambientales en bosques colombianos permitirá:

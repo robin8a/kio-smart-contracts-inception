@@ -64,18 +64,19 @@ Desarrollo experimental de prototipo de plataforma mínima viable para la prueba
 1'200.000 hectareas
 
 ### 1er proyecto
+
 - 2000 hectareas
 - Entre Meta / Vichada  
 
 ### Regiones mayor potencial
+
 - Vichada, Meta, Casanera, Cordoba, Antioquia
 
-
-
-## Reunion 04 Noviembre 2021
+## 04 Noviembre 2021
 
 ### Puntos
-- Partimos 
+
+- Partimos
 - Que tenemos actualmente?
 - Reunión MVP
   - Viabilidad otras Block
@@ -83,7 +84,6 @@ Desarrollo experimental de prototipo de plataforma mínima viable para la prueba
 - Cuales son los entregables de cada uno de nosotros, para que se?
 - Un proyecto se puede financiar con bonos de carbono futuros?
 - Habiamos dicho que en tres meses
-
 
 ### Contrato de fundadores
 
@@ -93,15 +93,15 @@ Desarrollo experimental de prototipo de plataforma mínima viable para la prueba
 - Bad liver: condiciones
 - Good liver: condiciones
 
-
 ## 12 de Noviembre 2021
 
 Referencias
-- https://www.topl.co/
+
+- <https://www.topl.co/>
 - Rosseta: blockchain
 - Polygon
   
-### Contexto 
+### Contexto
 
 - Primero reunión creo que fue en enero
   - Canabis, mejor producción de canabis
@@ -203,13 +203,13 @@ Despliegue
 - Implementación del light-paper
 - En Mayo inicia la promoción, @camilo
 
-### April, 19
+## April, 19
 
 - @emanuel, estructurar los entregables, listado de lo que tenemos que entregar
 
-### April, 26
+## April, 26
 
-#### Simulador
+### Simulador
 
 - Protocolos: MQQT,  Modbus, Modbus TCP
 
@@ -221,36 +221,32 @@ Despliegue
 - Finales de mayo
 - Postgres
 
-## Requerimiento propio
+### Requerimiento propio
+
 - Cual parte de la información se va a subir a la blockchain?
 - Información estructurada en un BD, que se va a ver reflejado 1.4.x es el 10% de un 40%
 - 42% del proyecto esta bajo nuestra responsabilidad
 
+### @emanuel
 
-## @emanuel
 - Listado limpio de los avances del mes. Ej: manual de uso de la herramienta
 - Por linea, tener un documento
 - 2.1 y 2.2, entregable global para darle visto a la actividad. Ej. manual de usuario. Con el fin de distribuir con su respectivo responsable.
 - Ej. Definir la tasa..: quien es el responsable
 
+## Mayo 8, 2024
 
-
-
-
-
-# Mayo 8, 2024
 - Alvaro Spitia, comercio internacional
 - Regulacion Europea, SIBAN. Exige compensación de carbono CBAM
 - Que tiene que hacer el país
-
 - Wocan, enfoqye de genero
-- https://www.apple.com/co/newsroom/2019/04/conserving-mangroves-a-lifeline-for-the-world/
+- <https://www.apple.com/co/newsroom/2019/04/conserving-mangroves-a-lifeline-for-the-world/>
 
-## Relative CBAM Exposure Index
-- https://www.worldbank.org/en/data/interactive/2023/06/15/relative-cbam-exposure-index
+### Relative CBAM Exposure Index
 
+- <https://www.worldbank.org/en/data/interactive/2023/06/15/relative-cbam-exposure-index>
 
-# Mayo 14, 2024
+## Mayo 14, 2024
 
 - Enfasis en los entregables contractuales
 - Dataset
@@ -258,13 +254,10 @@ Despliegue
 - Procedimiento @ignacio
 - Light paper
 
+## Mayo 16, 2024
 
+### KYC
 
-# Mayo 16, 2024
-
-## 
-
-## KYC
 - Ver pivotal, hay dos links
 - Lo provee un 3ro o lo implementamos
 - Bellarine
@@ -272,17 +265,17 @@ Despliegue
 - proceso de cruzar el usuario con pruebas especificas (existencia). Ejemplo un servicio de agua,
 - Cumplir un minimo, de regulación
 - SARLAF
-- https://aws.amazon.com/es/solutions/financial-services/identity-verification/
+- <https://aws.amazon.com/es/solutions/financial-services/identity-verification/>
 - Benchmak
 
-## Hoja de ruta
+### Hoja de ruta
+
 1. Esceario offfline
 2. KYC
 
 - WS pruebas con Selenium FE
-- Servicios de documentación 
+- Servicios de documentación
 - Servicios de incidencias: Formulario => Pivotal traker =>
-
 
 ## 21 de Mayo, 2024
 
@@ -390,7 +383,7 @@ For more advanced features and integrations, you'll need to upgrade to Looker, w
 - Lluvia de ideas
 - Mockup del dashboard
 - Indicadores, metas (target)
-- Dashboar 1.4.x
+- Dashboard 1.4.x
 
 ## 27 Junio, 2024
 
@@ -468,16 +461,103 @@ Plataforma: Neider, usando algunos de los proyectos ya creados <https://test-pla
 - Politica lavado de activos
 - La comunidad: stakeholders, P2P, profesos de certificación, y otros
 - Talleres de comunidad, como ellos ven y gestionan los tokens
-- @viviana Como puede participar? cómo la comunidad hace parte de los flujos? La comunidad
+- @viviana Como puede participar? cómo la comunidad hace parte de los flujos? Rta: La comunidad: Para las sesiones deviarla a que el objetivo es evaluar la aplicación. Mecanismos de vista a tecnología, a como el equipo de Carlos Soto involucrarla. Es un proceso nuevo y que se esta estableciendo.
 - Cómo se hace se envia a una Wallet en especifico, visualización. UI basado en los BC y mostrará
 
 ## 19 Julio, 2024
 
 - Social media y diseño
-- Cuidado con el manejo de las marcar, transiciones SUAN => Terra Sacha
-- Chatbot, para usabilidad. 
-- Canal de atención directo
-- Dar acceso al manual de usuario, para 
-- Seguimiento, cada cuenta? Carlos Soto acompañamiento
-- Canales, mensajes de text SMS para la retroalimentación
+- Cuidado con el manejo de las marcar, transiciones SUAN => Terra Sacha. R/ta: Brusco el cambio. A la universidad solo mostrarle terra sacha. A nivel de registro SUAN. Los inversionistas no ven esa transición.
+- Chatbot, para usabilidad.
+- Canal de atención directo.
+- Dar acceso al manual de usuario, para.
+- Seguimiento, cada cuenta? Carlos Soto acompañamiento.
+- Canales, mensajes de text SMS para la retroalimentación.
 
+1. Automatizacion de pruebas, selenium
+2. Terrasacha
+3. Tickets
+4. Timeouts
+5. Compartir  arquitecto SQS
+6. Pruebas de estres en serverless, a nivel de compras concurrentes Container Service de autoescalarce (autoescalamiento, balanceo de cargas) apprunner:
+
+- Encolamienta de tareas
+- Requests muy demorados
+- Monitorear tareas
+- Sidekick dcoker
+
+## 20 Julio, 2024
+
+- Tercer market place, hacer un despliegue (dominios, logos). Modular. @ignacio
+- Plataforma (suan)
+- Documentación entregables
+- Las presentaciones hagan parte de la documentación que puedan acceder
+- Informe mensual Doc: Analisis de datos 2.1.7, (Realizar analisis de datos para la evaluación y ajuste) (Telegram chatbot)
+- [x] Documentación Julio
+
+```js
+// Test on b
+dataResults['ResultSet']['Rows']
+
+// "devicevalue"
+dataResults['ResultSet']['Rows'].map(row => { return row.Data[0]})
+
+// "epoch_time"
+dataResults['ResultSet']['Rows'].map(row => { return row.Data[3]})
+
+// Getting 
+epoch_time_array = dataResults['ResultSet']['Rows'].map(row => { return row.Data[3].VarCharValue})
+epoch_time_array.shift()
+
+// Ascending order https://www.geeksforgeeks.org/how-to-sort-an-array-in-typescript/
+epoch_time_array_asc_order = epoch_time_array.sort((a, b) => a - b);
+
+```
+
+```js
+dataIoT = dataResults['ResultSet']['Rows']
+
+
+temperature_filtered_array = dataResults['ResultSet']['Rows'].filter(
+        (row) => row.Data[2].VarCharValue === "Temperature"
+      );
+
+temperature_array = dataResults['ResultSet']['Rows'].map(row => { 
+  if (row.Data[1].VarCharValue === 'Temperature') {
+    return row.Data[3].VarCharValue
+  }
+})
+  
+temperature_array = dataResults['ResultSet']['Rows'].map(row => { 
+  if (row.Data[].VarCharValue.length > 1 ) {
+    return row.Data[3].VarCharValue
+  }
+})
+
+temperature_array = dataResults['ResultSet']['Rows'].map(row => { 
+  console.log('## 0, value: ', row.Data[0].VarCharValue)
+  console.log('## 1, SB: ', row.Data[1].VarCharValue)
+  console.log('## 2:, Type', row.Data[2].VarCharValue)
+  console.log('## 3:, Epoch', row.Data[3].VarCharValue)
+  return row.Data[3].VarCharValue
+})
+
+temperature_epoch_array = []
+temperature_value_array = []
+temperature_array = dataResults['ResultSet']['Rows'].map(row => { 
+  if (row.Data[1].VarCharValue === 'Temperature') {
+    temperature_epoch_array.push(row.Data[3].VarCharValue)
+    temperature_value_array.push(row.Data[0].VarCharValue)
+    return row.Data[3].VarCharValue
+  }
+})
+
+```
+
+<https://medium.com/@hikmahx/creating-customized-graphs-with-chart-js-in-react-be72bb2ffd0>
+<https://codesandbox.io/p/sandbox/weathered-rain-pvwsnp>
+
+
+## 24 Julio, 2024
+
+- Duckdb, SQLite
