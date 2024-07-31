@@ -1,19 +1,22 @@
 # Reuniones
 
 ## Reunion 16 de Abril 2021
+
 - Modelo de negocio
 - Contrato usan un smart contract
 
 ## Normas contables
+
 - NIC38; activos o patriminio, propiedad intelectual
 
 ## 21 de Abril
 
 ### Captación de Activos
-- https://www.supersociedades.gov.co/Noticias/Publicaciones/Documents/2018/ABC-captacion-DEFINITIVO-2018.pdf
-- https://actualicese.com/captacion-ilegal-de-recursos-y-actividades-no-autorizadas/#:~:text=Algunos%20ejemplos%20de%20formas%20de%20captaci%C3%B3n%20ilegal%20de%20dinero%20son,tienen%20una%20explicaci%C3%B3n%20financiera%20razonable.
 
+- <https://www.supersociedades.gov.co/Noticias/Publicaciones/Documents/2018/ABC-captacion-DEFINITIVO-2018.pdf>
+- <https://actualicese.com/captacion-ilegal-de-recursos-y-actividades-no-autorizadas/#:~:text=Algunos%20ejemplos%20de%20formas%20de%20captaci%C3%B3n%20ilegal%20de%20dinero%20son,tienen%20una%20explicaci%C3%B3n%20financiera%20razonable.>
 #### Tareas
+
 - Documentar 
 
 
@@ -557,7 +560,32 @@ temperature_array = dataResults['ResultSet']['Rows'].map(row => {
 <https://medium.com/@hikmahx/creating-customized-graphs-with-chart-js-in-react-be72bb2ffd0>
 <https://codesandbox.io/p/sandbox/weathered-rain-pvwsnp>
 
-
 ## 24 Julio, 2024
 
-- Duckdb, SQLite
+- Duckdb, SQLite cliente
+- Encolamiento
+- Presentaciones
+
+## 29 de Julio, 2024
+
+- 2.2 Lighpaper, pasar a diseño de token
+- Ingenieria de tokens
+- Design thinking (necesidades), desde el punto de vista del usuario
+- Lluvia de ideas para el diseño del token
+- [x] creación usuario Eduardo
+
+## 30 de Julio, 2024
+
+- Nuevo lightpaper: <https://docs.google.com/document/d/1AML0C56f3JUz7GvgwzSHgzpR5H2OFPZt2RiA6Hxp9qQ/edit?usp=sharing>
+
+## 31 de Julio, 2024
+
+- Publico: validadores
+- William: Stakeholders son lo vecinos al proyecto, afectados pos/neg. Se presta para confusión. Por definición que esta relacionado con el proyecto. Mejor usar la palabra "Participante"
+- William: verra, goldstandar, codigos unicos para su trazabilidad: Token de propiedad, representa una participación en el proyecto. Una promesa a futuro, tiene ID única politca única y especifica, no se puede emitir el mismo unica, politica monetarioa se garantiza. Token de propiedad se transforma en token de utilizad con su propia política y contrato. Incluir, en la presentación éste proceso.
+- Ricardo: glosario, validador: entidad operacional o usuario macro, validador interno, usar glosario.
+- Ricardo: en que momento como empresa, en que momento se da de baja. Para que no sea de doble contabilidad.
+- Carlos Soto: validación para fase inicial, es interna.
+- Persona: usuario final (ecopetrol, avianca). Inversion crecimiento del token, para darle de bajo. Biocarbon.
+- Jose Ricardo: Darle de baja cuando ya el gobierno, antes se puede transar. Base digital Cómo se la de de baja? <https://market.climatetrade.com/projects/es/forestry-restoration-in-productive-and-biological?id=589>
+- Sebastian Azcona: tener en cuenta teniendo en cuenta: resina, madera etc. Token por producto. Comercialización a sanear el flujo.

@@ -169,13 +169,51 @@ curl --request POST \
 
 - <https://mrgregory.dev/posts/change-node-version-automatically-zsh>
 
-### Datalake solution (https://codesandbox.io/)
+### Datalake solution <https://codesandbox.io/>
 
 - <https://codesandbox.io/p/sandbox/aws-solutions-aws-data-lake-solution-ccvddj>
+- <https://github.com/aws/aws-sdk-js-v3/issues/3836>
+- <https://shillehtek.com/blogs/news/how-to-install-pip-packages-in-aws-lambda-using-docker-and-ecr?utm_source=youtube&utm_medium=product_shelf>
+- <https://www.youtube.com/watch?v=yXqaOS9lMr8>
+- <https://www.youtube.com/watch?v=ESZCzUbdZuc>
+- <https://www.youtube.com/watch?v=grRW1Z_C9vw>
 
-## Anti - Aging
+```sh
+serverless invoke --function telegramToLex --path data.json
 
-- Proceso manual actualmente
-- Proceso de compra
-- Lo que receta el medico lo debo ver yo
-- Historial clinico
+```
+
+#### Python add dependencies layer
+
+- Serverless Python Dependencies: <https://github.com/CloudSnorkel/serverless-pydeps>
+
+```sh
+suan-ph-lex-tel-ins-serv-py-dev-us-east-1-Python312PackagerLambdaRole
+suan-ph-lex-tel-ins-serv-py-dev
+
+
+serverless
+# Shorname avoid error name 64 characters
+# Ex. suan-ph-lex-tel-ins-py-us-east-1-Python312PackagerLambdaRole 61 
+# suan-ph-lex-tel-ins-serv-py-dev-us-east-1-Python312PackagerLambdaRole 70
+
+suan-ph-lex-tel-car-py
+suan-ph-lex-tel-car-py-app
+
+Name Your Project: > suan-ph-lex-tel-car-py
+Name Your New App: > suan-ph-lex-tel-car-py-app
+
+
+# Your new Service "suan-ph-lex-tel-car-py" is ready. Here are next steps:
+
+# • Open Service Directory: cd suan-ph-lex-tel-car-py
+# • Install Dependencies: pip install (or use another package manager)
+# • Deploy & Develop Your Service: serverless dev
+
+# Layer Serverless Python Dependencies: https://github.com/CloudSnorkel/serverless-pydeps
+sls plugin install -n serverless-pydeps
+# run pip o add requirements.txt
+
+serverless invoke --function hello --path data.json --debug
+
+```
