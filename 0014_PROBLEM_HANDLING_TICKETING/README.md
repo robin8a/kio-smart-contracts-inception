@@ -183,8 +183,9 @@ serverless invoke --function telegramToLex --path data.json
 
 ```
 
-#### Python add dependencies layer
+#### Python add dependencies layer (Working)
 
+- [How to Build an Intelligent Telegram Chatbot with Amazon Lex: minute 26](https://www.youtube.com/watch?v=h3pd9p_dSbw)
 - Serverless Python Dependencies: <https://github.com/CloudSnorkel/serverless-pydeps>
 
 ```sh
@@ -215,5 +216,21 @@ sls plugin install -n serverless-pydeps
 # run pip o add requirements.txt
 
 serverless invoke --function hello --path data.json --debug
+
+```
+
+- Configure Function URL
+- Add CORS *
+- Tell to telegram with wich API is associated
+
+```sh
+curl --request POST \
+ --url https://api.telegram.org/bot7090977715:AAFvOyeUu2vpKG8yrxx_HtweTnwVPSsYSJM/setWebhook \
+ --header 'content-type: application/json' \
+ --data '{"url": "https://hbu4qfw765.execute-api.us-east-1.amazonaws.com/dev/telegram-webhook"}'
+
+
+# result
+{"ok":true,"result":true,"description":"Webhook was set"}% 
 
 ```

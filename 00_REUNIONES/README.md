@@ -589,3 +589,13 @@ temperature_array = dataResults['ResultSet']['Rows'].map(row => {
 - Persona: usuario final (ecopetrol, avianca). Inversion crecimiento del token, para darle de bajo. Biocarbon.
 - Jose Ricardo: Darle de baja cuando ya el gobierno, antes se puede transar. Base digital Cómo se la de de baja? <https://market.climatetrade.com/projects/es/forestry-restoration-in-productive-and-biological?id=589>
 - Sebastian Azcona: tener en cuenta teniendo en cuenta: resina, madera etc. Token por producto. Comercialización a sanear el flujo.
+
+## 1 de Agosto, 2024
+
+- Agregar en la presentación los tipos de tokens y evolución.
+- Validador, validación, chequeo. Interacción.
+- Viabilidad financiera.
+- Dar de baja, que no se puedan vender en el mercado.
+- Confiar en el broker, que realmente lo queme (contrato inteligente)
+- Agendar reunión con Jose Ricardo, pero antes probar: <https://market.climatetrade.com/projects/es/forestry-restoration-in-productive-and-biological?id=589>
+- Agenda de promoción: porcentaje de avance
