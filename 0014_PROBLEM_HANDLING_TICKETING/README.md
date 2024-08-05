@@ -187,6 +187,8 @@ serverless invoke --function telegramToLex --path data.json
 
 - [How to Build an Intelligent Telegram Chatbot with Amazon Lex: minute 26](https://www.youtube.com/watch?v=h3pd9p_dSbw)
 - Serverless Python Dependencies: <https://github.com/CloudSnorkel/serverless-pydeps>
+- Session attributes: <https://docs.aws.amazon.com/lexv2/latest/dg/context-mgmt-session-attribs.html>
+- <https://docs.aws.amazon.com/lexv2/latest/dg/how-it-works.html>
 
 ```sh
 suan-ph-lex-tel-ins-serv-py-dev-us-east-1-Python312PackagerLambdaRole
@@ -234,3 +236,31 @@ curl --request POST \
 {"ok":true,"result":true,"description":"Webhook was set"}% 
 
 ```
+
+## Pivotal tracker
+
+- Profile: <https://www.pivotaltracker.com/profile>
+- API token: <https://www.pivotaltracker.com/help/articles/api_token/>
+- Postman examples: <https://www.postman.com/api-evangelist/workspace/pivotal-tracker/documentation/35240-28db29ee-ca8d-4539-8a7a-6cde82dcfb73>
+- Postman collection: <https://www.pivotaltracker.com/blog/introducing-tracker-api-postman-collection>
+
+```sh
+
+
+export POSTMAN_TOKEN='<My profile postman token>'
+
+curl -X GET -H "X-TrackerToken: $POSTMAN_TOKEN" "https://www.pivotaltracker.com/services/v5/stories/183391350"
+
+# Project ID: https://www.pivotaltracker.com/projects/2602231/settings
+
+export PROJECT_ID=2602231
+
+curl -X GET -H "X-TrackerToken: $POSTMAN_TOKEN" "https://www.pivotaltracker.com/services/v5/projects/$PROJECT_ID/stories/"
+
+
+# Create a New Story
+
+curl -X POST -H "X-TrackerToken: $POSTMAN_TOKEN" -H "Content-Type: application/json" -d '{"current_state":"started","estimate":1,"name":"Exhaust ports are ray shielded 👹"}' "https://www.pivotaltracker.com/services/v5/projects/$PROJECT_ID/stories"
+
+```
+
