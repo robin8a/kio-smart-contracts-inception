@@ -599,3 +599,11 @@ temperature_array = dataResults['ResultSet']['Rows'].map(row => {
 - Confiar en el broker, que realmente lo queme (contrato inteligente)
 - Agendar reunión con Jose Ricardo, pero antes probar: <https://market.climatetrade.com/projects/es/forestry-restoration-in-productive-and-biological?id=589>
 - Agenda de promoción: porcentaje de avance
+
+## 5 de Agosto, 2024
+
+## 13 de Agosto, 2024
+
+- Los tokens cambian de color: gris inicial, verde otro estado
+- No van a ver suancos? solo los tokens
+- Jueves, chat de PH

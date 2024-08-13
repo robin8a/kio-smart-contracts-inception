@@ -249,7 +249,7 @@ curl --request POST \
 
 export POSTMAN_TOKEN='<My profile postman token>'
 
-curl -X GET -H "X-TrackerToken: $POSTMAN_TOKEN" "https://www.pivotaltracker.com/services/v5/stories/183391350"
+curl -X GET -H "X-TrackerToken: $POSTMAN_TOKEN" "https://www.pivotaltracker.com/services/v5/stories/188065156"
 
 # Project ID: https://www.pivotaltracker.com/projects/2602231/settings
 
@@ -260,7 +260,6 @@ curl -X GET -H "X-TrackerToken: $POSTMAN_TOKEN" "https://www.pivotaltracker.com/
 
 # Create a New Story
 
-curl -X POST -H "X-TrackerToken: $POSTMAN_TOKEN" -H "Content-Type: application/json" -d '{"current_state":"started","estimate":1,"name":"Exhaust ports are ray shielded 👹"}' "https://www.pivotaltracker.com/services/v5/projects/$PROJECT_ID/stories"
+curl -X POST -H "X-TrackerToken: $POSTMAN_TOKEN" -H "Content-Type: application/json" -d '{"current_state":"started","estimate":1,"name":"Exhaust ports are ray shielded 👹 2"}' "https://www.pivotaltracker.com/services/v5/projects/$PROJECT_ID/stories"
 
 ```
-

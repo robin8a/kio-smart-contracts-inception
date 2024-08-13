@@ -2,8 +2,9 @@
 
 ## 1. Lex
 
--- Examples
--- UI
+- [What is Amazon Lex V2?](https://docs.aws.amazon.com/lexv2/latest/dg/what-is.html)
+- Examples
+- UI
 
 ## 2. SLS
 
@@ -13,12 +14,14 @@
 serverless
 
 # Suan ph=problem handling, lex= aws lex, tel= telegram, trip=aws example for Book a trip, 
-suan-ph-lex-tel-trip-py
-suan-ph-lex-tel-trip-py-app
+sn-ph-lex-tel-tri-py
+sn-ph-lex-tel-tri-py-app
 
 ```
 
-## 3. Pivotal tracker
+## 3. Telegram
+
+## 4. Pivotal tracker
 
 - Credentials
 - Commands CURLs
