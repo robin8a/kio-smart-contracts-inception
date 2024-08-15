@@ -607,3 +607,18 @@ temperature_array = dataResults['ResultSet']['Rows'].map(row => {
 - Los tokens cambian de color: gris inicial, verde otro estado
 - No van a ver suancos? solo los tokens
 - Jueves, chat de PH
+
+## 14 de Agosto, 2024
+
+### Seguridad
+
+- Gestor de documentos
+- Implementar MFA
+- AWS WAF and Shield
+- PQR, usamos telegram
+- AWS Guard Duty
+
+## 15 de Agosto, 2024
+
+- Auditoria, estructuración y estandarización del código con Eduardo (Ignacio, Eduardo, Neider y Rances)
+- FAQ, User bot

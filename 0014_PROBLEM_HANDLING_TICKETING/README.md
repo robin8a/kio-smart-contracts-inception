@@ -263,3 +263,47 @@ curl -X GET -H "X-TrackerToken: $POSTMAN_TOKEN" "https://www.pivotaltracker.com/
 curl -X POST -H "X-TrackerToken: $POSTMAN_TOKEN" -H "Content-Type: application/json" -d '{"current_state":"started","estimate":1,"name":"Exhaust ports are ray shielded 👹 2"}' "https://www.pivotaltracker.com/services/v5/projects/$PROJECT_ID/stories"
 
 ```
+
+## AWS Bedrock
+
+### Bot
+
+- <https://www.anthropic.com/news/claude-2>
+- suan-ph-lex-tel-pivotal-issues-bot
+- Problem handling integration: (lex V2), telegram , pivotal tracker for issues from internal/external users
+- We want a bot to help the users to report problem or issues of an web application, with the following information: description, severity, time hour, attachments
+
+```txt
+Example Interaction
+Bot: Hello! I'm here to help you report any problems or issues you're experiencing with our web application. Please describe the problem or issue you're encountering in as much detail as possible.
+
+User: I'm trying to submit a form, but I keep getting an error message that says "Invalid input."
+
+Bot: How severe is this issue? Please select one of the following:
+
+
+Critical (Application is unusable)
+
+
+Major (Significant impact on functionality)
+
+
+Minor (Inconvenience or cosmetic issue)
+
+User: 2. Major
+
+Bot: When did you first encounter this issue?
+
+User: About 30 minutes ago.
+
+Bot: If you have any screenshots or other files that might help explain the issue, please attach them here.
+
+User: [Attaches screenshot of error message]
+
+Bot: Thank you for reporting this issue. We'll review it as soon as possible. You'll receive a confirmation email with a reference number shortly.
+
+```
+
+- <https://textcortex.com/es/post/claude-2-use-cases>
+
+suan-ph-lex-tel-pivotal-issues-bot
