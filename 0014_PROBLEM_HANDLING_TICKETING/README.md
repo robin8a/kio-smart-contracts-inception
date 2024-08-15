@@ -271,9 +271,10 @@ curl -X POST -H "X-TrackerToken: $POSTMAN_TOKEN" -H "Content-Type: application/j
 - <https://www.anthropic.com/news/claude-2>
 - suan-ph-lex-tel-pivotal-issues-bot
 - Problem handling integration: (lex V2), telegram , pivotal tracker for issues from internal/external users
-- We want a bot to help the users to report problem or issues of an web application, with the following information: description, severity, time hour, attachments
 
-```txt
+```sh
+We want a bot to help the users to report problem or issues of an web application, with the following information: description, severity, time hour, attachments
+
 Example Interaction
 Bot: Hello! I'm here to help you report any problems or issues you're experiencing with our web application. Please describe the problem or issue you're encountering in as much detail as possible.
 
