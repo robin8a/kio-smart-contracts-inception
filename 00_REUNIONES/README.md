@@ -622,3 +622,21 @@ temperature_array = dataResults['ResultSet']['Rows'].map(row => {
 
 - Auditoria, estructuración y estandarización del código con Eduardo (Ignacio, Eduardo, Neider y Rances)
 - FAQ, User bot
+
+## 16 de Agosto, 2024
+
+- Merge del trabajo de Eduardo
+- General purpose buckets
+
+## 20 de Agosto, 2024
+
+- [ ] @robin Agregar en la presentación plataformas y marketplaces (UCC, Distrital)
+- [ ] @robin Agregar en la presentación tipos de Tokens
+- 1.4 ITO Sofware, @luis nos comparte el documento. Geomapas, se integraron a los datos IoT Core. Luis les mostro nuestro avance.
+- 2.1.1 Manual de usuario @ignacio, actualización de agosto. Detalle en el proceso de pago ePayco. @Rances, mayor detalle
+- 2.1.1 @neider, mejorar los flujos donde se muestra el proceso de actualización de los Tokens. Actualizar la arquitectura con multiplicidad de marketplaces. Encolamiento (qeues). @Ignacio actulización (Manual de usuario), incluir la core-wallet
+- 2.1.6 Talleres internos, donde se incluyo. Grabación de taller @sergio, el martes incluir el que se va hacer. Incluir el de PH.
+- 2.1.7 HUs @luis 2.1.9 vr los talleres que se cubrió.
+- 2.2.6 @luis
+- 2.2.8 @luis
+- Gestor de documentos: 2.1.2

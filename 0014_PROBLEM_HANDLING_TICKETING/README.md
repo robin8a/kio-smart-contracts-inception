@@ -271,6 +271,7 @@ curl -X POST -H "X-TrackerToken: $POSTMAN_TOKEN" -H "Content-Type: application/j
 - <https://www.anthropic.com/news/claude-2>
 - suan-ph-lex-tel-pivotal-issues-bot
 - Problem handling integration: (lex V2), telegram , pivotal tracker for issues from internal/external users
+- Slot types: <https://docs.aws.amazon.com/lexv2/latest/dg/built-in-slots.html>
 
 ```sh
 We want a bot to help the users to report problem or issues of an web application, with the following information: description, severity, time hour, attachments
@@ -306,5 +307,76 @@ Bot: Thank you for reporting this issue. We'll review it as soon as possible. Yo
 ```
 
 - <https://textcortex.com/es/post/claude-2-use-cases>
+- suan-ph-lex-tel-pivotal-issues-bot
+- Okay,  your report an Issue with the following statement: Issue severity {IssueSeverity}, that occurs on {IssueDate} and {IssueDescription}.
 
-suan-ph-lex-tel-pivotal-issues-bot
+#### Telegram bot
+
+- BotFather
+- /newbot
+- name: suan-ph-lex-tel-pivotal-issues-bot
+- usename: IssuesLexBot
+- Shortname: t.me/IssuesLexBot
+
+#### Python lambda function with serveles SLS
+
+```sh
+serverless
+# Shorname avoid error name 64 characters
+# Ex. suan-ph-lex-tel-ins-py-us-east-1-Python312PackagerLambdaRole 61 
+# suan-ph-lex-tel-ins-serv-py-dev-us-east-1-Python312PackagerLambdaRole 70
+
+sls
+
+Select A Template: AWS / Python / HTTP API
+
+# Name Your Project: > SuPhLexTelIssPy
+# Create A New App
+# Name Your New App: > SuPhLexTelIssPyApp
+
+Name Your Project: > su-ph-le-te-is-py
+Create A New App
+Name Your New App: > su-ph-le-te-is-py-ap
+
+
+# su-ph-le-te-is-py-dev-us-east-1-Python312PackagerLambdaRole
+# SuPhLexTelIssPy-dev-us-east-1-Python312PackagerLambdaRole
+# su-ph-lex-tel-iss-py-dev-us-east-1-Python312PackagerLambdaRole
+# su-ph-le-te-is-py-dev-us-east-1-Python312PackagerLambdaRole
+
+cd su-ph-le-te-is-py
+sls deploy
+
+```
+
+#### Setup
+
+- Configure Function URL
+- Add CORS *
+- Tell to telegram with wich API is associated
+
+```sh
+export TELEGRAM_BOT_TOKEN='<My botfather token>'
+
+curl --request POST \
+ --url https://api.telegram.org/bot7090977715:AAFvOyeUu2vpKG8yrxx_HtweTnwVPSsYSJM/setWebhook \
+ --header 'content-type: application/json' \
+ --data '{"url": "https://hbu4qfw765.execute-api.us-east-1.amazonaws.com/dev/telegram-webhook"}'
+
+
+# result
+{"ok":true,"result":true,"description":"Webhook was set"}% 
+
+```
+
+### AWS Lex V2 conversations states
+
+- <https://docs.aws.amazon.com/lexv2/latest/dg/managing-conversations.html>
+- <https://www.geeksforgeeks.org/python-requests-post-request-with-headers-and-body/>
+
+
+```sh
+curl -X POST -H "X-TrackerToken: $POSTMAN_TOKEN" -H "Content-Type: application/json" -d '{"current_state":"started","estimate":1,"name":"Exhaust ports are ray shielded 👹 2"}' "https://www.pivotaltracker.com/services/v5/projects/2714676/stories/"
+
+
+```
