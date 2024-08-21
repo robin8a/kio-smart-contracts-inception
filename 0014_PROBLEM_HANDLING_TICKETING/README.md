@@ -349,6 +349,72 @@ sls deploy
 
 ```
 
+#### Adding lambda layers (python requirements)
+
+```sh
+sls plugin install -n serverless-pydeps
+sls deploy
+```
+
+> Create the following files
+
+serverless.yml
+
+```yml
+# "org" ensures this Service is used with the correct Serverless Framework Access Key.
+org: kamay
+# "app" enables Serverless Framework Dashboard features and sharing them with other Services.
+app: su-ph-le-te-is-py-ap
+# "service" is the name of this project. This will also be added to your AWS resource names.
+service: su-ph-le-te-is-py
+
+provider:
+  name: aws
+  runtime: python3.12
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - lex:*
+      Resource: '*'
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: telegram-webhook
+          method: post
+          cors: true
+
+plugins:
+  - serverless-pydeps
+
+```
+
+requirements.txt
+
+```txt
+boto3==1.34.125
+botocore==1.34.125
+certifi==2024.6.2
+charset-normalizer==3.3.2
+idna==3.7
+jmespath==1.0.1
+python-dateutil==2.9.0.post0
+requests==2.32.3
+s3transfer==0.10.1
+six==1.16.0
+urllib3==2.2.1
+
+```
+
+Deploy
+
+```sh
+sls deploy
+```
+
+
 #### Setup
 
 - Configure Function URL
@@ -356,12 +422,14 @@ sls deploy
 - Tell to telegram with wich API is associated
 
 ```sh
+curl -X GET -H "X-TrackerToken: $POSTMAN_TOKEN" "https://www.pivotaltracker.com/services/v5/projects/$PROJECT_ID/stories/"
 export TELEGRAM_BOT_TOKEN='<My botfather token>'
+export TELEGRAM_BOT_URL='<My Lambda URL>'
 
 curl --request POST \
- --url https://api.telegram.org/bot7090977715:AAFvOyeUu2vpKG8yrxx_HtweTnwVPSsYSJM/setWebhook \
+ --url https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/setWebhook \
  --header 'content-type: application/json' \
- --data '{"url": "https://hbu4qfw765.execute-api.us-east-1.amazonaws.com/dev/telegram-webhook"}'
+ --data '{"url": "$TELEGRAM_BOT_URL"}'
 
 
 # result
@@ -373,7 +441,6 @@ curl --request POST \
 
 - <https://docs.aws.amazon.com/lexv2/latest/dg/managing-conversations.html>
 - <https://www.geeksforgeeks.org/python-requests-post-request-with-headers-and-body/>
-
 
 ```sh
 curl -X POST -H "X-TrackerToken: $POSTMAN_TOKEN" -H "Content-Type: application/json" -d '{"current_state":"started","estimate":1,"name":"Exhaust ports are ray shielded 👹 2"}' "https://www.pivotaltracker.com/services/v5/projects/2714676/stories/"
