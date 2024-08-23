@@ -422,15 +422,9 @@ sls deploy
 - Tell to telegram with wich API is associated
 
 ```sh
-curl -X GET -H "X-TrackerToken: $POSTMAN_TOKEN" "https://www.pivotaltracker.com/services/v5/projects/$PROJECT_ID/stories/"
+
 export TELEGRAM_BOT_TOKEN='<My botfather token>'
 export TELEGRAM_BOT_URL='<My Lambda URL>'
-
-curl --request POST \
- --url https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/setWebhook \
- --header 'content-type: application/json' \
- --data '{"url": "$TELEGRAM_BOT_URL"}'
-
 
 # result
 {"ok":true,"result":true,"description":"Webhook was set"}% 

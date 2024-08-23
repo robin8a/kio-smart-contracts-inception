@@ -640,3 +640,10 @@ temperature_array = dataResults['ResultSet']['Rows'].map(row => {
 - 2.2.6 @luis
 - 2.2.8 @luis
 - Gestor de documentos: 2.1.2
+
+## 23 de Agosto, 2024
+
+- Pitfalls seguridad
+- Accesos, less privilegies, acceso consola
+- Roles amplify:
+- SSO:
