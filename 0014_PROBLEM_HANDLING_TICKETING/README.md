@@ -441,3 +441,7 @@ curl -X POST -H "X-TrackerToken: $POSTMAN_TOKEN" -H "Content-Type: application/j
 
 
 ```
+
+### Pyhon properties
+
+- <https://www.digitalocean.com/community/tutorials/python-read-properties-file>
