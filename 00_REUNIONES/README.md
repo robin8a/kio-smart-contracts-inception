@@ -658,3 +658,6 @@ temperature_array = dataResults['ResultSet']['Rows'].map(row => {
 - Encriptar BD de dynamo
 - Encriptar BD de dynamo S3
 - 2.1.2 Implementar ... legal docs para le entrega de septiembre
+- Mostrar la información de los postulantes, explicitamente solo la puede revelar si lo autoriza el titular
+- Rotar API keys (mes)
+- SSO
