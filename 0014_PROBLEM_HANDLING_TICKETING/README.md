@@ -439,7 +439,7 @@ export TELEGRAM_BOT_URL='<My Lambda URL>'
 ```sh
 curl -X POST -H "X-TrackerToken: $POSTMAN_TOKEN" -H "Content-Type: application/json" -d '{"current_state":"started","estimate":1,"name":"Exhaust ports are ray shielded 👹 2"}' "https://www.pivotaltracker.com/services/v5/projects/2714676/stories/"
 
-
+serverless invoke --function hello --path data.json --debug
 ```
 
 ### Pyhon properties

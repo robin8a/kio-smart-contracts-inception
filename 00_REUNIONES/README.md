@@ -647,3 +647,14 @@ temperature_array = dataResults['ResultSet']['Rows'].map(row => {
 - Accesos, less privilegies, acceso consola
 - Roles amplify:
 - SSO:
+
+## 26 de Agosto, 2024
+
+## 5 Septiembre, 2024
+
+- Cuenta de AWS para UCC
+- Cuenta de github codigo abierto para UCC
+- Minimo acceso a los usuarios
+- Encriptar BD de dynamo
+- Encriptar BD de dynamo S3
+- 2.1.2 Implementar ... legal docs para le entrega de septiembre
