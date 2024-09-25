@@ -171,3 +171,55 @@ Eres un arquitecto de software y debes definir las políticas, procedimientos re
 ### POL Template
 
 Eres un arquitecto de software y debes definir las políticas y procedimientos para: <un sistema de sensores montados en un dron para medir la calidad del aire de CO2, NO2, SO2, O3, y CO. Y por otro lado el Análisis de la vegetación haciendo uso de imagenes, video o audio.> Relacionados con el uso y administración , incluyendo la seguridad de los datos, la gestión de usuarios y roles, el mantenimiento, entre otros aspectos operativos.
+
+## Entreprises
+
+- Could you help to create a benchmark the following descarbonization enterprises: globalcarbontrace, ripple, centigrade, toucan, climatetrade?
+
+- Could you help to create compare the following descarbonization enterprises: globalcarbontrace, ripple, centigrade, toucan, climatetrade, biocarbon? Having in count: founded date, model, pricing, market, regulation, type of projects that support.
+
+- It is a webapp, the features are: authentication, database and file storage. Preferred programming language is React. The cloud provider is AWS serverless platform such as amplify. The app architecture is a React app on front-end, back end app-sync, database Dynamo and storage on S3.
+
+## 005-A-2.2
+
+Desarrollar contratos inteligentes con tecnología Blockchain: condiciones de comercialización (Criptoactivos y monetización) para la conservación ambiental.
+
+005-T-2.2.10-
+
+Verificación cumplimiento hitos (auditoría, veeduría, curaduría). Estudio técnico, toma de medidas,
+
+Eres un arquitecto de software debes crear las arquitectura para el desarrollo de contratos inteligentes con tecnología Blockchain: condiciones de comercialización (Criptoactivos y monetización) para la conservación ambiental. Debes crear una introducción para la siguiente actividad: Verificación cumplimiento hitos (auditoría, veeduría, curaduría). Estudio técnico, toma de medidas,
+
+## Documentación de usuario
+
+### 1.4.1 DU
+
+Eres un arquitecto de software y debes definir la documentación de necesaria para los usuarios con las mejores prácticas actuales que debería contar:  <un sistema de sensores montados en un dron para medir la calidad del aire de CO2, NO2, SO2, O3, y CO. Y por otro lado el Análisis de la vegetación haciendo uso de imagenes, video o audio.> Relacionados con el uso y administración , incluyendo la seguridad de los datos, la gestión de usuarios y roles, el mantenimiento, entre otros aspectos operativos.
+
+### 1.4.2 DU
+
+Eres un arquitecto de software y debes definir la documentación de necesaria para los usuarios con las mejores prácticas actuales que debería contar: <un sistema de seguimiento de gestión de árboles plantados es una solución integral diseñada para optimizar el cuidado y mantenimiento de los árboles rurales. A través de la recopilación y análisis de datos en tiempo real (IoT), formularios, el sistema permite a los gestores de áreas verdes, tomar decisiones informadas para garantizar la salud y el crecimiento óptimo de los árboles. Este sistema se basa en la integración de tecnologías de telemetría, sensores, análisis de datos y visualización interactiva para proporcionar una visión completa y actualizada del estado de cada árbol, así como de las acciones de cuidado y mantenimiento realizadas.> Relacionados con el uso y administración, seguridad, la gestión de usuarios y roles, el mantenimiento, entre otros aspectos operativos.
+
+### 1.4.3 DU
+
+Eres un arquitecto de software y debes definir la documentación de necesaria para los usuarios con las mejores prácticas actuales que debería contar: <un sistema tiene como objetivo principal registrar y analizar datos detallados sobre la salud y crecimiento de árboles individuales, con un enfoque especial en cultivos. La plataforma permite llevar una "hoja de vida" completa de cada árbol, incluyendo información sobre su estado de salud, historial de tratamientos, mediciones de crecimiento y otros datos relevantes. Además, el sistema proporciona herramientas para realizar análisis comparativos entre diferentes cultivos, evaluando su desempeño en términos de tasa de crecimiento, estructura de troncos y otros parámetros clave.> Relacionados con el uso y administración, seguridad, la gestión de usuarios y roles, el mantenimiento, entre otros aspectos operativos.
+
+### 1.4.4 DU
+
+Eres un arquitecto de software y debes definir la documentación de necesaria para los usuarios con las mejores prácticas actuales que debería contar: <Este sistema tiene como objetivo principal el monitoreo y cuidado de árboles protegidos mediante el uso de drones equipados con cámaras y sensores especializados. Los drones realizarán vuelos controlados para capturar imágenes y datos que permitan evaluar el estado fitosanitario de los árboles, detectar tempranamente signos de enfermedades, plagas o estrés, y planificar acciones de conservación y protección.> Relacionados con el uso y administración, seguridad, la gestión de usuarios y roles, el mantenimiento, entre otros aspectos operativos.
+
+### 1.4.5 DU
+
+Eres un arquitecto de software y debes definir la documentación de necesaria para los usuarios con las mejores prácticas actuales que debería contar: <para  manejar del reporte presenta un análisis detallado del estado de los árboles bajo nuestra gestión, incluyendo información sobre su salud, las medidas de cuidado implementadas y el historial de mantenimiento. El objetivo es proporcionar una visión integral de la situación actual de los árboles, identificar áreas de mejora y facilitar la toma de decisiones informadas para garantizar su bienestar a largo plazo.> Relacionados con el uso y administración, seguridad, la gestión de usuarios y roles, el mantenimiento, entre otros aspectos operativos.
+
+### 1.4.6 DU
+
+Eres un arquitecto de software y debes definir la documentación de necesaria para los usuarios con las mejores prácticas actuales que debería contar: <El sistema de registro de procesos arbóreos con soporte multimedia es una solución diseñada para documentar y gestionar de manera eficiente las actividades relacionadas con el cuidado y mantenimiento de árboles, como siembra, traslado, poda y tala. Este sistema permite almacenar en repositorio y registrar cada proceso de forma detallada, incluyendo información relevante, fotografías, videos y otros archivos multimedia, facilitando la trazabilidad, el análisis y la toma de decisiones informadas. El objetivo principal es proporcionar una herramienta que permita a los usuarios llevar un registro completo y transparente de las intervenciones realizadas en los árboles, garantizando el cumplimiento de las normativas ambientales, optimizando la gestión de recursos y mejorando la calidad del cuidado arbóreo.> Relacionados con el uso y administración, seguridad, la gestión de usuarios y roles, el mantenimiento, entre otros aspectos operativos.
+
+### 1.4.7 DU
+
+Eres un arquitecto de software y debes definir la documentación de necesaria para los usuarios con las mejores prácticas actuales que debería contar: <La industria forestal en Colombia, aunque vital para la economía y el medio ambiente, enfrenta desafíos significativos en términos de seguridad y salud ocupacional. Los accidentes laborales en este sector son frecuentes y a menudo graves, debido a la naturaleza del trabajo, las condiciones ambientales y la maquinaria utilizada. Para abordar esta problemática, proponemos el desarrollo de un sistema integral de monitoreo de la gestión en campo, enfocado en la prevención de accidentes. Este sistema, basado en tecnología móvil y chequeos preoperacionales, permitirá: Identificar y evaluar riesgos: Realizar análisis exhaustivos de las tareas y condiciones de trabajo para identificar peligros potenciales y evaluar su nivel de riesgo. Implementar chequeos pre operacionales: Establecer protocolos rigurosos de inspección de equipos, herramientas y áreas de trabajo antes de iniciar las actividades, garantizando su correcto funcionamiento y seguridad. Monitoreo en tiempo real: Registrar y analizar datos sobre el desempeño de los trabajadores, el uso de equipos de protección personal (EPP) y el cumplimiento de los protocolos de seguridad, permitiendo identificar desviaciones y tomar medidas correctivas de inmediato. Capacitación y sensibilización: Brindar a los trabajadores la formación necesaria sobre los riesgos laborales y las medidas de prevención, fomentando una cultura de seguridad en el trabajo. Análisis de datos y mejora continua: Utilizar los datos recopilados para identificar patrones, tendencias y áreas de mejora en la gestión de la seguridad, implementando acciones preventivas y correctivas basadas en evidencia.>Relacionados con el uso y administración, seguridad, la gestión de usuarios y roles, el mantenimiento, entre otros aspectos operativos.
+
+### 1.4.8 DU
+
+Eres un arquitecto de software y debes definir la documentación de necesaria para los usuarios con las mejores prácticas actuales que debería contar: <El monitoreo de las variables ambientales en los ecosistemas forestales es fundamental para comprender su funcionamiento, evaluar su salud y predecir su respuesta a cambios climáticos y perturbaciones. En particular, la medición de la concentración de dióxido de carbono (CO2), temperatura, humedad y presión barométrica proporciona información crucial sobre los procesos fisiológicos de los árboles, el intercambio de gases con la atmósfera y las condiciones microclimáticas que influyen en su crecimiento y desarrollo. En este contexto, la implementación de un sistema de monitoreo continuo de estas variables ambientales en bosques colombianos permitirá: Evaluar la dinámica del carbono: Cuantificar la absorción y emisión de CO2 por parte de los árboles, contribuyendo a estimar el balance de carbono de los ecosistemas forestales y su papel en la mitigación del cambio climático.  Monitorear la salud forestal: Detectar cambios en las variables ambientales que puedan indicar estrés hídrico, enfermedades o ataques de plagas, permitiendo tomar medidas preventivas y correctivas de manera oportuna. Comprender los efectos del cambio climático: Evaluar cómo los cambios en la temperatura, humedad y otros factores climáticos afectan el crecimiento, la productividad y la distribución de las especies forestales. Generar información para la gestión forestal sostenible: Proporcionar datos científicos para la toma de decisiones informadas en la planificación, manejo y conservación de los bosques.> Relacionados con el uso y administración, seguridad, la gestión de usuarios y roles, el mantenimiento, entre otros aspectos operativos. 

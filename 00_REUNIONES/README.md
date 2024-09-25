@@ -656,8 +656,22 @@ temperature_array = dataResults['ResultSet']['Rows'].map(row => {
 - Cuenta de github codigo abierto para UCC
 - Minimo acceso a los usuarios
 - Encriptar BD de dynamo
-- Encriptar BD de dynamo S3
-- 2.1.2 Implementar ... legal docs para le entrega de septiembre
+- Encriptar BD de S3
 - Mostrar la información de los postulantes, explicitamente solo la puede revelar si lo autoriza el titular
 - Rotar API keys (mes)
 - SSO
+- 2.1.2 Implementar ... legal docs para le entrega de septiembre
+
+## 16 septiembre, 2024
+
+- Investigación el estandar de biocarbon(entre certificador) y verra
+
+### Comercializar bonos de carbono
+
+- Tucan, proyectos
+- Casos de éxito de descarbonización, hay un documento de exploración
+- Logramos el primer caso de tokenización?
+- Literatura, identificar los modeles, juridico, técnico. Actualizar. Jose Ricardo, Paola y Jhony, Europa, Arabia Saudita
+- Buscar el norte, antes del miercoles.
+- Revisión sistematica, documento tecnico, lineamiento, para publicar en un articulo, como referente
+- MVP final de año

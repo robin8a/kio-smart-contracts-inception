@@ -445,3 +445,91 @@ serverless invoke --function hello --path data.json --debug
 ### Pyhon properties
 
 - <https://www.digitalocean.com/community/tutorials/python-read-properties-file>
+
+### Multilanguages
+
+- <https://docs.aws.amazon.com/lexv2/latest/dg/how-languages.html>
+
+```sh
+aws lexv2-models list-bots
+
+```
+
+### Upload file
+
+- <https://docs.python-telegram-bot.org/en/v13.1/telegram.file.html>
+- <https://core.telegram.org/bots/api#getfile>
+- <blob:https://web.telegram.org/87695470-c3dc-4f59-ada4-15e5027a2f58>
+
+
+```json
+{
+    "update_id": 673741112,
+    "message": {
+        "message_id": 216,
+        "from": {
+            "id": 7423769471,
+            "is_bot": false,
+            "first_name": "Robin",
+            "last_name": "Ochoa",
+            "language_code": "en"
+        },
+        "chat": {
+            "id": 7423769471,
+            "first_name": "Robin",
+            "last_name": "Ochoa",
+            "type": "private"
+        },
+        "date": 1726590915,
+        "text": "desc17Setp2024_1135"
+    }
+}
+```
+
+```json
+{
+    "update_id": 673741113,
+    "message": {
+        "message_id": 218,
+        "from": {
+            "id": 7423769471,
+            "is_bot": false,
+            "first_name": "Robin",
+            "last_name": "Ochoa",
+            "language_code": "en"
+        },
+        "chat": {
+            "id": 7423769471,
+            "first_name": "Robin",
+            "last_name": "Ochoa",
+            "type": "private"
+        },
+        "date": 1726590950,
+        "document": {
+            "file_name": "Could you help to create compare the following de....pdf",
+            "mime_type": "application/pdf",
+            "thumbnail": {
+                "file_id": "AAMCAQADGQEAA9pm6a_mvFlzSPWjbo3fZg9kbkgjDAAC6AMAAuBhSUf24CFRlFnqXAEAB20AAzYE",
+                "file_unique_id": "AQAD6AMAAuBhSUdy",
+                "file_size": 11720,
+                "width": 247,
+                "height": 320
+            },
+            "thumb": {
+                "file_id": "AAMCAQADGQEAA9pm6a_mvFlzSPWjbo3fZg9kbkgjDAAC6AMAAuBhSUf24CFRlFnqXAEAB20AAzYE",
+                "file_unique_id": "AQAD6AMAAuBhSUdy",
+                "file_size": 11720,
+                "width": 247,
+                "height": 320
+            },
+            "file_id": "BQACAgEAAxkBAAPaZumv5rxZc0j1o26N32YPZG5IIwwAAugDAALgYUlH9uAhUZRZ6lw2BA",
+            "file_unique_id": "AgAD6AMAAuBhSUc",
+            "file_size": 55810
+        }
+    }
+}```
+
+### Telegram / Telethon Signin with Bottoken
+
+- <https://docs.telethon.dev/en/stable/basic/signing-in.html>
+- <https://docs.telethon.dev/en/v2/basic/signing-in.html>
