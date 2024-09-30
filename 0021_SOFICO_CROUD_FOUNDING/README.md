@@ -23,3 +23,11 @@
 - Fomentar la innovación social
 - Block-e donaciones. No para un retorno, bono a cambio que dona: beneficios fiscales
 - Sofico es tipo de empresa
+- Donación y deuda equity
+- 3 años de devoluciones para certificación de la super
+- Tener la billetera, actualizada. Reactivar
+- Pasarela de pagos
+- Autonomía para modificar la variables (feature)
+- Validación de los usario (registro, truehora integración) vida crediticia y judicial, firma contratos inteligentes
+- Admon de variables
+

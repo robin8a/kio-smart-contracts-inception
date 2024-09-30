@@ -675,3 +675,43 @@ temperature_array = dataResults['ResultSet']['Rows'].map(row => {
 - Buscar el norte, antes del miercoles.
 - Revisión sistematica, documento tecnico, lineamiento, para publicar en un articulo, como referente
 - MVP final de año
+
+## 30 Septiembre, 2024
+
+### Gestión de fallas
+
+- Integración lex chat bot, telegram
+- correo
+- Multiidioma
+- carga de  archivos
+- Google collab S3
+
+### Gestión de documentos
+
+- Diseño BD
+- API
+- Ux/UI
+
+### Victor Hugo
+
+- Como se almacenan
+- Información por proyecto
+- Visita de campo
+- Conglomerado de la parcelas
+- GIS drones, 100/200 GB resolución de 15 centimetros. Mavic 3 multiespectral. Los procesados en datos. Reconstrucción de la capa.
+- Orto mosaico RGB, mapa de elevación, son lo que tienes utilidad son para publicar
+- Ya se tiene: Julio, Agosto y Septiembre
+- Hay que entregar 6 proyectos
+- Se van adquirir drones de ala fija, camara multiespectrl, LIDAR hay que procesalos y generar la capa, capas asociadas al poligono correspondiente
+- 1.4.x Protocolo por capas por sensor, se va hacer en sitio
+- 1.4.x ciclo de vida
+- enero, febrero llegan los drones
+- Puerto lopez parcela diametro, alturas, falta de comunicación con las actividades de campo. Estudios de prefactibilidad.
+- Jose Ricardo, esta articulado. Sotelo no.
+- Jhonny nos muestre que tenemos
+- Financiero Azcona, Victor no se entiende el modelo. 100 pestañas, donde salieron los numeros, diferenciación de años, modelo que lo soporta. Documento técnicos de soporte, cómo se hizo el cálculo. Indicadores de gobierno, alimenta el modelo. Cómo proyecta el TIR?
+- Avanzar a nivel de datos
+- Framework: 10 páginas, Marco general teorico, conceptual y digerible. Solución completa. Basado en el documento que va a compartir Victor <https://www.researchgate.net/publication/345634620_Blockchain_A_Theoretical_Framework_for_Better_Application_of_Carbon_Credit_Acquisition_to_the_Building_Sector> Documento, técnico científico
+- 1.4x. Compartir con Victor un S3 para el 1er proyecto, o crear una web para que suban los archivos
+- Smart contracts, inconvenientes jurídicos y filosóficos
+- Vigilacia competitiva
