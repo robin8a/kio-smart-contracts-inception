@@ -3,7 +3,9 @@
 ## 1
 
 - <https://docs.google.com/document/d/1vQ4LejpG3JXEWQGXov31KFiLc8o4BCiVc4YDiqr0pek/edit?usp=sharing>
+- Install pip: <https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-linux.html>
 - <https://superset.apache.org/docs/installation/pypi>
+- <https://gist.github.com/philippkeller/dedd0ee8221f4b155592149d08a26248>
 
 ## 2
 
