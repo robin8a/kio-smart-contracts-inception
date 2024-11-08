@@ -715,3 +715,55 @@ temperature_array = dataResults['ResultSet']['Rows'].map(row => {
 - 1.4x. Compartir con Victor un S3 para el 1er proyecto, o crear una web para que suban los archivos
 - Smart contracts, inconvenientes jurídicos y filosóficos
 - Vigilacia competitiva
+
+## 14 Octubre, 2024
+
+### Benefiario y elegibles
+
+- Cómo es la participación de la comunidad. El proceso en manual. Depende del numero de personas
+- Con Viviana, con el protocolo de bioetica. Se van a inscribir muchos. Lo 6 prefactibilidad, desarrollar el modelo.
+- Beneficiarios y eligles con filtros operativos
+- Esta llegando mucha gente
+- Como me vuelvo beneficiario
+- Una ruta clara de priorización, @viviana
+- Ruta clara de selección
+- Código único de redimible
+- Procuraduría: Cómo esta priorizando la lista de beneficiarios?
+- Desde plataforma inscripción, hablar con @viviana
+
+### App
+
+- Auditoria de contratos
+- Normalización de idiomas
+- CoreWallet (de todo el marketplace), aclarar los nombres con helps
+
+### Cual cadena usar y porqué?
+
+### Revisión de beneficios entre las distintas Block-chains @sergio/@robin/@luis
+
+- Subida del gas
+- Caso del BID, como funciona el ecosistema
+- Cardano no tiene el concepto de "GAS" vs Ethereum
+- Los Fees esta asociado al tamaño de la transacción con un formula lineal
+- Analisis comparativo del top 9 de cadenas de bloques
+
+## 21 de Octubre, 2024
+
+- <https://www.lacchain.net/>
+- Jorge Atala dev-BC
+- BID lab, lack chain
+- Jueves reunión presentación BC
+
+```sh
+echo "deb [arch=$(dpkg - print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+
+sudo apt update \
+apt-cache policy docker-ce \
+sudo apt install docker-ce
+
+```
+
+
+ 
