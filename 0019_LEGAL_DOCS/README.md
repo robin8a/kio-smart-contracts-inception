@@ -128,3 +128,50 @@ amplify add auth
 ```sh
 amplify add api
 ```
+
+## react-admin-amplify react-admin
+
+- <https://github.com/MrHertal/react-admin-amplify>
+- <https://marmelab.com/react-admin/Tutorial.html>
+
+```sh
+aws cognito-idp list-user-pools --max-results 60 > users.json
+
+
+aws cognito-idp admin-confirm-sign-up --user-pool-id us-east-1_8bR8oirR9 --username legal_docs_admin
+
+aws cognito-idp admin-set-user-password --user-pool-id <user-pool-id> --username <username> --password <temporary-password> --permanent false
+
+
+admin-confirm-sign-up
+
+
+aws cognito-idp admin-create-user --user-pool-id <user_pool_id> --username <username> --user-attributes Name=<user_name>,email=<user_email> --message-action SUPPRESS
+
+aws cognito-idp admin-create-user --user-pool-id us-east-1_8bR8oirR9 --username legal_docs_admin --user-attributes Name=legal_docs_admin,email=robin8a@gmail.com --message-action SUPPRESS
+
+aws cognito-idp admin-create-user --user-pool-id us-east-1_8bR8oirR9 --username admin --user-attributes Name=legal_docs_admin --message-action SUPPRESS
+
+
+aws cognito-idp admin-create-user --user-pool-id <user_pool_id> --username <username> --user-attributes Name=<user_name>,email=<user_email> --message-action SUPPRESS
+
+# main: https://awscli.amazonaws.com/v2/documentation/api/2.9.6/reference/cognito-idp/index.html#cli-aws-cognito-idp
+
+# https://awscli.amazonaws.com/v2/documentation/api/2.9.6/reference/cognito-idp/admin-create-user.html
+
+aws cognito-idp admin-create-user \
+    --user-pool-id us-east-1_8bR8oirR9 \
+    --username admin \
+    --user-attributes Name=email,Value=robin8a@gmail.com Name=phone_number,Value="+573053216272" \
+    --message-action SUPPRESS
+
+aws cognito-idp admin-confirm-sign-up --user-pool-id us-east-1_8bR8oirR9 --username admin
+
+aws cognito-idp admin-set-user-password --user-pool-id us-east-1_8bR8oirR9 --username admin --password <password> --permanent
+```
+
+## Clone based on confi host /Users/robinochoa/.ssh/config
+
+```sh
+git clone ssh://kio_sl_legal_docs_rjs_app_rsa/v1/repos/kio-sl-legal-docs-rjs-app
+```

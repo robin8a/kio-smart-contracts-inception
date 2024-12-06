@@ -765,5 +765,94 @@ sudo apt install docker-ce
 
 ```
 
+## 03 de Diciembre, 2024
 
- 
+- [] Azcona, modelo de los parametros. Reunión Tokenomics. Llego pre-factibilidad para correr del modelo de Azcona.
+- @Sergio: <https://www.lacchain.net/home> El desarrollo una primera version de un proyecto blockchain para tokenizar bonos de carbono bajo la cadena Lacchain
+- Licencias flotantes, workstations conectados al servidor para el uso de los datos tranformados. No subir a la nube los 150 o 200 GB. Tenerlo modo backup.
+- @Rances, le nuevo proceso del validador. Actualizar.
+- @Neider, market place. Campos TIR/Inversión.
+- @Eduardo y @Sergio, doc rechazo informe noviembre
+- 5 preguntas de Big data
+- Plan capacitaciones (carpeta)
+- Presupuesto, logistica datos
+- <https://aws.amazon.com/marketplace/pp/prodview-ec4tk6lxtl4xw>
+- <https://help.coinbase.com/en/coinbase/getting-started/crypto-education/glossary/ethereum-virtual-machine>
+
+## 05 de Diciembre, 2024
+
+### Cursos
+
+- Terrsacha, que deberiamos mostrarle a comunidad?
+- Quien es publico objetivo?
+- Esta la explicación de la herramienta
+
+#### Temas
+
+#### Taller 1 Contexto Para un niño de 8 años
+
+- Que es TerraSacha? @jhonny Que es? Que problema ataca?
+- Que es BC, cardano, contratos inteligentes, billetera y finaldad dentro del proyecto y como interactua?
+- Cual es proceso gnral? Marketing, Postulación, Certificación
+- Presentación de las plataformas.
+- Práctico: crear usuario, crear la billetera y comprar, como nos contactan?
+
+#### Taller 2 Oraculo 1 y 2
+
+- BC con Luis
+- @mauricio
+- Terreno, localización
+- Reconocimiento de imágenes para la cuantificar la captura
+
+#### 2.1.6 GACT , 2.7.2 @viviana
+
+- 2.1.6: Realizar talleres prácticos
+- Documento @sergio, para los talleres
+- Competencias generales o especificas
+- Perfil de capacitador
+
+### @rances
+
+- "Proceso postulación" @gitbook, ya esta documentado
+- "Bug map"
+- Dos HUs
+
+### @eduardo
+
+- 06 ejemplo de testing
+- chrome selenim IDE
+
+### @ignacio
+
+- Identiry provider, carga de carpeta
+
+### @neider
+
+- Finalizado
+- Angie Suarez en SUAN, problemas postular el proyecto. API key caducada. Talleres, esta usando test platform.
+- Campaña lo van a presentar.
+- El despliegue de Terrasacha se demora.
+- Talleres
+
+## Talleres
+
+### Taller 1: Explorando TerraSacha - Tu Primer Paso en el Proyecto
+
+Descubre qué es TerraSacha, cómo funciona el blockchain y cómo ser parte de esta revolución sostenible.
+
+> Modulo 1: Introducción a TerraSacha
+> Modulo 2: BlockChain
+> Modulo 3: Plataformas
+> Modulo 4: Recibe tus primero tokens
+
+### Taller 2: Dominando el Oráculo - Tecnología para la Sostenibilidad
+
+Aprende cómo el blockchain, la localización y el reconocimiento de imágenes transforman la medición de capturas de carbono.
+
+> Modulo 1: Introducción al vision computarizada
+> Modulo 2: Google colab
+> Modulo 3: Manos a la obra: Iniciando con Python
+> Modulo 4: Manos a la obra: Procesamiento de imagenes
+> Modulo 5: Manos a la obra: Clasificación
+> Modulo 6: Manos a la obra: Boxing y key point detection
+> Modulo 7: Manos a la obra: Oraculo 1 y 2
