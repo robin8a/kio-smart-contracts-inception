@@ -15,12 +15,13 @@
 
 - <https://www.supersociedades.gov.co/Noticias/Publicaciones/Documents/2018/ABC-captacion-DEFINITIVO-2018.pdf>
 - <https://actualicese.com/captacion-ilegal-de-recursos-y-actividades-no-autorizadas/#:~:text=Algunos%20ejemplos%20de%20formas%20de%20captaci%C3%B3n%20ilegal%20de%20dinero%20son,tienen%20una%20explicaci%C3%B3n%20financiera%20razonable.>
+
 #### Tareas
 
-- Documentar 
-
+- Documentar
 
 PROYECTO TOKENIZACIÓN DE ACTIVOS FORESTALES
+
 ```txt
 Desarrollo experimental de prototipo de plataforma mínima viable para la prueba de concepto de la tokenización de activos forestales a través de encargos fiduciarios, a través de contratos digitales y tokenización de activos forestales como cultivos de pino caribe, democratizando el acceso a la propiedad de árboles y su respectivo terreno, como una solución al calentamiento global, brindado la posibilidad a cualquier ciudad del mundo que invierta en árboles para la captura de CO2, en un posible sistema de criptomonedas forestales.
 ```
@@ -32,20 +33,22 @@ Desarrollo experimental de prototipo de plataforma mínima viable para la prueba
 
 ![Ciclo NFT](images/nft_cycle.png)
 
-- Primer fase lo haremos manual, para entender 
+- Primer fase lo haremos manual, para entender
 - Reproducir en código el paso a paso
 - Se crea y se destruye NFT en el tiempo
 
 ## Lui Enrique 25/10/21
+
 ### CIF poder acceder (Cerfiticado Incentivo Forestal)
-- No todas las fincas son 
+
+- No todas las fincas son
 - UPRA Unidad planificacion agraria, aptitud forestal, visor CIPRA (Potenciales SIG)
 - No bosque natural
 - Plante, un morichal, le cubren el 20%, no es mucho, por hectarea $ COP 80.000
 - Modelos de captura en Colombia, es diferente en cada pais, cambia por región
 - Análisis area, refraccion de la luz, cada 1 año o 2 años, revisar
 
-### Proceso CIF 
+### Proceso CIF
 
 1. Certificado de tradicion y libertad, sino tiene no sirve
 2. Ninguna medida cautelar
@@ -54,15 +57,14 @@ Desarrollo experimental de prototipo de plataforma mínima viable para la prueba
 5. Levantamiento del area
 6. Nutricional
 7. Cual especie se acomoda mas para ese terreno
-8. 
 
 ### Plan Establecimiento y Manejo Forestal (PEM); actividades del proyecto
+
 - Donde se compra la semilla
 - Donde Vivero
 - Preparacion del suelo, arado o no
-- 3m 
-- Mantenimiento 
-
+- 3m
+- Mantenimiento
 
 1'200.000 hectareas
 
@@ -856,3 +858,115 @@ Aprende cómo el blockchain, la localización y el reconocimiento de imágenes t
 > Modulo 5: Manos a la obra: Clasificación
 > Modulo 6: Manos a la obra: Boxing y key point detection
 > Modulo 7: Manos a la obra: Oraculo 1 y 2
+
+## 06 de Diciembre, 2024
+
+### @ignacio_06
+
+- Provider: probando roles y permisos
+
+### @rances_06
+
+- "Proceso postulación" @gitbook, ya esta documentado
+
+## 09 de Diciembre 2024
+
+### Implementacion del modelo de Sebastian
+
+### Capacitaciones
+
+- Definición de los talleres, modulos.
+- Documentos de camilo, articulos y videos
+- Cuales cursos y el mercado
+- Definir los tres cursos @victor con el titulo
+
+#### manejo de terra sacha
+
+- Que problema estamos atacando, confianza en los tokens. Colombia 6M hectarias, mecanismo
+- Instroducción Contexto
+- Agregar: contratos inteligente
+- Usar la plantilla de Vision Artificial... @eduardo
+
+### 2.1.5 son iguales 2.2.2
+
+> Para que la gente conozca del proyecto
+> @victor de sacamos la evidencias
+> @eduardo: videos, articulos/videos en redes sociales
+
+### 2.2.2 Promoción del negocio
+
+```json
+005-T-2.2.2-Promoción de negocio
+Actividades promocionales del negocio
+Evidencia de actividades promocionales y resultados
+
+```
+
+- Documento guía principal (padre): [ACTIVIDADES PROMOCIONALES DEL NEGOCIO]<https://docs.google.com/document/d/1CBUjbwy2JU5ZtIoonHDndpRM2qcJL2bt/edit?usp=sharing&ouid=102741756034923005493&rtpof=true&sd=true>
+- Planeación
+- Serían las propuestas
+
+### 2.2.3 Desarrollo de agendas
+
+```json
+005-T-2.2.3-Desarrollo de agendas de presentación de estrategias tecnológicas
+Presentación de estrategias tecnológicas
+Evidencias documentales de  presentación de estrategias tecnológicas
+```
+
+- Guía [AGENDA DE ESTRATEGIAS TECNOLOGICAS]<https://docs.google.com/document/d/1E3Cp9m3F_oHnaco9iTxZtaDx_kH-e5AY/edit?usp=sharing&ouid=102741756034923005493&rtpof=true&sd=true>
+- Anexo: Planeacion Contenidos Promoción Negocio
+- Agenda promocional del negocio
+- Se coviertieron en anexos
+
+### 2.1.5 Ejecutar agenda ... promoción del negocio, 2.2.3
+
+```json
+005-T-2.1.5-Ejecutar agenda de promoción de negocio
+Programa de actividades de promocion de negocio: Programa de actividades de promocion de negocio
+Reporte periódico de actividades ejecutadas de promoción
+```
+
+- Documentos referencias a todas las evidencias, videos, guías etc.
+- Articulos
+- Evidencias videos
+
+### 2.1.5 y 2.2.3
+
+- Ahora: Tienen el mismo anexo
+- Articulos
+- FAQs tecnología y operación
+
+### 2.1.6 Viviana, contacto de la comunidad
+
+- Ya se dicto un curso de Introducción
+- 2 horas máximo.
+- 10 talleres
+- Temas: Arauca, V/cio
+- OVA mirar que son, estilo n4na cortos
+- Hubo encuestas
+- 1 - 80 años
+- Nivel educación
+- Convocatorias, se inscriben todos
+- Publicar en youtube, que sea practico.
+- Gamificación tokens @n4na
+
+### Lacchain @sergio
+
+- Investigando
+- Modelo del negocio
+- Lacchain
+- Casos de uso
+
+### Automatizacion de pruebas @sergio
+
+- Selemiun anexo
+
+### Buenas prácticas Terra Sacha en MarketPlace @sergio
+
+### Ajustes en la postulación de los proyectes
+
+### Ajustes Campañas
+
+### Campañas y auth
+
