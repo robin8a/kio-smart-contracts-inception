@@ -871,8 +871,6 @@ Aprende cómo el blockchain, la localización y el reconocimiento de imágenes t
 
 ## 09 de Diciembre 2024
 
-### Implementacion del modelo de Sebastian
-
 ### Capacitaciones
 
 - Definición de los talleres, modulos.
@@ -880,20 +878,20 @@ Aprende cómo el blockchain, la localización y el reconocimiento de imágenes t
 - Cuales cursos y el mercado
 - Definir los tres cursos @victor con el titulo
 
-#### manejo de terra sacha
+#### Manejo de terra sacha
 
 - Que problema estamos atacando, confianza en los tokens. Colombia 6M hectarias, mecanismo
 - Instroducción Contexto
 - Agregar: contratos inteligente
 - Usar la plantilla de Vision Artificial... @eduardo
 
-### 2.1.5 son iguales 2.2.2
+### 005-T-2.1.5-Ejecutar agenda de promoción de negocios 2.2.2
 
 > Para que la gente conozca del proyecto
-> @victor de sacamos la evidencias
+> @victor de donde tomaríamos las evidencias
 > @eduardo: videos, articulos/videos en redes sociales
 
-### 2.2.2 Promoción del negocio
+### 005-T-2.2.2-Promoción de negocio
 
 ```json
 005-T-2.2.2-Promoción de negocio
@@ -970,3 +968,91 @@ Reporte periódico de actividades ejecutadas de promoción
 
 ### Campañas y auth
 
+### Implementacion del modelo de Sebastian
+
+### 005-T-2.4.1-Establecer métricas para la evolución del modelo financiero del proyecto
+
+1. Documento técnico: Métricas establecidas para evolución del modelo financiero del proyecto.
+2. Documento tecnico de soporte de modelo de escalamiento.
+
+005-A-1.4-Implementar sistema de trazabilidad e inventario de cultivos forestales en tiempo real (Internet de las Cosas - IoT).
+
+005-A-2.1-Desarrollar una plataforma de Descarbonización a partir de la tokenización de activos forestales, que genere confiabilidad, tracción y liquidez a los operadores forestales.
+
+005-A-2.2-Desarrollar contratos inteligentes con tecnología Blockchain: condiciones de comercialización (Criptoactivos y monetización) para la conservación ambiental.
+
+## Requerimiento: Implementación modelo econónico @sebastian_azcona
+
+### 005-T-2.2.5-Desarrollo de esquema económico digital OCT
+
+<https://docs.google.com/document/d/1de6AvFO4wllUbPjlRODctHkWFjEdkWCrStHL5D2v588/edit?tab=t.0>
+
+- 5.Definición del Precio de los Tokens para su Comercialización
+- 6.Aplicación Práctica para Primera Ronda (roll-out, TIR, punto equilibrio)
+- 8.Implementación de Esquema Económico digital a Modelo Financiero y Monetización
+
+### 005-T-2.2.7-Valorización inicial de activos forestales. OCT
+
+> Entre los costos asociados a este proceso se incluyen:
+
+- Certificación y Registro: Los gastos incurridos en la validación y documentación oficial de las reducciones de carbono.
+
+- Emisión de Créditos de Carbono Verificados (CCV): Los costos relacionados con la creación y verificación de los créditos de carbono.
+
+- Retiros: Los gastos administrativos y logísticos para la retirada de créditos de carbono del mercado.
+
+- Inversión Inicial: La inversión que realiza el inversionista para fondear la operación del proyecto forestal. Esta inversión es esencial para cubrir los costos iniciales de plantación, mantenimiento y monitoreo de los activos forestales.
+
+- Cashout Quinquenal: Cada cinco años, los tokens acumulados pueden ser convertidos en bonos de carbono certificados, lo cual permite a los stakeholders monetizar sus inversiones en los mercados de carbono.
+
+- Calculo global: Valoración Intrínseca de Bonos de Carbono en Proyectos Forestales
+
+- 9.Metodología para la Valoración de Inversiones para Inversionistas en Proyectos Forestales Tokenizados
+
+- 10.Implementación de Variables para valoración y Impacto
+
+> Cálculo del Cost of Equity en USD (Costo del Equity sin inflación)
+
+### 005-T-2.2.9-Hitos de confianza para la valorización (mayor confiabilidad)
+
+- VALORACIÓN EN FUNCIÓN DE LOS ESTADOS DE UN PROYECTO
+- HERRAMIENTA/ DOCUMENTACIÓN PARA VALORACIÓN INTRÍNSECA DE ACTIVOS FORESTALES
+
+## @victor PCI
+
+- Cual es el modelo? Estamos en espero IN/OUT
+- Modelo CO2
+
+### LACCHAIN
+
+- Primer bloque
+
+### Comunidad
+
+- Desarrollo comunitario
+- 10 talleres, presenciales
+- Presencialidad
+- Caracterización de la comunidad @viviana
+- Hubo una encuenta
+- Redes sociales y canales
+- Grupo 13, 2025. Comunity manager
+- Grupo 13, videos. Guión
+- Grupo 13, termina contrato diciembre 2024
+- Información del año
+- Redes no estaban bien manejadas
+- @sergio articula @viviana, con la comunidad
+- Comunidad estudiantil, acedemica, tecnica y carreras universitarias, gremio productor
+- Alquilan tierra para cultivar algo
+- Productor grande
+- Producto pequeña
+- Invitación mas abierta
+- n4na 1er trimestre
+
+### Enfoque cursos por rol
+
+> Cursos generales
+
+- Hacendados
+- Comunidad general
+- Inversionista RIO
+- Campesino
