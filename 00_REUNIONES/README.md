@@ -1056,3 +1056,31 @@ Reporte periódico de actividades ejecutadas de promoción
 - Comunidad general
 - Inversionista RIO
 - Campesino
+
+## 10 dicimbre, 2024
+
+- HU: Modulo de logros @luis_restrepo
+- Recompensas
+
+### 2.2.2, 2.2.3 y 2.1.5
+
+- Evidencias, de los otros grupos.
+- @sergio actividades de otros grupos, dónde se registran. Grupo 13 y guión
+
+### @rances: postulación, gitbook, analista
+
+### neider: 2 tareas quedan
+
+### ignacio: ajustes de responsive, no se veía bien en el telefono
+
+### eduardo
+
+- automatizar Selenium proceso de campañas y demas.
+- testing, es pago.
+
+### mostrar
+
+- automatizar Selenium: Campañas, propietario postula, validan, validación estandar. @plataforma ok, @marker_place QR
+- Campañas, propietario postula, validan, validación estandar. @luis_restrepo socializar? E2E recorrido
+- Distribución tokens.
+- Postulación de proyectos
