@@ -10,10 +10,12 @@
 
 ## Data Catalog and Querying (last session, continue... today)
 
-Ohio
+> Ohio
 
 - Iris (csv)
 Permissions =>  S3 Bucket => Upload Data => Configure Crawler => Add a datastore => Security settings => Specify Output (Database) => Run Crawler => Tables
+
+Use: AWSGlueServiceRole
 
 - Amazon customer reviews
 S3 => Create table => Run queries (Athena)
