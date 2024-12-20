@@ -1084,3 +1084,89 @@ Reporte periódico de actividades ejecutadas de promoción
 - Campañas, propietario postula, validan, validación estandar. @luis_restrepo socializar? E2E recorrido
 - Distribución tokens.
 - Postulación de proyectos
+
+## 16 diciembre, 2024
+
+- Visualización y descarga de las capas que quiera consumir
+- Mapa IAR, culquier procesamiento lo haga el oraculo
+- Modelos: cuantificación de captura de carbono y financiero de cara a los inversionistas. Uno de nosotros debemos participar en esa transferencia de conocimiento.
+- Cómo le vende el negocio a un inversionista?
+- PCI  calculo de numero de toneladas de carbono, cual es el modelo que soporto? Costo de valor de infraestructura?
+- Que tan robusto es el modelo?
+- Modelos @azcona: distribución , valor de los token gris, ROI @, costos operativos próximos 5 a 10 años, Ganancia, Rentabilidad
+- William Aguador, RED+, modelo plantaciones forestal y derivadas
+- Ricardo para plantaciones comerciales
+- Los modelos deben ser transparentes y claro.
+- Modelo es una serie de hipótesis sustendadas que le de credibilidad al modelo.
+- Valor subyacente, lo mas aproximado al valor real.
+- Que no sea un cuento o una caja negra, ser transparentes. Parte del curso de inversores, el curso es responsable @PCI.
+
+### @robin
+
+- Documentación, configuración y despliegue <https://docs.lacnet.com/> del Nodo en AWS con Ubuntu & Docker. Inicio las pruebas scripts en node JS (Gas, enviar una transacción, desplegar un contrato, )
+- Documentación de la calculadora de KPIs para los modelos financieros, cálculo de carbono.
+
+## 18 Diciembre, 2024 Tregacy
+
+- Tufik Issa
+
+### Requerimientos
+
+- Como afecto al planeta, onboarding
+- Ayudar a empresas a realizar sus calculos
+- Versión paga
+- EJ. Nestle Pánama
+- Calculos particulares o por empresa
+- Formato de redes sociales, interactivo en una red social. Generar curiosidad.
+- Medidad de publicidad
+- Calculos personales y organizaciones
+- Industrias
+
+### SUAN
+
+- Genesis
+- Tiempos
+- Desarrollo tecnologico
+- Background comercial, hace parte
+
+### Calculadora
+
+- Tiempos
+- Varias industrias, cómo se hacen los calculos de una industria.
+- Mapear cuales están en el radar
+
+### Empresa de Singapur
+
+- Fracaso, por contactos, otro tipo de fuerza
+- Tendencias de una industria
+- Dos fondos de inversión en el mundo árabe
+- Background comercial
+- 100M USD de carbono de Singapur, se vendieron P2P
+- Después de colocar la venta, la invento
+- 3 años, generar las relaciones y conexiones. Gobierno Paraguya, Saudita & Panama
+- Generar flujo de caja, compró 4 o 5 empresas. Consultara unos contratos, banco nacional de Panama. Banco del estado
+- E2: Covierte la basura en fertilizantes orgánicos
+- E3: recolecta
+- E4: convertirla en energía
+- DMR propio, Alvaro Vallejo, Sebastian Torres en Bolivia para un proyecto de carbono. 1.3 M. 3 años produce un flujo. Preventa a valor de perdida.
+- No hay activo.
+- Mapeada, empujón
+- Valor, visión comercial, darle un uso
+- Cual es la ruta menos resistencia?
+- Siguiente etapa: Mostrarte el demo. 27 0 28, demo. Punto de vista, que tenemos el valor de lo que tenemos. La visión y valor.
+
+
+## 19 Diciembre, 2024
+
+Ayudame a crear una introducción para un sistema que permite Como ADMINISTRADOR quiero hacer el CRUDLF de los FEATURES (C=Crear, R=Leer, D=Borrar/Desactivar, L=Listar en una tabla, F=Filtrar). Para crear las VARIABLES. Como ADMINISTRADOR quiero hacer el CRUDLF de los UNIT_OF_MEASURE (C=Crear, R=Leer, D=Borrar/Desactivar, L=Listar en una tabla, F=Filtrar). Para asociar la UNIDAD_DE_MEDIDA a FEATURES, FORMULAS y RESULTS .Como ADMINISTRADOR quiero hacer el CRUDLFE de los COUNTERS (C=Crear, R=Leer, D=Borrar/Desactivar, L=Listar en una tabla, F=Filtrar, E=Exportar). Para guardar los DATOS_CRUDOS antes de realizar los cálculos. Como ADMINISTRADOR quiero hacer el CRUDLF de los FORMULAS (C=Crear, R=Leer, D=Borrar/Desactivar, L=Listar en una tabla, F=Filtrar). Para ser verificadas y probadas antes de ser PUBLICAS a los USUARIOS. Como ADMINISTRADOR quiero validar mis fórmulas, para hacer pruebas correspondientes. Como USUARIO quiero realizar calculos anidados, para usar el resultado de en otro calculos. Para los siguiente modelos
+
+- Modelos financieros.
+- Modelos cálculo de carbono.
+- Modelo es una serie de hipótesis sustendadas que le de credibilidad al modelo.
+- Modelo distribución para distribución de tokens.
+- Modelo para el cálculo del valor de los token grises para financiar proyectos de reforestación de etapas tempranas.
+- Modelo para el ccostos operativos próximos 5 a 10 años, Ganancia, Rentabilidad.
+- Modelos para cuantificación de captura de carbono y financiero de  a los inversionistas.
+
+Los modelos anteriomente Que deben ser transparentes y claros
+
