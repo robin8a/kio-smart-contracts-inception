@@ -1155,7 +1155,6 @@ Reporte periódico de actividades ejecutadas de promoción
 - Cual es la ruta menos resistencia?
 - Siguiente etapa: Mostrarte el demo. 27 0 28, demo. Punto de vista, que tenemos el valor de lo que tenemos. La visión y valor.
 
-
 ## 19 Diciembre, 2024
 
 Ayudame a crear una introducción para un sistema que permite Como ADMINISTRADOR quiero hacer el CRUDLF de los FEATURES (C=Crear, R=Leer, D=Borrar/Desactivar, L=Listar en una tabla, F=Filtrar). Para crear las VARIABLES. Como ADMINISTRADOR quiero hacer el CRUDLF de los UNIT_OF_MEASURE (C=Crear, R=Leer, D=Borrar/Desactivar, L=Listar en una tabla, F=Filtrar). Para asociar la UNIDAD_DE_MEDIDA a FEATURES, FORMULAS y RESULTS .Como ADMINISTRADOR quiero hacer el CRUDLFE de los COUNTERS (C=Crear, R=Leer, D=Borrar/Desactivar, L=Listar en una tabla, F=Filtrar, E=Exportar). Para guardar los DATOS_CRUDOS antes de realizar los cálculos. Como ADMINISTRADOR quiero hacer el CRUDLF de los FORMULAS (C=Crear, R=Leer, D=Borrar/Desactivar, L=Listar en una tabla, F=Filtrar). Para ser verificadas y probadas antes de ser PUBLICAS a los USUARIOS. Como ADMINISTRADOR quiero validar mis fórmulas, para hacer pruebas correspondientes. Como USUARIO quiero realizar calculos anidados, para usar el resultado de en otro calculos. Para los siguiente modelos
@@ -1170,3 +1169,164 @@ Ayudame a crear una introducción para un sistema que permite Como ADMINISTRADOR
 
 Los modelos anteriomente Que deben ser transparentes y claros
 
+## 20 Diciembre, 2024
+
+- @luis, estandarización
+- eventos de monitoreo por predios, no por proyectos
+- Proyecto => Predios
+
+### Modelo @sebastian_azcona
+
+- no lo ve factible, con datos finales si se puede
+- Dos modelos: simplicado, uno mas detallado
+- FLujo de caja, VPN
+- Modelo Financiero V8/Financial Analysis New Version, para jugar
+- @carlos_soto Indicadores, flujos de caja, deben estar cargados. Plataforma
+
+## 23 Diciembre, 2024
+
+- Camilo, videos sin contexto. Se organizo después que se fue, Viviana y Helena
+- Grupo 13, enlace @camilo_niño. 240M en publicidad, Que genera? Que visibilidad tenemos. Parte gráfica.
+- reel, manual para compartir por redes
+- Comunity manager será Andrei
+- POA: es una agenda, es lo que nos van a pedir. Actividad producto final, es consistente?
+- 2.1.1 encuentas? Producto el 90%, ajustes
+
+### reporte
+
+- Documentación para la calculadora genérica en el tiempo,
+- Pruebas scripts en node JS (Gas, enviar una transacción, desplegar un contrato)
+- @sergio, hacer un diagnostico. 2.1.5. Que tenemos y que nos hace falta
+- @luis, reactivar el raspberry IoT
+- Htosoftware, donde queda los datos o como se acceden para centralizarlos. Quedo pendiente IoT no lo han mostrado? Esta pendiente
+- IoT amarrado al oraculo, conecta block-chain con el mundo real. Conectado, drones, IoT. Oraculo completa como herramienta.
+
+### Nueveo requerimiento: cuando se cre un usuario, ubicación geografico
+
+## 26 de Diciembre, 2024
+
+### 1. Demo de SUAN
+
+### 2. Calculadora
+
+### 3. Propuesta para una Economía de Tokens para la UAESP de Bogotá
+
+## 9 Enero
+
+- Plataforma en Arabia, te postulas 30" para obtener los recuros. Es muy ágil. Hay dinero disponible
+- Inversiones en Climate Tech
+- El tema que está avanzado muy rápido
+- La figura clave
+- Background comercial
+- Servicios educativos
+- Amigos de Davivienda, salud y educación dos de la mas grandes industrias
+- Ninguna a funcionado, logistica y lo comercial.
+- Generar dinero $$$
+
+## 13 de Enero, 2024
+
+- Gaming, dispositivo movil. Tokenización. Contamos con una herramienta. Acercar a la comunidad y capacidad de hacerlo. Que entiendan los conceptos
+- SUAN: llego en un TL4, nivel 6 o 7 u 8
+- Biocarbono, huella en la comunidad. Terasacha como referente
+- Juego de tokenización
+
+### Oraculo y Terracha
+
+- @luis gamification
+- @luis y @victor para visualización de datos
+- @luis, koboltoolbox
+
+## 15 de Enero, 2025, Programas de incentivos
+
+- Armando Rodriguez Ochoa,
+- Articulos plan estatutato tributario
+- Información de ministerio del medio ambiente
+
+### Lista de incentivos estatutato tributario
+
+- Control ambiental y monitoreo, reciclaje
+- Biocombustibles
+- Turismo ecológico
+- Socializar a los empresarios
+- Deducciones de renta del 50% del valor de la inversión realizada
+- Energía solar
+- Biomasa
+- Proyectos de generación eléctrica
+
+### Presentar proyectos
+
+- Hay unos formatos
+- Certificar con un procedimiento y la entidad lo avale.
+- 203, 2020.
+- Es una cuestión de tramite y paciencia
+- Mesas de trabajo, para analizar el tema
+- B/manga DIAN, cita.
+- Beneficios tributarios (doc proyecto, cert usme, formatos y guías)
+- Las solicitudes se radican en la pagina web de LUME, incentivos tributarios
+- Mirar los proyectos y clasificarlo
+- Con el proyecto formulado nos vamos a la DIAN
+- Automatizar, firma lo haga
+- Convocatorias no se puede como persona natural, alianzas
+- Uniones temporal o consorcio
+
+### Referencias
+
+- <https://www.minambiente.gov.co/conozca-los-beneficios-tributarios-para-empresas-que-ayuden-a-proteger-el-medio-ambiente/>
+- <https://procolombia.co/colombiatrade/exportador/articulos/asi-crecen-las-empresas-colombianas-que-implementan-buenas-practicas-de-reciclaje-para-exportar>
+
+## 16 Enero, 2025
+
+- Los retos alineados con el POA
+- Retos enmarcados
+- Actividades promoción del negocio
+- Presentación de los resultados
+- Cual es el presupuesto de los premios? Si hay un rubro, souvenires/refrgerios
+- Organizar operativamente con una prueba piloto
+- Enfoque: grados 10 u 11, estudiantes
+- Lista temática @sergio, presencialo hibrido
+- Segmentación (Arauca/Meta): productor, propietarios, Estudiantes
+- 182 persona, 81 15-19 años. @viviana compartir la segmentación
+- Simuladores para propietarios
+- Un propietario no participaría
+- 10 talleres
+- Ejercicio con una población, nociones de proeg
+- El anterior ejercicio como sería Predio / inversor
+- Ganaderos/Caficultores: taller de tokenización
+- Proxima reunión propuesta
+- Otro grupo ciencias ambientales, carretas parte ambiental
+- El estudiante es el multiplicador, aliado estrategico
+- Lo que contamos en territorio
+
+## 16 Enero, 2025: Nelson Team
+
+- Yeimy Adrian Wilches Torres, finanzas
+- Andrea Rojas, esta en Portugal. Consultora
+- Sol, experta en Gestión de recursos humanos
+
+## Plataforma de Innovación, modelo de participación
+
+- Unión temporal
+- Andrea, vigilancia de recursos. Admon publica. Sector publico, internacionales. Observación electoral, enfoque economía verde. Emprendedora. Prevenida y planificadora. Trabajar org. Busqueda oportunidades o financiación.
+- Establecer un itinerario (trimestral)
+- Yeimy Adrian Wilches, finanzas, actualizacion tecnologica.
+- Proyectos que pensemos mucho en el flujo, generar un ingreso regularizado. Mantenimiento uso y servicio. Inicio fin corto. Mantener un flujo.
+- Sol, Mr Ciencas politas, gerencia talento humano, capacitacion, relacionamiento publico
+- Agua, territorio y paz
+- Maderas naufragas: petencialidad, cadena de valor de negocio
+- Centro de inovación, amplia financiacio4n internacional. Buena linea base. Internacional, no mostrar grandes indicadores
+- Andrea: Proyectos especificos, fundaciones, bomberos voluntarios. Sector publico y comunitario. Fondos internacionales, impacto comunitario. Formulados resolucion de conflictos socio ambientales. Impacto internacional, esquemas comunitarios. Producción de cacao, las condiciones de Africa no es el mejor. Asociaciones. Fundacion de mujeres, intervención internacional. Paramo S. Turban hierbas aromaticas. Escuelas costa caribe, reducir impacto ambiental.
+- Bigsale: te venden para hacer tu págima y negocio. Privato e invesionistas pequeños, vendes la pagina y producto.
+- Yo soy la duena, paginas y franquicia 1 o 2 mil euros, cuantos productos quieres tener (logistica)
+
+Ayudame a crear un conjunto de retos y sub-retos para estudiantes 15 a 19 años: Inteligencia Artificial, Computación cuántica, Blockchain, Seguridad Cibernética, Automatización/IoT
+
+## 27 de Enero, 2025
+
+- Multimedia procesos de siembra, Andrey (Meta), Helena (Arauca) otra persona
+- Reunión ITO Software para los formularios de la hoja de vida de los árboles
+- Ingeniero de flujo de información, estandarización de imágenes
+- Reunión con PCI datos con metodologías normal (asometrica) en campo, LIDAR terrestres para medir como instrumento terrestre. Calibración a nivel mundial.
+- Visualización de datos por parcera o conglomerado
+- Uso de equipos modernos para la toma de los datos
+- Gemelos digitales, LIDAR. Levantamiento digital de cada árbol
+- Qué es lo nuevo para los formularios nuevas tecnologías? Este año implementar
