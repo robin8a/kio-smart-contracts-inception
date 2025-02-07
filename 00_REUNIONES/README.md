@@ -1330,3 +1330,54 @@ Ayudame a crear un conjunto de retos y sub-retos para estudiantes 15 a 19 años:
 - Uso de equipos modernos para la toma de los datos
 - Gemelos digitales, LIDAR. Levantamiento digital de cada árbol
 - Qué es lo nuevo para los formularios nuevas tecnologías? Este año implementar
+
+## 30 de Enero, 2025
+
+- Formulación y vendible internacionalmente
+- Linea base con indicadores
+
+## 03 de Ferero, 2025
+
+### Inicio de la migración del LMS para TerraSacha
+
+- Lambdas
+- UI
+- Paola Arenas, politicas. Manual SARLAF
+- @luis, documentación Legal.
+- Contratos tipo
+- <https://cardano.org/use-cases/>
+
+## 04 Febrero, 2025
+
+- Talleres
+- Definición
+- Estrateguías tecnológicas para la mejor adopción, incluyendo: drones, satelites
+- LMS, en Terra. @credenciales: Publicar el contenido que menciona Sergio con Andrey, entrenarlo
+- LegalDocs, presentar a Paola
+- Configurar Glue para los formularios de Kobo
+- Probar desde una web-app correr queries de Athena
+- Repo de trazabilidad <https://discord.com/channels/937718274479759420/1336369985215397928>
+
+## 05 Febero, 2025
+
+- Bucket es trazability
+- Se hace un fork, cuando se vaya publicar. Se hace un pull-request a master
+- Explorar libreria NIVO, para react
+
+## 06 Febrero, 2025
+
+- Para los reportes usar BI para manejo interno
+- Para lo que se va a visualizar regularmente usar alguna librería Ej. NIVO
+- Costos de QuickSight vs Superset
+- Trigger por evento para correr el crawler
+- Alguno nos toca hacer JOINS, Proyecto/Parcelas formulario
+- Consuo de @neider: <https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/athena.html>
+- [x] Funcion del lambda (usar athena) con un endpoint y devuelve QueryEditor, buscar y pasar a @Neider
+- Optimizing Iceberg tables: <https://docs.aws.amazon.com/glue/latest/dg/table-optimizers.html>
+- Validación de documentos con AI
+
+## 07 Febrero, 2025
+
+- LacChain 2 diapositivas: pros, cons y costos
+- Compartir con Luis la diapositiva
+- Talleres armar el esquelo para todo los grupo ![Crear estructura y contenido aquí](./images/talleres.png)

@@ -611,9 +611,3 @@ CREATE OR REPLACE VIEW suan_datele_iot_test_clean_view AS
     FROM "suan_datale_iot_test_device";
 
 ```
-
-
-
-
-
-
