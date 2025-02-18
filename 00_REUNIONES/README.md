@@ -1371,13 +1371,77 @@ Ayudame a crear un conjunto de retos y sub-retos para estudiantes 15 a 19 años:
 - Costos de QuickSight vs Superset
 - Trigger por evento para correr el crawler
 - Alguno nos toca hacer JOINS, Proyecto/Parcelas formulario
-- Consuo de @neider: <https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/athena.html>
+- Consumo de @neider: <https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/athena.html>
 - [x] Funcion del lambda (usar athena) con un endpoint y devuelve QueryEditor, buscar y pasar a @Neider
 - Optimizing Iceberg tables: <https://docs.aws.amazon.com/glue/latest/dg/table-optimizers.html>
 - Validación de documentos con AI
 
 ## 07 Febrero, 2025
 
-- LacChain 2 diapositivas: pros, cons y costos
-- Compartir con Luis la diapositiva
-- Talleres armar el esquelo para todo los grupo ![Crear estructura y contenido aquí](./images/talleres.png)
+- [] LacChain 2 diapositivas: pros, cons y costos
+- [] Compartir con Luis la diapositiva
+- Talleres armar el esquelo para todod los grupos![Crear estructura y contenido aquí](./images/talleres.png)
+
+## 10 Febrero, 2025 (lunes)
+
+- [] reunión @luis con Fredy Guaca
+- [] reunión con PCI el viernes, también @robin
+- Plataforma articula
+- [] Bug urgente! @rances, mile de llamados a cognito ![app.js carga de imágenes](./images/bug_llamado_1k_cognito.png)
+
+### Datalake: ETL => Dashboard
+
+- Proveer end-point donde transformamos los (datos estructurados, semi y no) en BD para ser visualizados
+- ETL Glue, Base de datos Athena, Función Lambda para traer JSON [x], Dashboard con NextJS consumiendo: librería Athena Query (client-athena) o la función lambda.
+- Leo el repositorio en S3 de la función de Luis, corre un crawler (cuando se escriba en el s3), crea una BD
+- Se implemeta como base para Automatización IoT (ya lo habíamos hecho con Luis), Eventos de las plataformas, Formularios de la hoja de vida
+
+### Entrenamiento
+
+- Documentación (sencilla y corta por los tiempos) con Sergio Entrenamiento sobre BlockChain
+- Documentación (sencilla y corta por los tiempos) para visión computarizada
+
+### LMS
+
+- Migración UI del LMS para TerraSacha
+- Imágenes
+
+### LacCHAIN
+
+- Documentación y presentación
+
+### Preguntas
+
+- @luis Quien implementa los formularios Kobo?: Responsabilidad de HitoSoftware, Oraculo se debe encargar: IoT y Hoja de Vida. Y la1.4.x es responsabilidad de Oraculo
+- @luis La funcion lambda es mas fácil de consumir desde el punto de vista de Auth.
+
+## 14 Febrero, 2025 (lunes)
+
+- Demo PCI, inscripción de un predio.
+- Para fficializar proyectos deben estar en plataforma, que tipo de archivos e información están manejando
+- [] tener el filtro inicial operativo. Antes minimo necesario ante de proceder. Ej. Es dueño del predio? Rta: Cedula catastral y un mapa. Revisar que la información corresponda. Información publica, información sensible, debe demostrar titular o autorizada. Certificado libertad y tradicion o carta del propietario. Determinar el dominio sobre el predio. Inscripción y análisis (estudio de titulos). 30k-40k pesos certificado, con eso robaban las tierras. Generar primer acercamiento documental. Flujo pequeño, por fase o pasos.
+- Flujo como Habi
+
+## 17 Febrero, 2025
+
+- Cuanto se ha gastado de lo aprovisionado para Cloud Computing
+- Boques comerciales y bosques naturales
+- [] reunión con PCI definir los requerimientos
+
+### Paola Arenas (Estudio de títulos)
+
+- 3 docs: CLT (Cerficado de libertad y tradición, hoja, PIN certificado, no mayor a 30 días), Escritura publica, planos catastrales
+- Si, fue loteado ya no valido
+- Sucesiones
+- Gravamenes
+- Escritura (debe coincidir con el CLT, linderos)
+- 15 días de validación por predio
+- Proceso en dos etapas
+- Parte crítica
+- 10 beneficiarios no es necesario la automatización
+- Estudio de títulos, como una herramienta
+
+### Informe (seguimiento)
+
+- Creación de mensajería para activar el disparador cuando se suba un nuevo archivo
+- ETL sobre los archivos que hace append con carpetas. Base de datos disponible como backend (crawler, trigger, BD)
