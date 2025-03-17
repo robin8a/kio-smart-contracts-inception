@@ -1445,3 +1445,159 @@ Ayudame a crear un conjunto de retos y sub-retos para estudiantes 15 a 19 años:
 
 - Creación de mensajería para activar el disparador cuando se suba un nuevo archivo
 - ETL sobre los archivos que hace append con carpetas. Base de datos disponible como backend (crawler, trigger, BD)
+
+# Convocatoria Usaquen
+
+1. Sostenibilidad (Ecotokens)
+2. GeoMapping de corazones productivos
+
+$40M
+
+- Empoderamiento
+- Trazabilidad, consultas. Pago de seguros, Servicios
+- Recuperación de residuos
+- Metodologia, transformación en casa
+- Alianza, de intercambio de residuos solidos
+- Economia circular
+- Mujeres y jovenes
+- Impacto económico
+- medir ingresos adicionales
+- trazabilidad
+- medir cuanto alimento se entrega a traves
+- cuantas mujeres, familias
+- No existan los carros de basura
+- Beolia, el pozón. Entrada del barrio. Evitar el tema logistico. Vias de barro
+- 150 pesos el kilo, 5 kilos por familia
+- Seguro, nutricional por residuos
+- Seguro cuesta $84 anuales, incapacidad en casa, maternidad
+- Credito, pueden pedir credito nutricional. Abonan con residuos. Llantas, rueda verde
+- 87% mujeres, WWFP
+- niños con cuenta, recuperación nutricional
+- productos de buena calidad, son de buena calidad. Inclusivos
+- nuestras sedes tengan residuos y alimentos. No contaminación cruzada
+- ECA con estetica visual bancaria y coorporativa. D1, al comercio mas cercano. Necesitan inmediatez
+- 6 sedes se unen, arroz ejemplo sale mas económico
+- pintura epoxica, desinfección, certificado manipulación
+- teja, silla, polisombra
+- Avalado BCTU, Bussines
+
+## Debilidades
+
+- Debe ser una ECA
+- Reducir costos, los llevan limpios
+- Piloto con UAESP
+- cada vez
+- Solo: Transformacion de plásticos
+- Cierra el ciclo
+- Luminarias
+- Llantas
+- Expansión de sistemas
+- 7 municipios por departametne, incluir veredas, cada punto mucipal atiente las veredas
+- Deposito transitorio, una ECA
+
+## Preguntas Olga
+
+- Como se hacen las transacciones
+- Datos.
+- Parametrizar, incluir BC. Segurdad en los datos
+- Propio OS
+- 1000 de arroz, 1000 de lenteja. 4 personas. Sector rural, mujeres cuidadores
+- Cajeros funcionales, la teconologia.
+- Báscula, asesorar comercial. 1.45 Subir el el valor con decimales.
+- Por cada 10 personas hay un (1) habitantes de calle.
+- Inseguridad alimentaria
+
+## Acciones
+
+- Reunión presencial
+- Población objetivo
+- Jueves 14:30 PM, propuestas ejecutiva.
+- Cierra el ciclo
+- Luminarias
+- Llantas
+
+## 21 Febrero, 2025
+
+### Capacitaciones Feb
+
+- 2.2.2 ponelos aquí
+
+### Estudio predios @paola
+
+- 2.3.2 0.33, 0.33 puso Paola
+- 005-T-2.2.10-Verificación cumplimiento hitos (auditoría, veeduría, curaduría). Estudio técnico, toma de medidas
+
+###
+
+- 1.4.x pantallazo
+
+### Docs de cierre
+
+- En nuestro rep de google drive, entregables finales. Se pones todos docs finales para el cierre de esa actividad
+
+## 24 de Febrero, 2025
+
+- Accesos sospechos
+- Material fotográfico
+- Enlaces a 3ros? Que pasa con Kobol? Todo a través plataforma?
+- Muertes o lesiones
+- Quién genera la versión final del documento?
+- Anexo, con todos los soportes y cuenta de cobro. Duplicado. Productos que soportan el avance de las actividades
+
+## 04 de Marzo, 2025
+
+### Entregables marzo
+
+- Cerrar capacitaciones
+- En función de la agenda
+- [] @sergio, agenda y tiempos
+- [] claro panorama LMS y recompensas
+- [] LacCHAIN, diapositivas
+
+### Integración Carlos Soto
+
+- Repositorio, que hay?
+
+## 10 de Marzo, 2025 (lunes)
+
+- Manual para estandirizar el proceso, nomenclatura, estandirzación. Información dispersa
+- Filtar lo que creamos conveniente
+
+### Automatización
+
+- 8 beneficiarios
+- Agrosis
+
+### Ruta
+
+- Inscripción, Postulación
+- Documentos: 3 (estudio jurídico)
+- Proceso de prefactibilidad (tipo vegetación, )
+- Primera visita de campo (tipos de coberturas, que podemos hacer, NO es un análisis de prefactibilidad)
+- Formalizar
+- Sobrevuelo LIDAR
+- Memorando de entendimiento (no es público, es privado)
+- [] jueves ver el proceso
+- Darse de baja del plataforma, borrar por acuerdo. Hay un acta @paola sabe cual es el doc
+
+17 de Marzo al 17 de Junio
+
+6 sesiones de 2 horas, total 12 horas
+
+20 horas
+
+12 / 3 = 4
+
+Modulo 2 ML: Robin y Mauricio
+Modulo 3 Tecnologías Emergentes, Mauricio y Robin
+Modulos 6 Tecnlogias 4.0
+
+## 13 Marzo, 2025
+
+- Mostrar las capas y leyendas. Archivos tipo checkfile
+- Conversión archivos
+
+### Carlos Soto
+
+- Hay nomenclatura, 3 letras AGR (Agrosis), NVJ
+

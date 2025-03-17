@@ -175,3 +175,48 @@ aws cognito-idp admin-set-user-password --user-pool-id us-east-1_8bR8oirR9 --use
 ```sh
 git clone ssh://kio_sl_legal_docs_rjs_app_rsa/v1/repos/kio-sl-legal-docs-rjs-app
 ```
+
+## Automatización Estudio de titulos
+
+### SLS
+
+```sh
+
+# ts=terrasacha, cu=custom, cer=cetificado, lib=libertad, tra=tradición, py=python, lf=lambda-function
+ts-cu-cer-lib-tra-py-lf
+ts-cu-cer-lib-tra-py-lf-app
+
+sls deploy
+```
+
+### Github
+
+<https://github.com/robin8a/ts-cu-cer-lib-tra-py-lf>
+
+```sh
+
+# Install 
+brew install pyenv-virtualenv
+
+# Create a virtual environment
+# pyenv virtualenv <python_version> <environment_name>
+pyenv virtualenv 3.12.0 ts_cu_cer_lib_tra_py_lf_env
+pyenv activate ts_cu_cer_lib_tra_py_lf_env
+
+# VSC
+cmd + shift + P 
+select interpreter
+<ts_cu_cer_lib_tra_py_lf_env>
+
+
+```
+
+
+### Test
+
+```sh
+sls invoke -f hello
+# Invoke and display logs:
+serverless invoke -f hello --log
+
+```
