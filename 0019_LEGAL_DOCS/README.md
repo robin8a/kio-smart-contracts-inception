@@ -211,7 +211,55 @@ select interpreter
 
 ```
 
+### Libraries
 
+- <https://github.com/serverless/serverless-python-requirements>
+
+```sh
+sls plugin install -n serverless-python-requirements
+
+pip install google
+pip install google-cloud-documentai
+```
+
+requirements.txt
+
+```txt
+beautifulsoup4           4.13.3
+boto3                    1.37.13
+botocore                 1.37.13
+cachetools               5.5.2
+certifi                  2024.6.2
+charset-normalizer       3.3.2
+google                   3.0.0
+google-api-core          2.24.2
+google-auth              2.38.0
+google-cloud-documentai  3.2.0
+googleapis-common-protos 1.69.1
+grpcio                   1.71.0
+grpcio-status            1.71.0
+idna                     3.7
+jmespath                 1.0.1
+pip                      23.2.1
+proto-plus               1.26.1
+protobuf                 5.29.3
+pyasn1                   0.6.1
+pyasn1_modules           0.4.1
+python-dateutil          2.9.0.post0
+requests                 2.32.3
+rsa                      4.9
+s3transfer               0.11.4
+six                      1.16.0
+soupsieve                2.6
+typing_extensions        4.12.2
+urllib3                  2.2.1
+```
+
+or
+
+```sh
+pip freeze > requirements.txt
+```
 ### Test
 
 ```sh
@@ -220,3 +268,7 @@ sls invoke -f hello
 serverless invoke -f hello --log
 
 ```
+
+### S3
+
+S3 bucket: ts-cu-cer-lib-tra-bucket
