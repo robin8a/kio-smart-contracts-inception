@@ -1446,8 +1446,6 @@ Ayudame a crear un conjunto de retos y sub-retos para estudiantes 15 a 19 años:
 - Creación de mensajería para activar el disparador cuando se suba un nuevo archivo
 - ETL sobre los archivos que hace append con carpetas. Base de datos disponible como backend (crawler, trigger, BD)
 
-# Convocatoria Usaquen
-
 1. Sostenibilidad (Ecotokens)
 2. GeoMapping de corazones productivos
 
@@ -1600,4 +1598,55 @@ Modulos 6 Tecnlogias 4.0
 ### Carlos Soto
 
 - Hay nomenclatura, 3 letras AGR (Agrosis), NVJ
+- Trazabilidad del estudios de títulos
+- Se definieron las variables que se iban a mostrar en la página
+- Formato GeoJSON
 
+### Dos rutas grandes
+
+- Cuarto de datos, estudios tecnicos, modelos financieros
+- Definir la ruta
+
+## 17 Marzo, 2025 (Lunes-Seguimiento)
+
+- @carlos_soto documentos de pruebas (certificado libertad y tradición, )
+- Formato de eliminación de información.
+
+### Proceso con los predios
+
+ 1. Filtro operativo? Es apto o no?
+ 2. Memorando de entendimiento (ingreso, toma de datos, vuelos)
+
+### Satelite
+
+- Cuerpos de agua
+- Zonas deforestadas
+- Areas con bosque (natural, densa, está afectado en sitio, no hay árboles grandes)
+- Hubo intervenciones, ejemplo (La Morena)
+
+### Ruta de prefactibilidad
+
+### Financiación
+
+### Visualización de GIS
+
+- Cuales son los criterios para usar X o Y herramienta
+- MapBox
+- Zoom, granuralidad
+
+### Procesamiento
+
+- Python
+
+### Plataforma Oraculo
+
+- Toma los mapas, los visualiza
+- Visualización
+- Interacciones
+- Limitacionees
+- Que mostramos en cada plataforma? Integraciones
+- Funciones clara para cada plataforma.
+- [] Definir la arquitectura, consultas entre plataformas. Como integridad los datos que usan la otras plataforma. API de oraculo
+- [] Que va en la cadena de bloques (solo texto)
+- [] cuales son los servicios, cuales usamos para mostrar según la definiciión de PCI. Visualización (KML, GeoJSON, etc)
+- Satelites: Radar biomasa por satelite (escapes de carbono, fabricas) (Estandar LIDAR, parece ser)

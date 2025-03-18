@@ -203,6 +203,8 @@ brew install pyenv-virtualenv
 pyenv virtualenv 3.12.0 ts_cu_cer_lib_tra_py_lf_env
 pyenv activate ts_cu_cer_lib_tra_py_lf_env
 
+pyenv versions
+
 # VSC
 cmd + shift + P 
 select interpreter
@@ -260,6 +262,7 @@ or
 ```sh
 pip freeze > requirements.txt
 ```
+
 ### Test
 
 ```sh
