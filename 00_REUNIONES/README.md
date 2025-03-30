@@ -1609,7 +1609,7 @@ Modulos 6 Tecnlogias 4.0
 
 ## 17 Marzo, 2025 (Lunes-Seguimiento)
 
-- @carlos_soto documentos de pruebas (certificado libertad y tradición, )
+- @carlos_soto documentos de pruebas (certificado libertad y tradición)
 - Formato de eliminación de información.
 
 ### Proceso con los predios
@@ -1632,7 +1632,7 @@ Modulos 6 Tecnlogias 4.0
 
 - Cuales son los criterios para usar X o Y herramienta
 - MapBox
-- Zoom, granuralidad
+- [] Zoom, granuralidad?
 
 ### Procesamiento
 
@@ -1646,7 +1646,88 @@ Modulos 6 Tecnlogias 4.0
 - Limitacionees
 - Que mostramos en cada plataforma? Integraciones
 - Funciones clara para cada plataforma.
-- [] Definir la arquitectura, consultas entre plataformas. Como integridad los datos que usan la otras plataforma. API de oraculo
-- [] Que va en la cadena de bloques (solo texto)
-- [] cuales son los servicios, cuales usamos para mostrar según la definiciión de PCI. Visualización (KML, GeoJSON, etc)
+- [] Definir la arquitectura, consultas entre plataformas. Como integridad los datos que usan la otras plataforma? API de oraculo
+- [] Que va en la cadena de bloques (solo texto)?
+- [] Cuales son los servicios, cuales usamos para mostrar según la definiciión de PCI. Visualización (KML, GeoJSON, etc)
 - Satelites: Radar biomasa por satelite (escapes de carbono, fabricas) (Estandar LIDAR, parece ser)
+
+## 19 Marzo, 2025
+
+### Oráculo
+
+- AWS
+- Ohio
+- DynamoDB
+- S3
+- Servicios dependemos de ellos
+- Vamos a dar soporte
+- [] Ciclo de vida, donde y cuando se procesa?
+
+## 25 de Marzo, 2025
+
+### Cursos y retos
+
+- Unir programa de programación
+- Modalidad virtual incialmente y presencial (algunos municipios)
+- Cuantos tokens (número) se van entregar a los estudiantes? (hay pequeña economía de tokens)
+- Carrera a 100 puntos, premios de consolación
+- Comparación tokens vs premio (termos, ) 3 categorías (agenda para todos los asistentes)
+
+### Legal Docs @paola
+
+- Glosario para ciertos documentos o significado de la siglas
+- 100% responsable de sus tokens (enfasis)
+
+### Ciclo
+
+1. Estudio de titulos (6, 8 predios)
+acuerdo ?
+2. Consultor técnico (poligi), analisis cobertura, aptitud del predio
+3. Tiene potencial para el proyecto (bosque natural, comerciales). Aplicar incentivos forestales, agua, potencial reforestar
+4. Visita técnica (verficación del 3. ) bosque galería (parte del bosque ha sido saqueado). Bosque conservado
+5. Parcela monitoreo
+6. Memorando de entendimiento (entrada fácil), es por predio/dueño
+
+### Entrenamiento para todo público
+
+- Enfoque (Abogados primer talleres)
+- Multiplicadores
+
+### ITOSofware (mantenimiento/crecimiento)
+
+- Estricto
+- Informe de pruebas por componentes de oraculo
+- [] Que va en S3 o Drive?
+- [] Cómo queda la arquitectura?
+- [] un sensor que envíe datos
+- [] granja de sensore, donde esta, que mide, grafica, históricos
+- [] ruta para usar python
+- [] abierta a la región
+- [] agregar sustento cientifico
+
+## 26 Marzo, 2025
+
+### Presentación de TerraSacha (@sergio la tiene): Estudiantes de ambiental y programación
+
+- Introduccción (6 dispositivas)
+- 5 minutos
+- Flujo grama de Luis
+- Contenidos del curso (cuando quieran profundizar) ANEXO_005_215_CONTENIDO_DEL (el que debo alimentar)
+
+### Presentación Tecnologías emergentes: Estudiantes de programación
+
+- Trabajar a los que quieran profundizar
+- Big Data @sergio
+- Block chain
+- Vision computarizada
+
+### Navegación plataforma
+
+- Le mostramos
+
+### Talleres
+
+- !['Propuesta de talleres'](./images/propuesta_talleres.png)
+
+1. referencias
+2. presentación de BC
