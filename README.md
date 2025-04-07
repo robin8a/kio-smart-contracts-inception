@@ -1,11 +1,13 @@
 # kio-smart-contracts-inception
+
 [Criptomonedas: qué es el "problema de los generales bizantinos” y por qué explica el origen del bitcoin](https://www.bbc.com/mundo/noticias-51380491)
 
 
 ## Cardano
+
 - [Cardano - Simply Explained](https://www.youtube.com/watch?v=Do8rHvr65ZA)
-- https://www.reddit.com/r/cardano/comments/jpxdnf/how_to_build_smart_contracts_on_cardano_as/
-- https://www.youtube.com/watch?v=jWyBjjgdWWU
+- <https://www.reddit.com/r/cardano/comments/jpxdnf/how_to_build_smart_contracts_on_cardano_as/>
+- <https://www.youtube.com/watch?v=jWyBjjgdWWU>
 - [Roadmap](https://roadmap.cardano.org/en/goguen/)
 - https://developers.cardano.org/en/programming-languages/plutus/overview/
 - https://playground.plutus.iohkdev.io/
@@ -15,7 +17,7 @@
 
 ### DAO
 
-https://forum.cardano.org/t/catalyst-una-dao-en-cardano/57393
+<https://forum.cardano.org/t/catalyst-una-dao-en-cardano/57393>
 
 Una Organización Autónoma Descentralizada (DAO, por sus siglas en inglés), es una de las formas más complejas de contratos inteligentes.
 
@@ -71,23 +73,44 @@ https://pixelplex.io/work/security-token-offering-platform-and-ecosystem/
 
 # Waves
 
-- https://www.youtube.com/watch?v=tWxPkGe97Bc
+- <https://www.youtube.com/watch?v=tWxPkGe97Bc>
 - Waves es ideal para crowfounding e ICOs simples
 - Simplificar la emisión de Tokens, menos de 5 minutos
 - Los Tokens no son tan robustos
 
-# Neufund
-- https://blog.neufund.org/tokenizing-startup-equity-part-1-employee-incentive-options-plan-esop-on-ethereum-blockchain-dce2416f4505
+## Neufund
+
+- <https://blog.neufund.org/tokenizing-startup-equity-part-1-employee-incentive-options-plan-esop-on-ethereum-blockchain-dce2416f4505>
  
-# Crypto
-https://republic.co/crypto
+## Crypto
 
-# Seed Invest
-https://www.seedinvest.com/
+<https://republic.co/crypto>
 
+## Seed Invest
 
+<https://www.seedinvest.com/>
 Paquete horas para entrenar los modelos y generar los reportes
 
 Los reportes se dimensionan de la siguiente forma:
 
+## LMS deploy TerraSacha
 
+- <https://docs.amplify.aws/gen1/vue/tools/cli/teams/>
+- Codecommit branch: dev-ro-terra-sacha
+- Amplify env name: prodts (prod terra sacha)
+- Backend environment prodts to AWS Amplify app: d266cv99xn3obh
+
+### Amplify
+
+- <https://docs.amplify.aws/gen1/vue/tools/cli/teams/>
+- API END point: <https://octrr4ukvrbwxlvweo5sxffosu.appsync-api.us-east-1.amazonaws.com/graphql>
+- GraphQL transformer version: 2
+- Hosted UI Endpoint: <https://kiosllmsrjsapp4b12c9ac-4b12c9ac-prodts.auth.us-east-1.amazoncognito.com/>
+- Test Your Hosted UI Endpoint: <https://kiosllmsrjsapp4b12c9ac-4b12c9ac-prodts.auth.us-east-1.amazoncognito.com/login?response_type=code&= client_id=rg66cfmh55qo37ldr95n4639h&redirect_uri=https://moocs.n4nadigital.com/>
+
+#### Removing functions
+
+UpdateAmountIsActiveChallenge (function)
+createPreviewImageOnCreateMultimedia (function)
+updateAmountTokenChallenge (function)
+updateChallengeTimeStamEnd (function)

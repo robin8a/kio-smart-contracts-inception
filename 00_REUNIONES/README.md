@@ -1725,9 +1725,48 @@ acuerdo ?
 
 - Le mostramos
 
-### Talleres
+### Talleres propuesta
 
 - !['Propuesta de talleres'](./images/propuesta_talleres.png)
 
 1. referencias
 2. presentación de BC
+
+## 31 Marzo, 2025
+
+### Itosoftware (checklist)
+
+- Agregar geolocalización
+- Topología y jerarquía
+- Programar reuniones
+- Protocolo, gobernanza
+
+### Transferencia ale equipo de Viviana
+
+- Punto de articulación
+
+## 02 de Abril, Mauricio Morales
+
+Sesiones:
+
+### Arquitectura
+
+- Auth (aws cognito)
+- Despliegue en AWS
+- Python
+- FastAPI
+- Argis => dibujar polígonos (cédula catastral)
+- Google Earth Engine
+- Incorporar modelos (Keras)
+- Soporte Jupyter
+- Capacidad de adaptar modelos, análisis alométrico
+- [] donde corre el modelo?
+
+
+### Sesión IoT
+
+- 
+- MQTT (RT), conexión
+
+### BlockChaing
+
