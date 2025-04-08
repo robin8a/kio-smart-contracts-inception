@@ -1762,11 +1762,35 @@ Sesiones:
 - Capacidad de adaptar modelos, análisis alométrico
 - [] donde corre el modelo?
 
-
 ### Sesión IoT
 
-- 
 - MQTT (RT), conexión
 
 ### BlockChaing
+
+## 07 Abril, 2025
+
+- Servidor de oraculo, la conexión
+- Terminal sensor
+
+## 08 Abril, 2025
+
+1. @mauricio compartir simulador (google colab) de IoT
+2. @mauricio compartir simulador de (athena) db-iot
+
+### Ejemplo de victor
+
+- [] siata: <https://siata.gov.co/siata_nuevo/>
+- [] video de grafana @mauricio
+- [] links, accesos y credenciales
+- @rodrigo: código predial
+- Mac y windows: IDE (Visual Studio Code)
+- Codigo en github (privado): <https://github.com/SuanBlockchain/geoMapasDocker>
+
+### Sergio requeriemientos
+
+- Manual de Usuario y documentación: Manual para usuarios finales, documentación de infraestructura implementada, video tutoriales de  componentes implementados
+- Manual Técnico: documentación de arquitectura, tecnologías, operación y administración
+- Documento Técnico Procesamiento: definición de arquitectura y configuración de componente de procesamiento
+- Documento Técnico Blockhain: definición de arquitectura, protocolos, funcionamiento de la Blockhain
 
