@@ -1766,7 +1766,7 @@ Sesiones:
 
 - MQTT (RT), conexión
 
-### BlockChaing
+### BlockChain
 
 ## 07 Abril, 2025
 
@@ -1782,10 +1782,11 @@ Sesiones:
 
 - [] siata: <https://siata.gov.co/siata_nuevo/>
 - [] video de grafana @mauricio
+- [] curso de IoT
 - [] links, accesos y credenciales
 - @rodrigo: código predial
 - Mac y windows: IDE (Visual Studio Code)
-- Codigo en github (privado): <https://github.com/SuanBlockchain/geoMapasDocker>
+- Codigo en github (privado): <https://github.com/SuanBlockchain/geoMapasDocker>, esta dentro del github de suanblockchain
 
 ### Sergio requeriemientos
 
@@ -1794,3 +1795,13 @@ Sesiones:
 - Documento Técnico Procesamiento: definición de arquitectura y configuración de componente de procesamiento
 - Documento Técnico Blockhain: definición de arquitectura, protocolos, funcionamiento de la Blockhain
 
+### IoT core
+
+- Se encarga, de escribir en S3
+
+## 09 de abril, 2025
+
+- [] video de grafana @mauricio
+- [] curso de IoT
+- [] código de chat implementado con IoT
+- []  Jerarquía en el mapa: Proyecto => Predios (Geocerca) => Parcelas (Gerocerca) => sensor/conjuntos
