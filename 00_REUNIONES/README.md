@@ -1804,4 +1804,20 @@ Sesiones:
 - [] video de grafana @mauricio
 - [] curso de IoT
 - [] código de chat implementado con IoT
-- []  Jerarquía en el mapa: Proyecto => Predios (Geocerca) => Parcelas (Gerocerca) => sensor/conjuntos
+- [x] @victor: Jerarquía en el mapa: Proyecto => Predios (Geocerca) => Parcelas (Gerocerca - NO) => sensor/conjuntos (Georeferencia)
+- [] Link simulador y credenciales
+- [] Proveer a Itosoftware el endpoint de la información del proyecto, para la caja del Box
+- [x] @victor: No adyacentes, minimo 400 hectareas. Preguntarle Victor
+- Roles
+- Ux/UI para portatil, tablet
+- [x] @mauricio: Credenciales, colocarlos en la raíz
+- uvicorn, windows y mac
+- puerto 5001, cognito. Cognito habilitado localhost:5001
+- 3.9.13
+
+### 10 de abril, 2025
+
+- Proyecto => Predios (Geocerca) => sensor/conjuntos (Georeferenciados)
+- Los terresno pueden ser no adyacentes
+- [] @robin código con Luis SDK de client
+- [] @robin simulador de cliente sub
