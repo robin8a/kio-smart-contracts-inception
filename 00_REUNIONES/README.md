@@ -1818,6 +1818,32 @@ Sesiones:
 ### 10 de abril, 2025
 
 - Proyecto => Predios (Geocerca) => sensor/conjuntos (Georeferenciados)
-- Los terresno pueden ser no adyacentes
+- Plataforma: geocerca
+- Los terrenos pueden ser no adyacentes
 - [] @robin código con Luis SDK de client
 - [] @robin simulador de cliente sub
+- SIATA actualización cada 5 minutos
+
+## 14 abril (@Luis presentación LMS para TerraSacha) Lunes VH (lunes seguimiento)
+
+### LMS TS
+
+- Auth(s)
+- Creación de cursos  (documento @sergio)
+- Creación de retos
+- Validación de retos
+- Visualización de Token de los Usuario(s)
+- Presentación a Viviana la próxima semana (ajustes por hacer)
+
+- mostrar los usuario creados en gestor para agregarlos mas fácil, cargan de una vez todos
+- [] @sergio claro el cuadro de premios vs tokens, ponerlo en el dashboard
+- [] programar la reunión con Viviana
+
+### Oráculo @mauricio
+
+- Reunión de L-V 08:00
+- Empalme
+- IoT (arquitectura)
+- IoT (Ux/UI) Proyecto => Predios (Geocerca) => sensor/conjuntos (Georeferenciados)
+- IoT los terrenos no son adyacentes.
+- Presentación IoT (Ux/UI): a Victor Hugo martes o miercoles próxima después de semana santa

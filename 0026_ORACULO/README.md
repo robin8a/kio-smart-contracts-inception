@@ -50,3 +50,6 @@ Python Boto3: <https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/python>
 ### Tutorial: Monitoring soil moisture with AWS IoT and Raspberry Pi
 
 - <https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-tutorial.html>
+
+## AWS IoT Core FastAPI Web Application
+
