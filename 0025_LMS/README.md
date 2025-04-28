@@ -63,12 +63,12 @@
 
 ### crea la campaña
 
-- Mk
+- Marketing
 - Recolectar predios (aguacatizate) para postular predios (que sumen 14 hectareas min, temas financieros)
 - Se aligen los predios eleguidos
-- <https://internal.d2p2m0o7qufcng.amplifyapp.com/campaign/c28059ae-66fd-4bc9-a69f-9a876f550bec> (Registro/Login)
+- <https://internal.d2p2m0o7qufcng.amplifyapp.com/consultor_admon> (Registro/Login)
 
-### propietario "Predio Inscrito" "Documentación Legal" (se registra)
+### 1. propietario "Predio Inscrito" "Documentación Legal" (se registra)
 
 - Postular sus predios
 - Predios sin asignar, llena la información (Guardar), subir docs legal
@@ -116,3 +116,6 @@ analista
 - <https://internal-marketplace.terrasacha.com/>
 - Usar: Rances_terrasacha
 
+## 21 Abril, 2025
+
+- Requerimientos y hallazgo poner en copia, cada envio que estamos haciendo (Rances => Luis => Victor). Requerimiento formales con copia

@@ -53,3 +53,53 @@ Python Boto3: <https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/python>
 
 ## AWS IoT Core FastAPI Web Application
 
+## IoT
+
+```sh
+aws iot describe-endpoint --endpoint-type iot:Data-ATS --region <your-aws-region>
+aws iot describe-endpoint --endpoint-type iot:Data-ATS --region us-east-1
+
+```
+
+- Usa éste tutorial para iniciar un device de IoT en AWS, no olvidar agregar la politica al certificado: <https://medium.com/@desaiaditya589/connecting-a-device-to-aws-iot-core-by-using-python-device-sdk-using-vs-code-15dc495ed9bd>
+- <https://github.com/aws/aws-iot-device-sdk-python-v2>
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iot:Publish",
+        "iot:Receive"
+      ],
+      "Resource": [
+        "arn:aws:iot:us-east-1:036134507423:topic/sdk/test/java",
+        "arn:aws:iot:us-east-1:036134507423:topic/sdk/test/python",
+        "arn:aws:iot:us-east-1:036134507423:topic/sdk/test/js"
+      ]
+    },
+    {
+      "Effect": "Allow",
+      "Action": "iot:Subscribe",
+      "Resource": [
+        "arn:aws:iot:us-east-1:036134507423:topicfilter/sdk/test/java",
+        "arn:aws:iot:us-east-1:036134507423:topicfilter/sdk/test/python",
+        "arn:aws:iot:us-east-1:036134507423:topicfilter/sdk/test/js"
+      ]
+    },
+    {
+      "Effect": "Allow",
+      "Action": "iot:Connect",
+      "Resource": [
+        "arn:aws:iot:us-east-1:036134507423:client/sdk-java",
+        "arn:aws:iot:us-east-1:036134507423:client/basicPubSub",
+        "arn:aws:iot:us-east-1:036134507423:client/sdk-nodejs-*"
+      ]
+    }
+  ]
+}
+```
+
+- <https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-policy.html>

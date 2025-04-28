@@ -1847,3 +1847,10 @@ Sesiones:
 - IoT (Ux/UI) Proyecto => Predios (Geocerca) => sensor/conjuntos (Georeferenciados)
 - IoT los terrenos no son adyacentes.
 - Presentación IoT (Ux/UI): a Victor Hugo martes o miercoles próxima después de semana santa
+
+## 28 Abril 2025, (lunes)
+
+- Hay una diferencias de los primero hallazgos
+- Biocarbon: tokenizar creditos ya emitidos
+- LACCHAIN modo preliminar en Biocarbon
+- Reunión con Viviana para mostrar LMS y retos. Viernes a las 09:00
