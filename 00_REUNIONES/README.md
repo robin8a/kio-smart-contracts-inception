@@ -1854,3 +1854,84 @@ Sesiones:
 - Biocarbon: tokenizar creditos ya emitidos
 - LACCHAIN modo preliminar en Biocarbon
 - Reunión con Viviana para mostrar LMS y retos. Viernes a las 09:00
+
+## 02  de Mayo presentación LMS @viviana y @victor
+
+- Estado de un usuario
+- Ej. Ruta de entrenamiento
+- 11 capacitaciones
+- Crear el dashboard 180
+
+## 07 de Mayo, 2025
+
+### Oraculo
+
+- Reunión viernes 08:00
+- @rances pruebas en APIs, alguna fallan
+- @rances pruebas de carga. Informe => Luis => Victor => ITO
+
+### Plataformas
+
+- @neider, rol de analista metodo cargar sobre cada predio, archivos. Representación de los predios => dashboard de MarketPlace
+- @neider: sacar un realease, un ciclo completo con un proyecto. Plataforma y marketplace. (fix error, armar commit y probar). Prueba interna el viernes.
+- @luis: condiciones financieras, el ciclo esta detenido en UI, como (aprobarlo de forma manual) para hacer ciclo con compra en marketplace. Preguntar en la reunión PCI @rances el viernes (actores, preguntas, diagrama), aclarar la condiciones financieras.
+
+## 09 de mayo, 2025
+
+- @neider: prueba el martes del rol de analista
+
+### Oraculo 09
+
+- @rances: Oráculo: esta bien organizado, variables dónde esta?, templates de html: body. Esta dockerizado.
+- Para desplegar es necesario actualizar las variables de entormo y las credenciales de google como archivo JSON, exploración del proyecto.
+
+## 10 de mayo, 2025
+
+### Oráculo 10-05-25
+
+- Modulo de imágenes satelitales, con los datos de IoT, coincidir imágenes, con los datos IoT
+- Poligono: c
+- CRUD: de dispositivos
+
+### IoT
+
+- Prueba del sensor ESP
+- End point
+
+#### Geoselector
+
+1. Coordenas, código catastral, o poligono que yo defina.
+2. Me carga el poligono del predio
+3. Seleccciono el satelite, bandas
+4. Fechas, se habilita el IoT
+5. Me muestra las imágenes correspondiente del satelite, muestra si no hay nubosidad (disponible)
+6. Exportar, o iniciar el análisis (modelo: analisis de biomasa) antes y después (se esta trabajando)
+
+#### Modelo
+
+1. Crear modelo personalizado con las variables
+2. DB: postgres, Imágenes satelitales, rutas s3 1 o 2, diccionario de parámetros
+3. Salida de datos. Problema
+4. Fórmula hash BC (hash) <=> vs <=> BD (postgres)
+
+- VH: cual es la utilidad?
+- No sirve, como la van entregar? Hay muchos modelos? Cual es el algoritmos? Estructura de datos a la entrada? Drones, Satelital
+- Matriz de salida, cambia el intermedio. NVI, tran
+- Qué es lo útil Nivel internacional aprobado. ML, LiDAR, entrada y salida. Cambia el algoritmo. Misma dimensión, flexibilidad del modelo
+- Librerías, los requisitos del sistema.
+- Debe aparecer, en que se basa el modelo
+- Link al modelo y al articulo, estandar internacional. Credibilidad.
+- Tema de las versiones
+- Producto usuario final
+
+#### Entrega
+
+- Entregas parciales para probar
+- Todo esta integrado
+- Los cambios afectan todo, pruebas en todo el sistema
+- En cada reunión nos va hacer una entrega para que los probemos
+- Versión estable
+
+#### LACCHAIN Lab
+
+- Un laboratorio

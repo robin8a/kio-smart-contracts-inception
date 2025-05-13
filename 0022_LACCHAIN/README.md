@@ -194,3 +194,46 @@ snap install geth
 geth --rpc --rpccorsdomain * --rpcport 8545 --rpcapi personal,web3,eth,net
 
 ```
+
+## Setting Up LACChain Besu on AWS Ubuntu
+
+```sh
+# ssh -i "ts-lacchain-besu-ubuntu.pem" ubuntu@ec2-44-211-124-151.compute-1.amazonaws.com
+
+ssh -i "ts-lacchain-besu-ubuntu.pem" ubuntu@ec2-3-85-50-52.compute-1.amazonaws.com
+
+scp -i /path/to/your/private_key.pem /path/to/your/local_file user@your_instance_public_ip_or_dns:/path/to/destination_on_instance
+
+scp -i "ts-lacchain-besu-ubuntu.pem" jdk-11.0.26_linux-aarch64_bin.tar.gz ubuntu@ec2-3-85-50-52.compute-1.amazonaws.com
+
+scp -i "ts-lacchain-besu-ubuntu.pem" jdk-11.0.26_linux-aarch64_bin.tar.gz ubuntu@ec2-3-85-50-52.compute-1.amazonaws.com:/home/ubuntu
+
+/home/ubuntu
+
+jdk-11.0.26_linux-aarch64_bin.tar.gz
+
+ssh -i "ts-lacchain-besu-ubuntu.pem" ubuntu@ec2-44-201-255-241.compute-1.amazonaws.com
+
+scp -i "ts-lacchain-besu-ubuntu.pem" ts-lacchain-besu-ubuntu.pem ubuntu@ec2-44-201-255-241.compute-1.amazonaws.com:/home/ubuntu
+
+
+
+```
+
+```sh
+# List current Java alternatives: To see the Java alternatives that the system knows about, run:
+sudo update-alternatives --config java
+
+
+ansible-playbook -i inventory --private-key=//home/ubuntu/ts-lacchain-besu-ubuntu.pem -u ubuntu site-lacchain-writer.yml
+
+
+
+wget https://www.python.org/ftp/python/3.13.0a5/Python-3.13.0a5.tgz
+
+wget https://www.python.org/ftp/python/3.13.3/Python-3.13.3.tgz
+
+
+tar -zxvf Python-3.13.3.tgz
+cd Python-3.13.3
+```
