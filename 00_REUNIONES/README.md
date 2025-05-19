@@ -1935,3 +1935,32 @@ Sesiones:
 #### LACCHAIN Lab
 
 - Un laboratorio
+
+## 15 de mayo 2025
+
+### Entregar 2.1.1
+
+- Esta reportada casi al 100%
+- Gestión del proyecto
+- Entregables: realase del repo de plataforma github, documentación técnica, videos tutoriales uso de la plataforma
+
+## 19 de mayo, 2025
+
+### Entregables y productos de actividades del POA
+
+- Productos
+- Carpetas adicionales para la supervisión, de productos terminados
+- Documento, montar el gran indicador final
+
+### Trazabilidad de productos
+
+- weia: huella
+- Trazabilidad
+- Vender futuro
+- Cadena de bloques repoll
+- weia
+- micacao, cadena de bloques europea. Financiado fondos de alemania, para exportar a Europa
+- medios de financiación
+- impulsar proyectos, ethereum, repo
+- open cacao chain
+- BID, Agroweb

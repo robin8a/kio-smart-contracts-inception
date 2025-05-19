@@ -103,3 +103,129 @@ aws iot describe-endpoint --endpoint-type iot:Data-ATS --region us-east-1
 ```
 
 - <https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-policy.html>
+
+## ESP32 => Glue Crawler => Athena DataBase raw/agregation (hourly, daily, monthly)
+
+- S3 raw data bucket: s3://esp32dht22
+- ts-glue-esp32-PassRole
+- ts-sesp32dht22-iot-db-raw
+- Notebok ETL Job: ts-sesp32dht22-iot-job-hourly
+- S3 agregated bucket: esp32dht22-parquet
+
+Database for esp32dht22 IoT sensor raw data
+
+## ESP32 with Athena
+
+- <https://repost.aws/knowledge-center/schedule-query-athena>
+- <https://docs.aws.amazon.com/redshift/latest/dg/r_DATE_TRUNC.html>
+
+```sql
+CREATE OR REPLACE VIEW university_ranking_view AS
+SELECT university,
+       COALESCE(TRY(CAST(year AS int)),9999) AS year, 
+       rank_display, 
+       COALESCE(TRY(CAST(split_part(rank_display,'-',1) AS int)),9999) AS n_rank,
+       COALESCE(TRY(CAST(score AS double)),-1) AS score, 
+       country, city, region, type,
+       research_output, 
+       COALESCE(TRY(CAST(student_faculty_ratio AS double)),-1) AS student_faculty_ratio,
+       COALESCE(TRY(CAST(regexp_replace(international_students,'[.,]','') AS int)),-1) AS international_students,
+       size, 
+       COALESCE(TRY(CAST(regexp_replace(faculty_count,'[.,]','') AS int)),-1) AS faculty_count
+FROM "university_ranking_csv_all_strings"
+ORDER BY YEAR, n_rank;
+
+
+SELECT * FROM "ts-sesp32dht22-iot-db-raw"."2025" limit 10;
+
+SELECT COALESCE(TRY(CAST(timestamp AS bigint)),9999) AS timestamp,
+       thing_name
+FROM "ts-sesp32dht22-iot-db-raw"."2025";
+
+SELECT timestamp,
+       thing_name
+FROM "ts-sesp32dht22-iot-db-raw"."2025";
+
+ORDER BY YEAR, n_rank;
+
+
+SELECT DATE_TRUNC('houe', TIMESTAMP COALESCE(TRY(CAST(timestamp AS bigint)),9999)),
+thing_name
+FROM "ts-sesp32dht22-iot-db-raw"."2025";
+
+
+SELECT DATE_TRUNC('hour', TIMESTAMP COALESCE(TRY(CAST(timestamp AS 'timestamp')),9999)),
+thing_name
+FROM "ts-sesp32dht22-iot-db-raw"."2025";
+
+SELECT DATE_TRUNC('hour', DATE_FORMAT(from_unixtime(COALESCE(TRY(CAST(timestamp AS 'timestamp'))/1000,'%Y-%m-%d %h:%i%p')9999))),
+thing_name
+FROM "ts-sesp32dht22-iot-db-raw"."2025";
+
+
+date_format(from_unixtime(bigint_timestamp_column/1000),'%Y-%m-%d %h:%i%p')
+
+
+SELECT from_unixtime(COALESCE(TRY(CAST(timestamp))/1000,'%Y-%m-%d %h:%i%p'),9999),
+thing_name
+FROM "ts-sesp32dht22-iot-db-raw"."2025";
+
+SELECT date_format(from_unixtime(esp32.timestamp/1000),'%Y-%m-%d %h:%i%p'),
+thing_name
+FROM "ts-sesp32dht22-iot-db-raw"."2025" as esp32;
+
+
+SELECT DATE_FORMAT(TRY(FROM_UNIXTIME(esp32.timestamp/1000)),'%Y-%m-%d %h:%i%p'),
+esp32.thing_name
+FROM "ts-sesp32dht22-iot-db-raw"."2025" as esp32;
+
+SELECT DATE_FORMAT(TRY(FROM_UNIXTIME(esp32.timestamp/1000)),'%Y-%m-%d %h:%i%p'),
+esp32.thing_name
+FROM "ts-sesp32dht22-iot-db-raw"."2025" as esp32;
+
+SELECT DATE_FORMAT(TRY(FROM_UNIXTIME(esp32.timestamp/1000)),'MM/DD/YYYY HH24:MI:SS'),
+esp32.thing_name
+FROM "ts-sesp32dht22-iot-db-raw"."2025" as esp32;
+
+
+```
+
+- <https://docs.aws.amazon.com/athena/latest/ug/query-examples-waf-logs-date-time.html>
+
+```sql
+
+CREATE OR REPLACE VIEW ts_sesp32dht22_iot_db_raw_view AS
+SELECT DATE_FORMAT(TRY(FROM_UNIXTIME(esp32.timestamp/1000)),'%Y-%m-%d %h:%i%p') AS date_time,
+esp32.thing_name,
+humidity,
+temperature
+FROM "ts-sesp32dht22-iot-db-raw"."2025" as esp32;
+
+SELECT DATE_FORMAT(TRY(to_timestamp(esp32.timestamp/1000)),'YYYY-MM-DD HH24:MI:SS') AS date_second,
+esp32.thing_name,
+humidity,
+temperature
+FROM "ts-sesp32dht22-iot-db-raw"."2025" as esp32;
+
+
+to_timestamp
+
+
+CREATE OR REPLACE VIEW ts_sesp32dht22_iot_db_raw_view AS
+SELECT DATE_FORMAT(TRY(FROM_UNIXTIME(esp32.timestamp/1000)),'%Y-%m-%d %h:%i%p') AS date_time,
+esp32.thing_name,
+humidity,
+temperature
+FROM "ts-sesp32dht22-iot-db-raw"."2025" as esp32;
+
+
+CREATE OR REPLACE VIEW ts_sesp32dht22_iot_db_hour_view AS
+SELECT DATE_TRUNC('hour', date_time,
+esp32_hour.thing_name,
+esp32_hour.humidity,
+esp32_hour.temperature
+FROM "ts-sesp32dht22-iot-db-raw"."ts_sesp32dht22_iot_db_raw_view" as esp32_hour;
+
+
+
+```
