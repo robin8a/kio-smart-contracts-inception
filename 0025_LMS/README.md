@@ -120,5 +120,6 @@ analista
 
 - Requerimientos y hallazgo poner en copia, cada envio que estamos haciendo (Rances => Luis => Victor). Requerimiento formales con copia
 
+## Pruebas compra
 
-##
+epayco medios de pago

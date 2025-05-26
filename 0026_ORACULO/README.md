@@ -191,6 +191,7 @@ FROM "ts-sesp32dht22-iot-db-raw"."2025" as esp32;
 ```
 
 - <https://docs.aws.amazon.com/athena/latest/ug/query-examples-waf-logs-date-time.html>
+- <https://docs.aws.amazon.com/athena/latest/ug/show-columns.html>
 
 ```sql
 
@@ -226,6 +227,114 @@ esp32_hour.humidity,
 esp32_hour.temperature
 FROM "ts-sesp32dht22-iot-db-raw"."ts_sesp32dht22_iot_db_raw_view" as esp32_hour;
 
+SHOW COLUMNS {FROM|IN} table_or_view_name [{FROM|IN} database_name]
 
+
+SHOW COLUMNS FROM "ts-sesp32dht22-iot-db-raw" IN "2025"
+
+-- SHOW COLUMNS FROM "ts-sesp32dht22-iot-db-raw"."2025";
+
+
+-- SHOW COLUMNS FROM "ts-sesp32dht22-iot-db-raw"."2025";
+
+```
+
+```sql
+SELECT DATE_FORMAT(TRY(FROM_UNIXTIME(esp32.timestamp/1000)),'%Y-%m-%d %H:%m:%s') AS date_time,
+esp32.thing_name,
+humidity,
+temperature
+FROM "ts_sesp32dht22_iot_db_raw"."2025" as esp32;
+
+CREATE OR REPLACE VIEW ts_sesp32dht22_iot_raw_view AS
+SELECT DATE_FORMAT(TRY(FROM_UNIXTIME(esp32.timestamp/1000)),'%Y-%m-%d %H:%m:%s') AS date_time,
+esp32.thing_name,
+humidity,
+temperature
+FROM "ts_sesp32dht22_iot_db_raw"."2025" as esp32;
+
+
+SELECT DATE_TRUNC('week', TIMESTAMP date_time) AS date_hour,
+esp32.thing_name,
+humidity,
+temperature
+FROM "ts_sesp32dht22_iot_db_raw"."ts_sesp32dht22_iot_raw_view" as esp32
+GROUP BY 1;
+
+
+select date_trunc('week', saletime), sum(pricepaid) from sales where
+saletime like '2008-09%' group by date_trunc('week', saletime) order by 1;
+
+
+
+```
+
+## IOT_RAW_VIEW
+
+```sql
+CREATE OR REPLACE VIEW ts_sesp32dht22_iot_raw_view AS
+SELECT
+  thing_name,
+  humidity,
+  temperature,
+  FROM_UNIXTIME(timestamp / 1000) AS start_time, -- For milliseconds
+  partition_0,
+  partition_1,
+  partition_2
+FROM "ts_sesp32dht22_iot_db_raw"."2025";
+
+
+SELECT * FROM "ts_sesp32dht22_iot_db_raw"."ts_sesp32dht22_iot_raw_view" limit 10;
+
+```
+
+## IOT_HOUR_VIEW
+
+```sql
+
+CREATE OR REPLACE VIEW ts_sesp32dht22_iot_hour_view AS
+SELECT
+  DATE_TRUNC('hour', start_time) AS start_time,
+  esp32.thing_name,
+  ROUND(AVG(esp32.humidity),2) AS humidity,
+  ROUND(AVG(esp32.temperature),2) AS temperature
+FROM "ts_sesp32dht22_iot_db_raw"."ts_sesp32dht22_iot_raw_view" as esp32
+GROUP BY 1, 2;
+
+SELECT * FROM "ts_sesp32dht22_iot_db_raw"."ts_sesp32dht22_iot_hour_view" limit 10;
+
+```
+
+## IOT_DAY_VIEW
+
+```sql
+
+CREATE OR REPLACE VIEW ts_sesp32dht22_iot_day_view AS
+SELECT
+  DATE_TRUNC('day', start_time) AS start_time,
+  esp32.thing_name,
+  ROUND(AVG(esp32.humidity),2) AS humidity,
+  ROUND(AVG(esp32.temperature),2) AS temperature
+FROM "ts_sesp32dht22_iot_db_raw"."ts_sesp32dht22_iot_hour_view" as esp32
+GROUP BY 1, 2;
+
+SELECT * FROM "ts_sesp32dht22_iot_db_raw"."ts_sesp32dht22_iot_day_view" limit 10;
+
+```
+
+## IOT_MONTH_VIEW
+
+```sql
+
+CREATE OR REPLACE VIEW ts_sesp32dht22_iot_month_view AS
+SELECT
+  DATE_TRUNC('month', start_time) AS start_time,
+  esp32.thing_name,
+  ROUND(AVG(esp32.humidity),2) AS humidity,
+  ROUND(AVG(esp32.temperature),2) AS temperature
+FROM "ts_sesp32dht22_iot_db_raw"."ts_sesp32dht22_iot_day_view" as esp32
+GROUP BY 1, 2;
+
+SELECT * FROM "ts_sesp32dht22_iot_db_raw"."ts_sesp32dht22_iot_month_view" limit 10;
 
 ```
