@@ -1964,3 +1964,87 @@ Sesiones:
 - impulsar proyectos, ethereum, repo
 - open cacao chain
 - BID, Agroweb
+
+## 26 de Mayo, 2025
+
+- Hoja de ruta
+- Cronograma de trabajo
+- Listado de actividades
+
+## 03 de Junio, 2025
+
+### Modelos algoritmos
+
+- Luis Gómez, modelos.
+- H5
+- Estructura de datos entrada
+- Datos biomaster, satelitales (benchamark) 200 GB, test SAR, Espectrales, procesamiento temporal, cada mapa de biomasa (sentinel 1, y 2).
+- Algoritmos Sci
+- GPU TensorFlow GPU A6000
+- cómo lo vamos a mantener?
+
+### Productos
+
+- Producto: oráculo
+- Producto transaccional, modelo de monetización
+- Sandbox, alguien de prueba
+
+### iot
+
+- Colvi, sw y hw estandard
+- minciencias, compras, bloqueo
+
+## 09  de Junio, 2025
+
+- 1.1 y 2.3 100%. El producto e indicador final
+- Estrateguía
+- Protocolos de vuelo
+- Empujar el proceso
+- Concepto sobre los entregables, ruta, cumple (protocolo). Supervisión de minciencia
+- Cada 6 meses, Arauca visita
+- Juli0 2024, del año pasado
+- Cuanto nos falta, que peda pendiente
+- @reunión con Viviana
+- @luis_miguel_gomez: vincular, lo tenemos en pruebas, ejemplos de modelos, herramienta útil (presenta en la pruebas). Linamientos para que haga la prueba de testing coordinar con Sergio. Documento de hallazgos y requisitos coomo un parte o misma lógica. Testeo, para evitar mal entendidos con ItoSoftware. Docuemntado y bitácora
+
+### Comunidad que cerramos y como vamos
+
+- Talleres
+
+### Documentos de entregables
+
+- Financiero (expertor recursos públicos)
+- Técnica
+- @rances: las páginas, enlaces claves para cualquier persona, marketplace, plataforma, usuario dummy.
+- informe con enlaces y usuarios provisionales
+
+### Proceso (debe estar funcionando en Julio)
+
+- Beneficiarios
+- Problemas de titularidad de la tierra
+- Dos o tres propietarios mas
+- Se va a trabajar en ello
+- Talleres de si
+- Enlace para que la personas interesadas apliquen, 1. Estudio  de titulo. 2. Estados. 3. Cobertura
+- Posibles
+- Cultivos comerciales, bosques y cultivos potenciales (meta: 2300 hectareas)
+
+### Tokens (modelo financiero)
+
+- Coeficiente de distribución
+
+### Formularios
+
+- [] @carlos_soto infome de hallazgos de la herramienta de oráculo que hicieron
+- AI datos del arbol
+- Altura a pecho
+- Altura comercial
+- Ubación (lat, long)
+- AI, de android
+- Tienen iPhone, lo hacen en campo, la calidad del dato, seguridad de la aplicación (no corrobore, no puede modificar, debe se en sitio, transparencia de los datos que se suben, herramienta útil, estandares, no permita modificar, audio texto, identifica variables, fiabilidad)
+- Tener la trazabilidad y datos confiables enmcarcado en un estandar
+- Ir tomando nota de voz, sincronizar, nube de Kobol
+- Migrarlo a la nube, almacenar el audio. Standard datos en campo (excel), imagen o audios. Obliga calidad del dato y trazabilidad
+- Les pareció muy buena
+
+
