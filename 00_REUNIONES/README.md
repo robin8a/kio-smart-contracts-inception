@@ -2047,4 +2047,13 @@ Sesiones:
 - Migrarlo a la nube, almacenar el audio. Standard datos en campo (excel), imagen o audios. Obliga calidad del dato y trazabilidad
 - Les pareció muy buena
 
+## 16 de Junio, 2025
 
+### Modelo financiero @sebastian_azcona
+
+- presentación grabada
+
+### Oráculo pruebas
+
+- Pruebas del API end-point, salud del API, probar dashboard
+- Recursos: donde lo entrena y donde lo despliega, sostenibilidad, 

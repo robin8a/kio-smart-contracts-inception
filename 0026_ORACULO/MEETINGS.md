@@ -63,3 +63,28 @@ Cálculo Biomasa por imágenes satelitales
 
 }
 ```
+
+## 24 de Junio 2025
+
+### Oraculo
+
+```sh
+curl -X GET https://0vhlizcpz0eq.manus.space/api/ndvi/health
+
+
+curl -X POST https://0vhlizcpz0eq.manus.space/api/ndvi/calculate-ndvi \ 
+-H "Content-Type: application/json" \
+-d '{"red": 0.3, "nir": 0.8}'
+
+```
+
+- Entrenamiento, usuario promedio
+- Uso de otro satelite
+- Biomass, vamos hacer parte de la red. SAR, RAS sintético @luis_gomez
+- Satelite => Baja la información (matriz-N-capas) => Misma estructura [ruta de satelites] (Julio fin año) (LIDAR)
+- Procesamiento de imágenes de los drones. (Workstation SD) => Subir la capa útil
+
+### KOBO en campo
+
+- Conversión de voz a oráculo
+- Herramienta de terminal movíl
