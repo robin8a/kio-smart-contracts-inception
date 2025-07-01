@@ -2056,4 +2056,12 @@ Sesiones:
 ### Oráculo pruebas
 
 - Pruebas del API end-point, salud del API, probar dashboard
-- Recursos: donde lo entrena y donde lo despliega, sostenibilidad, 
+- Recursos: donde lo entrena y donde lo despliega, sostenibilidad
+
+## 01 de Julio, 2025 Oráculo
+
+- UI multimodelo que requiere, para poder ejecutarse
+- Aprobaodo o no
+- requererimiento
+- metadata del endpoint
+- Enlace Jupyter

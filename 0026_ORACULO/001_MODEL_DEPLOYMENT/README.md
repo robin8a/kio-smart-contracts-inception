@@ -173,3 +173,22 @@ curl -X POST \
   https://9e7wnzvwcb.execute-api.us-east-1.amazonaws.com/dev/predict
 
 ```
+
+## Git
+
+<https://github.com/robin8a/aws_biomass_lambda.git>
+
+## aws_tf_biomass_lambda @luis_gomez
+
+```sh
+
+mkdir aws_tf_biomass_lambda
+cd aws_tf_biomass_lambda
+
+# Create a 'model' subdirectory to keep things organized
+mkdir model
+
+# Copy your model files into the 'model' directory
+cp /path/to/your/modelo_entrenado.h5 model/
+cp /path/to/your/pesos_entrenados.weights.h5 model/
+```
