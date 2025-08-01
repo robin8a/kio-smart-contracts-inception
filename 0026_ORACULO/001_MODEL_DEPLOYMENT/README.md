@@ -15,10 +15,12 @@ pyenv versions
 cmd + shift + P 
 select interpreter
 <ts_ndvi_biomass_model>
+
 ```
 
+tensorflow pandas rasterio boto3 scikit-learn matplotlib ipywidgets
 
-```txt
+```requirements.txt
 scikit-learn==1.16.0 # or the version you used to train the model
 numpy==2.3.1
 pandas==2.3.0
@@ -180,6 +182,26 @@ curl -X POST \
 
 ## aws_tf_biomass_lambda @luis_gomez
 
+```requirements.txt
+boto3==1.39.14
+tensorflow==2.18.0
+pandas==2.2.2
+rasterio==1.4.3
+scikit-learn==1.6.1
+matplotlib==3.10.0
+```
+
+```sh
+
+# Create a virtual environment
+# pyenv virtualenv <python_version> <environment_name>
+pyenv virtualenv 3.12.0 ts_tf_biomass_model
+pyenv activate ts_tf_biomass_model
+
+pyenv unactivate
+
+```
+
 ```sh
 
 mkdir aws_tf_biomass_lambda
@@ -191,4 +213,154 @@ mkdir model
 # Copy your model files into the 'model' directory
 cp /path/to/your/modelo_entrenado.h5 model/
 cp /path/to/your/pesos_entrenados.weights.h5 model/
+```
+
+```sh
+
+docker build -t ts-biomass-tf-predictor-image .
+
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 036134507423.dkr.ecr.us-east-1.amazonaws.com
+
+aws ecr create-repository --repository-name ts-biomass-tf-predictor-repo --region us-east-1
+
+{
+    "repository": {
+        "repositoryArn": "arn:aws:ecr:us-east-1:036134507423:repository/ts-biomass-tf-predictor-repo",
+        "registryId": "036134507423",
+        "repositoryName": "ts-biomass-tf-predictor-repo",
+        "repositoryUri": "036134507423.dkr.ecr.us-east-1.amazonaws.com/ts-biomass-tf-predictor-repo",
+        "createdAt": "2025-07-01T16:14:29.158000-05:00",
+        "imageTagMutability": "MUTABLE",
+        "imageScanningConfiguration": {
+            "scanOnPush": false
+        },
+        "encryptionConfiguration": {
+            "encryptionType": "AES256"
+        }
+    }
+}
+
+
+docker tag ts-biomass-tf-predictor-image:latest 036134507423.dkr.ecr.us-east-1.amazonaws.com/ts-biomass-tf-predictor-repo:latest
+
+
+docker push 036134507423.dkr.ecr.us-east-1.amazonaws.com/ts-biomass-tf-predictor-repo:latest
+
+
+aws lambda create-function \
+    --function-name TSTensorFlowBiomassPredictor \
+    --package-type Image \
+    --code ImageUri=036134507423.dkr.ecr.us-east-1.amazonaws.com/ts-biomass-tf-predictor-repo:latest \
+    --role arn:aws:iam::036134507423:role/ts-lambda-biomass-execution-role \
+    --timeout 60 \
+    --memory-size 3008 # TensorFlow can be memory intensive; 3008MB is a good starting point (or 4096MB/6144MB if needed)
+
+
+{
+    "FunctionName": "TSTensorFlowBiomassPredictor",
+    "FunctionArn": "arn:aws:lambda:us-east-1:036134507423:function:TSTensorFlowBiomassPredictor",
+    "Role": "arn:aws:iam::036134507423:role/ts-lambda-biomass-execution-role",
+    "CodeSize": 0,
+    "Description": "",
+    "Timeout": 60,
+    "MemorySize": 3008,
+    "LastModified": "2025-07-02T02:01:55.415+0000",
+    "CodeSha256": "db4381f9a645d1e4d093f556aef6de70dc099827e704162297c6d38e33ce3d26",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "e383bfd9-7be6-460f-a01d-26e2401d8296",
+    "State": "Pending",
+    "StateReason": "The function is being created.",
+    "StateReasonCode": "Creating",
+    "PackageType": "Image",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    }
+}
+
+
+aws lambda invoke \
+    --function-name TSTensorFlowBiomassPredictor \
+    --cli-binary-format raw-in-base64-out \
+    --payload '{"features": [0.7, 0.5]}' \
+    output.json
+
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{"features": [0.7, 0.5]}' \
+  https://9e7wnzvwcb.execute-api.us-east-1.amazonaws.com/dev/predict_tensor_flow
+
+
+```
+
+## Lambda
+
+ts-models-function
+
+```python
+import json
+
+def lambda_handler(event, context):
+    """
+    AWS Lambda function to return metadata about a machine learning model.
+
+    This function is designed to be triggered by an API Gateway endpoint
+    and will return a JSON object containing details about a specific
+    machine learning model.
+
+    Args:
+        event (dict): The event dict contains information about the
+                      triggering event. For API Gateway, it includes
+                      details like HTTP method, path, headers, etc.
+        context (object): The context object provides runtime information
+                          from the Lambda environment.
+
+    Returns:
+        dict: A dictionary containing the HTTP status code and the
+              JSON body with the ML model metadata.
+    """
+    # Define the metadata for your machine learning model
+    # You can replace these with actual values or fetch them from a database
+    # or environment variables in a more complex scenario.
+    model_metadata = {
+        "name": "SentimentAnalysisV1",
+        "description": "A machine learning model for Normalized Difference Vegetation Index (NDVI)",
+        "document_link": "https://example.com/docs/ndvi-v1",
+        "api_link": "https://9e7wnzvwcb.execute-api.us-east-1.amazonaws.com/dev/predict",
+        "version": "1.0.2",
+        "is_approved": True
+    }
+
+    # Construct the response object as required by AWS Lambda for API Gateway integration
+    response = {
+        "statusCode": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*" # Important for CORS if consumed by a web frontend
+        },
+        "body": json.dumps(model_metadata)
+    }
+
+    return response
+
+```
+
+API Gateway endpoint
+
+<https://9e7wnzvwcb.execute-api.us-east-1.amazonaws.com/dev/models>
+
+```sh
+curl -X GET \
+  -H "Content-Type: application/json" \
+  https://9e7wnzvwcb.execute-api.us-east-1.amazonaws.com/dev/models
+
 ```

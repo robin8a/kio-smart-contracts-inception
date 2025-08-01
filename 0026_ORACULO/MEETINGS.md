@@ -88,3 +88,49 @@ curl -X POST https://0vhlizcpz0eq.manus.space/api/ndvi/calculate-ndvi \
 
 - Conversión de voz a oráculo
 - Herramienta de terminal movíl
+
+## 15 de Julio, 2025
+
+- [] APIs para una aplicación móvil
+- Aplicación movil MVP: Poligono => como esta en NVDI de esta semana => Imagen Biomasa
+- Accesorio: camara y GPS
+
+## 22 de Julio, 2025
+
+- Arboles de merker, datos no modificados
+- [] @luis_restrepo: donde se guardaría las imágenes de GeoTIF, TIF y PNGs de los resultados del cálculo de Biomasa
+- Oráculos centralizado
+- Viviana reportó bajo conocimiento de Luis de oráculo.
+- Cómo funcionaría el hash: cadena de bloques => por registro de datos (Servicio de Luis)
+- [BlockChain] Qué vamos a registrar? Validación interna? Debe haber un validador? Se guarda solo el resultado, algunos datos? Definir un protocolo. Pregunta a PCI, Bitácora de procedimiento (herramienta de captura de datos por audio), los audios son útiles, archivos fuente. Guardar la imagen multiespectral (que pasa con los estandares).
+- Como hacemos para cumplir con los estandares? [] reunión BCR, que necesitamos?
+- Con el 1er producto, sentarnos con BCR (Jose Ricardo)
+- Guardar por hitos
+- IPFS tiene un costo adicional
+
+### Interoperatividad
+
+- Plataformas
+- Interoperatividad entre cadenas de bloques?
+- Oráculo como plataforma independiente
+- Costos, monedas
+- Quan, Algoran (competencia directa de Cardano). Interacción entre cadenas
+- W3, Cardano implementa ISO2000-22 ventaja, estandarización: [El lenguaje Universal para el futuro de pagos](https://www.jpmorgan.com/content/dam/jpm/global/documents/iso-20022-spanish-white-paper-ada-compliant.pdf)
+- Oráculos de Hardware Network XYO
+
+### Ruta de testing y tiempos
+
+## 29 Julio, 2025
+
+- Permitir agregar nuevos satelites, (planet)
+- [] Integración con sensores de drones
+- [] Integración con las plataformas de los estándares. El estandar no hace enfasis , documentos finales de los resultados (resultado final) .pdf
+- Biocarbon Register: como se integra. Historico del proyecto
+- RENARE, detalle de N proyecto. GIS por capas. Verificar que no hay traslape de proyectos
+- Trazabilidad de producto (proyecto en etapas tempranas)
+- Socialización con Jose Ricardo
+- Registro medidas asometricas (se guardan los audios)
+- @william: Técnicas actuales (formlarios, fotos). Es un proceso mecánico. Toma => Almacenamiento => Transformación => Validación. Hablar con el estandar que necesita (cuál información queda?)
+- Credibilidad, técnicas para evitar fraude. No uso de VPN, fiabilidad.
+- @william: rol auditor, carpeta (predio => parcela => árbol #8 => verfican) hoja, foto, visita en sitio
+- @william: crítico: garantizar la permanencia del carbono (talas después de la visita). Herramienta de monitoreo para solucionar éste problema. LiDAR puede detectar, gemelos digitales

@@ -2065,3 +2065,59 @@ Sesiones:
 - requererimiento
 - metadata del endpoint
 - Enlace Jupyter
+
+## 07 de Julio, 2025 VH
+
+- Protocolo para que otras áreas hagan sesiones de pruebas
+- Documentar @sergio_cajias
+- Piloto @luis_gomez
+- Agencia espacial Europea para el cálculo de Biomasa
+- SAR, radar sintético, estructura de los bosques. Bosque natural vs cultivos
+- <www.esa.int> eesa
+- Información de campo
+- Radar sintético
+
+## 08 de Julio, 2025 VH
+
+- Documentación de APIs de las dos plataformas
+- API Blockchain de Cardano
+- Para un desarrollos externos. Ej: implementación de una aplicación móvil.
+
+## 14 de Julio, 2025 VH
+
+- Próxima semana iniciar las pruebas, en función del proyecto
+- Pruebas
+- Debe entenderlo los lideres, contratos por hectareas o por tonelada de carbono (por tierra o por tonelada de carbono)
+- Compra una promesa, para proyectos de etapas tempranas. Futuros de creditos de carbono "tokenn grises" => "tokens verdes" => "tokens azules"
+- Socio inversor, Socio Gestor, Socio Propietario
+- Saber los riesgos y como se mitigan. Ej: desastres: incendios, muertes
+- Modelo financiero es el lineamiento de Plataforma y columna vertebral
+
+### Oraculo 14
+
+- El cientifico de datos lo pueda desplegar
+- Montar y  correr los modelos con ciertos parametros
+
+79 95 31 64
+
+16 14 4 10
+
+7 5 4 1
+
+12 5
+
+17
+
+8
+
+16 17 11
+
+7 8 2
+
+17
+
+8
+
+## 21 Julio, 2025
+
+- PNG,  GeoTIF [requerido] 
