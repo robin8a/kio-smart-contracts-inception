@@ -134,3 +134,15 @@ curl -X POST https://0vhlizcpz0eq.manus.space/api/ndvi/calculate-ndvi \
 - Credibilidad, técnicas para evitar fraude. No uso de VPN, fiabilidad.
 - @william: rol auditor, carpeta (predio => parcela => árbol #8 => verfican) hoja, foto, visita en sitio
 - @william: crítico: garantizar la permanencia del carbono (talas después de la visita). Herramienta de monitoreo para solucionar éste problema. LiDAR puede detectar, gemelos digitales
+
+## 05 de Agosto 2025
+
+- depende model, no solo de biomasa
+- perfil de usuario, limitando el numero de peticiones por usuarios
+- @sergio, plan de sostenibilidad, uso racional, que se sostenga en el tiempo, consumo en la nube.
+
+## 12 de Agosto, 2025
+
+- Agregar en el registro, impactar n personas
+- [] capturar la información Nombre de la persona y ubicación (Ej. por departamento). Conteo de usuarios. 220K @Viviana, que información requiere.
+- [] Roles: Administrador, Investigador, Científico de Datos, Usuario Externo (registra), definir los roles @sergio. Tabla de roles (autorización/privilegios). Mirar como esta hecho en las plataformas

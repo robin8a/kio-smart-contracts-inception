@@ -2120,4 +2120,9 @@ Sesiones:
 
 ## 21 Julio, 2025
 
-- PNG,  GeoTIF [requerido] 
+- PNG,  GeoTIF [requerido]
+
+## 11 de Agosto, 2025 VH
+
+- funcionando la APIs
+- para una terminal móvil
