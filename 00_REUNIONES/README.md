@@ -2126,3 +2126,11 @@ Sesiones:
 
 - funcionando la APIs
 - para una terminal móvil
+
+## 19 de Agosto, 2025
+
+@william_aguado
+
+- Definir lo necesario para la certificación
+
+St3ll42025
