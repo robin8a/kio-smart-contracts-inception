@@ -247,25 +247,7 @@ curl -X POST \
     ],
     "custom_payload": "{\"output_bucket_name\": \"tsbiomassmodeldata\", \"model_bucket_name\": \"tsbiomassmodeldata\"}"
 }' \
-  https://9e7wnzvwcb.execute-api.us-east-1.amazonaws.com/dev/predict_nvdi_tif
-
-curl -X POST \
-  -H "Content-Type: application/json" \
-  -d '{
-    "Records": [
-      {
-        "s3": {
-          "bucket": {
-            "name": "tsbiomassmodeldata"
-          },
-          "object": {
-            "key": "pol_20250212182813_2025_LC09_NoBands_drive.tif"
-          }
-        }
-      }
-    ],
-    "custom_payload": "{\"output_bucket_name\": \"tsbiomassmodeldata\", \"model_bucket_name\": \"tsbiomassmodeldata\"}"
-}' \
+  https://9e7wnzvwcb.execute-api.us-east-1.amazonaws.com/dev/predict_nvdi_tif}' \
   https://9e7wnzvwcb.execute-api.us-east-1.amazonaws.com/dev/predict_nvdi_tif
 
 
@@ -289,5 +271,10 @@ curl -X POST \
 }' \
   https://9e7wnzvwcb.execute-api.us-east-1.amazonaws.com/dev/predict_nvdi_tif
 
+
+```
+
+```json
+{"statusCode": 200, "body": "\"Biomass calculation for 'pol_20250215003502_2024_S2_B2_B3_B4_drive.tif' is complete.\""}
 
 ```

@@ -2133,4 +2133,6 @@ Sesiones:
 
 - Definir lo necesario para la certificación
 
-St3ll42025
+## 09 de Septiembre, 2025
+
+- @larestrepo, @mauricio, @victor: arquitectura para el almacenamiento: vuelo de drones, audios, formularios de Kobol, IoT
