@@ -27,12 +27,12 @@ echo "# Libraries" > requirements.txt
 ```
 
 ```requirements.txt
+# Libraries
 numpy==2.0.2
-opencv-python==4.12.0
-onnxruntime==1.22.1
+opencv-python-headless==4.12.0.88
+onnxruntime==1.16.3
 scikit-learn==1.6.1
-matplotlib==3.10.0
-
+boto3==1.34.0
 ```
 
 ```sh
@@ -57,12 +57,19 @@ cp biomass_estimation_model.h5 model/
 # Dockerfile
 FROM public.ecr.aws/lambda/python:3.10
 
+# Install system dependencies for rasterio and geospatial libraries
+RUN yum update -y && \
+    yum install -y gcc gcc-c++ make && \
+    yum clean all
+
 # Copy function code
 COPY lambda_function.py ${LAMBDA_TASK_ROOT}
 
 # Copy model (if including in image, otherwise download from S3)
 # If your model is large, stick to S3 download at runtime
-COPY model/biomass_model.joblib ${LAMBDA_TASK_ROOT}/model/biomass_model.joblib
+COPY model/unet_model.onnx ${LAMBDA_TASK_ROOT}/model/unet_model.onnx
+COPY model/satlas_sr.onnx ${LAMBDA_TASK_ROOT}/model/satlas_sr.onnx
+COPY model/2f980717_unet.pickle ${LAMBDA_TASK_ROOT}/model/2f980717_unet.pickle
 
 # Install the specified packages
 COPY requirements.txt .
