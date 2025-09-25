@@ -169,57 +169,8 @@ curl -X POST \
 
 ## Lambda
 
-ts-models-function
 
-```python
-import json
-
-def lambda_handler(event, context):
-    """
-    AWS Lambda function to return metadata about a machine learning model.
-
-    This function is designed to be triggered by an API Gateway endpoint
-    and will return a JSON object containing details about a specific
-    machine learning model.
-
-    Args:
-        event (dict): The event dict contains information about the
-                      triggering event. For API Gateway, it includes
-                      details like HTTP method, path, headers, etc.
-        context (object): The context object provides runtime information
-                          from the Lambda environment.
-
-    Returns:
-        dict: A dictionary containing the HTTP status code and the
-              JSON body with the ML model metadata.
-    """
-    # Define the metadata for your machine learning model
-    # You can replace these with actual values or fetch them from a database
-    # or environment variables in a more complex scenario.
-    model_metadata = {
-        "name": "SentimentAnalysisV1",
-        "description": "A machine learning model for Normalized Difference Vegetation Index (NDVI)",
-        "document_link": "https://example.com/docs/ndvi-v1",
-        "api_link": "https://9e7wnzvwcb.execute-api.us-east-1.amazonaws.com/dev/predict",
-        "version": "1.0.2",
-        "is_approved": True
-    }
-
-    # Construct the response object as required by AWS Lambda for API Gateway integration
-    response = {
-        "statusCode": 200,
-        "headers": {
-            "Content-Type": "application/json",
-            "Access-Control-Allow-Origin": "*" # Important for CORS if consumed by a web frontend
-        },
-        "body": json.dumps(model_metadata)
-    }
-
-    return response
-
-```
-
-API Gateway endpoint
+## API Gateway endpoint
 
 <https://9e7wnzvwcb.execute-api.us-east-1.amazonaws.com/dev/models>
 
